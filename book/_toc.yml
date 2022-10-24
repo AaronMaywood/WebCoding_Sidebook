@@ -1,0 +1,44 @@
+# 目次(左側エリア)
+# - https://jupyterbook.org/customize/toc.html
+# - https://jupyterbook.org/en/stable/structure/toc.html
+
+format: jb-book
+root: intro
+options:
+  # https://jupyterbook.org/en/stable/structure/configure.html#add-captions-to-parts
+  #numbered: true
+# [TODO] 本文だけに章番号を付けるにはどうしたらいい？
+# https://jupyterbook.org/en/stable/structure/configure.html
+parts:
+  - caption: 執筆ノート
+    chapters:
+    - file: tasks
+    - file: method
+    - file: skillcards
+    - file: level-design
+    - file: character_sheet
+    - file: markdown_sample
+    - file: cards
+  - caption: 装備を整える
+    numbered: false
+    chapters:
+      - file: equip
+  - caption: 第一部 はじめてのHTML/CSS
+    numbered: true
+    chapters:
+      - file: LEVEL1
+  - caption: 第二部 お茶サイト
+    numbered: true
+    chapters:
+      - file: LEVEL2
+  - caption: 第二部 スマートフォン対応
+    numbered: true
+    chapters:
+      - file: LEVEL3
+  - caption: Appendix
+    numbered: false
+    chapters:
+      - file: terms
+      # 自動作成される索引
+      # https://jupyterbook.org/en/stable/content/content-blocks.html#add-the-general-index-to-your-table-of-contents
+      - file: genindex

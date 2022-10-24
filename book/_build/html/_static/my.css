@@ -1,0 +1,24 @@
+:root {
+	--card-color: #fffff0; /* pale-yellow */
+}
+
+img {
+	border: 1px solid gray;
+}
+
+img.logo {
+	border: none;
+}
+
+img.char {
+	display: inline-block;
+	border: none;
+	width: 1rem;
+}
+
+.taskcard {
+	background: var(--card-color);
+}
+.taskcard .sd-card-body {
+	background: white;
+}

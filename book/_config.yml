@@ -1,0 +1,139 @@
+# Book settings
+# Default Settings:
+# https://jupyterbook.org/en/stable/customize/config.html#configuration-defaults
+
+# title: 初めてでも大丈夫 HTML/CSSを習得する本 - Webコーダーになろう    # 長すぎた
+title: 初心者でもOK HTML5/CSS3基礎 副読本
+author: 安村 淳 / 株式会社アジャスト
+logo: images/logo.png
+copyright: "2022 安村 淳/ADjust Co.,Ltd."
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+# 実行が必要な「execute: セクション」は書かないだろうからforce->false
+execute:
+  execute_notebooks: false
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/AaronMaywood/WebCodingTextbook  # Online location of your book
+  path_to_book: book  # Optional path to your book, relative to the repository root
+  branch: main  # Which branch of the repository should be used when creating links (optional)
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  # 読んでいる時に編集できる(GitHub側で編集を行う) →リリース時にはfalseにすること
+  use_edit_page_button: true
+  favicon: "images/favicon.ico"
+  # https://jupyterbook.org/en/stable/web/announcements.html
+  announcement: "<p class='mystyle'>この本はまだ開発段階です。</p>"
+  # Powered by を無効化
+  extra_navbar: ""
+  google_analytics_is: ""
+  #extra_footer: |
+  #  <p>
+  #    ©2022 安村 淳、ADjust Co.,Ltd.
+  #  </p>
+
+# デフォルトのテーマ"Sphinx-book-theme"の言語を日本語にする(Jupyter Bookの背後にあるSphix側の設定を記述)
+sphinx:
+  extra_extensions:
+    - sphinxcontrib.mermaid
+  config:
+    language: ja
+    # https://jupyterbook.org/en/stable/advanced/html.html#use-raw-html-in-markdown
+    html_show_copyright: true
+
+parse:
+  myst_substitutions:
+    # 本全体で利用できる変数を定義できるようにする
+    # https://jupyterbook.org/en/stable/content/content-blocks.html#define-substitutions-for-your-whole-book
+    # 文字としての画像(OSロゴ)
+    WIN: '<img class="char" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Windows_key_logo_2012_%28dark-grey%29.svg/800px-Windows_key_logo_2012_%28dark-grey%29.svg.png"> '
+    MAC: '<img class="char" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/800px-Apple_logo_black.svg.png"> '
+    # Windows特有のキー
+    WIN-WIN: '<img class="char" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Windows_key_logo_2012_%28dark-grey%29.svg/800px-Windows_key_logo_2012_%28dark-grey%29.svg.png"> '
+    # Mac特有のキー
+    MAC-COMMAND: '{bdg-dark}`⌘`'
+    MAC-SHIFT: '{bdg-dark}`⇧`'
+    MAC-OPTION: '{bdg-dark}`⌥`'
+    MAC-CONTROL: '{bdg-dark}`⌃`'
+    # badges
+    # TODO: <span style="border-radius:3px;background:yellow;font-weight:bold;font-size:2rem;"> TODO </span>
+    TODO: "{bdg-danger}`TODO`"
+    KBD: "{bdg-dark}`ENTER`" # TODO このENTERを任意にするようなマクロが定義できないかな？
+    BAN: "{bdg-danger}`閲覧にはレベルアップが必要です。`"
+    PC: "{bdg-info}`コンピューター`"
+    BROWSER: "{bdg-info}`ウェブブラウザー`"
+    NETWORK: "{bdg-info}`ネットワーク`"
+    VSCODE: "{bdg-info}`VS Code`"
+    HTML: "{bdg-info}`HTML`"
+    CSS: "{bdg-info}`CSS`"
+    # icons
+    ALERT: "{octicon}`alert` 注意"
+    BEAKER: "{octicon}`beaker` 実験してみよう"
+    BOOK: "{octicon}`book` 読んでみよう"
+    BROWSER: "{octicon}`browser` ブラウザーを開いて下さい。"
+    BUG: "{octicon}`bug` バグ"
+    CHECK: "{octicon}`check-circle`"
+    CLOCK: "{octicon}`clock`"
+    COMMENT: "{octicon}`comment`"
+    CODE: "{octicon}`code-square` ソースコード"
+    DESKTOP: "{octicon}`device-desktop` デスクトップ"
+    MOVILE: "{octicon}`device-mobile` スマートフォン"
+    DOWNLOAD: "{octicon}`download` ダウンロード"
+    FILE: "{octicon}`file` ファイル"
+    FOLDER: "{octicon}`file-directory` フォルダ(ディレクトリー)"
+    IMAGE: "{octicon}`file-media` 画像ファイル"
+    ZIP: "{octicon}`file-zip` ZIPファイル"
+    CONFIG: "{octicon}`gear` 設定"
+    GIFT: "{octicon}`gift`"
+    INTERNET: "{octicon}`globe`"
+    HEART: "{octicon}`heart`"
+    HOME: "{octicon}`home`"
+    HISTORY: "{octicon}`history`"
+    INFO: "{octicon}`info`"
+    LIGHT: "{octicon}`light-bulb`"
+    LINK-EXTERNAL: "{octicon}`link-external`"
+    LOCK: "{octicon}`lock`"
+    NO-ENTRY: "{octicon}`no-entry-fill`"
+    MEGAPHONE: "{octicon}`megaphone`"
+    MILESTONE: "{octicon}`milestone`"
+    NORTH-STAR: "{octicon}`north-star`"
+    STAR: "{octicon}`star`"
+    NOTE: "{octicon}`note`"
+    ROCKET: "{octicon}`rocket`"
+    SEARCH: "{octicon}`search`"
+    SERVER: "{octicon}`server`"
+    SMILEY: "{octicon}`smiley`"
+    STOP: "{octicon}`stop`"
+    STOPWATCH: "{octicon}`stopwatch`"
+    TAG: "{octicon}`tag`"
+  myst_enable_extensions:
+    # https://jupyterbook.org/en/stable/content/content-blocks.html#definition-lists
+    # 定義リストを有効にする
+    - deflist
+    # URLを自動的にリンクにする
+    - linkify
+    # フェンスを表現するのに```のかわりに:::を使えるようにする
+    # https://jupyterbook.org/en/stable/content/content-blocks.html#markdown-friendly-directives-with
+    # - この記法のメリット
+    #     https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#code-fences-using-colons
+    #     バックティックの代わりにコロンを使用すると、標準の Markdown エディターで作業しているときに、コンテンツを正しくレンダリングできるという利点があります。
+    - colon_fence
+    # ファイル内で使用できる変数を定義できるようにする
+    # https://jupyterbook.org/en/stable/content/content-blocks.html#content-substitutions
+    - substitution
+    # タスクリスト
+    # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#task-lists
+    - tasklist
