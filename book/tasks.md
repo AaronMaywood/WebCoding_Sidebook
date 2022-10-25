@@ -24,6 +24,11 @@
 		CSSが見れます
 		指定内容が確認できます
 	- favicon
+	- OGP,Twitter:card
+		https://and-ha.com/coding/meta/
+		https://www.tohoho-web.com/html/meta.htm
+	- ブラウザキャッシュ
+		- スーパーリロード
 	- リセットCSS
 	- フォントファミリー、 WEBフォント
 		- 標準設定
@@ -50,6 +55,13 @@
 		検索させたいときは、　　 all
 	- TOPへ戻るボタン
 	- ページ内リンク
+	- 検証方法→CSS 95Pに以下があった
+		> ■コーディング後チェック
+		> ・ 文法チェック
+		> 	（文法チェックツール）を用いて検証テストを行う。
+		> ・ ブラウザ目視チェック
+		> 	表示のズレ、リンク先のチェック等、目視でのチェックが必要な項目をブラウザごとに検証する。
+		> 	検証ブラウザは案件ごとに異なる。
 - 用語や基礎知識は眠くなる
 - いつ教材を開くかわからない（特定の教材以外は、テキストから指示がない）
 - アカデミーの求職者支援訓練用の表現がある↓CSS3 P.19
@@ -61,6 +73,12 @@
 
 
 # 課題
+
+- meta name="author" はSEOに必要か？→不要
+	標準メタデータ名には、keywordsとともにサポートされている
+	https://developer.mozilla.org/ja/docs/Web/HTML/Element/meta/name
+	https://sd-webworks.com/column/meta-author/
+		現状、SEO上では影響しないものと考えられています。
 
 - 評価依頼や、ヘルプ依頼をどうするか。同様に、課題提出をどうするか。
    https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter#%E8%A9%95%E4%BE%A1%E3%81%BE%E3%81%9F%E3%81%AF%E3%81%95%E3%82%89%E3%81%AA%E3%82%8B%E3%83%98%E3%83%AB%E3%83%97
