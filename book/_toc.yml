@@ -19,22 +19,50 @@ parts:
     - file: character_sheet
     - file: markdown_sample
     - file: cards
-  - caption: 装備を整える
+  - caption: 準備
     numbered: false
     chapters:
       - file: equip
-  - caption: 第一部 はじめてのHTML/CSS
+  - caption: レベル１ HTMLの基本
     numbered: true
     chapters:
       - file: LEVEL1
-  - caption: 第二部 お茶サイト
+  - caption: レベル２ HTMLの残りの話題、CSSの基本
     numbered: true
     chapters:
       - file: LEVEL2
-  - caption: 第二部 スマートフォン対応
+  - caption: レベル３ CSS - ボックスモデル
     numbered: true
     chapters:
       - file: LEVEL3
+  - caption: レベル４ CSS - 背景、float、実例:ナビメニュー
+    numbered: true
+    chapters:
+      - file: LEVEL4
+  - caption: レベル５ CSS - Flexbox
+    numbered: true
+    chapters:
+      - file: LEVEL5
+  - caption: レベル６ CSS - Position
+    numbered: true
+    chapters:
+      - file: LEVEL6
+  - caption: レベル７ お茶サイト実装
+    numbered: true
+    chapters:
+      - file: LEVEL7
+  - caption: レベル８ マルチデバイス(1)
+    numbered: true
+    chapters:
+      - file: LEVEL8
+  - caption: レベル９ マルチデバイス(2)
+    numbered: true
+    chapters:
+      - file: LEVEL9
+  - caption: レベル10 卒業制作
+    numbered: true
+    chapters:
+      - file: LEVEL10
   - caption: Appendix
     numbered: false
     chapters:

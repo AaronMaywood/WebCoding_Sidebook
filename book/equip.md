@@ -1,5 +1,26 @@
 # 装備を整える
 
+- HTML
+	- ブラウザの種類・シェアについて 5
+	- ファイル名について 10
+	- 拡張子について/拡張子と隠しファイルを表示させるには 11
+	- ホームページに必要な３つの書類/HTML・CSS書類のアイコンデザインを変更するには？ 12-13
+- VS Code
+	- HTML
+		- Install 14-15
+		- Extentions
+			- Japanese Language Pack 16-17
+			- auto rename,CSS Formatter,CSS Peek, HTMLHint, IntelliSence for CSS class names in HTML 18-19
+			- Live Server 19の⑪
+			- zenkaku 20
+			- 再起動、確認 20の⑬〜⑯
+		- 作業フォルダ 21
+		- 色テーマ 22
+		- フォントサイズ・タブサイズ 23
+		- マウスホバーのポップアップ機能をOFFにする 24-25
+		- Visual Studio Codeのその他の注意・機能 26-27
+		- Live Server(Go Live)機能について 28-30
+
 ## まとめ
 
 学習に必要な以下のアプリケーションを準備します。

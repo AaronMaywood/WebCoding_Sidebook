@@ -1,3 +1,78 @@
+# LEVEL2(LEVEL2.md)
+## STAGE5(option)
+
+- HTML
+	- table 51-56
+
+## STAGE6
+
+- HTML
+	- 大項目的なボックスとしてまとめるタグについて 59-63
+	- HTML のネスト（入れ子）構造について 64
+	- <nav> の用例 65
+
+## STAGE7(option)
+
+- HTML
+	- <form> 66-71
+
+## STAGE7-2 補足
+
+- HTML
+	- Chromeのデベロッパーツールについて 72-73
+	- ブラウザのキャッシュ削除 74-75
+
+## STAGE8 CSSとは
+
+- HTML
+	- 参考：CSS の使用例 77
+	- CSS の書式・基本用語 76
+		- CSS
+			- CSS の書式・基本用語 2 と同じ
+	
+## STAGE9 CSSを書くには
+
+- CSS
+	- 実習：HTML と CSS の応用実例サンプルを検証する 10-11
+	- 実習：HTML 書類を新規の CSS 書類で設定する手順 12-16
+
+## STAGE10 セレクタ―
+
+- CSS
+	- セレクタの種類 3-6
+	- インライン CSS・内部 CSS・外部 CSS について 7-9
+	- タグに関連する CSS セレクタを表示する 18		# option
+	- VSCのカラーピッカーの表示 18					# option
+	- ブラウザ Chrome のフォント設定を初期化する 19-21	# option
+
+## STAGE10 プロパティ
+
+- CSS
+	- CSS の単位について	22-25
+	- CSSのコメントについて 26
+	- CSS のプロパティ　─　文字（書式）関連 29
+	- CSS のプロパティ　─　行高さ（行間） line-height の単位について 30
+	- CSS の「セレクタ」・「プロパティ」・「値」の記述における注意 17
+	-  <ul> <ol> または <li> 要素に設定するプロパティ 54
+	- overflow 55
+	- 付録：CSS3  簡易解説 トランジションなど 85-89
+
+## STAGE11 色
+
+- CSS
+	- CSS の色の指定方法 27-29(一段落目まで)
+
+---------------------------------------- LEVEL2 昇段試験 ----
+
+
+
+
+
+
+
+
+
+
 この記事を追従する
 https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/Getting_started
 - {{TODO}}headの内容
