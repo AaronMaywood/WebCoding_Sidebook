@@ -1,5 +1,8 @@
 # 用語集
 
+&nbsp;とは
+https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%96%E3%83%AC%E3%83%BC%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9
+
 ````{glossary}
 HTML
   文章を記述する道具です。コンピューター言語の中のマークアップ言語の一種です。

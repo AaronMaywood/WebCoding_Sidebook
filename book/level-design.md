@@ -1,5 +1,9 @@
 # [分析] レベルデザイン
 
+論理的な区切りを設計し、概要をわかりやすくする目的で教科書を読む順番をカスタマイズしてみたが、borderなどの話題がすでに出ているかそうでないかの**整合性**が担保できない。
+そのため基本的にはテキスト順のカリキュラムに準拠する。
+また読者が混乱しなくてすむ。
+
 # カリキュラムの説明(intro.md)
 
 - 学ぶ内容
@@ -72,6 +76,9 @@
 	-  HTML 書類で配置できる 4 つの画像形式 43-44
 
 ---------------------------------------- LEVEL1 昇段試験 ----
+	フムスレシピ(MDN)
+	https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/html-text-formatting/text-start.html by CC0 Public Domain License
+---------------------------------------- LEVEL1 昇段試験 ----
 
 # LEVEL2(LEVEL2.md) HTMLの残りの話題、CSSの基本
 ## STAGE5(option)
@@ -97,6 +104,10 @@
 	- Chromeのデベロッパーツールについて 72-73
 	- ブラウザのキャッシュ削除 74-75
 
+---------------------------------------- (論理的区切り、昇段試験を追加したい) ----
+	大規模構造をマークアップする
+---------------------------------------- (論理的区切り、昇段試験を追加したい) ----
+
 ## STAGE8 CSSとは
 
 - HTML
@@ -105,7 +116,7 @@
 		- CSS
 			- CSS の書式・基本用語 2 と同じ
 	
-## STAGE9 CSSを書くには
+## STAGE9 CSSを書くには チラ見
 
 - CSS
 	- 実習：HTML と CSS の応用実例サンプルを検証する 10-11
@@ -116,30 +127,28 @@
 - CSS
 	- セレクタの種類 3-6
 	- インライン CSS・内部 CSS・外部 CSS について 7-9
+	- CSS の「セレクタ」・「プロパティ」・「値」の記述における注意 17
+
+	↓おまけと明記
 	- タグに関連する CSS セレクタを表示する 18		# option
 	- VSCのカラーピッカーの表示 18					# option
 	- ブラウザ Chrome のフォント設定を初期化する 19-21	# option
 
-## STAGE10 プロパティ
+## STAGE10-2 プロパティ
 
 - CSS
 	- CSS の単位について	22-25
 	- CSSのコメントについて 26
+	- CSS の色の指定方法 27-29(一段落目まで)
 	- CSS のプロパティ　─　文字（書式）関連 29
 	- CSS のプロパティ　─　行高さ（行間） line-height の単位について 30
-	- CSS の「セレクタ」・「プロパティ」・「値」の記述における注意 17
-	-  <ul> <ol> または <li> 要素に設定するプロパティ 54
-	- overflow 55
-	- 付録：CSS3  簡易解説 トランジションなど 85-89
 
-## STAGE11 色
-
-- CSS
-	- CSS の色の指定方法 27-29(一段落目まで)
-
+---------------------------------------- LEVEL2 昇段試験 ----
+	細かな装飾
 ---------------------------------------- LEVEL2 昇段試験 ----
 
 # LEVEL3(LEVEL3.md) CSS - ボックスモデル
+
 ## STAGE11 ボックスモデル
 
 - CSS
@@ -150,9 +159,16 @@
 		- ボーダーの作例 38
 		- ボックスの外部余白（margin）の相殺（そうさい）について 59-60
 
----------------------------------------- LEVEL3 昇段試験 ----
+    - 参考、後に紹介するボーダーやボックスに関連する話題があるよと説明
+	  - overflow 55
+      - 角丸 86
+      - ボックスシャドウ 88
 
+---------------------------------------- (論理的区切り、昇段試験を追加したい) ----
+	全てがボックス
+---------------------------------------- (論理的区切り、昇段試験を追加したい) ----
 # LEVEL4(LEVEL4.md) CSS - 背景、float、実例:ナビメニュー
+
 ## STAGE12 背景画像
 
 - CSS
@@ -165,11 +181,19 @@
 - CSS
 	- floatとclear 45-53
 
+## STAGE13-2
+
+- CSS
+	-  <ul> <ol> または <li> 要素に設定するプロパティ 54
+	- overflow 55
+
 ## STAGE14 ナビメニュー
 
 - CSS
 	- ナビメニュー - 段組み 56-58
 
+---------------------------------------- LEVEL4 昇段試験 ----
+	背景、float、ナビメニュー
 ---------------------------------------- LEVEL4 昇段試験 ----
 
 # LEVEL5(LEVEL5.md) CSS - Flexbox
@@ -184,6 +208,8 @@
 [TODO] テキストがない
 
 ---------------------------------------- LEVEL5 昇段試験 ----
+	flex
+---------------------------------------- LEVEL5 昇段試験 ----
 
 # LEVEL6(LEVEL6.md) CSS - Position
 ## STAGE16 position
@@ -196,13 +222,96 @@
 		- 「lesson_1.html」内にある「div.ﬁx_box」に ﬁxed の設定をする 73
 		- 「lesson_2.html」内にある「nav」に sticky の設定をする 74
 
+- CSS
+	- 付録：CSS3  簡易解説 トランジションなど 85-89
+      - 透明度 85
+      - 角丸 86
+      - 線形グラデーション 87
+      - テキストシャドウ 88
+      - ボックスシャドウ 88
+      - トランジション 89
+
+---------------------------------------- LEVEL6 昇段試験 ----
+	position, 細かな装飾(2)
 ---------------------------------------- LEVEL6 昇段試験 ----
 
 # LEVEL7(LEVEL7.md) お茶サイト実装
+
+- {{TODO}} デザイナーから素材を受け取る
+	- デザインカンプ
+	- 画像素材
+	- デザインシステム
+	  - 使用するフォント一覧
+	  - 色
+
 ## STAGE17 Webサーバー
 
 - CSS
 	- 「WinSCP」で WWW サーバーへアップする 83-84
+
+- {{TODO}} 無料のウェブサーバーを借りる
+
+```{figure} https://i.gyazo.com/942959f998656e4003efbb31c14c02c3.png
+Xfree.ne.jp
+```
+
+https://i.gyazo.com/0eac63bc83d2f9d471ab8f453e9b5fcb.png
+https://i.gyazo.com/530c1bfa08e51106a2c1ee410cba7eac.png
+https://i.gyazo.com/200ace7c3357ec5c45ad75bbfb9f7403.png
+https://i.gyazo.com/36d0a5e1564b39f8d1d0bf10e2ee1cbd.png
+
+
+https://i.gyazo.com/6d35c77973a9cdca30db64bc8ba2a541.png
+https://i.gyazo.com/5ce5803deb9fd294e7b310a59bde0550.png
+https://i.gyazo.com/04d7ad00dcebc19ef4c6b86327c7d7b9.png
+https://i.gyazo.com/7a115bc6aa6b1ad7f9fa58849605bfca.png
+https://i.gyazo.com/8bd8bbb68e545612e1514593974e3871.png
+https://i.gyazo.com/5e9effae8c318f0bc2a7f1e54f8ce519.png
+
+https://i.gyazo.com/2f3522ba5f25f8ed3eaf6d37c2e4e8d9.png
+https://i.gyazo.com/b5de34f397a7b96299b7e1716329b5f1.png
+https://i.gyazo.com/e33c972040749f53ffc3803a169205f7.png
+https://i.gyazo.com/0febcc0c0a501f3fe38be98dbb7f8a9f.png
+https://i.gyazo.com/5b3c04f8d338f2083931f1bee80922ed.png
+https://i.gyazo.com/5052825a0c285560b4e13be511574d55.png
+https://i.gyazo.com/b3fcf6ce645aa4908edc7a889b549861.png
+
+FTP
+https://i.gyazo.com/8427a793a534c8c8347939a7e6bccfd3.png
+https://i.gyazo.com/fa70c9592777b65f6272717e7a7e8295.png
+https://i.gyazo.com/c109ace45acaca3c924af925585d6ff0.png
+https://i.gyazo.com/60ad32728c18b93427f7517f9896338e.png
+https://i.gyazo.com/abe67b8f0b5fce27eaaf3a57e973265f.png
+
+FileZilla
+https://ja.wikipedia.org/wiki/FileZilla
+https://filezilla-project.org/
+
+https://i.gyazo.com/af9e9705a2084ee1970528eb4bb5c44e.png
+https://i.gyazo.com/b3e51d964cc711d7b441c9a53691f268.png
+https://i.gyazo.com/c44b6b06a2e1f9d884d04c2bd3745f3e.png
+https://i.gyazo.com/338ffba753bdc3b5f7537d740d809240.png
+<ここでOSからのダイアログが出る>スクショ今から
+https://i.gyazo.com/4522c3c3fe267c0ba94e262bbd3002c7.png
+https://i.gyazo.com/96e8c5060af2ddb6193ff7939fe90ce8.png
+https://i.gyazo.com/d8a8bf8ba3a55eb3b11539eedb1a4f05.png
+https://i.gyazo.com/2fc567ffe3d2caf75f43672c2a533a18.png
+
+https://i.gyazo.com/b27c3d502348cd25c0004e01b47d2b18.png
+https://i.gyazo.com/f3b6152ef6363109837bd0190180c6f7.png
+
+https://i.gyazo.com/de818072c35bc60dffae9fe6e47dd8c2.png
+https://i.gyazo.com/06149bcffabf6be13361eccb3d10e68b.png
+https://i.gyazo.com/f395b927208931e6bad08e0da3bd53f7.png
+
+https://i.gyazo.com/4063dd8c5d2f7263a6853a020a015dae.png
+https://i.gyazo.com/d7fd41ba6c41806dda4da12f57c09f28.png
+https://i.gyazo.com/2c64be1e17fc89e0c63d5747e4f560e3.png
+	- 平文
+    - サイト名を「XFree 無料Webサーバー」などわかりやすいものにしておく
+	- 接続
+
+
 
 ## STAGE18 付録
 

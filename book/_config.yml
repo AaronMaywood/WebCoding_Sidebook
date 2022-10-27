@@ -2,8 +2,7 @@
 # Default Settings:
 # https://jupyterbook.org/en/stable/customize/config.html#configuration-defaults
 
-# title: 初めてでも大丈夫 HTML/CSSを習得する本 - Webコーダーになろう    # 長すぎた
-title: 初心者でもOK HTML5/CSS3基礎 副読本
+title: 初心者でもOK HTML/CSS基礎 ガイドブック
 author: 安村 淳 / 株式会社アジャスト
 logo: images/logo.png
 copyright: "2022 安村 淳/ADjust Co.,Ltd."
