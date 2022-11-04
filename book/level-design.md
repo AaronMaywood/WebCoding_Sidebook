@@ -106,6 +106,12 @@
 
 ---------------------------------------- (論理的区切り、昇段試験を追加したい) ----
 	大規模構造をマークアップする
+1. Wikipedia
+https://www.figma.com/file/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?node-id=440%3A848
+https://github.com/AaronMaywood/coding_sample/tree/main/main-structure
+	[DONE] これにCSSを追加して本当にこの並びにできる？→できる.Gridを使用した
+
+2. MDNもあればなおよし
 ---------------------------------------- (論理的区切り、昇段試験を追加したい) ----
 
 ## STAGE8 CSSとは
@@ -145,6 +151,7 @@
 
 ---------------------------------------- LEVEL2 昇段試験 ----
 	細かな装飾
+- https://docs.google.com/document/d/1WI5_-_zzrHpZVJsxFvpkwz1t10ft5lc86TGsdTtPH2E/edit#heading=h.ei8r1exdw47m をもとにindex.html を書いて下さい。
 ---------------------------------------- LEVEL2 昇段試験 ----
 
 # LEVEL3(LEVEL3.md) CSS - ボックスモデル
@@ -166,6 +173,8 @@
 
 ---------------------------------------- (論理的区切り、昇段試験を追加したい) ----
 	全てがボックス
+ボックスモデルのプロパティを作って「メモ」を表現する
+https://github.com/AaronMaywood/coding_sample/tree/main/box-model
 ---------------------------------------- (論理的区切り、昇段試験を追加したい) ----
 # LEVEL4(LEVEL4.md) CSS - 背景、float、実例:ナビメニュー
 
@@ -179,7 +188,11 @@
 ## STAGE13 float
 
 - CSS
-	- floatとclear 45-53
+	- floatとclear 45-48
+	- フロートによる文字の回り込み 49-50
+	- フロートした子要素と親要素の関係 51
+	- 子要素がフロートしても、親要素がきちんと囲むには？　─　手法Ⓐ  52
+	- 子要素がフロートしても、親要素がきちんと囲むには？　─　手法Ⓑ  53
 
 ## STAGE13-2
 
@@ -193,7 +206,19 @@
 	- ナビメニュー - 段組み 56-58
 
 ---------------------------------------- LEVEL4 昇段試験 ----
-	背景、float、ナビメニュー
+	背景、float
+背景はcover
+文章と挿し絵
+「ア、秋」にファーストビューの背景と挿し絵を挿入する
+https://www.aozora.gr.jp/cards/000035/files/236_19996.html 
+https://github.com/AaronMaywood/coding_sample/tree/main/a-aki	←試作品
+	→子孫セレクターを使用しているので説明が必要
+		教科書ではP.56で扱っている
+
+オーバーフロー、
+リスト、ナビメニュー
+- 横展開はflexを使ったBtypeがいい。flexと合わせて教えるのがいいかな
+	typeCはレガシーコード
 ---------------------------------------- LEVEL4 昇段試験 ----
 
 # LEVEL5(LEVEL5.md) CSS - Flexbox
@@ -209,12 +234,14 @@
 
 ---------------------------------------- LEVEL5 昇段試験 ----
 	flex
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox_skills を使用する（日本語版を作る）
 ---------------------------------------- LEVEL5 昇段試験 ----
 
 # LEVEL6(LEVEL6.md) CSS - Position
 ## STAGE16 position
 
 - CSS
+https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Positioning
 	- positionレイアウト 66-68
 		-  参考：「position」を使わず、「ﬂoat」レイアウトで配置するには 69
 		- ボックスの重なり順を変更する「z-index」 70-71
@@ -227,22 +254,56 @@
       - 透明度 85
       - 角丸 86
       - 線形グラデーション 87
+		CSSグラデーションの使用
+		https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Images/Using_CSS_gradients
+			→反復グラデーションの応用例がやばい
+			円形グラデーションもあるよ
+			https://developer.mozilla.org/ja/docs/Web/CSS/gradient/radial-gradient
+			扇形もあるよ
+			https://developer.mozilla.org/ja/docs/Web/CSS/gradient/conic-gradient
       - テキストシャドウ 88
       - ボックスシャドウ 88
       - トランジション 89
+		参考: CSS Animation
+		https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 
 ---------------------------------------- LEVEL6 昇段試験 ----
 	position, 細かな装飾(2)
+位置指定のテスト
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Position_skills
+
+実用的な位置指定の応用例→JavaScriptが必要だから不採用
+https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Practical_positioning_examples
+
+影のジェネレーター
+https://getcssscan.com/css-box-shadow-examples
+	→サンプル影を示し、構造を解析してもらう
+box-shadowだけじゃない！CSSでできる色々な影の表現と意外に知らない落とし穴
+https://ics.media/entry/200406/
+	この記事は上級編、だがわかりやすい！
+
+トランジションの例
+https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+	transition
+	https://github.com/AaronMaywood/coding_sample/tree/main/transition
+
 ---------------------------------------- LEVEL6 昇段試験 ----
+
+
 
 # LEVEL7(LEVEL7.md) お茶サイト実装
 
 - {{TODO}} デザイナーから素材を受け取る
 	- デザインカンプ
+		- 完成形の確認用 P.2-P.6
+		- レイアウトのためにpx数がわかるもの P.12 などのワイヤーフレーム
+			また、P.25 などにあるように部品ごとの設計
 	- 画像素材
+		- 「お茶サイト _ 配布データ」フォルダ に含まれている
 	- デザインシステム
-	  - 使用するフォント一覧
-	  - 色
+	  - 使用するフォント一覧 P.24 の共通スタイル
+		- header h1やh2などにGoogle Fonts の'Noto Serif JP' が使われている
+	  - 色 P.24 の共通スタイル(background-color: #608862)
 
 ## STAGE17 Webサーバー
 
@@ -394,6 +455,7 @@ https://i.gyazo.com/2c64be1e17fc89e0c63d5747e4f560e3.png
 		- 36-38
 
 ---------------------------------------- LEVEL7 昇段試験 LEVEL29-LEVEL32 ----
+	以下、下層ページの実装
 
 ## STAGE29 temp.html
 
@@ -415,12 +477,18 @@ https://i.gyazo.com/2c64be1e17fc89e0c63d5747e4f560e3.png
 - お茶
 	- common.htmlの作成47-50				# 演習になる
 
-# LEVEL8(LEVEL8.md) マルチデバイス(1)
+---------------------------------------- ↑LEVEL7 昇段試験 LEVEL29-LEVEL32 ----
+
+# LEVEL8(LEVEL8.md) フォーム
 ## STAGE33(option)
 
 - お茶
 	- contact.htmlの作成51-55			←フォーム
+---------------------------------------- ↑LEVEL8 昇段試験 ----
+	ここは無くてもいいかな
+---------------------------------------- ↑LEVEL8 昇段試験 ----
 
+# LEVEL9(LEVEL9.md) マルチデバイス(1)
 ## STAGE34 スマートフォンサイト制作実習 ver.1.0 F 22.06.15
 
 - スマートフォン
@@ -446,6 +514,14 @@ https://i.gyazo.com/2c64be1e17fc89e0c63d5747e4f560e3.png
 
 ## STAGE37 マルチデバイスサイト Green Camp
 
+% - ドキュメントマルチビューの概念の応用
+%	- 複数のスタイルを作って張り合わせて切り替える
+%   - リキッド
+%	- ドロワーメニュー(SlickNav)/ハンバーガー
+% - https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Responsive_Design
+%   - ビューポートメタタグ
+
+
 - スマートフォンサイトテキスト
 	- マルチデバイスサイト Green Camp 2-3
 	- タグ付け 4-5
@@ -466,6 +542,22 @@ https://i.gyazo.com/2c64be1e17fc89e0c63d5747e4f560e3.png
 - スマートフォンサイトテキスト
 	- 16-18
 
+% 動作確認
+% - DevToolsのデバイスモード
+% - 実機を使用して動作確認の方法
+%   - Android
+%   - iPhone
+
+---------------------------------------- LEVEL9 昇段試験 卒業制作 ----
+	↓スマホサイトの昇段試験はなく、卒業制作をもって試験とする
+		だが、一段階はさんでもいいかも。スマホサイトができない間から卒業制作に手を出していたら収集がつかなくなるかも
+		また、レスポンシブとしてスキルを確認しておきたい。
+			- 文学の世界
+			- 日本の文学
+			↑これくらいの例題がよい
+			↓じゃあこれで
+			https://www.figma.com/file/7AubNTW0tPsiGlDlAlV3Mg/Responsive-Startup-Website-(Community)?node-id=145%3A5791
+			https://www.figma.com/file/7AubNTW0tPsiGlDlAlV3Mg/Responsive-Startup-Website-(Community)?node-id=24%3A12
 ---------------------------------------- LEVEL9 昇段試験 卒業制作 ----
 
 # LEVEL10(LEVEL10.md) 卒業制作
