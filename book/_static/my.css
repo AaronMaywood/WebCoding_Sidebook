@@ -22,3 +22,24 @@ img.char {
 .taskcard .sd-card-body {
 	background: white;
 }
+
+/* TODO リンクに外部リンクのアイコンを表示する */
+@import url("fontawesome-free-5.15.4-web/css/all.css");
+
+a.reference.external:after {
+    /*
+	content: "\f35d";	アイコンが表示されない！
+    content: "（外部リンク）";	この説明までは不要、書かなくとも分かるだろう...
+	TODO 外部リンクに _blankを付ける方法はあるか？
+	*/
+    font-family: 'Font Awesome 5 Free';
+    font-size: .7em;
+    vertical-align: text-top;
+    margin-left: .1em;
+    color: grey;
+}
+
+/* figureの中で {code} が中央寄せになるのを禁止する */
+.figure .codecell1 {
+	text-align: left;
+}
