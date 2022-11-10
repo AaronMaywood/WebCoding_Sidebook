@@ -1,7 +1,5 @@
 `````{div} taskcard
 ````{card} デバイスモードの利用方法
-^^^
-
 1. 任意のページを開きます。
 	- 例: https://aaronmaywood.github.io/coding_sample/media-query/sample2/
 2. {bdg-dark}`F12`で`DevTools`に入ります。
@@ -19,7 +17,6 @@
 6. iPhone SEでの画面サイズが指定されました。
 	```{figure} https://i.gyazo.com/e9c4894cfc2f337e1c6d44aea9dfc1dc.png
 	```
-+++
 ````
 `````
 

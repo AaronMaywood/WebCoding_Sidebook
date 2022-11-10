@@ -480,8 +480,7 @@ CSSの単位％は、常に**親要素に対しての％という意味**です�
 なお海外ではリキッドレイアウトのことをフリュード（fluid、流体）レイアウトと呼ぶことが多いようで、これも液体になぞらえた用語が選ばれています。
 これは次のように説明されたりもします。
 ```{figure} https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B7%E3%83%96%E3%82%A6%E3%82%A7%E3%83%96%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3#/media/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Content-is-like-water.svg
-> **コンテンツは水のごとし**は、レスポンシブウェブデザインの原則を説明した格言。
-> https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B7%E3%83%96%E3%82%A6%E3%82%A7%E3%83%96%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3 より
+**コンテンツは水のごとし**は、レスポンシブウェブデザインの原則を説明した格言。― https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B7%E3%83%96%E3%82%A6%E3%82%A7%E3%83%96%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3 より
 ```
 なお、CSSの世界では、文字やブロックなどの表示物をレイアウトに流し込むという、「流れ」を感じさせる比喩表現を多く使っており、通常のフロー（flowは「流れ」）やfloat（浮き）などの語があります。
 ここから先は筆者の想像ですが、このような流体の比喩の延長線上でリキッド（やフリュード）の用語が用いられたのだと思います。
@@ -651,14 +650,67 @@ SlickNavの使用方法は公式サイトの指示に従います。
 % %   - Android
 % %   - iPhone
  
----------------------------------------- LEVEL9 昇段試験 卒業制作 ----
-	↓スマホサイトの昇段試験はなく、卒業制作をもって試験とする
-		だが、一段階はさんでもいいかも。スマホサイトができない間から卒業制作に手を出していたら収集がつかなくなるかも
-		また、レスポンシブとしてスキルを確認しておきたい。
-			- 文学の世界
-			- 日本の文学
-			↑これくらいの例題がよい
-			↓じゃあこれで
-			https://www.figma.com/file/7AubNTW0tPsiGlDlAlV3Mg/Responsive-Startup-Website-(Community)?node-id=145%3A5791
-			https://www.figma.com/file/7AubNTW0tPsiGlDlAlV3Mg/Responsive-Startup-Website-(Community)?node-id=24%3A12
----------------------------------------- LEVEL9 昇段試験 卒業制作 ----
+% ---------------------------------------- LEVEL9 昇段試験 卒業制作 ----
+% 	↓スマホサイトの昇段試験はなく、卒業制作をもって試験とする
+% 		だが、一段階はさんでもいいかも。スマホサイトができない間から卒業制作に手を出していたら収集がつかなくなるかも
+% 		また、レスポンシブとしてスキルを確認しておきたい。
+% 			- 文学の世界
+% 			- 日本の文学
+% 			↑これくらいの例題がよい
+% 			↓じゃあこれで
+% 			https://www.figma.com/file/7AubNTW0tPsiGlDlAlV3Mg/Responsive-Startup-Website-(Community)?node-id=145%3A5791
+% 			https://www.figma.com/file/7AubNTW0tPsiGlDlAlV3Mg/Responsive-Startup-Website-(Community)?node-id=24%3A12
+% ---------------------------------------- LEVEL9 昇段試験 卒業制作 ----
+## 昇段試験
+
+図に示すレスポンシブ対応のページを実装せよ。
+```{figure} https://i.gyazo.com/282a10c93f9f756f25c908e734452f21.png
+本教材は<a href="https://www.figma.com/@joyshaheb" target="_blank">Khondokor Alarm@JoyShaheb</a>氏によるもので、それに加筆したものです。
+オリジナルはライセンス<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank">CC BY 4.0</a>にて配付されており、<a href="https://www.figma.com/community/file/1150370769219258177" target="_blank">https://www.figma.com/community/file/1150370769219258177</a>にあります。
+本作品の中で使用されている各画像素材のライセンスは、<a href="https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=19%3A6&t=jZACmIAskTTrw8VJ-1" target="_blank">画像素材一覧</a>の中にあるそれぞれのURLから確認することができます。
+```
+
+以下に必要な素材・指示を示します。
+
+- 画像素材をダウンロードして下さい。
+	- https://github.com/AaronMaywood/responsive-by-JoyShaheb/archive/refs/heads/main.zip
+		- ZIPファイルを展開すると`images`フォルダが現れます。この`images`フォルダをコピーして制作に使用して下さい。
+- デザインカンプ
+	- デザインカンプはAdobe社のFigmaで作成・共有しており、以下のURLで確認できます。
+	- https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=0%3A1&t=jZACmIAskTTrw8VJ-1
+		````{dropdown} Figmaの画面でデザインカンプの指示を読む方法を確認する
+		```{include} cards/figma.md
+		```
+		````
+- デザインシステム（デザイナーからの指示）
+	- 次のURLを開いて下さい。
+		- https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=1%3A3377&t=jZACmIAskTTrw8VJ-1
+	- デザインシステムとはデザイナーの意図を言語化したもので、デザイナーとコーダーの共通認識を表したものです。具体的には、色や使用するフォントの指示、ブレークポイントなどの指示が含まれます。
+	- なお、フォントにはGoogle Fontsを使用します。
+		````{dropdown} 指定されたフォントをGoogle Fontから使用する方法を確認する
+		```{include} cards/google-fonts.md
+		```
+		````
+- ファイル名の指示
+	- HTMLは`index.html`としてください。
+	- CSSは`css/style.css`として下さい。
+
+% ↓書きかけたけどここでは使用しないことにした
+% ```{include} cards/rem-px-conversion.md
+% ```
+
+## 提出方法（検証〜提出）
+
+- コーディングができたら動作確認を行って下さい。
+	````{dropdown} ウェブサイトの検証方法を確認する
+	```{include} cards/testing.md
+	```
+	````
+- 動作確認ができたら提出して下さい。
+	````{dropdown} 課題の提出方法を確認する
+	```{include} cards/school/send-in-files.md
+	```
+	````
+- 合格すれば模範解答を手に入れることができます。模範回答と照らし合わせ、さらに知識を固めて下さい。
+	- また、次のレベル教材が示されます。次のレベルに進んでください。
+
