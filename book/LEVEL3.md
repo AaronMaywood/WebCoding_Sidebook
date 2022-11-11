@@ -1,13 +1,4 @@
-# LEVEL3(LEVEL3.md)
-
-## 目次
-- CSS
-	- ボックスモデル **「CSS3基礎」P.33**
-		- 見出し 1 のボックス化・リセット CSS **「CSS3基礎」P.34**
-		- 「幅」と「高さ」を「border」と「padding」を含めた値にする ─ box-sizing: border-box **「CSS3基礎」P.36**
-		- margin や padding プロパティの一括設定（ショートハンド設定） **「CSS3基礎」P.37**
-		- ボーダーの作例 **「CSS3基礎」P.38**
-		- ボックスの外部余白（margin）の相殺（そうさい）について **「CSS3基礎」P.59-60**
+# LEVEL3(LEVEL3.md) CSS - ボックスモデル
 
 ## STAGE11 ボックスモデル **「CSS3基礎」P.33-36**
 

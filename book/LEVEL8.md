@@ -1,19 +1,18 @@
-# LEVEL8(LEVEL8.md)
-## STAGE33(option)
+% 目次
+%
+% # LEVEL8(LEVEL8.md)
+%
+% ## STAGE33(option)
+% 
+% - お茶
+% 	- contact.htmlの作成51-55			←フォーム
+% HTMLでフォームを習得した箇所
+% file:///home/yasumura/WebCoding_Sidebook/book/_build/html/LEVEL2.html#stage7-p-66-71
+% 
+% ---------------------------------------- LEVEL8 昇段試験 LEVEL36 ----
 
-- お茶
-	- contact.htmlの作成51-55			←フォーム
+## STAGE33(option) 「お茶サイト 作成・解説」ver.2.5 F 22.08.10 P.51-55
 
-## STAGE34 スマートフォンサイト制作実習 ver.1.0 F 22.06.15
-
-- スマートフォン
-	- 「マルチデバイスサイト」  とは？ 2-3
-
-## STAGE35 World_literature(世界の文学)
-
-- スマートフォン
-	- World_literature(世界の文学) 4-6
-
----------------------------------------- LEVEL8 昇段試験 LEVEL36 ----
-
+ここでは何も付け足すことがないな。
+このレベルはボツにして、一つ前のレベルに統合しよう
 

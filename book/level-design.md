@@ -162,7 +162,7 @@ https://github.com/AaronMaywood/coding_sample/tree/main/main-structure
 
 - CSS
 	- ボックスモデル 33
-		- 見出し 1 のボックス化・リセット CSS 34
+		- 見出し 1 のボックス化・リセット CSS 34-35
 		- 「幅」と「高さ」を「border」と「padding」を含めた値にする ─ box-sizing: border-box 36
 		- margin や padding プロパティの一括設定（ショートハンド設定） 37
 		- ボーダーの作例 38
@@ -251,6 +251,7 @@ https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Positioning
 		- 「lesson_1.html」内にある「div.ﬁx_box」に ﬁxed の設定をする 73
 		- 「lesson_2.html」内にある「nav」に sticky の設定をする 74
 
+## STAGE16.5 付録
 - CSS
 	- 付録：CSS3  簡易解説 トランジションなど 85-89
       - 透明度 85
@@ -291,97 +292,25 @@ https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transiti
 
 ---------------------------------------- LEVEL6 昇段試験 ----
 
-
-
-# LEVEL7(LEVEL7.md) お茶サイト実装
-
-- {{TODO}} デザイナーから素材を受け取る
-	- デザインカンプ
-		- 完成形の確認用 P.2-P.6
-		- レイアウトのためにpx数がわかるもの P.12 などのワイヤーフレーム
-			また、P.25 などにあるように部品ごとの設計
-	- 画像素材
-		- 「お茶サイト _ 配布データ」フォルダ に含まれている
-	- デザインシステム
-	  - 使用するフォント一覧 P.24 の共通スタイル
-		- header h1やh2などにGoogle Fonts の'Noto Serif JP' が使われている
-	  - 色 P.24 の共通スタイル(background-color: #608862)
+# LEVEL6.5
 
 ## STAGE17 Webサーバー
 
 - CSS
+	- {{TODO}} 無料のウェブサーバーを借りる
 	- 「WinSCP」で WWW サーバーへアップする 83-84
 
-- {{TODO}} 無料のウェブサーバーを借りる
+% ## STAGE18 付録 ←これは扱わない。扱うとしたら必要な箇所で
+% 
+% - CSS
+% 	- 付録：文字サイズ単位換算表 90
+% 	- 付録：コーディングガイドライン例 91-95
+% 	- コーディング後チェック 95
+---------------------------------------- LEVEL6.5 昇段試験 ----
+特になし
+---------------------------------------- LEVEL6.5 昇段試験 ----
 
-```{figure} https://i.gyazo.com/942959f998656e4003efbb31c14c02c3.png
-Xfree.ne.jp
-```
-
-https://i.gyazo.com/0eac63bc83d2f9d471ab8f453e9b5fcb.png
-https://i.gyazo.com/530c1bfa08e51106a2c1ee410cba7eac.png
-https://i.gyazo.com/200ace7c3357ec5c45ad75bbfb9f7403.png
-https://i.gyazo.com/36d0a5e1564b39f8d1d0bf10e2ee1cbd.png
-
-
-https://i.gyazo.com/6d35c77973a9cdca30db64bc8ba2a541.png
-https://i.gyazo.com/5ce5803deb9fd294e7b310a59bde0550.png
-https://i.gyazo.com/04d7ad00dcebc19ef4c6b86327c7d7b9.png
-https://i.gyazo.com/7a115bc6aa6b1ad7f9fa58849605bfca.png
-https://i.gyazo.com/8bd8bbb68e545612e1514593974e3871.png
-https://i.gyazo.com/5e9effae8c318f0bc2a7f1e54f8ce519.png
-
-https://i.gyazo.com/2f3522ba5f25f8ed3eaf6d37c2e4e8d9.png
-https://i.gyazo.com/b5de34f397a7b96299b7e1716329b5f1.png
-https://i.gyazo.com/e33c972040749f53ffc3803a169205f7.png
-https://i.gyazo.com/0febcc0c0a501f3fe38be98dbb7f8a9f.png
-https://i.gyazo.com/5b3c04f8d338f2083931f1bee80922ed.png
-https://i.gyazo.com/5052825a0c285560b4e13be511574d55.png
-https://i.gyazo.com/b3fcf6ce645aa4908edc7a889b549861.png
-
-FTP
-https://i.gyazo.com/8427a793a534c8c8347939a7e6bccfd3.png
-https://i.gyazo.com/fa70c9592777b65f6272717e7a7e8295.png
-https://i.gyazo.com/c109ace45acaca3c924af925585d6ff0.png
-https://i.gyazo.com/60ad32728c18b93427f7517f9896338e.png
-https://i.gyazo.com/abe67b8f0b5fce27eaaf3a57e973265f.png
-
-FileZilla
-https://ja.wikipedia.org/wiki/FileZilla
-https://filezilla-project.org/
-
-https://i.gyazo.com/af9e9705a2084ee1970528eb4bb5c44e.png
-https://i.gyazo.com/b3e51d964cc711d7b441c9a53691f268.png
-https://i.gyazo.com/c44b6b06a2e1f9d884d04c2bd3745f3e.png
-https://i.gyazo.com/338ffba753bdc3b5f7537d740d809240.png
-<ここでOSからのダイアログが出る>スクショ今から
-https://i.gyazo.com/4522c3c3fe267c0ba94e262bbd3002c7.png
-https://i.gyazo.com/96e8c5060af2ddb6193ff7939fe90ce8.png
-https://i.gyazo.com/d8a8bf8ba3a55eb3b11539eedb1a4f05.png
-https://i.gyazo.com/2fc567ffe3d2caf75f43672c2a533a18.png
-
-https://i.gyazo.com/b27c3d502348cd25c0004e01b47d2b18.png
-https://i.gyazo.com/f3b6152ef6363109837bd0190180c6f7.png
-
-https://i.gyazo.com/de818072c35bc60dffae9fe6e47dd8c2.png
-https://i.gyazo.com/06149bcffabf6be13361eccb3d10e68b.png
-https://i.gyazo.com/f395b927208931e6bad08e0da3bd53f7.png
-
-https://i.gyazo.com/4063dd8c5d2f7263a6853a020a015dae.png
-https://i.gyazo.com/d7fd41ba6c41806dda4da12f57c09f28.png
-https://i.gyazo.com/2c64be1e17fc89e0c63d5747e4f560e3.png
-	- 平文
-    - サイト名を「XFree 無料Webサーバー」などわかりやすいものにしておく
-	- 接続
-
-
-
-## STAGE18 付録
-
-- CSS
-	- 付録：文字サイズ単位換算表 90
-	- 付録：コーディングガイドライン例 91-95
-	- コーディング後チェック 95
+# LEVEL7(LEVEL7.md) お茶サイト実装
 
 ## STAGE19 お茶サイト紹介
 
@@ -392,74 +321,62 @@ https://i.gyazo.com/2c64be1e17fc89e0c63d5747e4f560e3.png
 ## STAGE20 基本ページの作成
 
 - お茶
-	- 基本ページの作成	13
-		←クラス名
 	- STEP-1 「base.html」を開く	7
 	- STEP-2 <head> 内に追記		8
 		※：「ファビコンの設定」	8
+	- STEP-3 「Google日本語フォント」の設定 9-11
+	- ワイヤーフレーム（サイト設計図） **「お茶サイト 作成・解説」P.12**
+		→すでに「お茶サイト紹介」で説明済みなので何も言うことはない
+	- 基本ページの作成	13
+		←クラス名
 	- index.html コードタグ付け	14
 		←main, header, div, aside, footer
+
+## STAGE20.5 index.htmlの細部
+
+- お茶
+	- index.html header 部分
+		- (A) 15
+	- visual_img
+		- (B) 15
+	- お茶のはじまり
+		- (C) 16
+	- 世界のお茶の生産量
+		- (D) 17
+	- インフォメーション
+		- (E) 18
+	- aside
+		- (F) 19
+	- footer
+		- (G) 20
 
 ## STAGE21 リセットCSS
 
 - お茶
 	- リセット CSS を設定します 22-23
 	- 各ページ共通 CSS 24	←ここではWebフォントを使っていなかった
-		- STEP-3 「Google 日本語フォント」の設定 9-11
 
-## STAGE22 header
+## STAGE22 header CSS
 
 - お茶
-	- index.html_header 部分
-		- (A) 15
+	- index.html_header 部分 - (A) 15に対するCSS
 		- 25-27
-
-## STAGE23 visual_img
-
-- お茶
-	- visual_img
-		- (B) 15
+	- visual_img - (B) 15 に対するCSS
 		- 28
-
-## STAGE24 お茶のはじまり
-
-- お茶
-	- お茶のはじまり
-		- (C) 16
+	- お茶のはじまり - (C) 16 に対するCSS
 		- 29-30
-
-## STAGE25 世界のお茶の生産量
-
-- お茶
-	- 世界のお茶の生産量
-		- (D) 17
+	- 世界のお茶の生産量 - (D) 17 に対するCSS
 		- 31-32
-
-## STAGE26 インフォメーション
-
-- お茶
-	- インフォメーション
-		- (E) 18
+	- インフォメーション - (E) 18 に対するCSS
 		- 33-34
-
-## STAGE27 aside
-
-- お茶
-	- aside
-		- (F) 19
+	- aside - (F) 19 に対するCSS
 		- 35
-
-## STAGE28 footer
-
-- お茶
-	- footer
-		- (G) 20 
+	- footer - (G) 20  に対するCSS
 		- 36-38
 
----------------------------------------- LEVEL7 昇段試験 LEVEL29-LEVEL32 ----
-	以下、下層ページの実装
 
-## STAGE29 temp.html
+以下、下層ページの実装
+## STAGE29 下層ページの実装
 
 - お茶
 	- temp.html（テンプレート）の作成 39	# 授業の便宜のためで、必須ではない
@@ -479,31 +396,33 @@ https://i.gyazo.com/2c64be1e17fc89e0c63d5747e4f560e3.png
 - お茶
 	- common.htmlの作成47-50				# 演習になる
 
----------------------------------------- ↑LEVEL7 昇段試験 LEVEL29-LEVEL32 ----
-
-# LEVEL8(LEVEL8.md) フォーム
 ## STAGE33(option)
 
 - お茶
-	- contact.htmlの作成51-55			←フォーム
----------------------------------------- ↑LEVEL8 昇段試験 ----
-	ここは無くてもいいかな
----------------------------------------- ↑LEVEL8 昇段試験 ----
+	- contact.htmlの作成51-55
 
-# LEVEL9(LEVEL9.md) マルチデバイス(1)
+---------------------------------------- LEVEL7 昇段試験 LEVEL29-LEVEL32 ----
+TODO 何をしよう？
+---------------------------------------- ↑LEVEL7 昇段試験 LEVEL29-LEVEL32 ----
+
+% このレベルはボツにして前のレベルに統合する↑
+% # LEVEL8(LEVEL8.md) フォーム
+% ## STAGE33(option)
+% 
+% - お茶
+% 	- contact.htmlの作成51-55			←フォーム
+% ---------------------------------------- ↑LEVEL8 昇段試験 ----
+% 	ここは無くてもいいかな
+% ---------------------------------------- ↑LEVEL8 昇段試験 ----
+
+# LEVEL9(LEVEL9.md) マルチデバイス(2)
 ## STAGE34 スマートフォンサイト制作実習 ver.1.0 F 22.06.15
-
 - スマートフォン
 	- 「マルチデバイスサイト」  とは？ 2-3
-
 ## STAGE35 World_literature(世界の文学)
 
 - スマートフォン
 	- World_literature(世界の文学) 4-6
-
----------------------------------------- LEVEL8 昇段試験 LEVEL36 ----
-
-# LEVEL9(LEVEL9.md) マルチデバイス(2)
 ## STAGE36 Japanese_literature(日本の文学)
 
 - スマートフォン
