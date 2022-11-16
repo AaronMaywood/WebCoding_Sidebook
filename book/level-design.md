@@ -298,7 +298,7 @@ https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transiti
 
 - CSS
 	- {{TODO}} 無料のウェブサーバーを借りる
-	- 「WinSCP」で WWW サーバーへアップする 83-84
+	- 「WinSCP」で WWW サーバーへアップする 161-162
 
 % ## STAGE18 付録 ←これは扱わない。扱うとしたら必要な箇所で
 % 

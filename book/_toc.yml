@@ -47,6 +47,10 @@ parts:
     numbered: true
     chapters:
       - file: LEVEL6
+  - caption: レベル６.5 Webサーバー
+    numbered: true
+    chapters:
+      - file: LEVEL6.5
   - caption: レベル７ お茶サイト実装
     numbered: true
     chapters:

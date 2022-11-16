@@ -1,5 +1,9 @@
 # 執筆ノート
 
+- ハッシュ化してadjustacademy.omにアップロードする方法
+	2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
+	> $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_flexbox/archive/refs/heads/main.zip
+
 - ページ指定
 	**「お茶サイト 作成・解説」P.24**
 
@@ -309,31 +313,31 @@ CommonMark
    foo
    ```
    ```{attention}
-   foo
-   ```
-   ```{danger}
-   foo
-   ```
-   ```{error}
-   foo
+   (!)注意	黄色
    ```
    ```{caution}
-   foo
-   ```
-   ```{hint}
-   foo
-   ```
-   ```{important}
-   foo
-   ```
-   ```{note}
-   foo
-   ```
-   ```{tip}
-   foo
+   ⚠ 注意	黄色
    ```
    ```{warning}
-   foo
+   ⚠ 警告	赤
+   ```
+   ```{error}
+   (X)エラー	赤
+   ```
+   ```{danger}
+	⚠ 危険	赤
+   ```
+   ```{important}
+	(!)重要  水色
+   ```
+   ```{note}
+   (!)注釈	黄色
+   ```
+   ```{hint}
+   💡ヒント  水色
+   ```
+   ```{tip}
+	💡ちなみに 黄色
    ```
  - https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html
 - ロール一覧
