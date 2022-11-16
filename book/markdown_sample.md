@@ -1,5 +1,7 @@
 # 執筆ノート
-
+- 教材格納フォルダ（マスター）
+ - https://drive.google.com/drive/folders/1DRratkFWRRh2xo59Ia0dy6ufXI3BupmC?fbclid=IwAR3Zly4R5dStcVP30gafG_Znj-4NvCDuqU9sW3-2LIbod9KiijnCvbm6AT0
+ - {bdg-primary-line}`教材：13_背景画像の繰り返し`
 - ハッシュ化してadjustacademy.omにアップロードする方法
 	2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
 	> $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_flexbox/archive/refs/heads/main.zip
@@ -370,6 +372,15 @@ CommonMark
 バッジ、アイコン
 :
 - https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html
+  {bdg-primary} 青
+  {bdg-secondary} 灰色
+  {bdg-success} 緑
+  {bdg-info} 水色
+  {bdg-warning} オレンジ＋黒文字
+  {bdg-danger} 赤
+  {bdg-light} 白
+  {bdg-dark} 黒
+	※それぞれに-line版 {bdg-dark-line}がある
 - 使用するアイコン→_config.yml に定義した
 
 参照とクロスリファレンス
