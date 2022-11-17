@@ -1,4 +1,20 @@
 # 執筆ノート
+
+- 中央寄せ、右寄せはない
+
+- ページと素材の表示
+	- 一行の時
+		```{code}
+		- 見出し 1 のボックス化・リセット CSS {bdg-dark-line}`テキスト：P.112〜114` {bdg-primary-line}`教材：11_見出し1のボックス化・リセットCSS`
+		```
+	- 見出しに添える時
+		```{code}
+		## 見出し 1 のボックス化・リセット CSS
+		{bdg-dark-line}`テキスト：P.112〜114` {bdg-primary-line}`教材：11_見出し1のボックス化・リセットCSS`
+		（一行あけ）
+		```
+- _config.ymlで定義したキーワード(jinjaテンプレート変数)の置換 
+	{{TODO|replace("TO","TODAY")}}
 - 教材格納フォルダ（マスター）
  - https://drive.google.com/drive/folders/1DRratkFWRRh2xo59Ia0dy6ufXI3BupmC?fbclid=IwAR3Zly4R5dStcVP30gafG_Znj-4NvCDuqU9sW3-2LIbod9KiijnCvbm6AT0
  - {bdg-primary-line}`教材：13_背景画像の繰り返し`
@@ -6,6 +22,8 @@
 	2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
 	> $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_flexbox/archive/refs/heads/main.zip
 
+- 脚注
+	[^mylabel]: My footnote text. # TODO 使い方がわかっていない
 - ページ指定
 	**「お茶サイト 作成・解説」P.24**
 
@@ -310,8 +328,19 @@ CommonMark
 - 文法
  - https://myst-parser.readthedocs.io/en/latest/syntax/roles-and-directives.html#syntax-directives
 - ディレクティブ一覧
+ - 右側エリア ... margin とsidebar
+	```{margin} ページと素材のご案内
+	このコンテンツは右側エリアに現れます。
+	```
+	→このブロックの`次の`ブロックの:afterに追加され、その位置でfloat:rightされるため、次の段落に付いているように見えてしまう。現在のブロックの右で補足したいときは、そのブロックの直前(上)に書く必要がある。
+	```{sidebar} ページと素材のご案内
+	{bdg-dark-line}`P.112〜114`
+	{bdg-primary-line}`教材：11_見出し1のボックス化・リセットCSS`
+	````
+
  - https://docutils.sourceforge.io/docs/ref/rst/directives.html
    ```{admonition} カスタマイズ
+	:class: tip					←Tipの淡黄色のスタイルを指定
    foo
    ```
    ```{attention}

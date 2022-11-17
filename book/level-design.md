@@ -160,17 +160,18 @@ https://github.com/AaronMaywood/coding_sample/tree/main/main-structure
 
 ## STAGE11 ボックスモデル
 
-- ボックスモデル 33
-	- 見出し 1 のボックス化・リセット CSS 34-35
-	- 「幅」と「高さ」を「border」と「padding」を含めた値にする ─ box-sizing: border-box 36
-	- margin や padding プロパティの一括設定（ショートハンド設定） 37
-	- ボーダーの作例 38
-	- ボックスの外部余白（margin）の相殺（そうさい）について 59-60
+- ボックスモデル {bdg-dark-line}`テキスト：P.111`
+  % {bdg-primary-line}`教材：10_ボックスモデル` ←この教材フォルダはあるが、使っていないかもしれない
+- 見出し 1 のボックス化・リセット CSS {bdg-dark-line}`テキスト：P.112〜114` {bdg-primary-line}`教材：11_見出し1のボックス化・リセットCSS`
+	- 「幅」と「高さ」を「border」と「padding」を含めた値にする ─ box-sizing: border-box {bdg-dark-line}`テキスト：P.114`
+- margin や padding プロパティの一括設定（ショートハンド設定） {bdg-dark-line}`テキスト：P.115`
+- ボーダーの作例 {bdg-dark-line}`テキスト：P.116` {bdg-primary-line}`教材：12_ボーダー`
+- ボックスの外部余白（margin）の相殺（そうさい）について {bdg-dark-line}`テキスト：P.137〜138` {bdg-primary-line}`教材：23_相殺について`
 
-- 参考、後に紹介するボーダーやボックスに関連する話題があるよと説明
-  - overflow 55
-  - 角丸 86
-  - ボックスシャドウ 88
+% - 参考、後に紹介するボーダーやボックスに関連する話題があるよと説明
+%   - overflow 55
+%   - 角丸 86
+%   - ボックスシャドウ 88
 
 ---------------------------------------- (論理的区切り、昇段試験を追加したい) ----
 	全てがボックス

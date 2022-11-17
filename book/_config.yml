@@ -63,7 +63,7 @@ parse:
     # Windows特有のキー
     WIN-WIN: '<img class="char" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Windows_key_logo_2012_%28dark-grey%29.svg/800px-Windows_key_logo_2012_%28dark-grey%29.svg.png"> '
     # Mac特有のキー
-    MAC-COMMAND: '{bdg-dark}`⌘`'
+    MAC-COMMAND: '{bdg-dark}`⌘`'   # TODO MAC- をうまく設置できない. 設置しても無視される
     MAC-SHIFT: '{bdg-dark}`⇧`'
     MAC-OPTION: '{bdg-dark}`⌥`'
     MAC-CONTROL: '{bdg-dark}`⌃`'
