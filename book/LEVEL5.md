@@ -46,11 +46,6 @@
 	この両方の水準を満たしていれば合格です。
 	% 水準を満たしているような、満たしていないような場合のグレーゾーンでは、生徒に質問してみて理解できているようであれば（また、やる気のある回答であれば）（必要に応じて指摘箇所を再提させて、これは再提出としてはカウントしない）合格とするなどの配慮を行う。
 
-% {{TODO}} 回答のダウンロード指示は、合格通知の中で行う
-% ハッシュ化してadjustacademy.omにアップロードする方法
-% 2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
-% > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_flexbox/archive/refs/heads/main.zip
-
 ### 昇段試験のルール
 
 % 昇段試験の案内
@@ -122,3 +117,9 @@ Flexboxを使用して図のように改行ありの横並びにするよう、`
 
 ```{include} cards/school/filling.md
 ```
+
+% {{TODO}} 回答のダウンロード指示は、合格通知の中で行う
+% ハッシュ化してadjustacademy.omにアップロードする方法
+% 2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
+% > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_flexbox/archive/refs/heads/main.zip
+
