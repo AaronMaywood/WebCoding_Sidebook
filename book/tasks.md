@@ -1,3 +1,37 @@
+# 制作管理表
+
+|LEVEL|ガイドブック制作（荒いバージョン）|テキストのページとの対応、教材の確認|昇段テスト|検証|
+|:---|:---|:---|:---|:---|
+|カリキュラム説明(intro.md)|{{TODO}}| - | - |{{TODO}}|
+|準備(equip.md)|{{TODO}}| - | - |{{TODO}}|
+|LEVEL1.md HTML(1)|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
+|LEVEL2.md HTML(2)|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
+|LEVEL3.md ボックスモデル|{{HALF}}|{{TODO}}|{{TODO}}|{{TODO}}|
+|LEVEL4.md float|{{HALF}}|{{HALF}}|{{DONE}}|{{TODO}}|
+|LEVEL5.md Flexbox|{{HALF}}|{{HALF}}|{{DONE}}|{{TODO}}|
+|LEVEL6.md Position|{{DONE}}|{{HALF}}|{{DONE}}|{{TODO}}|
+|LEVEL6.5.md WebサーバーとFTP|{{DONE}}|-|-|{{TODO}}|
+|LEVEL7.md お茶サイト|{{DONE}}|{{HALF}}|{{TODO}}|{{TODO}}|
+|LEVEL8.md ←ボツ| - | - | - | - |
+|LEVEL9.md スマートフォン|{{DONE}}|{{TODO}}|{{DONE}}|{{TODO}}|
+|昇段テストの受験方法|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
+|cards/vscode/golive.md Go Liveの方法 |{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
+
+|LEVEL|ガイドブック制作|教材の確認|昇段テスト|検証|
+|:---|:---|:---|:---|:---|
+|LEVEL10.md 卒業制作|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
+|cards/devtools/ デベロッパーツール|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
+|Gridレイアウト|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
+|animation （扱わない予定）|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
+|Sass （扱わない予定）|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
+
+# サンプルが命
+
+適切なサンプルさえあれば、速度を稼げる。
+その逆もしかり。
+そして適切なサンプルの用意にはかなりの時間がかかる。
+また、サンプルが固まっていないのに解説を書くととても大きな代償を払うことになる。
+
 # 課題やTODOタスクメモ
 
 - {{TODO}} 外部リンクに _blankを付ける方法はあるか？

@@ -70,6 +70,8 @@ parse:
     # badges
     # TODO: <span style="border-radius:3px;background:yellow;font-weight:bold;font-size:2rem;"> TODO </span>
     TODO: "{bdg-danger}`TODO`"
+    DONE: "{bdg-success}`DONE`"
+    HALF: "{bdg-success-line}`50%`"
     KBD: "{bdg-dark}`ENTER`" # TODO このENTERを任意にするようなマクロが定義できないかな？
     BAN: "{bdg-danger}`閲覧にはレベルアップが必要です。`"
     PC: "{bdg-info}`コンピューター`"

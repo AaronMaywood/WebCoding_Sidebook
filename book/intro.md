@@ -1,3 +1,7 @@
+% 前提条件
+
+% 基本的なコンピューターリテラシー、基本的なソフトウェアがインストールされている(https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/Installing_basic_software)こと、ファイルの扱い(https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/Dealing_with_filesa)
+
 # テキストとこのガイドの違い
 
 このガイドはテキストを習得する順番を提供し、習得の段階をレベルに分けて表現しています。

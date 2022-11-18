@@ -1,5 +1,10 @@
 # 執筆ノート
 
+- 表
+	|LEVEL|ガイドブック制作|教材の確認|昇段テスト|検証|
+	|:---|:---|:---|:---|:---|	←どちら寄せかを指定。またこの行なしでは表と判断されない
+	|カリキュラム説明|TODO| - | - |TODO|
+
 - 中央寄せ、右寄せはない
 
 - ページと素材の表示
@@ -339,10 +344,10 @@ CommonMark
 	````
 
  - https://docutils.sourceforge.io/docs/ref/rst/directives.html
-   ```{admonition} カスタマイズ
+	```{admonition} カスタマイズ
 	:class: tip					←Tipの淡黄色のスタイルを指定
-   foo
-   ```
+	foo
+	```
    ```{attention}
    (!)注意	黄色
    ```
