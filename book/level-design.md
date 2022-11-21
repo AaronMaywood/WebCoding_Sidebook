@@ -39,43 +39,152 @@
 		- Live Server(Go Live)機能について 28-30
 
 # LEVEL1(LEVEL1.md) HTMLの基本
-## STAGE1 HTMLを書く
+## STAGE1 Webとは
 
-- HTML
-	- HTML・CSSとは 4
-	- タグについて 6
-	- タグ（要素）の表記例・タグの書き方のルール 7
-	- タグ記述の○と✗例 8
+### Webのしくみ
+{bdg-dark-line}`テキスト：P.3`
+
+### HTML・CSSとは
+{bdg-dark-line}`テキスト：P.4`
+
+### W3Cとは
+{bdg-dark-line}`テキスト：P.4`
+
+### ブラウザの種類・シェアについて
+{bdg-dark-line}`テキスト：P.5`
+
+## STAGE1.5 HTMLを書く
+### タグについて
+{bdg-dark-line}`テキスト：P.6`
+{bdg-primary-line}`教材：HTML教材/01_タグについて`
+
+### タグ（要素）の表記例・タグの書き方のルール
+{bdg-dark-line}`テキスト：P.7`
+
+#### タグ記述の○と✗例
+{bdg-dark-line}`テキスト：P.8`
+
+#### HTML書類に、タグを使って構造分け（マークアップ）する理由とは？
+{bdg-dark-line}`テキスト：P.9`
+##### GoogleのSEO対策でYahoo!JAPANも兼ねられる
+##### ホームページの情報を収集し、ランク付けをするGooglebot
+##### SEO対策にはHTMLが重要・CSSはあくまで人間への見た目（デザイン）用
+
+### ファイル名についての注意
+{bdg-dark-line}`テキスト：P.10`
+#### 「拡張子」について
+{bdg-dark-line}`テキスト：P.11`
+##### 「拡張子」と「隠しファイル」を表示させるには？
+
+### ホームページに必要な３つの書類
+{bdg-dark-line}`テキスト：P.12`
+
+#### HTML・CSS書類のアイコンデザインを変更するには？
+{bdg-dark-line}`テキスト：P.12〜13`
+
+### 「Visual Studio Code」について
+{bdg-dark-line}`テキスト：P.14〜`
+
+#### 参考：設定その１「Visual Studio Code」を入手・インストールする
+{bdg-dark-line}`テキスト：P.14〜15`
+#### 設定その２「Visual Studio Code」の「拡張機能」をインストールする
+{bdg-dark-line}`テキスト：P.16〜20`
+#### 設定その３「Visual Studio Code」の「作業フォルダ」を指定する
+{bdg-dark-line}`テキスト：P.21`
+#### 設定その４「Visual Studio Code」の「配色テーマ」を調整する
+{bdg-dark-line}`テキスト：P.22`
+#### 設定その５「Visual Studio Code」の「フォントサイズ」・「タブサイズ」を調整する
+{bdg-dark-line}`テキスト：P.23`
+#### 設定その６「マウスホーバー」の「ポップアップ」機能をOFFにする
+{bdg-dark-line}`テキスト：P.24〜P.25`
+#### 設定その７「Visual Studio Code」のその他の注意・機能
+{bdg-dark-line}`テキスト：P.26〜P.27`
+#### 設定その８「Live Server」（Go Live）機能について
+{bdg-dark-line}`テキスト：P.28〜P.30`
+
+
 - index.htmlを書いてChromeで確認する		 [TODO] 教材が必要
 	h1とp、section
 
 ## STAGE2
 
-- HTML
-	- 新規の「HTML5 の最小基本構文」を作成する 31-33 (手順)、34-35（説明）
+### 新規の「HTML5の最小基本構文」を作成する
+{bdg-dark-line}`テキスト：P.31〜P.34`
+
+#### `<meta name="description" content="□□□□">`と「スニペット」との関係は？
+{bdg-dark-line}`テキスト：P.35`
+
+#### HTML5の基本構文の構成イメージ
+{bdg-dark-line}`テキスト：P.35`
 
 ## STAGE3
+{bdg-primary-line}`教材：HTML教材/02_body内タグ`
 
-- HTML
-	- 見出し <h1>～<h6> 36
-	- <p>				36
-	- <br>				37
-	- <ul>,<ol>			37
-	- <dl>				38
-	- <hr>				38
-	- <small>			39
-	- <div>, <small>	39			# これはCSSセレクタ―と同時がいいかな？いきなりは難しすぎる
-		- ブロックレベル要素、インライン要素
-			 「旧ブロックレベル要素」・「旧インライン要素」について 58
-		- セマンティック
-	- コメント			39
-	- <em>, <strong>	40	# <b>で統一
+### 見出し `<h1>～<h6>`
+{bdg-dark-line}`テキスト：P.36`
+### 段落 `<p>`
+{bdg-dark-line}`テキスト：P.36`
+### 改行 `<br>`
+{bdg-dark-line}`テキスト：P.37`
+#### `body`内に`<br>`を連続使用しない
+{bdg-dark-line}`テキスト：P.37`
+### リスト `<ul>`,`<ol>`
+{bdg-dark-line}`テキスト：P.37`
+### 定義リスト `<dl>`
+{bdg-dark-line}`テキスト：P.38`
+### 水平線 `<hr>`
+{bdg-dark-line}`テキスト：P.38`
+### 注釈・著作権 `<small>`
+{bdg-dark-line}`テキスト：P.39`
+### `<div>`,`<small>`
+{bdg-dark-line}`テキスト：P.39`
+% これはCSSセレクタ―と同時がいいかな？いきなりは難しすぎる
+%	- ブロックレベル要素、インライン要素
+%		 「旧ブロックレベル要素」・「旧インライン要素」について 58
+%	- セマンティック
+### コメント
+{bdg-dark-line}`テキスト：P.39`
+### 強調`<em>`/重要性・緊急性`<strong>`
+{bdg-dark-line}`テキスト：P.40`
+% `<b>`で統一
 
 ## STAGE4
 
-- HTML
-	- ファイルパスとimg,a 40-50
-	-  HTML 書類で配置できる 4 つの画像形式 43-44
+### 画像`<img>`
+{bdg-dark-line}`テキスト：P.40`
+{bdg-primary-line}`教材：HTML教材/03_imgタグ`
+#### `alt`の属性値を設定する理由
+{bdg-dark-line}`テキスト：P.41`
+#### `<img>`要素で配置する画像のサイズを調べるには？
+{bdg-dark-line}`テキスト：P.42`
+### 画像のパスの記述について
+{bdg-dark-line}`テキスト：P.42`
+#### 画像のパス表記例
+{bdg-dark-line}`テキスト：P.45`
+{bdg-primary-line}`教材：HTML教材/04_画像のパス表記例`
+### HTML書類で配置できる４つの画像形式
+{bdg-dark-line}`テキスト：P.43〜44`
+#### JPEG（ジェイペグ）形式
+#### GIF（ジフ）形式
+#### PNG（ピング）形式
+#### SVG（エスブイジー）形式
+
+### リンク `<a>`
+{bdg-dark-line}`テキスト：P.46〜`
+#### 絶対パス・ターゲット属性について
+{bdg-dark-line}`テキスト：P.47`
+{bdg-primary-line}`教材：HTML教材/06_絶対パス`
+#### 複数画像を横並びに配置・画像をクリックさせるとハイパーリンクさせるには
+{bdg-dark-line}`テキスト：P.47`
+{bdg-primary-line}`教材：HTML教材/05_リンク設置のaタグ`
+{bdg-primary-line}`教材：HTML教材/07_画像配置横並び等`
+#### ページ内リンク・外部ページ内リンクについて
+{bdg-dark-line}`テキスト：P.48`
+#### ページ内リンク・外部ページへのリンク作例
+{bdg-dark-line}`テキスト：P.49〜50`
+{bdg-primary-line}`教材：HTML教材/08_ページ内リンク`
+### 「検索」・「置換（ちかん）」機能について
+{bdg-dark-line}`テキスト：P.50`
 
 ---------------------------------------- LEVEL1 昇段試験 ----
 	フムスレシピ(MDN)
@@ -87,18 +196,24 @@
 
 - HTML
 	- table 51-56
+{bdg-primary-line}`教材：HTML教材/09_テーブル`
 
 ## STAGE6
 
 - HTML
 	- 大項目的なボックスとしてまとめるタグについて 59-63
+{bdg-primary-line}`教材：HTML教材/10_headerやsectionやfooter`
+{bdg-primary-line}`教材：HTML教材/11_articleでまとめる`
+{bdg-primary-line}`教材：HTML教材/12_wrapperでまとめる`
 	- HTML のネスト（入れ子）構造について 64
 	- <nav> の用例 65
+{bdg-primary-line}`教材：HTML教材/13_nav`
 
 ## STAGE7(option)
 
 - HTML
 	- <form> 66-71
+{bdg-primary-line}`教材：HTML教材/14_form`
 
 ## STAGE7-2 補足
 
