@@ -1,1 +1,9 @@
 ErrorDocument 404 https://adjustacademy.com/webcoder/guidebook/require-more-level.html
+
+# authenticate(Basic)
+AuthUserFile /home/adjustacademy/htdocs/webcoder/guidebook/.htpasswd
+AuthGroupFile /dev/null
+AuthName "IDとパスワードを入力して下さい。"
+AuthType Basic
+require valid-user
+
