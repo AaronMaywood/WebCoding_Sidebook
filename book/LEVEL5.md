@@ -37,7 +37,7 @@
 	% ハッシュ化してadjustacademy.omにアップロードする方法
 	% 2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
 	% > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_flexbox/archive/refs/heads/main.zip
-	- https://adjustacademy.com/webcorder/b70da6b74278c1bb2f77436fb7dca15a.zip
+	- https://adjustacademy.com/webcoder/b70da6b74278c1bb2f77436fb7dca15a.zip
     - この中にHTMLとCSSが含まれます。
 
 - 採点基準は以下のとおりです。

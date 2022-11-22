@@ -23,6 +23,7 @@ parts:
     numbered: false
     chapters:
       - file: equip
+      - file: LEVEL6.5
   - caption: レベル１ HTMLの基本
     numbered: true
     chapters:
@@ -47,10 +48,6 @@ parts:
     numbered: true
     chapters:
       - file: LEVEL6
-  - caption: レベル６.5 Webサーバー
-    numbered: true
-    chapters:
-      - file: LEVEL6.5
   - caption: レベル７ お茶サイト実装
     numbered: true
     chapters:

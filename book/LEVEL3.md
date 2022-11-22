@@ -442,8 +442,8 @@ body {
 	% ハッシュ化してadjustacademy.omにアップロードする方法
 	% 2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
 	% > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_float/archive/refs/heads/main.zip
-	% https://adjustacademy.com/webcorder/950058dd6702e10e6ff3fed5f462bbfb.zip
-	- https://adjustacademy.com/webcorder/950058dd6702e10e6ff3fed5f462bbfb.zip
+	% https://adjustacademy.com/webcoder/950058dd6702e10e6ff3fed5f462bbfb.zip
+	- https://adjustacademy.com/webcoder/950058dd6702e10e6ff3fed5f462bbfb.zip
     - この中にHTMLとCSSが含まれます。
 
 - {{TODO}} 採点基準は以下のとおりです。
@@ -477,5 +477,5 @@ body {
 
 % {{TODO}} 回答のダウンロード指示は、合格通知の中で行う
 % > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_float/archive/refs/heads/answer.zip
-% https://adjustacademy.com/webcorder/8f41205015c24ebc80ea45570bb06f6a.zip
+% https://adjustacademy.com/webcoder/8f41205015c24ebc80ea45570bb06f6a.zip
 

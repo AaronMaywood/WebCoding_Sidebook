@@ -583,7 +583,7 @@ SlickNavの使用方法は公式サイトの指示に従います。
  
 ## 昇段試験
 
-図に示すレスポンシブ対応のページを実装せよ。
+図に示すレスポンシブ対応のページを実装して下さい。
 ```{figure} https://i.gyazo.com/282a10c93f9f756f25c908e734452f21.png
 本教材は<a href="https://www.figma.com/@joyshaheb" target="_blank">Khondokor Alarm@JoyShaheb</a>氏によるもので、それに加筆したものです。
 オリジナルはライセンス<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank">CC BY 4.0</a>にて配付されており、<a href="https://www.figma.com/community/file/1150370769219258177" target="_blank">https://www.figma.com/community/file/1150370769219258177</a>にあります。

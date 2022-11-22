@@ -1,7 +1,14 @@
 # 装備を整える
-- `Windows10`もしくは`Windows11`
+- adjustacademy.com にアップロードするバッチを作る
+
+- 既定のブラウザーをChromeとします
+  →LEVEL1.MDで以下のように案内している
+	```{include} cards/default-browser.md
+	```
 
 - {{TODO}} Xfreeを自身の責任において借りてもらうことも説明する
+ - {{TODO}} Xfreeを借り、サンプルページをアップロードする方法を学んでもらう。→LEVEL1の試験提出に必要なため。 →LEVEL6.5.html
+
 
 - HTML
 	- ブラウザの種類・シェアについて 5
