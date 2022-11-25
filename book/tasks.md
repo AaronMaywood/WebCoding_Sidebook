@@ -5,7 +5,7 @@
 |カリキュラム説明(intro.md)|{{TODO}}| - | - |{{TODO}}|
 |準備(equip.md)|{{TODO}}| - | - |{{TODO}}|
 |LEVEL6.5.md WebサーバーとFTP|{{DONE}}|-|-|{{TODO}}|
-|LEVEL1.md HTML(1)|{{HALF}}|{{TODO}}|{{DONE}}|{{TODO}}|
+|LEVEL1.md HTML(1)|{{HALF}}|{{DONE}}|{{DONE}}|{{TODO}}|
 |LEVEL2.md HTML(2)|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
 |LEVEL3.md ボックスモデル|{{HALF}}|{{TODO}}|{{TODO}}|{{TODO}}|
 |LEVEL4.md float|{{HALF}}|{{HALF}}|{{DONE}}|{{TODO}}|
@@ -34,6 +34,10 @@
 
 # 課題やTODOタスクメモ
 
+- {{TODO}} デザイナーから素材を受け取る
+	https://github.com/AaronMaywood/WebCodingTextbook/blob/main/book/LEVEL2.md#todo-%E3%83%87%E3%82%B6%E3%82%A4%E3%83%8A%E3%83%BC%E3%81%8B%E3%82%89%E7%B4%A0%E6%9D%90%E3%82%92%E5%8F%97%E3%81%91%E5%8F%96%E3%82%8B
+- {{TODO}} 空白文字の扱い
+	https://github.com/AaronMaywood/WebCodingTextbook/blob/main/book/LEVEL2.md#todo-octiconchecklist-html%E6%96%87%E6%B3%95%E7%A9%BA%E7%99%BD%E6%96%87%E5%AD%97%E3%81%AE%E6%89%B1%E3%81%84
 - {{TODO}} 外部リンクに _blankを付ける方法はあるか？
 - {{TODO}} 用語STAGEをどうするか
 - {{TODO}} テストプレイが必要、そうしないと何が足りないかがわからない

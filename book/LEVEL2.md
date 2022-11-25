@@ -1,4 +1,4 @@
-# LEVEL2 HTMLパート２
+# LEVEL2 HTMLパート２、CSS
 
 ## STAGE5 table要素 **「HTML5基礎」P.51-56**
 
