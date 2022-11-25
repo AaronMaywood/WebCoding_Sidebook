@@ -1,4 +1,4 @@
-# LEVEL5(LEVEL5.md) CSS - Flexbox
+# LEVEL5 CSS - Flexbox
 ## STAGE15 Flexbox
 
 ```{tip}

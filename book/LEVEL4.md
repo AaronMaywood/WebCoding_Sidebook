@@ -1,4 +1,4 @@
-# LEVEL4(LEVEL4.md) CSS - 背景、float、実例:ナビメニュー
+# LEVEL4 CSS - 背景、float、実例:ナビメニュー
 
 ## STAGE12 背景画像
 

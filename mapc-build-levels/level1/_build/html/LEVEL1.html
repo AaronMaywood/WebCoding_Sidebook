@@ -1,0 +1,1949 @@
+
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1. LEVEL1 Web、HTMLパート１ &#8212; 初心者でもOK HTML/CSS基礎 ガイドブック</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/my.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/translations.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="検索" href="search.html" />
+    <link rel="prev" title="Webサーバーを用意する" href="LEVEL6.5.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="ja">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"><p class='mystyle'>この本はまだ開発段階です。</p></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">初心者でもOK HTML/CSS基礎 ガイドブック</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    TODO このガイドブックの使い方
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  準備
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="equip.html">
+   <span class="sd-sphinx-override sd-badge sd-bg-danger sd-bg-text-danger">
+    TODO
+   </span>
+   装備を整える
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="LEVEL6.5.html">
+   Webサーバーを用意する
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  ガイドブック
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   1. LEVEL1 Web、HTMLパート１
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+<a href="https://github.com/AaronMaywood/WebCodingTextbook/edit/main/book/LEVEL1.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="bottom"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+
+</a>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/LEVEL1.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#web">
+   1.1. Webとは
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     1.1.1. Webのしくみ
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#htmlcss">
+     1.1.2. HTML・CSSとは
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#w3c">
+     1.1.3. W3Cとは
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     1.1.4. ブラウザの種類・シェアについて
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#html">
+   1.2. HTMLを書く
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     1.2.1. タグについて
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     1.2.2. タグ（要素）の表記例・タグの書き方のルール
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id5">
+       1.2.2.1. タグ記述の○と✗例
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id6">
+       1.2.2.2. HTML書類に、タグを使って構造分け（マークアップ）する理由とは？
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#googleseoyahoo-japan">
+         1.2.2.2.1. GoogleのSEO対策でYahoo!JAPANも兼ねられる
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#googlebot">
+         1.2.2.2.2. ホームページの情報を収集し、ランク付けをするGooglebot
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#seohtmlcss">
+         1.2.2.2.3. SEO対策にはHTMLが重要・CSSはあくまで人間への見た目（デザイン）用
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id7">
+     1.2.3. ファイル名についての注意
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id8">
+       1.2.3.1. 「拡張子」について
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id9">
+         1.2.3.1.1. 「拡張子」と「隠しファイル」を表示させるには？
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id10">
+     1.2.4. ホームページに必要な３つの書類
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id11">
+       1.2.4.1. HTML・CSS書類のアイコンデザインを変更するには？
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#visual-studio-code">
+     1.2.5. 「Visual Studio Code」について
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id12">
+       1.2.5.1. 参考：設定その１「Visual Studio Code」を入手・インストールする
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id13">
+       1.2.5.2. 設定その２「Visual Studio Code」の「拡張機能」をインストールする
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id14">
+       1.2.5.3. 設定その３「Visual Studio Code」の「作業フォルダ」を指定する
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id15">
+       1.2.5.4. 設定その４「Visual Studio Code」の「配色テーマ」を調整する
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id16">
+       1.2.5.5. 設定その５「Visual Studio Code」の「フォントサイズ」・「タブサイズ」を調整する
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#off">
+       1.2.5.6. 設定その６「マウスホーバー」の「ポップアップ」機能をOFFにする
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id17">
+       1.2.5.7. 設定その７「Visual Studio Code」のその他の注意・機能
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#live-server-go-live">
+       1.2.5.8. 設定その８「Live Server」（Go Live）機能について
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id18">
+   1.3. HTMLの基本構造
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#html5">
+     1.3.1. 新規の「HTML5の最小基本構文」を作成する
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#meta-name-description-content">
+       1.3.1.1.
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         &lt;meta
+        </span>
+        <span class="pre">
+         name="description"
+        </span>
+        <span class="pre">
+         content="□□□□"&gt;
+        </span>
+       </code>
+       と「スニペット」との関係は？
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id19">
+       1.3.1.2. HTML5の基本構文の構成イメージ
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id20">
+   1.4. 様々な要素（タグ）
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#h1-h6">
+     1.4.1. 見出し
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;h1&gt;～&lt;h6&gt;
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#p">
+     1.4.2. 段落
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;p&gt;
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#br">
+     1.4.3. 改行
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;br&gt;
+      </span>
+     </code>
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#body-br">
+       1.4.3.1.
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         body
+        </span>
+       </code>
+       内に
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         &lt;br&gt;
+        </span>
+       </code>
+       を連続使用しない
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ul-ol">
+     1.4.4. リスト
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;ul&gt;
+      </span>
+     </code>
+     ,
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;ol&gt;
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#dl">
+     1.4.5. 定義リスト
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;dl&gt;
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#hr">
+     1.4.6. 水平線
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;hr&gt;
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#small">
+     1.4.7. 注釈・著作権
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;small&gt;
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#div-small">
+     1.4.8.
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;div&gt;
+      </span>
+     </code>
+     ,
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;small&gt;
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id21">
+     1.4.9. コメント
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#em-strong">
+     1.4.10. 強調
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;em&gt;
+      </span>
+     </code>
+     /重要性・緊急性
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;strong&gt;
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id22">
+   1.5. 画像、ファイルパス
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#img">
+     1.5.1. 画像
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;img&gt;
+      </span>
+     </code>
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#alt">
+       1.5.1.1.
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         alt
+        </span>
+       </code>
+       の属性値を設定する理由
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id23">
+       1.5.1.2.
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         &lt;img&gt;
+        </span>
+       </code>
+       要素で配置する画像のサイズを調べるには？
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id24">
+     1.5.2. 画像のパスの記述について
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id25">
+       1.5.2.1. 画像のパス表記例
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#html4">
+     1.5.3. HTML書類で配置できる４つの画像形式
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#jpeg">
+       1.5.3.1. JPEG（ジェイペグ）形式
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#gif">
+       1.5.3.2. GIF（ジフ）形式
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#png">
+       1.5.3.3. PNG（ピング）形式
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#svg">
+       1.5.3.4. SVG（エスブイジー）形式
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#a">
+     1.5.4. リンク
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;a&gt;
+      </span>
+     </code>
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id26">
+       1.5.4.1. 絶対パス・ターゲット属性について
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id27">
+       1.5.4.2. 複数画像を横並びに配置・画像をクリックさせるとハイパーリンクさせるには
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id28">
+       1.5.4.3. ページ内リンク・外部ページ内リンクについて
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id29">
+       1.5.4.4. ページ内リンク・外部ページへのリンク作例
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id30">
+     1.5.5. 「検索」・「置換（ちかん）」機能について
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#html-1">
+   1.6. 昇段試験 - HTML(1)編
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id31">
+     1.6.1. 試験問題「フムスレシピ」のページを制作せよ
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id32">
+   1.7. 解答の提出
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>LEVEL1 Web、HTMLパート１</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#web">
+   1.1. Webとは
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     1.1.1. Webのしくみ
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#htmlcss">
+     1.1.2. HTML・CSSとは
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#w3c">
+     1.1.3. W3Cとは
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     1.1.4. ブラウザの種類・シェアについて
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#html">
+   1.2. HTMLを書く
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     1.2.1. タグについて
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     1.2.2. タグ（要素）の表記例・タグの書き方のルール
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id5">
+       1.2.2.1. タグ記述の○と✗例
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id6">
+       1.2.2.2. HTML書類に、タグを使って構造分け（マークアップ）する理由とは？
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#googleseoyahoo-japan">
+         1.2.2.2.1. GoogleのSEO対策でYahoo!JAPANも兼ねられる
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#googlebot">
+         1.2.2.2.2. ホームページの情報を収集し、ランク付けをするGooglebot
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#seohtmlcss">
+         1.2.2.2.3. SEO対策にはHTMLが重要・CSSはあくまで人間への見た目（デザイン）用
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id7">
+     1.2.3. ファイル名についての注意
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id8">
+       1.2.3.1. 「拡張子」について
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id9">
+         1.2.3.1.1. 「拡張子」と「隠しファイル」を表示させるには？
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id10">
+     1.2.4. ホームページに必要な３つの書類
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id11">
+       1.2.4.1. HTML・CSS書類のアイコンデザインを変更するには？
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#visual-studio-code">
+     1.2.5. 「Visual Studio Code」について
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id12">
+       1.2.5.1. 参考：設定その１「Visual Studio Code」を入手・インストールする
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id13">
+       1.2.5.2. 設定その２「Visual Studio Code」の「拡張機能」をインストールする
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id14">
+       1.2.5.3. 設定その３「Visual Studio Code」の「作業フォルダ」を指定する
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id15">
+       1.2.5.4. 設定その４「Visual Studio Code」の「配色テーマ」を調整する
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id16">
+       1.2.5.5. 設定その５「Visual Studio Code」の「フォントサイズ」・「タブサイズ」を調整する
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#off">
+       1.2.5.6. 設定その６「マウスホーバー」の「ポップアップ」機能をOFFにする
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id17">
+       1.2.5.7. 設定その７「Visual Studio Code」のその他の注意・機能
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#live-server-go-live">
+       1.2.5.8. 設定その８「Live Server」（Go Live）機能について
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id18">
+   1.3. HTMLの基本構造
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#html5">
+     1.3.1. 新規の「HTML5の最小基本構文」を作成する
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#meta-name-description-content">
+       1.3.1.1.
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         &lt;meta
+        </span>
+        <span class="pre">
+         name="description"
+        </span>
+        <span class="pre">
+         content="□□□□"&gt;
+        </span>
+       </code>
+       と「スニペット」との関係は？
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id19">
+       1.3.1.2. HTML5の基本構文の構成イメージ
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id20">
+   1.4. 様々な要素（タグ）
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#h1-h6">
+     1.4.1. 見出し
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;h1&gt;～&lt;h6&gt;
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#p">
+     1.4.2. 段落
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;p&gt;
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#br">
+     1.4.3. 改行
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;br&gt;
+      </span>
+     </code>
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#body-br">
+       1.4.3.1.
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         body
+        </span>
+       </code>
+       内に
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         &lt;br&gt;
+        </span>
+       </code>
+       を連続使用しない
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ul-ol">
+     1.4.4. リスト
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;ul&gt;
+      </span>
+     </code>
+     ,
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;ol&gt;
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#dl">
+     1.4.5. 定義リスト
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;dl&gt;
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#hr">
+     1.4.6. 水平線
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;hr&gt;
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#small">
+     1.4.7. 注釈・著作権
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;small&gt;
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#div-small">
+     1.4.8.
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;div&gt;
+      </span>
+     </code>
+     ,
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;small&gt;
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id21">
+     1.4.9. コメント
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#em-strong">
+     1.4.10. 強調
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;em&gt;
+      </span>
+     </code>
+     /重要性・緊急性
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;strong&gt;
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id22">
+   1.5. 画像、ファイルパス
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#img">
+     1.5.1. 画像
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;img&gt;
+      </span>
+     </code>
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#alt">
+       1.5.1.1.
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         alt
+        </span>
+       </code>
+       の属性値を設定する理由
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id23">
+       1.5.1.2.
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         &lt;img&gt;
+        </span>
+       </code>
+       要素で配置する画像のサイズを調べるには？
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id24">
+     1.5.2. 画像のパスの記述について
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id25">
+       1.5.2.1. 画像のパス表記例
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#html4">
+     1.5.3. HTML書類で配置できる４つの画像形式
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#jpeg">
+       1.5.3.1. JPEG（ジェイペグ）形式
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#gif">
+       1.5.3.2. GIF（ジフ）形式
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#png">
+       1.5.3.3. PNG（ピング）形式
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#svg">
+       1.5.3.4. SVG（エスブイジー）形式
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#a">
+     1.5.4. リンク
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       &lt;a&gt;
+      </span>
+     </code>
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id26">
+       1.5.4.1. 絶対パス・ターゲット属性について
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id27">
+       1.5.4.2. 複数画像を横並びに配置・画像をクリックさせるとハイパーリンクさせるには
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id28">
+       1.5.4.3. ページ内リンク・外部ページ内リンクについて
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id29">
+       1.5.4.4. ページ内リンク・外部ページへのリンク作例
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id30">
+     1.5.5. 「検索」・「置換（ちかん）」機能について
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#html-1">
+   1.6. 昇段試験 - HTML(1)編
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id31">
+     1.6.1. 試験問題「フムスレシピ」のページを制作せよ
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id32">
+   1.7. 解答の提出
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="level1-webhtml1">
+<h1><span class="section-number">1. </span>LEVEL1 Web、HTMLパート１<a class="headerlink" href="#level1-webhtml1" title="このヘッドラインへのパーマリンク">#</a></h1>
+<p>このレベルでは、ウェブ（<code class="docutils literal notranslate"><span class="pre">Web</span></code>）上の文書形式である<code class="docutils literal notranslate"><span class="pre">HTML</span></code>の基本的な書き方を学びます。</p>
+<div class="section" id="web">
+<h2><span class="section-number">1.1. </span>Webとは<a class="headerlink" href="#web" title="このヘッドラインへのパーマリンク">#</a></h2>
+<div class="section" id="id1">
+<h3><span class="section-number">1.1.1. </span>Webのしくみ<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.3</span></p>
+<p>ブラウザー（ウェブブラウザー）で閲覧できるインターネット上の文書システムを<code class="docutils literal notranslate"><span class="pre">Web</span></code>（ウェブ）と言います。</p>
+<div class="admonition tip">
+<p class="admonition-title">ちなみに</p>
+<p>インターネットには<code class="docutils literal notranslate"><span class="pre">Web</span></code>以外にも<code class="docutils literal notranslate"><span class="pre">eメール</span></code>や<code class="docutils literal notranslate"><span class="pre">LINE</span></code>等の様々な異なる仕組みのサービスがあります。
+<code class="docutils literal notranslate"><span class="pre">Web</span></code>はそのうちの一つです。</p>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">Web</span></code>の特徴は文書同士が「リンク（<code class="docutils literal notranslate"><span class="pre">HyperLink</span></code>、ハイパーリンク）」という仕組みで紐付けられていることです。
+文書同士がリンクで繋がり合い、<code class="docutils literal notranslate"><span class="pre">Web</span></code>全体が蜘蛛の巣のように複雑な網目状になっていることから<code class="docutils literal notranslate"><span class="pre">Web</span></code>（蜘蛛の巣）と名付けられました。</p>
+<p><code class="docutils literal notranslate"><span class="pre">Web</span></code>の正式名称は<code class="docutils literal notranslate"><span class="pre">World</span> <span class="pre">Wide</span> <span class="pre">Web</span></code>（ワールドワイドウェブ、世界中に広がった蜘蛛の巣）といい、その略称である<code class="docutils literal notranslate"><span class="pre">WWW</span></code>（ダブリュ・ダブリュ・ダブリュ）が使用されることもあります。（<code class="docutils literal notranslate"><span class="pre">WWW</span></code>は発音しづらいので<code class="docutils literal notranslate"><span class="pre">ウェブ</span></code>の呼び名が一般的です。）</p>
+<div class="admonition tip">
+<p class="admonition-title">ちなみに</p>
+<p><strong>ハイパーテキストとハイパーリンク</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">Web</span></code>を形作る文書の形態が「ハイパーテキスト（<code class="docutils literal notranslate"><span class="pre">Hypertext</span></code>）」です。</p>
+<p>ハイパーテキストは、複数の文書（テキスト）を結びつけるリンクの機能を有した文書（テキスト）です。
+リンクはある文書からある文書へと文書を飛び越える（<code class="docutils literal notranslate"><span class="pre">Hyper</span></code>、超える）仕組みであるため<code class="docutils literal notranslate"><span class="pre">Hyperlink</span></code>（ハイパーリンク）と言います。</p>
+<p><strong>ハイパーテキストとHTML</strong></p>
+<p>ハイパーテキストを記述するための文書規格を<code class="docutils literal notranslate"><span class="pre">HTML</span></code>と言います。
+これは<code class="docutils literal notranslate"><span class="pre">HyperText</span> <span class="pre">Markup</span> <span class="pre">Language</span></code>の略で、「ハイパーテキストを記述するためのマークアップ文法を持った言語」という意味です。</p>
+<p>マークアップ文法とは何かについては、本書で<code class="docutils literal notranslate"><span class="pre">HTML</span></code>の書き方として具体的に説明されます。</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">ちなみに</p>
+<p><strong>サイト(site)とは情報のたまり場</strong></p>
+<p>英単語のサイト(<code class="docutils literal notranslate"><span class="pre">site</span></code>)は特定の目的に使う用地を指し、例としてアウトドアのキャンプ専用の用地をキャンプサイトと言います。
+「ウェブサイト」の場合における「サイト」の意味は、ウェブページを設置するための用地という意味で、ある企業や個人が自分たちのウェブページを置くために自らが用意した場所（<code class="docutils literal notranslate"><span class="pre">サーバー</span></code>）のことです。
+そのウェブサイトという場所に、トップページや下層ページなどの複数のページを設置してインターネット上に公開します。</p>
+<p>その結果、<strong>ウェブサイトとはある企業や個人の情報が集合している場所</strong>という意味として使われます。</p>
+<p>なお、日本ではウェブサイトのことを一般にホームページとも呼んでいます。
+（ホームページの本来の意味は、ウェブサイトのトップページのことです。<code class="docutils literal notranslate"><span class="pre">home</span></code>とは「自宅」のように戻るべき場所という意味があります。ウェブサイトにおけるホームページは繰り返し戻るページのことで、通常はウェブサイト全体の案内を行うトップページがその役割を担います。）</p>
+</div>
+</div>
+<div class="section" id="htmlcss">
+<h3><span class="section-number">1.1.2. </span>HTML・CSSとは<a class="headerlink" href="#htmlcss" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.4</span></p>
+<ul class="simple">
+<li><p>ウェブページ（ウェブ上のページ）を構成するファイルには<code class="docutils literal notranslate"><span class="pre">HTML</span></code>と<code class="docutils literal notranslate"><span class="pre">CSS</span></code>の２種類があります。</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">HTML</span></code>は文書そのものです。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">CSS</span></code>はその文書をどういうデザインで見せるかのスタイル（見た目）を指定するファイルです。</p>
+<ul>
+<li><p>したがって、同一の<code class="docutils literal notranslate"><span class="pre">HTML</span></code>に対して異なる<code class="docutils literal notranslate"><span class="pre">CSS</span></code>ファイルをあてがうと、同じページであるのに異なる見た目とすることも可能です。（この方法はスマートフォン用のページを実装する時に応用されています）</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">ちなみに</p>
+<p><strong>Living Standardとは</strong></p>
+<p><strong>Living Standard&quot;（生きた標準）とは</strong>、これまでのHTMLの歴史のように、バージョン番号を重ねていくのではなく、日々細かく進化し続け、つねに今日の仕様が標準である、という性格を指しています。したがって今後は&quot;Living Standard 2&quot;のようなものはなく、今後もずっと&quot;Living Standard&quot;の名称のままで内容だけが進化していくということになります。</p>
+</div>
+</div>
+<div class="section" id="w3c">
+<h3><span class="section-number">1.1.3. </span>W3Cとは<a class="headerlink" href="#w3c" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.4</span></p>
+<div class="admonition tip">
+<p class="admonition-title">ちなみに</p>
+<p><strong>テキストのアップデート情報</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">HTML</span></code>の一つ前のバージョンである<code class="docutils literal notranslate"><span class="pre">HTML5</span></code>まではここで紹介する<code class="docutils literal notranslate"><span class="pre">W3C</span></code>が仕様の策定を担っていましたが、<code class="docutils literal notranslate"><span class="pre">HTML</span></code>の最新バージョンである<code class="docutils literal notranslate"><span class="pre">Living</span> <span class="pre">Standard</span></code>（リビングスタンダード、&quot;生きた標準&quot;）では、ブラウザーを開発する開発者の団体である<code class="docutils literal notranslate"><span class="pre">[WHATWG](https://ja.wikipedia.org/wiki/Web_Hypertext_Application_Technology_Working_Group)</span></code>が担っています。
+<code class="docutils literal notranslate"><span class="pre">WHATWG</span></code>が<code class="docutils literal notranslate"><span class="pre">HTML</span></code>の仕様を常に活きたものにするという<code class="docutils literal notranslate"><span class="pre">Living</span> <span class="pre">Standard</span></code>を主張した真意は、仕様の策定に慎重な<code class="docutils literal notranslate"><span class="pre">W3C</span></code>に対し、実務者同士の手で急速な時代の変化に即したものにするという気持ちの現れです。</p>
+</div>
+</div>
+<div class="section" id="id2">
+<h3><span class="section-number">1.1.4. </span>ブラウザの種類・シェアについて<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.5</span></p>
+<ul class="simple">
+<li><p>テキストでは<code class="docutils literal notranslate"><span class="pre">Chrome</span></code>、<code class="docutils literal notranslate"><span class="pre">Edge</span></code>、<code class="docutils literal notranslate"><span class="pre">Firefox</span></code>を３大ブラウザーとしていますが、これは<code class="docutils literal notranslate"><span class="pre">Windows</span></code>や<code class="docutils literal notranslate"><span class="pre">Android</span></code>の利用者向けです。</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Mac</span></code>や<code class="docutils literal notranslate"><span class="pre">iPhone</span></code>利用者のブラウザーの第一選択は<code class="docutils literal notranslate"><span class="pre">Safari</span></code>になるため、業務では<code class="docutils literal notranslate"><span class="pre">Safari</span></code>での動作検証も必須です。<code class="docutils literal notranslate"><span class="pre">Windows</span></code>では<code class="docutils literal notranslate"><span class="pre">Safari</span></code>を動かすことができないため、学習時には３大ブラウザーでもしかたありませんが、<strong>業務では<code class="docutils literal notranslate"><span class="pre">Safari</span></code>を含めた４大ブラウザーとなる</strong>ことを頭に入れておきましょう。</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="html">
+<h2><span class="section-number">1.2. </span>HTMLを書く<a class="headerlink" href="#html" title="このヘッドラインへのパーマリンク">#</a></h2>
+<p>ここから具体的な<code class="docutils literal notranslate"><span class="pre">HTML</span></code>の書き方を学びはじめます。</p>
+<div class="section" id="id3">
+<h3><span class="section-number">1.2.1. </span>タグについて<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.6</span>
+<span class="sd-sphinx-override sd-badge sd-outline-primary sd-text-primary">教材：HTML教材/01_タグについて</span></p>
+<ul class="simple">
+<li><p>このページから作業の指示があります。テキストの手順に沿って実際に手を動かしてみて下さい。</p>
+<ul>
+<li><p>必要な教材は「<span class="sd-sphinx-override sd-badge sd-outline-primary sd-text-primary">教材：HTML教材/01_タグについて</span>」という表記で示しています。</p></li>
+<li><p>この後のページでも作業指示が有る場合には同様にして下さい。</p></li>
+</ul>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">ちなみに</p>
+<p><strong>ソースコード(Source Code)とは</strong>
+ブラウザーのページ表示の源となる<code class="docutils literal notranslate"><span class="pre">HTML</span></code>や<code class="docutils literal notranslate"><span class="pre">CSS</span></code>ファイルのことです。
+<code class="docutils literal notranslate"><span class="pre">source</span></code>は源、<code class="docutils literal notranslate"><span class="pre">code</span></code>はコンピューターが理解するための情報（<code class="docutils literal notranslate"><span class="pre">HTML</span></code>と<code class="docutils literal notranslate"><span class="pre">CSS</span></code>の場合はどちらも<strong>文字情報</strong>のこと）を指します。</p>
+<p>なお、<code class="docutils literal notranslate"><span class="pre">Visual</span> <span class="pre">Studio</span> <span class="pre">Code</span></code>などのテキストエディタを用い、文字を並べて<code class="docutils literal notranslate"><span class="pre">HTML</span></code>や<code class="docutils literal notranslate"><span class="pre">CSS</span></code>を書くことを「コード書き」という意味で「コーディング（<code class="docutils literal notranslate"><span class="pre">coding</span></code>）」と言います。</p>
+</div>
+</div>
+<div class="section" id="id4">
+<h3><span class="section-number">1.2.2. </span>タグ（要素）の表記例・タグの書き方のルール<a class="headerlink" href="#id4" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.7</span></p>
+<ul>
+<li><p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.7</span> 「ここは段落本文です。」という文章の前後に「タグ」と呼ばれる記号を配置して<code class="docutils literal notranslate"><span class="pre">HTML</span></code>の「段落（<code class="docutils literal notranslate"><span class="pre">paragraph</span></code>）要素」にする方法を記しています。</p>
+<ul class="simple">
+<li><p>タグは、開始地点を示す「開きタグ、<code class="docutils literal notranslate"><span class="pre">open</span> <span class="pre">tag</span></code>」と終了地点を示す「閉じタグ、<code class="docutils literal notranslate"><span class="pre">close</span> <span class="pre">tag</span></code>」の２種類があります。先の<code class="docutils literal notranslate"><span class="pre">p要素</span></code>の例では、「<code class="docutils literal notranslate"><span class="pre">&lt;p</span> <span class="pre">id=&quot;honbun&quot;&gt;</span></code>」が開きタグで、「<code class="docutils literal notranslate"><span class="pre">&lt;/p&gt;</span></code>」が閉じタグです。</p></li>
+</ul>
+</li>
+<li><p>タグを書く際の細かなルールが説明されています。</p>
+<ul class="simple">
+<li><p>ここにあるルールは、今、丸暗記する必要はありません。使ううちに覚えるでしょう。のちほど実際にタグを書く際に戻って参照すればOKです。</p></li>
+</ul>
+</li>
+<li><p>用語集</p>
+<dl class="glossary">
+<dt id="term-0">タグ<a class="headerlink" href="#term-0" title="この用語の解説へ">#</a></dt><dd><p>タグ(<a class="reference external" href="https://ejje.weblio.jp/content/tag">tag</a>)とは洋服に付いているタグと同様の役割を担うもので、その文章が何か（その洋服がどんなものか）を示すラベルのことです。<code class="docutils literal notranslate"><span class="pre">HTML</span></code>では<a class="reference internal" href="#term-1"><span class="xref std std-term">要素</span></a>を印すためにタグを用います。</p>
+<div class="figure align-default" id="id33">
+<img alt="https://i.gyazo.com/7cc58c91192bcfee3e3893b6ea9f1fe9.jpg" src="https://i.gyazo.com/7cc58c91192bcfee3e3893b6ea9f1fe9.jpg" />
+<p class="caption"><span class="caption-number">図 1.1 </span><span class="caption-text">洋服のタグ</span><a class="headerlink" href="#id33" title="この画像へのパーマリンク">#</a></p>
+</div>
+</dd>
+<dt id="term-1">要素<a class="headerlink" href="#term-1" title="この用語の解説へ">#</a></dt><dd><p><code class="docutils literal notranslate"><span class="pre">HTML</span></code>の専門用語における<strong>要素</strong>は<code class="docutils literal notranslate"><span class="pre">HTML</span></code>に用意されている<strong>部品</strong>のことで、「<code class="docutils literal notranslate"><span class="pre">p</span></code>要素=段落」や「<code class="docutils literal notranslate"><span class="pre">h1</span></code>要素=第一レベルの見出し」などの文書上の**意味<code class="docutils literal notranslate"><span class="pre">**（{term}</span></code>セマンティクス<code class="docutils literal notranslate"><span class="pre">）を定めたものです。</span></code>HTML<code class="docutils literal notranslate"><span class="pre">文書で要素を作成するには、その要素を表す{term}</span></code>タグ`を記して表現します。</p>
+</dd>
+<dt id="term-2">セマンティクス<a class="headerlink" href="#term-2" title="この用語の解説へ">#</a></dt><dd><p><code class="docutils literal notranslate"><span class="pre">HTML</span></code>の<a class="reference internal" href="#term-1"><span class="xref std std-term">要素</span></a>毎に定められた<strong>意味</strong>のことです。段落なのに<code class="docutils literal notranslate"><span class="pre">h1要素（見出し）にしたり、その逆は間違った意味付けです。</span></code>HTML`を学ぶことは、それぞれの要素ごとのセマンティクスを学び、適切なタグ付けを行うことです。</p>
+</dd>
+<dt id="term-3">マークアップ<a class="headerlink" href="#term-3" title="この用語の解説へ">#</a></dt><dd><p>「タグで括って要素を指定する」行為を「タグ付け」や「マークアップ(Markup)」と言います。</p>
+<blockquote>
+<div><p>「マークアップ」という用語は、英語圏で伝統的な出版の作業過程である原稿の「マーキング・アップ」という作業から派生した。「marking up」とは、原稿用紙の余白に印刷に関する指示の記号を書き加えることである。
+―――<a class="reference external" href="https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E8%A8%80%E8%AA%9E#%E8%AA%9E%E6%BA%90">https://ja.wikipedia.org/wiki/マークアップ言語#語源</a></p>
+</div></blockquote>
+</dd>
+<dt id="term-4">マークアップ言語<a class="headerlink" href="#term-4" title="この用語の解説へ">#</a></dt><dd><p><code class="docutils literal notranslate"><span class="pre">HTML</span></code>（<code class="docutils literal notranslate"><span class="pre">HyperText</span> <span class="pre">Markup</span> <span class="pre">Language</span></code>）はマークアップ言語です。マークアップ言語とは、様々に意味づけされた「タグ」を文書に印すことで、文書の意味を記述していく方式の言語です。
+タグを付けて印すことを「タグ付け（マークアップ）」と言います。</p>
+</dd>
+</dl>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">HTML</span></code>における「<strong>要素</strong>」とは文書内における段落や見出しなどの文章の役割（＝意味）を表すもので、段落や見出し以外に文書に必要なものが揃っています。</p></li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">HTML</span></code>は要素が集合したものであり、要素を表記するタグがあるだけです。</strong> したがって**<code class="docutils literal notranslate"><span class="pre">HTML</span></code>を習得するとは、どんな要素があるかを知り、タグの書き方を学ぶということに相当します。**</p></li>
+</ul>
+<div class="section" id="id5">
+<h4><span class="section-number">1.2.2.1. </span>タグ記述の○と✗例<a class="headerlink" href="#id5" title="このヘッドラインへのパーマリンク">#</a></h4>
+<ul class="simple">
+<li><p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.8</span> <code class="docutils literal notranslate"><span class="pre">VS</span> <span class="pre">Code</span></code>でタグ打ちをする際によくある間違いが記されています。一通り目を通して置いて下さい。</p></li>
+</ul>
+</div>
+<div class="section" id="id6">
+<h4><span class="section-number">1.2.2.2. </span>HTML書類に、タグを使って構造分け（マークアップ）する理由とは？<a class="headerlink" href="#id6" title="このヘッドラインへのパーマリンク">#</a></h4>
+<ul class="simple">
+<li><p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.9</span>では、<code class="docutils literal notranslate"><span class="pre">HTML</span></code>のタグ付けを行う理由を説明しています。</p></li>
+<li><p>ここに挙げられた①②の理由に加え、<code class="docutils literal notranslate"><span class="pre">CSS</span></code>でスタイル（デザイン）を与えるためにもタグ付けが必要となります。<code class="docutils literal notranslate"><span class="pre">CSS</span></code>ではどのタグをどのようなスタイルにするかを指定するからです。これは後に<code class="docutils literal notranslate"><span class="pre">CSS</span></code>を学ぶ時にあらためて学ぶことになります。</p></li>
+</ul>
+<div class="section" id="googleseoyahoo-japan">
+<h5><span class="section-number">1.2.2.2.1. </span>GoogleのSEO対策でYahoo!JAPANも兼ねられる<a class="headerlink" href="#googleseoyahoo-japan" title="このヘッドラインへのパーマリンク">#</a></h5>
+<p>（補足事項はありません）</p>
+</div>
+<div class="section" id="googlebot">
+<h5><span class="section-number">1.2.2.2.2. </span>ホームページの情報を収集し、ランク付けをするGooglebot<a class="headerlink" href="#googlebot" title="このヘッドラインへのパーマリンク">#</a></h5>
+<p>（補足事項はありません）</p>
+</div>
+<div class="section" id="seohtmlcss">
+<h5><span class="section-number">1.2.2.2.3. </span>SEO対策にはHTMLが重要・CSSはあくまで人間への見た目（デザイン）用<a class="headerlink" href="#seohtmlcss" title="このヘッドラインへのパーマリンク">#</a></h5>
+<p>（補足事項はありません）</p>
+</div>
+</div>
+</div>
+<div class="section" id="id7">
+<h3><span class="section-number">1.2.3. </span>ファイル名についての注意<a class="headerlink" href="#id7" title="このヘッドラインへのパーマリンク">#</a></h3>
+<ul class="simple">
+<li><p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.10</span>では、<code class="docutils literal notranslate"><span class="pre">HTML</span></code>や<code class="docutils literal notranslate"><span class="pre">CSS</span></code>を作成するときのファイル名のルールを説明しています。</p>
+<ul>
+<li><p>特に初心者のうちは、フォルダ名やファイル名に日本語や全角文字を含めてしまったりします。使用できる文字の基本は半角英数文字であることを押さえておきましょう。</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="id8">
+<h4><span class="section-number">1.2.3.1. </span>「拡張子」について<a class="headerlink" href="#id8" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.11</span>
+（補足事項はありません）</p>
+<div class="section" id="id9">
+<h5><span class="section-number">1.2.3.1.1. </span>「拡張子」と「隠しファイル」を表示させるには？<a class="headerlink" href="#id9" title="このヘッドラインへのパーマリンク">#</a></h5>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Web</span></code>制作などの制作作業では、<strong>拡張子や隠しファイルの表示は必須</strong>です。<span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.11</span> の通りに設定しましょう。</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>「拡張子」が隠れた状態だと、拡張子も含めた真のファイル名がわかりません。<code class="docutils literal notranslate"><span class="pre">index.html</span></code>を保存したのに、<code class="docutils literal notranslate"><span class="pre">index.html.html</span></code>となっていたり、<code class="docutils literal notranslate"><span class="pre">index.html.css</span></code>となっていたりすることに気づく事ができません。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="id10">
+<h3><span class="section-number">1.2.4. </span>ホームページに必要な３つの書類<a class="headerlink" href="#id10" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.12</span>
+<span class="sd-sphinx-override sd-badge sd-outline-primary sd-text-primary">教材：HTML教材/01_タグについて</span></p>
+<ul class="simple">
+<li><p>ウェブページの最小構成は、文書を記述する<code class="docutils literal notranslate"><span class="pre">HTML</span></code>と、その見た目（スタイル）を提供する<code class="docutils literal notranslate"><span class="pre">CSS</span></code>の２種類のファイルからなります。その上で必要に応じて画像ファイル等の素材が加わります。</p></li>
+</ul>
+<div class="section" id="id11">
+<h4><span class="section-number">1.2.4.1. </span>HTML・CSS書類のアイコンデザインを変更するには？<a class="headerlink" href="#id11" title="このヘッドラインへのパーマリンク">#</a></h4>
+<ul class="simple">
+<li><p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.12〜13</span> で「アイコンデザインを変更する」方法を説明しています。</p>
+<ul>
+<li><p>この「アイコンデザインの変更」は、「<strong>拡張子<code class="docutils literal notranslate"><span class="pre">.html</span></code>のファイルをダブルクリックした時に、どのアプリケーションで開くか？</strong>」という<code class="docutils literal notranslate"><span class="pre">Windows</span></code>側の設定をいじるものです。</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Windows</span></code>や<code class="docutils literal notranslate"><span class="pre">Mac</span></code>では拡張子毎にどのアプリケーションで開くか？という既定のアプリケーションを持っており、自身でカスタマイズすることができます。</p>
+</li>
+</ul>
+</li>
+<li><p>この設定を行うと、ファイルのアイコン表示が拡張子の<strong>既定のアプリケーションのアイコン</strong>になります。</p>
+<ul>
+<li><p>この仕組みによって、ファイルをダブルクリックした時にどのアプリケーションで開かれるかをアイコンを見ることによって分かるようになっています。</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="simple">
+<li><p>本ガイドブックやテキスト内で使用するブラウザーを、特に断りがない限り<code class="docutils literal notranslate"><span class="pre">Google</span> <span class="pre">Chrome</span></code>とします。</p>
+<ul>
+<li><p><span class="sd-sphinx-override sd-badge sd-bg-dark sd-bg-text-dark">指示</span> 読者が使用するブラウザーも<code class="docutils literal notranslate"><span class="pre">Google</span> <span class="pre">Chrome</span></code>として下さい。</p></li>
+<li><p>本書内での表記を統一する目的でこのようにします。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Google</span> <span class="pre">Chrome</span></code>でなければならないという技術的な理由はありません。</p>
+<ul>
+<li><p>強いて言えば、各種ブラウザのうち<code class="docutils literal notranslate"><span class="pre">Google</span> <span class="pre">Chrome</span></code>の利用率がずば抜けて高いため、利用者に近い環境を開発時から使っておくという理由が挙げられます。</p></li>
+<li><p>実際の開発現場では、開発者は割りと自由にブラウザーを選んでいます。最終的には全ブラウザーで検証することになりますので、開発時に利用するブラウザーは自由です。</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="visual-studio-code">
+<h3><span class="section-number">1.2.5. </span>「Visual Studio Code」について<a class="headerlink" href="#visual-studio-code" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.14〜</span></p>
+<div class="section" id="id12">
+<h4><span class="section-number">1.2.5.1. </span>参考：設定その１「Visual Studio Code」を入手・インストールする<a class="headerlink" href="#id12" title="このヘッドラインへのパーマリンク">#</a></h4>
+<ul class="simple">
+<li><p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.14</span> 冒頭に赤字で示された「※設定その１は、アジャストアカデミー教室のPCにはインストールされていますので行いません。」は無視して下さい。</p></li>
+<li><p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.14〜15</span> に従って、<code class="docutils literal notranslate"><span class="pre">Visual</span> <span class="pre">Studio</span> <span class="pre">Code</span></code>をインストールして下さい。</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Visual</span> <span class="pre">Studio</span> <span class="pre">Code</span></code>の公式サイトのURLは<a class="reference external" href="https://azure.microsoft.com/ja-jp/products/visual-studio-code/">https://azure.microsoft.com/ja-jp/products/visual-studio-code/</a>です。ここからダウンロードして下さい。</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="id13">
+<h4><span class="section-number">1.2.5.2. </span>設定その２「Visual Studio Code」の「拡張機能」をインストールする<a class="headerlink" href="#id13" title="このヘッドラインへのパーマリンク">#</a></h4>
+<ul class="simple">
+<li><p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.16〜20</span> で導入する拡張機能は<code class="docutils literal notranslate"><span class="pre">P.20</span></code>下部「まとめ：インストールした計７つの拡張機能について」に説明があります。</p></li>
+<li><p>また、以下の３グループに分けることができます。</p>
+<ol class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Japanse</span> <span class="pre">Language...</span></code>は<code class="docutils literal notranslate"><span class="pre">Visual</span> <span class="pre">Studio</span> <span class="pre">Code</span></code>を日本語化します。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Live</span> <span class="pre">Server</span></code>はページ作成後の確認をワンタッチで行えるようにします。</p></li>
+<li><p>その他の拡張機能は、これから行う<code class="docutils literal notranslate"><span class="pre">HTML</span></code>や<code class="docutils literal notranslate"><span class="pre">CSS</span></code>の編集作業を楽にします。</p></li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="section" id="id14">
+<h4><span class="section-number">1.2.5.3. </span>設定その３「Visual Studio Code」の「作業フォルダ」を指定する<a class="headerlink" href="#id14" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.21</span></p>
+</div>
+<div class="section" id="id15">
+<h4><span class="section-number">1.2.5.4. </span>設定その４「Visual Studio Code」の「配色テーマ」を調整する<a class="headerlink" href="#id15" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.22</span></p>
+</div>
+<div class="section" id="id16">
+<h4><span class="section-number">1.2.5.5. </span>設定その５「Visual Studio Code」の「フォントサイズ」・「タブサイズ」を調整する<a class="headerlink" href="#id16" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.23</span></p>
+</div>
+<div class="section" id="off">
+<h4><span class="section-number">1.2.5.6. </span>設定その６「マウスホーバー」の「ポップアップ」機能をOFFにする<a class="headerlink" href="#off" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.24〜P.25</span></p>
+</div>
+<div class="section" id="id17">
+<h4><span class="section-number">1.2.5.7. </span>設定その７「Visual Studio Code」のその他の注意・機能<a class="headerlink" href="#id17" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.26〜P.27</span></p>
+</div>
+<div class="section" id="live-server-go-live">
+<h4><span class="section-number">1.2.5.8. </span>設定その８「Live Server」（Go Live）機能について<a class="headerlink" href="#live-server-go-live" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.28〜P.30</span></p>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id18">
+<h2><span class="section-number">1.3. </span>HTMLの基本構造<a class="headerlink" href="#id18" title="このヘッドラインへのパーマリンク">#</a></h2>
+<div class="section" id="html5">
+<h3><span class="section-number">1.3.1. </span>新規の「HTML5の最小基本構文」を作成する<a class="headerlink" href="#html5" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.31〜P.34</span></p>
+<div class="section" id="meta-name-description-content">
+<h4><span class="section-number">1.3.1.1. </span><code class="docutils literal notranslate"><span class="pre">&lt;meta</span> <span class="pre">name=&quot;description&quot;</span> <span class="pre">content=&quot;□□□□&quot;&gt;</span></code>と「スニペット」との関係は？<a class="headerlink" href="#meta-name-description-content" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.35</span></p>
+</div>
+<div class="section" id="id19">
+<h4><span class="section-number">1.3.1.2. </span>HTML5の基本構文の構成イメージ<a class="headerlink" href="#id19" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.35</span></p>
+</div>
+</div>
+</div>
+<div class="section" id="id20">
+<h2><span class="section-number">1.4. </span>様々な要素（タグ）<a class="headerlink" href="#id20" title="このヘッドラインへのパーマリンク">#</a></h2>
+<p><span class="sd-sphinx-override sd-badge sd-outline-primary sd-text-primary">教材：HTML教材/02_body内タグ</span></p>
+<div class="section" id="h1-h6">
+<h3><span class="section-number">1.4.1. </span>見出し <code class="docutils literal notranslate"><span class="pre">&lt;h1&gt;～&lt;h6&gt;</span></code><a class="headerlink" href="#h1-h6" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.36</span></p>
+</div>
+<div class="section" id="p">
+<h3><span class="section-number">1.4.2. </span>段落 <code class="docutils literal notranslate"><span class="pre">&lt;p&gt;</span></code><a class="headerlink" href="#p" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.36</span></p>
+<div class="admonition tip">
+<p class="admonition-title">ちなみに</p>
+<p>Pは段落を意味する英単語Paragraph（パラグラフ）のPです。</p>
+</div>
+<ul class="simple">
+<li><p><span class="sd-sphinx-override sd-badge sd-bg-danger sd-bg-text-danger">TODO</span>段落って何？</p></li>
+</ul>
+</div>
+<div class="section" id="br">
+<h3><span class="section-number">1.4.3. </span>改行 <code class="docutils literal notranslate"><span class="pre">&lt;br&gt;</span></code><a class="headerlink" href="#br" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.37</span></p>
+<p><span class="sd-sphinx-override sd-badge sd-bg-danger sd-bg-text-danger">TODO</span></p>
+<blockquote>
+<div><p>br要素は本来見た目のためではなく、詩や住所のように実際にコンテンツの一部である改行のためにのみに使用されなければならない[4]。
+<a class="reference external" href="https://ja.wikipedia.org/wiki/HyperText_Markup_Language#HTML%E6%96%87%E6%9B%B8">https://ja.wikipedia.org/wiki/HyperText_Markup_Language#HTML文書</a></p>
+</div></blockquote>
+<div class="section" id="body-br">
+<h4><span class="section-number">1.4.3.1. </span><code class="docutils literal notranslate"><span class="pre">body</span></code>内に<code class="docutils literal notranslate"><span class="pre">&lt;br&gt;</span></code>を連続使用しない<a class="headerlink" href="#body-br" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.37</span></p>
+</div>
+</div>
+<div class="section" id="ul-ol">
+<h3><span class="section-number">1.4.4. </span>リスト <code class="docutils literal notranslate"><span class="pre">&lt;ul&gt;</span></code>,<code class="docutils literal notranslate"><span class="pre">&lt;ol&gt;</span></code><a class="headerlink" href="#ul-ol" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.37</span></p>
+</div>
+<div class="section" id="dl">
+<h3><span class="section-number">1.4.5. </span>定義リスト <code class="docutils literal notranslate"><span class="pre">&lt;dl&gt;</span></code><a class="headerlink" href="#dl" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.38</span></p>
+</div>
+<div class="section" id="hr">
+<h3><span class="section-number">1.4.6. </span>水平線 <code class="docutils literal notranslate"><span class="pre">&lt;hr&gt;</span></code><a class="headerlink" href="#hr" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.38</span></p>
+</div>
+<div class="section" id="small">
+<h3><span class="section-number">1.4.7. </span>注釈・著作権 <code class="docutils literal notranslate"><span class="pre">&lt;small&gt;</span></code><a class="headerlink" href="#small" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.39</span></p>
+</div>
+<div class="section" id="div-small">
+<h3><span class="section-number">1.4.8. </span><code class="docutils literal notranslate"><span class="pre">&lt;div&gt;</span></code>,<code class="docutils literal notranslate"><span class="pre">&lt;small&gt;</span></code><a class="headerlink" href="#div-small" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.39</span></p>
+</div>
+<div class="section" id="id21">
+<h3><span class="section-number">1.4.9. </span>コメント<a class="headerlink" href="#id21" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.39</span></p>
+</div>
+<div class="section" id="em-strong">
+<h3><span class="section-number">1.4.10. </span>強調<code class="docutils literal notranslate"><span class="pre">&lt;em&gt;</span></code>/重要性・緊急性<code class="docutils literal notranslate"><span class="pre">&lt;strong&gt;</span></code><a class="headerlink" href="#em-strong" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.40</span></p>
+</div>
+</div>
+<div class="section" id="id22">
+<h2><span class="section-number">1.5. </span>画像、ファイルパス<a class="headerlink" href="#id22" title="このヘッドラインへのパーマリンク">#</a></h2>
+<div class="section" id="img">
+<h3><span class="section-number">1.5.1. </span>画像<code class="docutils literal notranslate"><span class="pre">&lt;img&gt;</span></code><a class="headerlink" href="#img" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.40</span>
+<span class="sd-sphinx-override sd-badge sd-outline-primary sd-text-primary">教材：HTML教材/03_imgタグ</span></p>
+<div class="section" id="alt">
+<h4><span class="section-number">1.5.1.1. </span><code class="docutils literal notranslate"><span class="pre">alt</span></code>の属性値を設定する理由<a class="headerlink" href="#alt" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.41</span></p>
+</div>
+<div class="section" id="id23">
+<h4><span class="section-number">1.5.1.2. </span><code class="docutils literal notranslate"><span class="pre">&lt;img&gt;</span></code>要素で配置する画像のサイズを調べるには？<a class="headerlink" href="#id23" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.42</span></p>
+</div>
+</div>
+<div class="section" id="id24">
+<h3><span class="section-number">1.5.2. </span>画像のパスの記述について<a class="headerlink" href="#id24" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.42</span></p>
+<ul class="simple">
+<li><p><span class="sd-sphinx-override sd-badge sd-bg-danger sd-bg-text-danger">TODO</span> ファイルパス
+<a class="reference external" href="https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/Dealing_with_files#%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%91%E3%82%B9">https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/Dealing_with_files#ファイルパス</a></p></li>
+</ul>
+<div class="section" id="id25">
+<h4><span class="section-number">1.5.2.1. </span>画像のパス表記例<a class="headerlink" href="#id25" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.45</span>
+<span class="sd-sphinx-override sd-badge sd-outline-primary sd-text-primary">教材：HTML教材/04_画像のパス表記例</span></p>
+</div>
+</div>
+<div class="section" id="html4">
+<h3><span class="section-number">1.5.3. </span>HTML書類で配置できる４つの画像形式<a class="headerlink" href="#html4" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.43〜44</span></p>
+<div class="section" id="jpeg">
+<h4><span class="section-number">1.5.3.1. </span>JPEG（ジェイペグ）形式<a class="headerlink" href="#jpeg" title="このヘッドラインへのパーマリンク">#</a></h4>
+</div>
+<div class="section" id="gif">
+<h4><span class="section-number">1.5.3.2. </span>GIF（ジフ）形式<a class="headerlink" href="#gif" title="このヘッドラインへのパーマリンク">#</a></h4>
+</div>
+<div class="section" id="png">
+<h4><span class="section-number">1.5.3.3. </span>PNG（ピング）形式<a class="headerlink" href="#png" title="このヘッドラインへのパーマリンク">#</a></h4>
+</div>
+<div class="section" id="svg">
+<h4><span class="section-number">1.5.3.4. </span>SVG（エスブイジー）形式<a class="headerlink" href="#svg" title="このヘッドラインへのパーマリンク">#</a></h4>
+</div>
+</div>
+<div class="section" id="a">
+<h3><span class="section-number">1.5.4. </span>リンク <code class="docutils literal notranslate"><span class="pre">&lt;a&gt;</span></code><a class="headerlink" href="#a" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.46〜</span></p>
+<ul class="simple">
+<li><p><span class="sd-sphinx-override sd-badge sd-bg-danger sd-bg-text-danger">TODO</span>HyperLinkとHyperText</p></li>
+</ul>
+<div class="section" id="id26">
+<h4><span class="section-number">1.5.4.1. </span>絶対パス・ターゲット属性について<a class="headerlink" href="#id26" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.47</span>
+<span class="sd-sphinx-override sd-badge sd-outline-primary sd-text-primary">教材：HTML教材/06_絶対パス</span></p>
+</div>
+<div class="section" id="id27">
+<h4><span class="section-number">1.5.4.2. </span>複数画像を横並びに配置・画像をクリックさせるとハイパーリンクさせるには<a class="headerlink" href="#id27" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.47</span>
+<span class="sd-sphinx-override sd-badge sd-outline-primary sd-text-primary">教材：HTML教材/05_リンク設置のaタグ</span>
+<span class="sd-sphinx-override sd-badge sd-outline-primary sd-text-primary">教材：HTML教材/07_画像配置横並び等</span></p>
+</div>
+<div class="section" id="id28">
+<h4><span class="section-number">1.5.4.3. </span>ページ内リンク・外部ページ内リンクについて<a class="headerlink" href="#id28" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.48</span></p>
+</div>
+<div class="section" id="id29">
+<h4><span class="section-number">1.5.4.4. </span>ページ内リンク・外部ページへのリンク作例<a class="headerlink" href="#id29" title="このヘッドラインへのパーマリンク">#</a></h4>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.49〜50</span>
+<span class="sd-sphinx-override sd-badge sd-outline-primary sd-text-primary">教材：HTML教材/08_ページ内リンク</span></p>
+</div>
+</div>
+<div class="section" id="id30">
+<h3><span class="section-number">1.5.5. </span>「検索」・「置換（ちかん）」機能について<a class="headerlink" href="#id30" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p><span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">テキスト：P.50</span></p>
+</div>
+</div>
+<div class="section" id="html-1">
+<h2><span class="section-number">1.6. </span>昇段試験 - HTML(1)編<a class="headerlink" href="#html-1" title="このヘッドラインへのパーマリンク">#</a></h2>
+<p>ここまでのことを学習したら、次の「昇段試験のルール」を確認の上、昇段試験に望んでください。</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+クリックして昇段試験のルールを確認する（退校となる場合の説明があります）<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="taskcard docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>説明の要約</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">提出期限は案内が届いた日から８日以内とします。</p></li>
+<li><p class="sd-card-text">合格すれば次のカリキュラムの案内を受け取ることができます。</p></li>
+<li><p class="sd-card-text">再提出期限は８日以内とします。</p></li>
+<li><p class="sd-card-text">再提出は２回までとし、２回目の最提出で合格しなかった場合には退校となります。</p></li>
+</ul>
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+昇段試験のルール</div>
+<ul>
+<li><p class="sd-card-text">昇段試験の申し込むと、案内を受け取ることができます。</p>
+<ul>
+<li><p class="sd-card-text">案内が届いてから８営業日（月曜に案内が届いたら、翌週月曜日）以内に解答を<code class="docutils literal notranslate"><span class="pre">yasumura&#64;adjust.ne.jp</span></code>に提出して下さい。</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+提出方法を確認する<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="taskcard docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+昇段試験の提出方法</div>
+<p class="sd-card-text">昇段試験で作成した成果物を以下の手順で提出して下さい。</p>
+<ul class="simple">
+<li><p class="sd-card-text">提出する前に最終確認をお願いします。</p></li>
+</ul>
+<ul class="simple">
+<li><p class="sd-card-text">「<a class="reference internal" href="LEVEL6.5.html#upload-to-webserver"><span class="std std-ref">サンプルページをWebサーバーにアップロードして確認する</span></a>」に従い、<span class="sd-sphinx-override sd-badge sd-bg-dark sd-bg-text-dark">指示</span>されたフォルダをWebサーバーにアップロードして下さい。</p></li>
+</ul>
+<ul>
+<li><p class="sd-card-text">以下の文言テンプレートを利用し事務局<code class="docutils literal notranslate"><span class="pre">yasumura&#64;adjust.ne.jp</span></code>に提出して下さい。</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>件名：「HTML(1)編の昇段試験のファイルを提出します」
+
+○○です。
+
+（問題が一つの場合）
+http://am7274183.html.xdomain.jp/hummus/index.html
+
+（問題が複数ある場合）
+問１
+http://am7274183.html.xdomain.jp/flexbox/1/index.html
+問２
+http://am7274183.html.xdomain.jp/flexbox/2/index.html
+問３
+http://am7274183.html.xdomain.jp/flexbox/3/index.html
+問４
+http://am7274183.html.xdomain.jp/flexbox/4/index.html
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</details></li>
+</ul>
+</li>
+<li><p class="sd-card-text">提出後、事務局で採点し４営業日以内に合否をお伝えします。</p>
+<ul class="simple">
+<li><p class="sd-card-text">例: 月曜日に提出した場合、木曜日までにお伝えします。</p></li>
+<li><p class="sd-card-text">例: 金曜日に提出した場合、翌週水曜日までにお伝えします。</p></li>
+</ul>
+</li>
+<li><p class="sd-card-text">不合格の場合</p>
+<ul class="simple">
+<li><p class="sd-card-text">不合格の通知を受けた場合には、指摘箇所を修正して再度提出して下さい。</p>
+<ul>
+<li><p class="sd-card-text">再提出は２回まで受けられます。</p>
+<ul>
+<li><p class="sd-card-text">初回の提出後、一回目の再提出、二回目の再提出の三段階です。</p></li>
+</ul>
+</li>
+<li><p class="sd-card-text">再提出の期限は８日です。</p>
+<ul>
+<li><p class="sd-card-text">例) 月曜日に不合格の通知が来たら、翌週の月曜日までに提出して下さい。</p>
+<ul>
+<li><p class="sd-card-text">ただし、翌週の月曜日が祝祭日・年末年始にあたる場合にはその翌日となります。</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="admonition danger">
+<p class="admonition-title">危険</p>
+<p class="sd-card-text"><strong>重要</strong></p>
+<p class="sd-card-text">再提出の回数を上回ったり、提出の期限を過ぎた場合には<strong>退校</strong>となり、これ以上のカリキュラムを受講することはできませんので十分に注意して下さい。</p>
+</div>
+</li>
+<li><p class="sd-card-text">合格の場合には、次のレベルのカリキュラムの案内を受け取ることができます。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</details><div class="section" id="id31">
+<h3><span class="section-number">1.6.1. </span>試験問題「フムスレシピ」のページを制作せよ<a class="headerlink" href="#id31" title="このヘッドラインへのパーマリンク">#</a></h3>
+<p>配付するテキスト素材にマークアップを施して、次の図で示す<code class="docutils literal notranslate"><span class="pre">index.html</span></code>を完成させて下さい。</p>
+<div class="figure align-default" id="id34">
+<img alt="https://i.gyazo.com/a73b024487f941406588af5699fa4b7e.png" src="https://i.gyazo.com/a73b024487f941406588af5699fa4b7e.png" />
+<p class="caption"><span class="caption-number">図 1.2 </span><span class="caption-text">この見た目になるよう、<strong>見出し</strong>、<strong>段落</strong>、<strong>リスト</strong>をマークアップして下さい。</span><a class="headerlink" href="#id34" title="この画像へのパーマリンク">#</a></p>
+</div>
+<ul>
+<li><p>解答に必要な素材を提供します。以下から素材のZIPファイルをダウンロードし、展開して利用して下さい。</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://adjustacademy.com/webcoder/f0bc3a313cc5162e2e83b2d6eb51656d.zip">https://adjustacademy.com/webcoder/f0bc3a313cc5162e2e83b2d6eb51656d.zip</a></p>
+<ul>
+<li><p>テキスト素材が<code class="docutils literal notranslate"><span class="pre">index.html</span></code>の中に入っています。</p></li>
+<li><p>画像素材は<code class="docutils literal notranslate"><span class="pre">Hummus_from_The_Nile.jpg</span></code>です。</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><span class="sd-sphinx-override sd-badge sd-bg-dark sd-bg-text-dark">指示</span> 作業フォルダ名を<code class="docutils literal notranslate"><span class="pre">hummus</span></code>とし、<code class="docutils literal notranslate"><span class="pre">HTML</span></code>のファイル名は<code class="docutils literal notranslate"><span class="pre">hummus/index.html</span></code>として下さい。</p></li>
+<li><p>「フムス」のテキストには、Wikipediaの&quot;フムス&quot;のページである <code class="docutils literal notranslate"><span class="pre">https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A0%E3%82%B9</span></code> へのリンクを設置して下さい。リンクには<code class="docutils literal notranslate"><span class="pre">target=&quot;_blank&quot;</span></code>を指定して下さい。</p>
+<div class="figure align-default" id="id35">
+<img alt="https://i.gyazo.com/67947141d4cbf29eb5428061394a80bd.png" src="https://i.gyazo.com/67947141d4cbf29eb5428061394a80bd.png" />
+<p class="caption"><span class="caption-number">図 1.3 </span><span class="caption-text">「フムス」のテキストに「フムス」のテキストにリンクを設定します。</span><a class="headerlink" href="#id35" title="この画像へのパーマリンク">#</a></p>
+</div>
+</li>
+<li><p>使用する画像（<code class="docutils literal notranslate"><span class="pre">Hummus_from_The_Nile.jpg</span></code>）について</p>
+<ul class="simple">
+<li><p>サイズは幅<code class="docutils literal notranslate"><span class="pre">800px</span></code>、高さ<code class="docutils literal notranslate"><span class="pre">533px</span></code>として下さい。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">alt属性</span></code>には、この画像の説明である「フムスのアラブ式盛り付け例」を指定して下さい。</p></li>
+</ul>
+</li>
+<li><p>以下の２箇所のテキストを強調表示して下さい。</p>
+<div class="figure align-default" id="id36">
+<img alt="https://i.gyazo.com/8bd70a7634d23652438dc0f094ff4524.png" src="https://i.gyazo.com/8bd70a7634d23652438dc0f094ff4524.png" />
+<p class="caption"><span class="caption-number">図 1.4 </span><span class="caption-text">「<strong>このレシピは...転用したものです。</strong>」を強調表示して下さい。</span><a class="headerlink" href="#id36" title="この画像へのパーマリンク">#</a></p>
+</div>
+<div class="figure align-default" id="id37">
+<img alt="https://i.gyazo.com/a5d5702741fc4174174c5d3201a3bd9a.png" src="https://i.gyazo.com/a5d5702741fc4174174c5d3201a3bd9a.png" />
+<p class="caption"><span class="caption-number">図 1.5 </span><span class="caption-text">「<strong>発泡してきた場合は、必ず捨てて下さい。</strong>」を強調表示して下さい。なお、これは腐ったことを示す説明です。</span><a class="headerlink" href="#id37" title="この画像へのパーマリンク">#</a></p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="id32">
+<h2><span class="section-number">1.7. </span>解答の提出<a class="headerlink" href="#id32" title="このヘッドラインへのパーマリンク">#</a></h2>
+<ul>
+<li><p><span class="sd-sphinx-override sd-badge sd-bg-dark sd-bg-text-dark">指示</span> <code class="docutils literal notranslate"><span class="pre">hummus</span></code>フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを<code class="docutils literal notranslate"><span class="pre">yasumura&#64;adjust.ne.jp</span></code>に提出して下さい。</p></li>
+<li><p>具体的には次のようにして下さい。</p>
+<div class="taskcard docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+昇段試験の提出方法</div>
+<p class="sd-card-text">昇段試験で作成した成果物を以下の手順で提出して下さい。</p>
+<ul class="simple">
+<li><p class="sd-card-text">提出する前に最終確認をお願いします。</p></li>
+</ul>
+<ul class="simple">
+<li><p class="sd-card-text">「<a class="reference internal" href="LEVEL6.5.html#upload-to-webserver"><span class="std std-ref">サンプルページをWebサーバーにアップロードして確認する</span></a>」に従い、<span class="sd-sphinx-override sd-badge sd-bg-dark sd-bg-text-dark">指示</span>されたフォルダをWebサーバーにアップロードして下さい。</p></li>
+</ul>
+<ul>
+<li><p class="sd-card-text">以下の文言テンプレートを利用し事務局<code class="docutils literal notranslate"><span class="pre">yasumura&#64;adjust.ne.jp</span></code>に提出して下さい。</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>件名：「HTML(1)編の昇段試験のファイルを提出します」
+
+○○です。
+
+（問題が一つの場合）
+http://am7274183.html.xdomain.jp/hummus/index.html
+
+（問題が複数ある場合）
+問１
+http://am7274183.html.xdomain.jp/flexbox/1/index.html
+問２
+http://am7274183.html.xdomain.jp/flexbox/2/index.html
+問３
+http://am7274183.html.xdomain.jp/flexbox/3/index.html
+問４
+http://am7274183.html.xdomain.jp/flexbox/4/index.html
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="LEVEL6.5.html" title="前へ ページ">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">前へ</p>
+            <p class="prev-next-title">Webサーバーを用意する</p>
+        </div>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By 安村 淳 / 株式会社アジャスト<br/>
+  
+      &copy; Copyright 2022 安村 淳/ADjust Co.,Ltd..<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

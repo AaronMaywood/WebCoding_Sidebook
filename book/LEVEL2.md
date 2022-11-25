@@ -1,4 +1,4 @@
-# LEVEL2(LEVEL2.md) HTMLの残りの話題、CSSの基本
+# LEVEL2 HTMLパート２
 
 ## STAGE5 table要素 **「HTML5基礎」P.51-56**
 

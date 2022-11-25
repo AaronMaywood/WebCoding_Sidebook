@@ -4,13 +4,13 @@
 |:---|:---|:---|:---|:---|
 |カリキュラム説明(intro.md)|{{TODO}}| - | - |{{TODO}}|
 |準備(equip.md)|{{TODO}}| - | - |{{TODO}}|
-|LEVEL1.md HTML(1)|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
+|LEVEL6.5.md WebサーバーとFTP|{{DONE}}|-|-|{{TODO}}|
+|LEVEL1.md HTML(1)|{{HALF}}|{{TODO}}|{{DONE}}|{{TODO}}|
 |LEVEL2.md HTML(2)|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
 |LEVEL3.md ボックスモデル|{{HALF}}|{{TODO}}|{{TODO}}|{{TODO}}|
 |LEVEL4.md float|{{HALF}}|{{HALF}}|{{DONE}}|{{TODO}}|
 |LEVEL5.md Flexbox|{{HALF}}|{{HALF}}|{{DONE}}|{{TODO}}|
 |LEVEL6.md Position|{{DONE}}|{{HALF}}|{{DONE}}|{{TODO}}|
-|LEVEL6.5.md WebサーバーとFTP|{{DONE}}|-|-|{{TODO}}|
 |LEVEL7.md お茶サイト|{{DONE}}|{{HALF}}|{{TODO}}|{{TODO}}|
 |LEVEL8.md ←ボツ| - | - | - | - |
 |LEVEL9.md スマートフォン|{{DONE}}|{{TODO}}|{{DONE}}|{{TODO}}|

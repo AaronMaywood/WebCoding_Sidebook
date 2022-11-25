@@ -1,4 +1,4 @@
-# LEVEL3(LEVEL3.md) CSS - ボックスモデル
+# LEVEL3 CSS - ボックスモデル
 
 % 参考
 % https://developer.mozilla.org/ja/docs/Learn/CSS/Building_blocks/The_box_model 

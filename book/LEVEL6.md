@@ -1,4 +1,4 @@
-# LEVEL6(LEVEL6.md) CSS - Position
+# LEVEL6 CSS - Position
 
 % https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Positioning
 

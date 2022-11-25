@@ -59,10 +59,14 @@
 	本文
 	````
 - ドロップダウン(ドロワー）
-	````{dropdown} Figmaの使い方を確認する
-	```{include} cards/figma.md
+	「クリックして○○を確認する」と説明する。（クリックできる場所かどうかがわかりにくい場合がある）
+	````{dropdown} クリックして昇段試験のルールを確認する（退校となる場合の説明があります）
+	```{include} cards/school/rule-of-exam.md
 	```
 	````
+	なお、ドロップダウン自体に「click here」と表示する方法があるようだが、マニュアルには無く、わからない
+	https://jupyterbook.org/en/stable/content/components.html#dropdowns
+	https://sphinx-design.readthedocs.io/en/latest/dropdowns.html
 
 ## わかりやすさとは？
 
