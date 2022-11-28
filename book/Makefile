@@ -14,3 +14,6 @@ build:
 	
 build-level1:
 	cd ../mapc-build-levels/level1 ; jb build ./
+
+sync:
+	sync-guidebook level1

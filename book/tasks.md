@@ -5,7 +5,7 @@
 |カリキュラム説明(intro.md)|{{TODO}}| - | - |{{TODO}}|
 |準備(equip.md)|{{TODO}}| - | - |{{TODO}}|
 |LEVEL6.5.md WebサーバーとFTP|{{DONE}}|-|-|{{TODO}}|
-|LEVEL1.md HTML(1)|{{HALF}}|{{DONE}}|{{DONE}}|{{TODO}}|
+|LEVEL1.md HTML(1)|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
 |LEVEL2.md HTML(2)|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
 |LEVEL3.md ボックスモデル|{{HALF}}|{{TODO}}|{{TODO}}|{{TODO}}|
 |LEVEL4.md float|{{HALF}}|{{HALF}}|{{DONE}}|{{TODO}}|

@@ -706,6 +706,7 @@ https://developer.mozilla.org/ja/docs/Web/HTML/Element/strong#b_%E3%81%A8_strong
 
 ### リンク `<a>`
 {bdg-dark-line}`テキスト：P.46〜`
+{bdg-primary-line}`教材：HTML教材/05_リンク設置のaタグ`
 
 文書間のつながりであるハイパーリンクを実現するのが`a`要素です。ハイパーリンクはハイパーテキスト(`HTML`)における核心的な技術です。
 
@@ -717,7 +718,7 @@ https://developer.mozilla.org/ja/docs/Web/HTML/Element/strong#b_%E3%81%A8_strong
 ````{tip}
 **ハイパーリンクの形態には２種類ある**
 
-（筆者は最初のうち、`a`と`link`をよく間違えました。ハイパーリンクを作るのだから`link`要素だと連想してしまったからです。そこで補足します。）
+（筆者は最初のうち、`a`と`link`をよく間違えました。ハイパーリンクを作るのだから`link`要素？と連想してしまったからです。もしイメージを強化して覚えやすくしたいという場合にはこの解説をお読み下さい。）
 
 **文書全体の関係**を記述するのが`link`要素です。
 `link`要素は`head`の中に置き、**関連性のあるリソース（リソースとは情報源のこと）を指定**します。典型的には`CSS`を指定し、`HTML`と`CSS`を紐付けます。
@@ -756,30 +757,58 @@ https://developer.mozilla.org/ja/docs/Web/HTML/Element/strong#b_%E3%81%A8_strong
 {bdg-dark-line}`テキスト：P.47`
 {bdg-primary-line}`教材：HTML教材/06_絶対パス`
 
-（{{TODO}}まだ書いていません）
+ファイルパスには`http:`または、`https:`から始まる`URL`を指定することができます。
+
+```{glossary}
+URL
+  インターネット上にあるリソース（ファイルのこと。各種の情報源）の住所です。
+```
+
+ファイルパスに`URL`が指定できるのは、ここで説明している`a`要素に限りません。
+`img`要素に`URL`を指定し、インターネット上にある画像を埋め込むことも可能です。
+
+```html
+<p>
+Webの生みの親はティム・バーナーズ=リーです。
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg" height="200" alt="">
+</p>
+```
+
+この表示は以下のようになります。
+
+<div style="border: 1px solid black; border-radius: 5px; padding: 2rem;">
+	<p>
+	Webの生みの親はティム・バーナーズ=リーです。
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg" height="200" alt="" style="vertical-align:baseline;">
+	</p>
+    <p>
+    </p>
+</div>
+<div style="text-align: right;">
+	<small>画像 by <a href="https://commons.wikimedia.org/wiki/File:Sir_Tim_Berners-Lee_(cropped).jpg">Paul Clarke</a></small>
+</div>
 
 #### 複数画像を横並びに配置・画像をクリックさせるとハイパーリンクさせるには
 {bdg-dark-line}`テキスト：P.47`
-{bdg-primary-line}`教材：HTML教材/05_リンク設置のaタグ`
 {bdg-primary-line}`教材：HTML教材/07_画像配置横並び等`
 
-（{{TODO}}まだ書いていません）
+（補足事項はありません。）
 
 #### ページ内リンク・外部ページ内リンクについて
 {bdg-dark-line}`テキスト：P.48`
 
-（{{TODO}}まだ書いていません）
+（補足事項はありません。）
 
 #### ページ内リンク・外部ページへのリンク作例
 {bdg-dark-line}`テキスト：P.49〜50`
 {bdg-primary-line}`教材：HTML教材/08_ページ内リンク`
 
-（{{TODO}}まだ書いていません）
+（補足事項はありません。）
 
 ### 「検索」・「置換（ちかん）」機能について
 {bdg-dark-line}`テキスト：P.50`
 
-（{{TODO}}まだ書いていません）
+（補足事項はありません。）
 
 ## 昇段試験 - HTML(1)編
 
