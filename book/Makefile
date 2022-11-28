@@ -1,3 +1,6 @@
+# Makefile で引数を使う方法
+# https://qiita.com/algas/items/499d0d69d51a1cc7639f
+
 default: preview watch
 
 watch:
