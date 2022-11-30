@@ -1,6 +1,11 @@
 ````{card} ブロックレベル要素とインライン要素
 % ブロックレベル要素とインライン要素
 % https://developer.mozilla.org/ja/docs/Web/HTML/Block-level_elements#%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%AC%E3%83%99%E3%83%AB%E8%A6%81%E7%B4%A0%E3%81%A8%E3%82%A4%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A6%81%E7%B4%A0
+% ブロックレベル
+% https://developer.mozilla.org/ja/docs/Web/HTML/Block-level_elements
+% インライン
+% https://developer.mozilla.org/ja/docs/Web/HTML/Inline_elements
+
 % {{TODO}} 図解して、行の中にこれ以上インラインはないことなどを説明するとなおよい
 
 ```{glossary}

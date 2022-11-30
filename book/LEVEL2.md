@@ -16,13 +16,13 @@
 	- 教材完成見本：「09_ テーブル」フォルダ →「kansei_D_NG.html」
 
 - {{TODO}} ### 参考：「コンテンツモデル」について
-- {{TODO}} ## 58ページの読み方
-	### 「旧ブロックレベル要素」・「旧インライン要素」について
 
-	- {{TODO}}ブロックレベル
-		https://developer.mozilla.org/ja/docs/Web/HTML/Block-level_elements
-		インライン
-		https://developer.mozilla.org/ja/docs/Web/HTML/Inline_elements
+### 「旧ブロックレベル要素」・「旧インライン要素」について
+- {{TODO}} ## 58ページの読み方
+
+```{include} cards/html/blocklevel-and-inline.md
+```
+
 
 ## STAGE6 ページの大規模構造を作る
 
