@@ -55,7 +55,7 @@
 ---------------------------------------- LEVEL6.5 昇段試験 ----
 
 # LEVEL1(LEVEL1.md) HTMLの基本
-## STAGE1 Webとは
+## Webとは
 
 ### Webのしくみ
 {bdg-dark-line}`テキスト：P.3`
@@ -69,7 +69,7 @@
 ### ブラウザの種類・シェアについて
 {bdg-dark-line}`テキスト：P.5`
 
-## STAGE1.5 HTMLを書く
+## HTMLを書く
 ### タグについて
 {bdg-dark-line}`テキスト：P.6`
 {bdg-primary-line}`教材：HTML教材/01_タグについて`
@@ -122,7 +122,7 @@
 - index.htmlを書いてChromeで確認する		 [TODO] 教材が必要
 	h1とp、section
 
-## STAGE2
+## HTMLの基本構造
 
 ### 新規の「HTML5の最小基本構文」を作成する
 {bdg-dark-line}`テキスト：P.31〜P.34`
@@ -133,7 +133,7 @@
 #### HTML5の基本構文の構成イメージ
 {bdg-dark-line}`テキスト：P.35`
 
-## STAGE3
+## 様々な要素（タグ）
 {bdg-primary-line}`教材：HTML教材/02_body内タグ`
 
 ### 見出し `<h1>～<h6>`
@@ -164,7 +164,7 @@
 {bdg-dark-line}`テキスト：P.40`
 % `<b>`で統一
 
-## STAGE4
+## 画像、ファイルパス
 
 ### 画像`<img>`
 {bdg-dark-line}`テキスト：P.40`
@@ -208,34 +208,84 @@
 ---------------------------------------- LEVEL1 昇段試験 ----
 
 # LEVEL2(LEVEL2.md) HTMLの残りの話題、CSSの基本
-## STAGE5(option)
-
-- HTML
-	- table 51-56
+## table要素
+{bdg-dark-line}`テキスト：P.51`
+### 表`<table>`の記述例
+{bdg-dark-line}`テキスト：P.52`
+{bdg-primary-line}`教材：HTML教材/09_テーブル`
+### 表`<table>`―セルの横方向連結(colspan)
+{bdg-dark-line}`テキスト：P.53`
+{bdg-primary-line}`教材：HTML教材/09_テーブル`
+### 表`<table>`―セルの縦方向連結(rowspan)
+{bdg-dark-line}`テキスト：P.54`
+{bdg-primary-line}`教材：HTML教材/09_テーブル`
+### 表`<table>`―セルの縦方向連結(rowspan)とセルの縦方向連結(rowspan)の組み合わせ
+{bdg-dark-line}`テキスト：P.55〜P.56`
 {bdg-primary-line}`教材：HTML教材/09_テーブル`
 
-## STAGE6
+### 参考：「コンテンツモデル」について
+{bdg-dark-line}`テキスト：P.57`
+### 「旧ブロックレベル要素」・「旧インライン要素」について
+{bdg-dark-line}`テキスト：P.58`
 
-- HTML
-	- 大項目的なボックスとしてまとめるタグについて 59-63
+## ページの大規模構造を作る
+### 大項目的なボックスとしてまとめるタグについて
+{bdg-dark-line}`テキスト：P.59`
+#### `<header>`や`<section>`や`<footer>`でまとめるには
+{bdg-dark-line}`テキスト：P.60`
 {bdg-primary-line}`教材：HTML教材/10_headerやsectionやfooter`
+#### `<article>`でまとめるには
+{bdg-dark-line}`テキスト：P.61`
 {bdg-primary-line}`教材：HTML教材/11_articleでまとめる`
+#### `<div class="wrapper">`や`<section>`でまとめるには
+{bdg-dark-line}`テキスト：P.62〜63`
 {bdg-primary-line}`教材：HTML教材/12_wrapperでまとめる`
-	- HTML のネスト（入れ子）構造について 64
-	- <nav> の用例 65
+
+### `<header>`や`<section>`や`<footer>`でまとめるには
+{bdg-dark-line}`テキスト：P.60`
+### `<article>`でまとめるには
+{bdg-dark-line}`テキスト：P.61`
+### `<div class="wrapper">`や`<section>`でまとめるには
+{bdg-dark-line}`テキスト：P.62〜63`
+
+### HTML のネスト（入れ子）構造について
+{bdg-dark-line}`テキスト：P.64`
+(basic-structure)= で紹介済み
+### `<nav>` の用例
+{bdg-dark-line}`テキスト：P.65`
 {bdg-primary-line}`教材：HTML教材/13_nav`
 
-## STAGE7(option)
-
-- HTML
-	- <form> 66-71
+## フォーム関連 P.66-71
 {bdg-primary-line}`教材：HTML教材/14_form`
+### フォーム`<form>`について
+{bdg-dark-line}`テキスト：P.66`
+### フォーム(form)の概念図
+{bdg-dark-line}`テキスト：P.67`
+### フォーム内のパーツのタグについて
+{bdg-dark-line}`テキスト：P.68〜69`
+### フォームのアクセシビリティー
+{bdg-dark-line}`テキスト：P.69`
+### フォーム表記例
+{bdg-dark-line}`テキスト：P.70〜71`
 
-## STAGE7-2 補足
-
-- HTML
-	- Chromeのデベロッパーツールについて 72-73
-	- ブラウザのキャッシュ削除 74-75
+## 付録
+### 付録：Chromeのデベロッパーツールについて
+{bdg-dark-line}`テキスト：P.72〜73`
+### 付録：ブラウザのキャッシュ削除 P.74-75
+#### 付録：Firefox(ver.99.0)の「ブラウザキャッシュ」を削除するには
+{bdg-dark-line}`テキスト：P.74`
+#### 付録：Edge(ver.100.0.1185.36)の「ブラウザキャッシュ」を削除するには
+{bdg-dark-line}`テキスト：P.74`
+#### 付録：Chrome(ver.100.0.4896.75)の「ブラウザキャッシュ」を削除するには
+{bdg-dark-line}`テキスト：P.75`
+#### CSSの書式・基本用語
+{bdg-dark-line}`テキスト：P.76`
+{bdg-primary-line}`教材：HTML教材/15_参考CSSの書式・概要`
+#### 参考：CSSの使用例
+{bdg-dark-line}`テキスト：P.77`
+{bdg-primary-line}`教材：HTML教材/15_参考CSSの書式・概要`
+#### 参考：ネスト（入れ子）にできるタグ一覧
+{bdg-dark-line}`テキスト：P.78`
 
 ---------------------------------------- (論理的区切り、昇段試験を追加したい) ----
 	大規模構造をマークアップする
@@ -247,40 +297,56 @@ https://github.com/AaronMaywood/coding_sample/tree/main/main-structure
 2. MDNもあればなおよし
 ---------------------------------------- (論理的区切り、昇段試験を追加したい) ----
 
-## STAGE8 CSSとは
+# LEVEL3 CSS基礎
+## CSSとは
+### CSSの書式・基本用語
+{bdg-dark-line}`テキスト：P.76`
+（内容は{bdg-dark-line}`テキスト：P.80`と同じです）
+{bdg-primary-line}`教材：HTML教材/15_参考CSSの書式・概要`
+### 参考：CSSの使用例
+{bdg-dark-line}`テキスト：P.77`
+{bdg-primary-line}`教材：HTML教材/15_参考CSSの書式・概要`
 
-- HTML
-	- 参考：CSS の使用例 77
-	- CSS の書式・基本用語 76
-		- CSS
-			- CSS の書式・基本用語 2 と同じ
-	
-## STAGE9 CSSを書くには チラ見
+## セレクタ―
+### セレクタの種類
+{bdg-dark-line}`テキスト：P.81〜84`
+### インライン CSS・内部 CSS・外部 CSS について
+{bdg-dark-line}`テキスト：P.85〜87`
 
-- CSS
-	- 実習：HTML と CSS の応用実例サンプルを検証する 10-11
-	- 実習：HTML 書類を新規の CSS 書類で設定する手順 12-16
+## 実習
+### 実習：HTML と CSS の応用実例サンプルを検証する
+{bdg-dark-line}`テキスト：P.88〜89`
+### 実習：HTML 書類を新規の CSS 書類で設定する手順
+{bdg-dark-line}`テキスト：P.90〜94`
 
-## STAGE10 セレクタ―
+## CSS の「セレクタ」・「プロパティ」・「値」の記述における注意
+{bdg-dark-line}`テキスト：P.95`
 
-- CSS
-	- セレクタの種類 3-6
-	- インライン CSS・内部 CSS・外部 CSS について 7-9
-	- CSS の「セレクタ」・「プロパティ」・「値」の記述における注意 17
+## タグに関連する CSS セレクタを表示する
+{bdg-dark-line}`テキスト：P.96`
+### VSCのカラーピッカーの表示
+{bdg-dark-line}`テキスト：P.96`
+### ブラウザ Chrome のフォント設定を初期化する 「CSS3基礎」P.19-21
+{bdg-dark-line}`テキスト：P.97〜99`
 
-	↓おまけと明記
-	- タグに関連する CSS セレクタを表示する 18		# option
-	- VSCのカラーピッカーの表示 18					# option
-	- ブラウザ Chrome のフォント設定を初期化する 19-21	# option
+## CSS の単位について
+{bdg-dark-line}`テキスト：P.100`
+### 実習：絶対値「`px`」と、相対値「`rem`」「`em`」の違いとは？
+{bdg-dark-line}`テキスト：P.100〜103`
 
-## STAGE10-2 プロパティ
+## CSSのコメントについて
+{bdg-dark-line}`テキスト：P.104`
 
-- CSS
-	- CSS の単位について	22-25
-	- CSSのコメントについて 26
-	- CSS の色の指定方法 27-29(一段落目まで)
-	- CSS のプロパティ  文字（書式）関連 30
-	- CSS のプロパティ  行高さ（行間） line-height の単位について 31
+## 色
+### CSS の色の指定方法
+{bdg-dark-line}`テキスト：P.105`
+#### 色を指定する
+{bdg-dark-line}`テキスト：P.106〜108`
+
+## CSS のプロパティ ─ 文字（書式）関連
+{bdg-dark-line}`テキスト：P.108`
+## CSS のプロパティ ─ 行高さ（行間） line-height の単位について
+{bdg-dark-line}`テキスト：P.109〜110`
 
 ---------------------------------------- LEVEL2 昇段試験 ----
 	細かな装飾
@@ -390,20 +456,13 @@ https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Positioning
 
 ## STAGE16.5 付録
 - CSS
-	- 付録：CSS3  簡易解説 トランジションなど 85-89
-      - 透明度 85
-      - 角丸 86
-      - 線形グラデーション 87
-		CSSグラデーションの使用
-		https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Images/Using_CSS_gradients
-			→反復グラデーションの応用例がやばい
-			円形グラデーションもあるよ
-			https://developer.mozilla.org/ja/docs/Web/CSS/gradient/radial-gradient
-			扇形もあるよ
-			https://developer.mozilla.org/ja/docs/Web/CSS/gradient/conic-gradient
-      - テキストシャドウ 88
-      - ボックスシャドウ 88
-      - トランジション 89
+### 付録：CSS3  簡易解説 トランジションなど 「CSS3基礎」P.85-89
+#### 不透明度・透明度 「CSS3基礎」P.85
+#### 角丸(かどまる) 「CSS3基礎」P.86
+#### 線形グラデーション 「CSS3基礎」P.87
+#### テキストシャドウ 「CSS3基礎」P.88
+#### ボックスシャドウ 「CSS3基礎」P.88
+#### トランジション 「CSS3基礎」P.89
 		参考: CSS Animation
 		https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 

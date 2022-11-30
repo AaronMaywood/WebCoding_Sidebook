@@ -1,5 +1,17 @@
 # 執筆ノート
 
+
+- コードブロックへのrefはつけられないようだ
+	```{code}
+    :label: foo
+    :name: bar
+    ```
+    {ref}`foo`も{ref}`bar`もない
+	https://jupyterbook.org/en/stable/content/references.html
+	https://jupyterbook.org/en/stable/content/content-blocks.html
+	https://jupyterbook.org/en/stable/reference/cheatsheet.html
+
+- タグ `<section>`
 - 補足説明なし
 （補足事項はありません。）
 
