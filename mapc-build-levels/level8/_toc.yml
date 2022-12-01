@@ -1,0 +1,28 @@
+# 目次(左側エリア)
+# - https://jupyterbook.org/customize/toc.html
+# - https://jupyterbook.org/en/stable/structure/toc.html
+
+format: jb-book
+root: intro
+options:
+  # https://jupyterbook.org/en/stable/structure/configure.html#add-captions-to-parts
+  #numbered: true
+# [TODO] 本文だけに章番号を付けるにはどうしたらいい？
+# https://jupyterbook.org/en/stable/structure/configure.html
+parts:
+  - caption: 準備
+    numbered: false
+    chapters:
+#      - file: equip
+      - file: webserver
+  - caption: ガイドブック
+    numbered: true
+    chapters:
+      - file: LEVEL1
+      - file: LEVEL2
+      - file: LEVEL3
+      - file: LEVEL4
+      - file: LEVEL5
+      - file: LEVEL6
+      - file: LEVEL7
+      - file: LEVEL8

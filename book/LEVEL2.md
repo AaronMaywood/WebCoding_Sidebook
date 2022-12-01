@@ -1,8 +1,7 @@
 # LEVEL2 HTMLパート２
 
 LEVEL1では`HTML`の基本といくつかの要素を学びました。
-LEVEL2では`HTML`の他の要素を見て`HTML`の学習を終了します。LEVEL2での`HTML`の見どころは {bdg-dark-line}`テキスト：P.59〜63` の「大規模なボックスとしてまとめるタグについて」です。
-`HTML`の次の教科である`CSS`の学習を始めます。
+LEVEL2では`HTML`の残りの要素を学び、`HTML`の学習を終了します。LEVEL2での`HTML`の見どころは {bdg-dark-line}`テキスト：P.59〜63` の「大規模なボックスとしてまとめるタグについて」です。
 
 ## table要素
 {bdg-dark-line}`テキスト：P.51`
