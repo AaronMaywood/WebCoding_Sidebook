@@ -1,4 +1,6 @@
 book/_build/
+Session.vim
+book/Session.vim
 mapc-build-levels/level1/_build/
 mapc-build-levels/level2/_build/
 mapc-build-levels/level3/_build/

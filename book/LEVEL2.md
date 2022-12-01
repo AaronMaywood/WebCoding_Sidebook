@@ -426,46 +426,86 @@ https://adjustacademy.com/ は改訂されました。したがって
 % 	[DONE] これにCSSを追加して本当にこの並びにできる？→できる.Gridを使用した
 % 
 % 2. MDNもあればなおよし
- 
-### {{TODO}} 試験問題「大規模構造をマークアップする」
 
-配付するテキスト素材にマークアップを施して、次の図で示す`index.html`を完成させて下さい。
+### 試験問題「大規模構造をマークアップする」
 
-```{figure} https://i.gyazo.com/a73b024487f941406588af5699fa4b7e.png
-この見た目になるよう、**見出し**、**段落**、**リスト**をマークアップして下さい。
+素材にマークアップを施して`index.html`を完成させて下さい。
+- {bdg-dark}`指示` 作業フォルダ名を`wikipedia`とし、`HTML`のファイル名は`wikipedia/index.html`として下さい。
+
+
+Wikipediaのページの大規模構造を色分けしてみました。この構造を真似してマークアップしたいと思います。
+```{figure} https://gyazo.com/39b2a438fa19201a4f36cee9baf18acc.png
 ```
 
-- 解答に必要な素材を提供します。以下から素材のZIPファイルをダウンロードし、展開して利用して下さい。
-  - https://adjustacademy.com/webcoder/f0bc3a313cc5162e2e83b2d6eb51656d.zip
-    - テキスト素材が`index.html`の中に入っています。
-    - 画像素材は`Hummus_from_The_Nile.jpg`です。
-- {bdg-dark}`指示` 作業フォルダ名を`hummus`とし、`HTML`のファイル名は`hummus/index.html`として下さい。
-- 「フムス」の箇所には、Wikipediaの"フムス"のページである `https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A0%E3%82%B9` へのリンクを設置して下さい。リンクには`target="_blank"`を指定して下さい。
-	```{figure} https://i.gyazo.com/67947141d4cbf29eb5428061394a80bd.png
-	「フムス」のテキストに「フムス」のテキストにリンクを設定します。
+Wikipediaのページ構成の意味を汲んで、冒頭部や主要なナビゲーション等の説明を入れると次のようになります。
+```{figure} https://i.gyazo.com/f8d55ac689cdf8694cff743f5a645d6e.png
+---
+name: structures
+---
+真似したい部分は次の図の色分けした部分になります。
+```
+
+{ref}`structures`の図中、色で示したように、ページの冒頭部、主要なナビゲーションその１、主要なナビゲーションその２、articleかつページの主要部分をそれぞれマークアップして下さい。
+
+- 以下の素材を利用して下さい。（コピペして下さい。）
+	``` html
+  <!-- 冒頭部 -->
+  <p>ロゴ画像</p>
+
+  <!-- 主要なナビゲーションその１ -->
+  <p>アカウント作成</p>
+
+  <!-- 主要なナビゲーションその２ -->
+  <h2>目次</h2>
+  <ul>
+    <li>特徴</li>
+    <li>HTML文書
+      <ul>
+        <li>要件</li>
+        <li>属性</li>
+      </ul>
+    </li>
+    <li>歴史</li>
+    <li>...</li>
+  </ul>
+
+  <!-- article の中身 -->
+  <h1>HyperText Markup Language</h1>
+  <p>HyperText Markup Language（ハイパーテキスト マークアップ ランゲージ）は、ハイパーテキストを記述するためのマークアップ言語の1つで、主にWorld Wide Web（WWW）において、ウェブページを表現するために用いられる。</p>
+  <h2>特徴</h2>
+  <p>HTMLは木構造（入子構造）のマークアップ言語であり、形式言語である。</p>
 	```
-- 使用する画像（`Hummus_from_The_Nile.jpg`）について
-  - サイズは幅`800px`、高さ`533px`として下さい。
-  - `alt属性`には、この画像の説明である「フムスのアラブ式盛り付け例」を指定して下さい。
-- 以下の２箇所のテキストを強調表示して下さい。
-  ```{figure} https://i.gyazo.com/8bd70a7634d23652438dc0f094ff4524.png
-  「**このレシピは...転用したものです。**」を強調表示して下さい。
-  ```
-  ```{figure} https://i.gyazo.com/a5d5702741fc4174174c5d3201a3bd9a.png
-  「**発泡してきた場合は、必ず捨てて下さい。**」を強調表示して下さい。なお、これは腐ったことを示す説明です。
+- 見出しにはその見出しを含むようにセクション要素（`section`、`article`、`aside`、`nav`）を配置して下さい。
+  ``` html
+  例)
+  <h1>見出し１</h1>
+  ↓
+  見出しにはセクション要素を配置して以下のようにします。
+  ↓
+  <section>
+    <h1>見出し１</h1>
+  </section>
   ```
 
-## 解答の提出
-- {bdg-dark}`指示` `hummus`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
+なお、完成したページは、ブラウザーでは次のように見えます。
+```{figure} https://i.gyazo.com/638d6cf914211193ddd697297762f7f1.png
+この出題で使用する`section`、`article`、`aside`、`nav`、`header`、`footer`、`main`要素は、いずれも見た目に影響を与えません。したがって**見た目ではなく、意味を踏まえて正しくマークアップを行えるかが問われます**。
+```
+### 採点基準
+
+- `section`、`article`、`aside`、`nav`、`header`、`footer`、`main`を適切に使用していること。
+- 見出しがあるところにセクション要素を配置してあること。
+
+### 解答の提出
+- {bdg-dark}`指示` `wikipedia`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
 
 % {{TODO}} 回答のダウンロード指示は、合格通知の中で行う
 % > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_float/archive/refs/heads/answer.zip
-% フムスレシピの解答例、解説付き
-% https://adjustacademy.com/webcoder/971456bb189a76bb5985b60126caf0a1.zip
-
+% wikipediaの解答例、解説付き{{TODO}}解説はまだ
+% https://adjustacademy.com/webcoder/5b0a283b8411d11a4b4b73ab2b826197.zip
 
 ## CSSとは
 
