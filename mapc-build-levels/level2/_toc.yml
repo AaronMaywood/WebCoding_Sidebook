@@ -14,7 +14,7 @@ parts:
     numbered: false
     chapters:
 #      - file: equip
-      - file: LEVEL6.5
+      - file: webserver
   - caption: ガイドブック
     numbered: true
     chapters:

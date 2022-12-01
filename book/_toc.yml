@@ -14,7 +14,7 @@ parts:
     numbered: false
     chapters:
       - file: equip
-      - file: LEVEL6.5
+      - file: webserver
   - caption: ガイドブック
     numbered: true
     chapters:
@@ -25,8 +25,7 @@ parts:
       - file: LEVEL5
       - file: LEVEL6
       - file: LEVEL7
-      # ボツ
-      # - file: LEVEL8
+      - file: LEVEL8
       - file: LEVEL9
       - file: LEVEL10
   - caption: Appendix

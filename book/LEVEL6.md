@@ -1,133 +1,125 @@
-# LEVEL6 CSS - Position
+# LEVEL6 CSS - Flexbox
+## STAGE15 Flexbox
 
-% https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Positioning
+```{tip}
+**P.143 `align-items:center;`**
 
-## STAGE16 position レイアウト **「CSS3基礎」P.66-74**
+縦方向の中央寄せは従来のCSSでは難易度が高いものでしたが、`Flexbox`の登場で簡単になりました。
+その方法をマスターしておきましょう。
+```
 
-### positionレイアウト **「CSS3基礎」P.66-68**
+- Flexbox（フレキシブルボックス） 139-143
+	教材: 24_flex_基本
+- Flex を応用したニ段組みボックスレイアウト ─第１段階 153-155
+	教材: 27_二段組ボックスレイアウト
+- Flex を応用したニ段組みボックスレイアウト ─第２段階 156-160
+	教材: 27_二段組ボックスレイアウト
 
-### 参考：「position」を使わず、「ﬂoat」レイアウトで配置するには **「CSS3基礎」P.69**
 
-### ボックスの重なり順を変更する「z-index」 **「CSS3基礎」P.70-71**
-
-### 注意：縦並びに配置するボックスに「position:absolute」は設定しません！ **「CSS3基礎」P.72**
-
-### 「lesson_1.html」内にある「div.ﬁx_box」に ﬁxed の設定をする **「CSS3基礎」P.73**
-
-### 「lesson_2.html」内にある「nav」に sticky の設定をする **「CSS3基礎」P.74**
-
-## STAGE16.5 付録 P.85-89
-
-### 透明度 85 **「CSS3基礎」P.85**
-
-### 角丸 86 **「CSS3基礎」P.86**
-
-### 線形グラデーション 87 **「CSS3基礎」P.84**
-
-% CSSグラデーションの使用
-% https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Images/Using_CSS_gradients
-% →反復グラデーションの応用例がやばい
-% 円形グラデーションもあるよ
-% https://developer.mozilla.org/ja/docs/Web/CSS/gradient/radial-gradient
-% 扇形もあるよ
-% https://developer.mozilla.org/ja/docs/Web/CSS/gradient/conic-gradient
-
-### テキストシャドウ 88 **「CSS3基礎」P.88**
-
-### ボックスシャドウ 88 **「CSS3基礎」P.88**
-
-### トランジション 89 **「CSS3基礎」P.89**
-% 参考: CSS Animation
-% https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Animations/Using_CSS_animations
-
-## 昇段試験 - position
-
-% 位置指定のテスト
-% https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Position_skills
+% ## STAGE15-2 Grid
 % 
-% 実用的な位置指定の応用例→JavaScriptが必要だから不採用
-% https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Practical_positioning_examples
-
-- {{TODO}} 元素材のダウンロード指示
-	素材を入手して下さい
-		以下のURLから素材のZIPファイルをダウンロードし、展開して置いて下さい。
-			https://adjustacademy.com/..../9879878a797878.zip
-- {{TODO}} 回答のダウンロード指示
-- {{TODO}} 採点の方式
- 
-### 問１ - 右上表示
-
-素材の`1/`フォルダを`VS Code`で開いて下さい。
-`css/style.css`を編集して以下の問いに答えてください。
-
-```{figure} https://i.gyazo.com/049658e1f669ded396e2067f62864a62.png
-この状態からスタートして、
-```
-```{figure} https://i.gyazo.com/0631e6f5499cbed55b429fbb13c0a723.png
-この見た目にしてください。 （黄緑色のボックスは下にある文字を隠してかまいません。）
-```
-
-### 問２ - 欄外にはみ出る吹き出し
-
-```{figure} https://i.gyazo.com/68646dbc76316e4d588dae039143d72a.png
-オレンジ色の「最新の開講情報」の吹き出しのように、ボックスからはみ出したデザインにチャレンジします。
-```
-
-素材の`2/`フォルダを`VS Code`で開いて下さい。
-`css/style.css`を編集して以下の問いに答えてください。
-
-```{figure} https://i.gyazo.com/7e29530dcee9b5a11d2551a228b371f0.png
-この状態からスタートして、
-```
-
-```{figure} https://i.gyazo.com/479fe0cb4a8bd896a8f3011896dbedd9.png
-この見た目にしてください。 （黄緑色のボックスは下にある文字を隠してかまいません。）
-```
-
-### 問３ - 左側エリア
-
-```{figure} https://i.gyazo.com/72e8b3c527654b8a53533bd23acac6fe.jpg
-左側のメニュー領域を作成します。
-```
-```{figure} https://i.gyazo.com/fbd9f57fef854d4e2c9f5c6db9209cfd.gif
-なお、記事内容をスクロールさせても左側メニューは固定されています。
-```
-
-素材の`3/`フォルダを`VS Code`で開いて下さい。
-`css/style.css`を編集して以下の問いに答えてください。
-
-```{figure} https://i.gyazo.com/45b7a1ab2a51344f8c44300562d764e5.png
-この状態からスタートして、
-```
-```{figure} https://i.gyazo.com/c6a6f0be42fca09e3926a1cfe37bfb89.png
-この見た目にしてください。 （黄緑色のボックスは下にある文字を隠してかまいません。）
-```
-```{figure} https://i.gyazo.com/fe2fd558d7f999979d963f3c18eaca71.gif
-なお、記事内容をスクロールさせても左側メニューは固定されています。
-```
-
-% その他のネタ
-%
-% 影のジェネレーター
-% https://getcssscan.com/css-box-shadow-examples
-% 	→サンプル影を示し、構造を解析してもらう
-% box-shadowだけじゃない！CSSでできる色々な影の表現と意外に知らない落とし穴
-% https://ics.media/entry/200406/
-% 	この記事は上級編、だがわかりやすい！
+% {{TODO}} テキストがない、ベータリリース以降増補する
 % 
-% トランジションの例
-% https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
-%	transition
-%	https://github.com/AaronMaywood/coding_sample/tree/main/transition
-%		https://aaronmaywood.github.io/coding_sample/transition/
 
-## 提出方法（検証〜提出）
+## 昇段試験 - flexbox編を受験する
 
-- 動作確認ができたら提出して下さい。
-	````{dropdown} 課題の提出方法を確認する
-	```{include} cards/school/send-in-files.md
-	```
-	````
-- 合格すれば模範解答を手に入れることができます。模範回答と照らし合わせ、さらに知識を固めて下さい。
-	- また、次のレベル教材が示されます。次のレベルに進んでください。
+```{include} cards/school/running-in-to-exam.md
+```
+
+## 昇段試験 - flexbox編
+
+% https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox_skills を使用する（日本語版を作る）→使用しました
+% https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet 役立つチートシート
+
+### 素材、採点基準
+
+- 解答に必要な素材を提供します。以下から素材のZIPファイルをダウンロードし、展開して利用して下さい。
+	% ハッシュ化してadjustacademy.omにアップロードする方法
+	% 2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
+	% > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_flexbox/archive/refs/heads/main.zip
+	- https://adjustacademy.com/webcoder/b70da6b74278c1bb2f77436fb7dca15a.zip
+    - この中にHTMLとCSSが含まれます。
+
+- 採点基準は以下のとおりです。
+	1. ブラウザーの表示をみて、指示通りの表示になっているかを確認します。
+	2. CSSを見て、`flexbox`を使用した解答になっているかを確認します。
+	この両方の水準を満たしていれば合格です。
+	% 水準を満たしているような、満たしていないような場合のグレーゾーンでは、生徒に質問してみて理解できているようであれば（また、やる気のある回答であれば）（必要に応じて指摘箇所を再提させて、これは再提出としてはカウントしない）合格とするなどの配慮を行う。
+
+### 昇段試験のルール
+
+% 昇段試験の案内
+```{include} cards/school/rule-of-exam.md
+```
+
+---
+### 問１ - 横並び
+
+- {bdg-dark}`指示` 作業フォルダ名を`flexbox/1`として下さい。
+- 配付素材は`1`フォルダです。この中に`index.html`と`css/style.css`があります。
+
+```{figure} https://i.gyazo.com/f022295e9e24477a80bbf7de096167f6.png
+配付素材`1/index.html`の初期状態です。
+`one`〜`four`のボックスを、
+```
+```{figure} https://i.gyazo.com/c1843df5e122540b1052209705af1f78.png
+Flexboxを使用して図のように横に並べるよう、`style.css`に手を加えて下さい。
+```
+
+---
+### 問２ - コンテンツの横並び
+
+- {bdg-dark}`指示` 作業フォルダ名を`flexbox/2`として下さい。
+- 配付素材は`2`フォルダです。この中に`index.html`と`css/style.css`があります。
+
+```{figure} https://i.gyazo.com/92ac5e6e527db6d27e81133b3a0a9fff.png
+配付素材`2/index.html`の初期状態です。
+３つのボックスを
+```
+
+```{figure} https://i.gyazo.com/977b6a49ab5216e2c48eee644a51e227.png
+Flexboxを使用して図のように横に並べるよう、`style.css`に手を加えて下さい。３つのボックスの幅は同じにしてください。
+```
+
+---
+### 問３ - 中央寄せ
+
+% {{DONE}} 縦方向の中央寄せは教科書にある？→教科書P.143に存在した
+- {bdg-dark}`指示` 作業フォルダ名を`flexbox/3`として下さい。
+- 配付素材は`3`フォルダです。この中に`index.html`と`css/style.css`があります。
+
+```{figure} https://i.gyazo.com/0ddc5909ccf8b243c51fa2f523500481.png
+配付素材`3/index.html`の初期状態です。
+灰色のボックスを、
+```
+
+```{figure} https://i.gyazo.com/38c2eee16d233fa17bf703c22a080f25.png
+Flexboxを使用して枠内の中央に配置するよう、`style.css`に手を加えて下さい。
+```
+
+---
+### 問４ - レンガ組み
+% {{DONE}} 改行の方法と、flex-startの方法は教科書にあるか？→P.141とP.143にあった
+
+- {bdg-dark}`指示` 作業フォルダ名を`flexbox/4`として下さい。
+- 配付素材は`4`フォルダです。この中に`index.html`と`css/style.css`があります。
+
+```{figure} https://i.gyazo.com/9342edcfcce1278c6404267094a35ec9.png
+配付素材`4/index.html`の初期状態です。
+縦に並んでいる「ドロップ」「タフィ」などのお菓子の名前を、
+```
+
+```{figure} https://i.gyazo.com/f41d0456f5205b47de6a136a6a609ab0.png
+Flexboxを使用して図のように改行ありの横並びにするよう、`style.css`に手を加えて下さい。
+```
+
+## 解答の提出
+
+```{include} cards/school/filling.md
+```
+
+% {{TODO}} 回答のダウンロード指示は、合格通知の中で行う
+% ハッシュ化してadjustacademy.omにアップロードする方法
+% 2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
+% > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_flexbox/archive/refs/heads/main.zip
 

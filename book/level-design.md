@@ -207,7 +207,7 @@
 	https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/html-text-formatting/text-start.html by CC0 Public Domain License
 ---------------------------------------- LEVEL1 昇段試験 ----
 
-# LEVEL2(LEVEL2.md) HTMLの残りの話題、CSSの基本
+# LEVEL2 HTMLの残りの話題、CSSの基本
 ## table要素
 {bdg-dark-line}`テキスト：P.51`
 ### 表`<table>`の記述例
@@ -348,12 +348,12 @@ https://github.com/AaronMaywood/coding_sample/tree/main/main-structure
 ## CSS のプロパティ ─ 行高さ（行間） line-height の単位について
 {bdg-dark-line}`テキスト：P.109〜110`
 
----------------------------------------- LEVEL2 昇段試験 ----
+---------------------------------------- LEVEL3 昇段試験 ----
 	細かな装飾
 - https://docs.google.com/document/d/1WI5_-_zzrHpZVJsxFvpkwz1t10ft5lc86TGsdTtPH2E/edit#heading=h.ei8r1exdw47m をもとにindex.html を書いて下さい。
----------------------------------------- LEVEL2 昇段試験 ----
+---------------------------------------- LEVEL3 昇段試験 ----
 
-# LEVEL3(LEVEL3.md) CSS - ボックスモデル
+# LEVEL4 CSS - ボックスモデル
 
 ## STAGE11 ボックスモデル
 
@@ -377,7 +377,7 @@ https://github.com/AaronMaywood/coding_sample/tree/main/main-structure
 ボックスモデルのプロパティを作って「メモ」を表現する
 https://github.com/AaronMaywood/coding_sample/tree/main/box-model
 ---------------------------------------- (論理的区切り、昇段試験を追加したい) ----
-# LEVEL4(LEVEL4.md) CSS - 背景、float、実例:ナビメニュー
+# LEVEL5 CSS - 背景、float、実例:ナビメニュー
 
 ## STAGE12 背景画像
 
@@ -412,7 +412,7 @@ https://github.com/AaronMaywood/coding_sample/tree/main/box-model
 - ナビメニュー - 縦組み P.136 {bdg-primary-line}`教材：21_メニュー縦組・横組`
 - ナビメニュー - 横組み P.137
 
----------------------------------------- LEVEL4 昇段試験 ----
+---------------------------------------- LEVEL5 昇段試験 ----
 	背景、float
 背景はcover
 文章と挿し絵
@@ -426,9 +426,9 @@ https://github.com/AaronMaywood/coding_sample/tree/main/a-aki	←試作品
 リスト、ナビメニュー
 - 横展開はflexを使ったBtypeがいい。flexと合わせて教えるのがいいかな
 	typeCはレガシーコード
----------------------------------------- LEVEL4 昇段試験 ----
+---------------------------------------- LEVEL5 昇段試験 ----
 
-# LEVEL5(LEVEL5.md) CSS - Flexbox
+# LEVEL6 CSS - Flexbox
 ## STAGE15 Flexbox
 
 - CSS
@@ -439,12 +439,12 @@ https://github.com/AaronMaywood/coding_sample/tree/main/a-aki	←試作品
 
 [TODO] テキストがない
 
----------------------------------------- LEVEL5 昇段試験 ----
+---------------------------------------- LEVEL6 昇段試験 ----
 	flex
 https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox_skills を使用する（日本語版を作る）
----------------------------------------- LEVEL5 昇段試験 ----
+---------------------------------------- LEVEL6 昇段試験 ----
 
-# LEVEL6(LEVEL6.md) CSS - Position
+# LEVEL7 CSS - Position
 ## STAGE16 position
 
 - CSS
@@ -468,7 +468,7 @@ https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Positioning
 		参考: CSS Animation
 		https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 
----------------------------------------- LEVEL6 昇段試験 ----
+---------------------------------------- LEVEL7 昇段試験 ----
 	position, 細かな装飾(2)
 位置指定のテスト
 https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Position_skills
@@ -488,10 +488,10 @@ https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transiti
 	transition
 	https://github.com/AaronMaywood/coding_sample/tree/main/transition
 
----------------------------------------- LEVEL6 昇段試験 ----
+---------------------------------------- LEVEL7 昇段試験 ----
 
 
-# LEVEL7(LEVEL7.md) お茶サイト実装
+# LEVEL8 お茶サイト実装
 
 ## STAGE19 お茶サイト紹介
 
@@ -582,9 +582,9 @@ https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transiti
 - お茶
 	- contact.htmlの作成51-55
 
----------------------------------------- LEVEL7 昇段試験 LEVEL29-LEVEL32 ----
+---------------------------------------- LEVEL8 昇段試験 LEVEL29-LEVEL32 ----
 TODO 何をしよう？
----------------------------------------- ↑LEVEL7 昇段試験 LEVEL29-LEVEL32 ----
+---------------------------------------- ↑LEVEL8 昇段試験 LEVEL29-LEVEL32 ----
 
 % このレベルはボツにして前のレベルに統合する↑
 % # LEVEL8(LEVEL8.md) フォーム

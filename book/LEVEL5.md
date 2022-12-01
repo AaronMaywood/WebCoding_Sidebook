@@ -1,48 +1,75 @@
-# LEVEL5 CSS - Flexbox
-## STAGE15 Flexbox
+# LEVEL5 CSS - 背景、float、実例:ナビメニュー
 
-```{tip}
-**P.143 `align-items:center;`**
+## STAGE12 背景画像
 
-縦方向の中央寄せは従来のCSSでは難易度が高いものでしたが、`Flexbox`の登場で簡単になりました。
-その方法をマスターしておきましょう。
-```
+- (おさらい)background-color はカラーの説明P.104にあらわれていました
+- 背景画像のくりかえし P.117 {bdg-primary-line}`教材：13_背景画像の繰り返し`
+- 背景画像の配置 P.118 {bdg-primary-line}`教材：14_背景画像の配置`
+- 背景画像サイズ P.119 {bdg-primary-line}`教材：15_背景画像の配置`
+  - 「header」・「article」・「section」等のボックスに「高さ」を設定するには P.120
+  - 「header」内にボックスよりも小さな「背景画像」を設定すると…。 P.120
+  - 「background-size」に「cover」を設定すると…。 P.121
+  - 「background-size」に「contain」を設定すると…。 P.121
+  - 「background-size」に「auto」を設定すると…。 P.121
+  - 「background-size:cover」と「background-position」を組み合わせる P.122
 
-- Flexbox（フレキシブルボックス） 139-143
-	教材: 24_flex_基本
-- Flex を応用したニ段組みボックスレイアウト ─第１段階 153-155
-	教材: 27_二段組ボックスレイアウト
-- Flex を応用したニ段組みボックスレイアウト ─第２段階 156-160
-	教材: 27_二段組ボックスレイアウト
+## STAGE13 float
 
+- 「float」と「clear」について
+- 「float」と「clear」を検証する P.123-126 P.123 {bdg-primary-line}`教材：16_フロート基本`
+- フロートによる文字の回り込み P.127-128 {bdg-primary-line}`教材：17_画像・文字回り込み`
 
-% ## STAGE15-2 Grid
-% 
-% {{TODO}} テキストがない、ベータリリース以降増補する
-% 
+- フロートした子要素と親要素の関係 P.129
+  - 子要素がフロートしても、親要素がきちんと囲むには？ ─ 手法Ⓐ  P.130
+  - 子要素がフロートしても、親要素がきちんと囲むには？ ─ 手法Ⓑ  P.131
 
-## 昇段試験 - flexbox編を受験する
+## STAGE13-2
+
+- `<ul>`、`<ol>` または`<li>`要素に設定するプロパティ P.132 {bdg-primary-line}`教材：19_リストマーカー`
+- overflow プロパティ P.133 {bdg-primary-line}`教材：20_overflow`
+
+## STAGE14 ナビメニュー
+
+- ナビメニュー - 縦組み P.136 {bdg-primary-line}`教材：21_メニュー縦組・横組`
+- ナビメニュー - 横組み P.137
+
+## 昇段試験 - 背景、float編を受験する
+
+% {{TODO}} float編という名前だと、float以外が試験にあらわれないと思われてしまう。LEVEL5などとしたい
 
 ```{include} cards/school/running-in-to-exam.md
 ```
 
-## 昇段試験 - flexbox編
+## 昇段試験 - 背景、float編
 
-% https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox_skills を使用する（日本語版を作る）→使用しました
-% https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet 役立つチートシート
+% 背景、float
+% 背景はcover
+% 文章と挿し絵
+% 「ア、秋」にファーストビューの背景と挿し絵を挿入する
+% https://www.aozora.gr.jp/cards/000035/files/236_19996.html 
+% https://github.com/AaronMaywood/coding_sample/tree/main/a-aki	←試作品
+% 	→子孫セレクターを使用しているので説明が必要
+% 		教科書ではP.56で扱っている
+% 
+% オーバーフロー、
+% リスト、ナビメニュー
+% - 横展開はflexを使ったBtypeがいい。flexと合わせて教えるのがいいかな
+% 	typeCはレガシーコード
+
 
 ### 素材、採点基準
 
 - 解答に必要な素材を提供します。以下から素材のZIPファイルをダウンロードし、展開して利用して下さい。
 	% ハッシュ化してadjustacademy.omにアップロードする方法
 	% 2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
-	% > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_flexbox/archive/refs/heads/main.zip
-	- https://adjustacademy.com/webcoder/b70da6b74278c1bb2f77436fb7dca15a.zip
+	% > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_float/archive/refs/heads/main.zip
+	% https://adjustacademy.com/webcoder/950058dd6702e10e6ff3fed5f462bbfb.zip
+	- https://adjustacademy.com/webcoder/950058dd6702e10e6ff3fed5f462bbfb.zip
     - この中にHTMLとCSSが含まれます。
 
 - 採点基準は以下のとおりです。
 	1. ブラウザーの表示をみて、指示通りの表示になっているかを確認します。
-	2. CSSを見て、`flexbox`を使用した解答になっているかを確認します。
+	2. CSSを見て、`float`を使用した解答になっているかを確認します。
 	この両方の水準を満たしていれば合格です。
 	% 水準を満たしているような、満たしていないような場合のグレーゾーンでは、生徒に質問してみて理解できているようであれば（また、やる気のある回答であれば）（必要に応じて指摘箇所を再提させて、これは再提出としてはカウントしない）合格とするなどの配慮を行う。
 
@@ -53,65 +80,16 @@
 ```
 
 ---
-### 問１ - 横並び
+### 問１ - 「ア、秋」
 
-- {bdg-dark}`指示` 作業フォルダ名を`flexbox/1`として下さい。
-- 配付素材は`1`フォルダです。この中に`index.html`と`css/style.css`があります。
+- {bdg-dark}`指示` 作業フォルダ名を`float/a-aki`として下さい。
+- 配付素材は`a-aki`フォルダです。この中に`index.html`と`css/style.css`があります。
 
-```{figure} https://i.gyazo.com/f022295e9e24477a80bbf7de096167f6.png
-配付素材`1/index.html`の初期状態です。
-`one`〜`four`のボックスを、
+```{figure} https://i.gyazo.com/cdf19cb0983323856c9f5b86f2f541c2.png
+この見た目になるようにCSSを調整して下さい。
 ```
-```{figure} https://i.gyazo.com/c1843df5e122540b1052209705af1f78.png
-Flexboxを使用して図のように横に並べるよう、`style.css`に手を加えて下さい。
-```
-
----
-### 問２ - コンテンツの横並び
-
-- {bdg-dark}`指示` 作業フォルダ名を`flexbox/2`として下さい。
-- 配付素材は`2`フォルダです。この中に`index.html`と`css/style.css`があります。
-
-```{figure} https://i.gyazo.com/92ac5e6e527db6d27e81133b3a0a9fff.png
-配付素材`2/index.html`の初期状態です。
-３つのボックスを
-```
-
-```{figure} https://i.gyazo.com/977b6a49ab5216e2c48eee644a51e227.png
-Flexboxを使用して図のように横に並べるよう、`style.css`に手を加えて下さい。３つのボックスの幅は同じにしてください。
-```
-
----
-### 問３ - 中央寄せ
-
-% {{DONE}} 縦方向の中央寄せは教科書にある？→教科書P.143に存在した
-- {bdg-dark}`指示` 作業フォルダ名を`flexbox/3`として下さい。
-- 配付素材は`3`フォルダです。この中に`index.html`と`css/style.css`があります。
-
-```{figure} https://i.gyazo.com/0ddc5909ccf8b243c51fa2f523500481.png
-配付素材`3/index.html`の初期状態です。
-灰色のボックスを、
-```
-
-```{figure} https://i.gyazo.com/38c2eee16d233fa17bf703c22a080f25.png
-Flexboxを使用して枠内の中央に配置するよう、`style.css`に手を加えて下さい。
-```
-
----
-### 問４ - レンガ組み
-% {{DONE}} 改行の方法と、flex-startの方法は教科書にあるか？→P.141とP.143にあった
-
-- {bdg-dark}`指示` 作業フォルダ名を`flexbox/4`として下さい。
-- 配付素材は`4`フォルダです。この中に`index.html`と`css/style.css`があります。
-
-```{figure} https://i.gyazo.com/9342edcfcce1278c6404267094a35ec9.png
-配付素材`4/index.html`の初期状態です。
-縦に並んでいる「ドロップ」「タフィ」などのお菓子の名前を、
-```
-
-```{figure} https://i.gyazo.com/f41d0456f5205b47de6a136a6a609ab0.png
-Flexboxを使用して図のように改行ありの横並びにするよう、`style.css`に手を加えて下さい。
-```
+1. 表題に柿の背景を敷いて下さい。図のように柿の上半分が見えるようにして下さい。
+2. 文中の挿し絵２枚をそれぞれ右、左に配置し、画像に文字を回り込ませて下さい。
 
 ## 解答の提出
 
@@ -119,7 +97,6 @@ Flexboxを使用して図のように改行ありの横並びにするよう、`
 ```
 
 % {{TODO}} 回答のダウンロード指示は、合格通知の中で行う
-% ハッシュ化してadjustacademy.omにアップロードする方法
-% 2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
-% > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_flexbox/archive/refs/heads/main.zip
+% > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_float/archive/refs/heads/answer.zip
+% https://adjustacademy.com/webcoder/8f41205015c24ebc80ea45570bb06f6a.zip
 
