@@ -339,6 +339,8 @@
 #### 設定その７「Visual Studio Code」のその他の注意・機能
 {bdg-dark-line}`テキスト：P.26〜P.27`
 （補足事項はありません。）
+
+(go-live)=
 #### 設定その８「Live Server」（Go Live）機能について
 {bdg-dark-line}`テキスト：P.28〜P.30`
 （補足事項はありません。）
@@ -689,6 +691,7 @@ Wikipediaの目次は実際に見出しを集めたもので構成されてい�
 </ul>
 ```
 
+(my-label)=
 ````{tip}
 **`div`と`span`は通常クラス名を付けて管理します**
 
@@ -757,6 +760,7 @@ Wikipediaの目次は実際に見出しを集めたもので構成されてい�
 
 % {{TODO}} <div>と<span>を多用すると、SEO解析率は低下する」の説明の誤解をとく
 
+(html-comment)=
 ### コメント
 {bdg-dark-line}`テキスト：P.39`
 
@@ -1189,3 +1193,18 @@ Webの生みの親はティム・バーナーズ=リーです。
 % フムスレシピの解答例、解説付き
 % https://adjustacademy.com/webcoder/971456bb189a76bb5985b60126caf0a1.zip
 
+% ```{code}
+% おめでとうございます。昇段試験に合格しました。
+% 
+% - 模範解答を以下のURLからダウンロードできます。自身の答えと照らし合わせて研究して下さい。
+%   https://adjustacademy.com/webcoder/971456bb189a76bb5985b60126caf0a1.zip
+% 
+% 新しいガイドブックを案内します。次のレベル（レベル２）に進んで下さい。
+% 
+% - 新しいガイドブックのレベル２のページ
+%   https://adjustacademy.com/webcoder/guidebook/3105bcfda5ac6fb239ab134c6724673d/LEVEL2.html
+%   	ID: adjust
+%   	パスワード: academy
+% 
+% 事務局 担当：安村(yasumura@adjust.ne.jp)
+% ```

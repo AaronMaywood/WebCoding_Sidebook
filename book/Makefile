@@ -9,6 +9,9 @@ watch:
 preview:
 	firefox _build/html/index.html &
 
+preview-level1:
+	firefox ../mapc-build-levels/level1/_build/html/index.html &
+
 build-and-sync-all: build build-level1 build-level2 build-level3 build-level4 build-level5 build-level6 build-level7 build-level8 build-level9 build-level10 sync
 
 build:

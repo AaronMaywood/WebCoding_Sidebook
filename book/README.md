@@ -1,25 +1,25 @@
-# ガイドブックれレベル別URL
+# ガイドブックのレベル別URL
 
 LEVEL1
 https://adjustacademy.com/webcoder/guidebook/c341b271f5dba18dd4099435670a2c74/intro.html
 LEVEL2
-https://adjustacademy.com/webcoder/guidebook/3105bcfda5ac6fb239ab134c6724673d/intro.html
+https://adjustacademy.com/webcoder/guidebook/3105bcfda5ac6fb239ab134c6724673d/LEVEL2.html
 LEVEL3
-https://adjustacademy.com/webcoder/guidebook/4ef776be94016c7f142dbf944ff7a346/intro.html
+https://adjustacademy.com/webcoder/guidebook/4ef776be94016c7f142dbf944ff7a346/LEVEL3.html
 LEVEL4
-https://adjustacademy.com/webcoder/guidebook/c9dfacd4ab90728131cba2fa604329da/intro.html
+https://adjustacademy.com/webcoder/guidebook/c9dfacd4ab90728131cba2fa604329da/LEVEL4.html
 LEVEL5
-https://adjustacademy.com/webcoder/guidebook/f0e1b9d28a0727854d55285611a4ee4e/intro.html
+https://adjustacademy.com/webcoder/guidebook/f0e1b9d28a0727854d55285611a4ee4e/LEVEL5.html
 LEVEL6
-https://adjustacademy.com/webcoder/guidebook/564e62a14b2375021a130647d3f8250f/intro.html
+https://adjustacademy.com/webcoder/guidebook/564e62a14b2375021a130647d3f8250f/LEVEL6.html
 LEVEL7
-https://adjustacademy.com/webcoder/guidebook/061d06844f75ab4a77087f83f09f1bec/intro.html
+https://adjustacademy.com/webcoder/guidebook/061d06844f75ab4a77087f83f09f1bec/LEVEL7.html
 LEVEL8
-https://adjustacademy.com/webcoder/guidebook/f9438d369d723c8e8b6cdc3f1cd78b64/intro.html
+https://adjustacademy.com/webcoder/guidebook/f9438d369d723c8e8b6cdc3f1cd78b64/LEVEL8.html
 LEVEL9
-https://adjustacademy.com/webcoder/guidebook/eaff21cfa63a828f34f02f4bc739a5de/intro.html
+https://adjustacademy.com/webcoder/guidebook/eaff21cfa63a828f34f02f4bc739a5de/LEVEL9.html
 LEVEL10
-https://adjustacademy.com/webcoder/guidebook/f3a643dd575af9baeb1ba1d032959358/intro.html
+https://adjustacademy.com/webcoder/guidebook/f3a643dd575af9baeb1ba1d032959358/LEVEL10.html
 
 # 開発時の対話環境 - 確認用のブラウザを立ち上げ、ファイル更新時にビルド＆リロードする
 

@@ -278,12 +278,6 @@
 {bdg-dark-line}`テキスト：P.74`
 #### 付録：Chrome(ver.100.0.4896.75)の「ブラウザキャッシュ」を削除するには
 {bdg-dark-line}`テキスト：P.75`
-#### CSSの書式・基本用語
-{bdg-dark-line}`テキスト：P.76`
-{bdg-primary-line}`教材：HTML教材/15_参考CSSの書式・概要`
-#### 参考：CSSの使用例
-{bdg-dark-line}`テキスト：P.77`
-{bdg-primary-line}`教材：HTML教材/15_参考CSSの書式・概要`
 #### 参考：ネスト（入れ子）にできるタグ一覧
 {bdg-dark-line}`テキスト：P.78`
 
@@ -295,7 +289,7 @@ https://github.com/AaronMaywood/coding_sample/tree/main/main-structure
 	[DONE] これにCSSを追加して本当にこの並びにできる？→できる.Gridを使用した
 
 2. MDNもあればなおよし
----------------------------------------- (論理的区切り、昇段試験を追加したい) ----
+--------------------------------------------
 
 # LEVEL3 CSS基礎
 ## CSSとは

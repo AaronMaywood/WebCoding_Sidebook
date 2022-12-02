@@ -1,4 +1,6 @@
 # 執筆ノート
+- 合格通知
+	cards/school/rule-of-exam.md の中にテンプレあり
 
 - コードブロックへのrefはつけられないようだ
 	```{code}
@@ -298,6 +300,11 @@ https://azure.microsoft.com/ja-jp/products/visual-studio-code/
 	↓
   一文字幅の余白を表現する文字です。スペースとは何もない空間を指します。
 
+
+## 図の表示幅を広げる
+```{figure} https://i.gyazo.com/7f2f98f5c5a3bbf84acccf8b81742a52.png
+:class: full-width
+```
 
 ## 図と番号付き参照
 

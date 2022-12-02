@@ -487,9 +487,10 @@ name: structures
   ```
 
 なお、完成したページは、ブラウザーでは次のように見えます。
-```{figure} https://i.gyazo.com/638d6cf914211193ddd697297762f7f1.png
+```{figure} https://i.gyazo.com/79098540e5a024ea2f7a01f9f751cb8c.png
 この出題で使用する`section`、`article`、`aside`、`nav`、`header`、`footer`、`main`要素は、いずれも見た目に影響を与えません。したがって**見た目ではなく、意味を踏まえて正しくマークアップを行えるかが問われます**。
 ```
+
 ### 採点基準
 
 - `section`、`article`、`aside`、`nav`、`header`、`footer`、`main`を適切に使用していること。
@@ -505,3 +506,19 @@ name: structures
 % > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_float/archive/refs/heads/answer.zip
 % wikipediaの解答例、解説付き{{TODO}}解説はまだ
 % https://adjustacademy.com/webcoder/5b0a283b8411d11a4b4b73ab2b826197.zip
+% 
+% ```{code}
+% おめでとうございます。昇段試験に合格しました。
+% 
+% - 模範解答を以下のURLからダウンロードできます。自身の答えと照らし合わせて研究して下さい。
+%   https://adjustacademy.com/webcoder/5b0a283b8411d11a4b4b73ab2b826197.zip
+% 
+% 新しいガイドブックを案内します。次のレベル（レベル３）に進んで下さい。
+% 
+% - 新しいガイドブックのレベル３のページ
+%   https://adjustacademy.com/webcoder/guidebook/4ef776be94016c7f142dbf944ff7a346/LEVEL3.html
+%   	ID: adjust
+%   	パスワード: academy
+% 
+% 事務局 担当：安村(yasumura@adjust.ne.jp)
+% % ```
