@@ -8,7 +8,7 @@
 |LEVEL1.md HTML(1)|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
 |LEVEL2.md HTML(2)|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
 |LEVEL3.md CSS基礎|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
-|LEVEL4.md ボックスモデル|{{HALF}}|{{TODO}}|{{DONE}}|{{TODO}}|
+|LEVEL4.md ボックスモデル|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
 |LEVEL5.md float|{{HALF}}|{{HALF}}|{{DONE}}|{{TODO}}|
 |LEVEL6.md Flexbox|{{HALF}}|{{HALF}}|{{DONE}}|{{TODO}}|
 |LEVEL7.md Position|{{DONE}}|{{HALF}}|{{DONE}}|{{TODO}}|
