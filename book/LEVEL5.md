@@ -106,6 +106,45 @@ overflowが起こった際に溢れた部分をどうあしらうかを制御す
 ```
 
 % {{TODO}} 回答のダウンロード指示は、合格通知の中で行う
-% > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_float/archive/refs/heads/answer.zip
-% https://adjustacademy.com/webcoder/8f41205015c24ebc80ea45570bb06f6a.zip
+% > $ download-zip-to-rename-by-hash 
+
+% ```{code}
+% おめでとうございます。昇段試験に合格しました。
+% 
+% - 模範解答を以下のURLからダウンロードできます。自身の答えと照らし合わせて研究して下さい。
+TODO
+% 	https://adjustacademy.com/webcoder/8f41205015c24ebc80ea45570bb06f6a.zip
+% 
+% 新しいガイドブックを案内します。次のレベル（レベル６）に進んで下さい。
+% - 新しいガイドブックのレベル６のページ
+%	https://adjustacademy.com/webcoder/guidebook/564e62a14b2375021a130647d3f8250f/LEVEL6.html
+%   	ID: adjust
+%   	パスワード: academy
+% 
+% 事務局 担当：安村(yasumura@adjust.ne.jp)
+% ```
+
+
+### 昇段試験のルール
+
+% 昇段試験の案内
+```{include} cards/school/rule-of-exam.md
+```
+
+---
+### 問１ -  {{TODO}}
+
+- {{TODO}} {bdg-dark}`指示` 作業フォルダ名を`float/a-aki`として下さい。
+- {{TODO}} 配付素材は`a-aki`フォルダです。この中に`index.html`と`css/style.css`があります。
+
+```{figure} https://i.gyazo.com/cdf19cb0983323856c9f5b86f2f541c2.png
+この見た目になるようにCSSを調整して下さい。
+```
+1. 表題に柿の背景を敷いて下さい。図のように柿の上半分が見えるようにして下さい。
+2. 文中の挿し絵２枚をそれぞれ右、左に配置し、画像に文字を回り込ませて下さい。
+
+## 解答の提出
+
+```{include} cards/school/filling.md
+```
 

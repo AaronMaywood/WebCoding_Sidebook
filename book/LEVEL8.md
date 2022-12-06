@@ -161,3 +161,18 @@ Google Fontsで供給される「Noto Serif JP」フォントが使用されて�
 		adjustacademy.comはかわいくていいなあ
 			https://adjustacademy.com/
 ---------------------------------------- ↑LEVEL7 昇段試験 LEVEL29-LEVEL32 ----
+% ```{code}
+% おめでとうございます。昇段試験に合格しました。
+% 
+% - 模範解答を以下のURLからダウンロードできます。自身の答えと照らし合わせて研究して下さい。
+% 	https://adjustacademy.com/webcoder/8f41205015c24ebc80ea45570bb06f6a.zip
+% 
+% 新しいガイドブックを案内します。次のレベル（レベル４）に進んで下さい。
+% - 新しいガイドブックのレベル４のページ
+https://adjustacademy.com/webcoder/guidebook/eaff21cfa63a828f34f02f4bc739a5de/LEVEL9.html
+%   	ID: adjust
+%   	パスワード: academy
+% 
+% 事務局 担当：安村(yasumura@adjust.ne.jp)
+% ```
+

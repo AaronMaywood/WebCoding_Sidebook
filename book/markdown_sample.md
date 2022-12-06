@@ -2,6 +2,15 @@
 - 合格通知
 	cards/school/rule-of-exam.md の中にテンプレあり
 
+- 画像埋め込み(figureではない)
+	https://jupyterbook.org/en/stable/content/figures.html#images
+	- ![](https://i.gyazo.com/ee48fa64233c30409f71b97e06b65177.png)
+	- 属性を付けることもできる
+		```{image} https://i.gyazo.com/ee48fa64233c30409f71b97e06b65177.png
+		:class: bg-primary mb-1
+		:width: 200px
+		:align: center
+		```
 - コードブロックへのrefはつけられないようだ
 	```{code}
     :label: foo
@@ -406,7 +415,7 @@ CommonMark
    (!)注釈	黄色
    ```
    ```{hint}
-   💡ヒント  水色
+   💡ヒント  黄色
    ```
    ```{tip}
 	💡ちなみに 黄色

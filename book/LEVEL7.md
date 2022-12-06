@@ -245,3 +245,18 @@ https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Animations/Using_CSS_animation
 - 合格すれば模範解答を手に入れることができます。模範回答と照らし合わせ、さらに知識を固めて下さい。
 	- また、次のレベル教材が示されます。次のレベルに進んでください。
 
+% ```{code}
+% おめでとうございます。昇段試験に合格しました。
+% 
+% - 模範解答を以下のURLからダウンロードできます。自身の答えと照らし合わせて研究して下さい。
+% 	https://adjustacademy.com/webcoder/8f41205015c24ebc80ea45570bb06f6a.zip
+% 
+% 新しいガイドブックを案内します。次のレベル（レベル８）に進んで下さい。
+% - 新しいガイドブックのレベル８のページ
+https://adjustacademy.com/webcoder/guidebook/f9438d369d723c8e8b6cdc3f1cd78b64/LEVEL8.html
+%   	ID: adjust
+%   	パスワード: academy
+% 
+% 事務局 担当：安村(yasumura@adjust.ne.jp)
+% ```
+

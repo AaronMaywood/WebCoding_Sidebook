@@ -123,3 +123,18 @@ Flexboxを使用して図のように改行ありの横並びにするよう、`
 % 2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
 % > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_flexbox/archive/refs/heads/main.zip
 
+% ```{code}
+% おめでとうございます。昇段試験に合格しました。
+% 
+% - 模範解答を以下のURLからダウンロードできます。自身の答えと照らし合わせて研究して下さい。
+% 	https://adjustacademy.com/webcoder/8f41205015c24ebc80ea45570bb06f6a.zip
+% 
+% 新しいガイドブックを案内します。次のレベル（レベル７）に進んで下さい。
+% - 新しいガイドブックのレベル７のページ
+https://adjustacademy.com/webcoder/guidebook/061d06844f75ab4a77087f83f09f1bec/LEVEL7.html
+%   	ID: adjust
+%   	パスワード: academy
+% 
+% 事務局 担当：安村(yasumura@adjust.ne.jp)
+% ```
+

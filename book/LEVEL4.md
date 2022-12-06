@@ -329,8 +329,31 @@ body {
 % ```{figure} https://i.gyazo.com/528fcc65debc64512d994f93e3351005.png
 % ```
 
+## デベロッパーツールを使用してボックスモデルを確認する
+
+デベロッパーツールにはボックスモデルを確認する機能があります。以下の手順を実際に試して（観察したいページはなんでもかまいません）、見たい要素の**ボックスモデルを確認する練習を行って下さい**。
+
+```{hint}
+デベロッパーツールはぜひとも仲良くなっておきたい便利機能です。
+思った時にさっと取り出せるように繰り返し試して練習しておきましょう。
+```
+
+```{include} cards/devtools/box-model.md
+```
 
 ## 昇段試験 - ボックスモデル編
+
+% テキストの装飾
+% https://docs.google.com/document/d/1WI5_-_zzrHpZVJsxFvpkwz1t10ft5lc86TGsdTtPH2E/edit#heading=h.ei8r1exdw47m をもとにindex.html を書いて下さい。
+% 指示にしたがい、HTMLにCSSで装飾を付けて下さい。
+
+ここまでのことを学習したら、次の「昇段試験のルール」を確認の上、昇段試験に望んでください。
+````{dropdown} クリックして昇段試験のルールを確認する（退校となる場合の説明があります）
+```{include} cards/school/rule-of-exam.md
+```
+````
+
+### 問題「ボックスモデルのスタイル作成」
 
 % {{TODO}} 2022/11/18 作成途中のコード coding_sample/box-model/4/index.html がいいかな？と思っている
 %   目的
@@ -437,46 +460,73 @@ body {
 % % - 包含ブロック
 % % 	https://developer.mozilla.org/ja/docs/Web/CSS/Containing_block
 
-### 素材、採点基準
+ダウンロード素材として提供する`index.html`に`CSS`を加え、次の見た目のページを実装して下さい。
 
-- {{TODO}} 解答に必要な素材を提供します。以下から素材のZIPファイルをダウンロードし、展開して利用して下さい。
+```{figure} https://i.gyazo.com/fc2b22f9e8b94a3be46631358f921152.png
+```
+
+- {bdg-dark}`指示` 作業フォルダ名を`boxmodel`として下さい。
+- 必要な素材を提供します。以下からZIPファイルをダウンロードし、展開して利用して下さい。
 	% ハッシュ化してadjustacademy.omにアップロードする方法
 	% 2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
-	% > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_float/archive/refs/heads/main.zip
-	% https://adjustacademy.com/webcoder/950058dd6702e10e6ff3fed5f462bbfb.zip
-	- https://adjustacademy.com/webcoder/950058dd6702e10e6ff3fed5f462bbfb.zip
-    - この中にHTMLとCSSが含まれます。
+	% > $ download-zip-to-rename-by-hash 
+	- https://adjustacademy.com/webcoder/75139d8daa9049402341013af53ae59e.zip
+    - この中に`HTML`の素材である`index.html`が入っています。`index.html`は完成した`HTML`ですが、まだ`CSS`がありません。この`index.html`に`CSS`を追加してこの課題の解答を作成して下さい。
 
-- {{TODO}} 採点基準は以下のとおりです。
+以下３つの画像に分けて、各ボックスに対する細かなスタイルの指示を示します。
+
+```{figure} https://i.gyazo.com/ad9ea19e48795491c362be61a0a90123.png
+:class: full-width
+ページ上部のスタイル指示
+```
+```{figure} https://i.gyazo.com/fa034dfed8ce52a532c6f0e03104ae37.png
+:class: full-width
+ページ中部のスタイル指示
+```
+```{figure} https://i.gyazo.com/8b6ed686192ee96b66acd05e0621b147.png
+:class: full-width
+ページ下部のスタイル指示
+```
+
+````{hint}
+内容の幅や高さについて指定が無い場合には、スタイルを書く必要はありません。
+（幅や高さの初期値`auto`に基づいてブラウザが自動的に大きさを計算します。）
+```{figure} https://i.gyazo.com/2ed4ae9b49cc740a0c083dc7b40d9679.png
+例）この場合には幅と高さのスタイルを書く必要はありません。
+```
+```{figure} https://i.gyazo.com/4deecdc88e134c2f057149fbfcba9881.png
+例）この場合には高さのスタイルを書く必要があります。
+```
+````
+
+### 採点基準
+
+- 採点基準は以下のとおりです。
 	1. ブラウザーの表示をみて、指示通りの表示になっているかを確認します。
-	2. CSSを見て、`float`を使用した解答になっているかを確認します。
-	この両方の水準を満たしていれば合格です。
-	% 水準を満たしているような、満たしていないような場合のグレーゾーンでは、生徒に質問してみて理解できているようであれば（また、やる気のある回答であれば）（必要に応じて指摘箇所を再提させて、これは再提出としてはカウントしない）合格とするなどの配慮を行う。
+	2. CSSを見て、ボックスモデル（`margin`、`border`、`padding`、内容の`width`、`height`）に対し、適切なスタイルになっているかを確認します。
+	3. ボックスモデル以外のスタイル（中央寄せ、背景色）を確認します。
 
-### 昇段試験のルール
-
-% 昇段試験の案内
-```{include} cards/school/rule-of-exam.md
-```
-
----
-### 問１ -  {{TODO}}
-
-- {{TODO}} {bdg-dark}`指示` 作業フォルダ名を`float/a-aki`として下さい。
-- {{TODO}} 配付素材は`a-aki`フォルダです。この中に`index.html`と`css/style.css`があります。
-
-```{figure} https://i.gyazo.com/cdf19cb0983323856c9f5b86f2f541c2.png
-この見た目になるようにCSSを調整して下さい。
-```
-1. 表題に柿の背景を敷いて下さい。図のように柿の上半分が見えるようにして下さい。
-2. 文中の挿し絵２枚をそれぞれ右、左に配置し、画像に文字を回り込ませて下さい。
+この両方の水準を満たしていれば合格です。
+% 水準を満たしているような、満たしていないような場合のグレーゾーンでは、生徒に質問してみて理解できているようであれば（また、やる気のある回答であれば）（必要に応じて指摘箇所を再提させて、これは再提出としてはカウントしない）合格とするなどの配慮を行う。
 
 ## 解答の提出
 
-```{include} cards/school/filling.md
-```
+- {bdg-dark}`指示` `text-style`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
+- 具体的には次のようにして下さい。
+	```{include} cards/school/filling.md
+	```
 
-% {{TODO}} 回答のダウンロード指示は、合格通知の中で行う
-% > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_float/archive/refs/heads/answer.zip
-% https://adjustacademy.com/webcoder/8f41205015c24ebc80ea45570bb06f6a.zip
-
+% ```{code}
+% おめでとうございます。昇段試験に合格しました。
+% 
+% - 模範解答を以下のURLからダウンロードできます。自身の答えと照らし合わせて研究して下さい。
+%	https://adjustacademy.com/webcoder/e085c95dbb380febd2aa665fc5661b82.zip
+% 
+% 新しいガイドブックを案内します。次のレベル（レベル５）に進んで下さい。
+% - 新しいガイドブックのレベル５のページ
+%	https://adjustacademy.com/webcoder/guidebook/f0e1b9d28a0727854d55285611a4ee4e/LEVEL5.html
+%   	ID: adjust
+%   	パスワード: academy
+% 
+% 事務局 担当：安村(yasumura@adjust.ne.jp)
+% ```
