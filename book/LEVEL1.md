@@ -343,10 +343,9 @@
 (go-live)=
 #### 設定その８「Live Server」（Go Live）機能について
 {bdg-dark-line}`テキスト：P.28〜P.30`
-（補足事項はありません。）
 
-% ```{include} cards/vscode/go-live.md
-% ```
+```{include} cards/vscode/go-live.md
+```
 
 % - index.htmlを書いてChromeで確認する		 [TODO] 教材が必要
 %	h1とp、section
@@ -886,27 +885,11 @@ https://developer.mozilla.org/ja/docs/Web/HTML/Element/strong#b_%E3%81%A8_strong
 - {bdg-primary-line}`教材：HTML教材/04_画像のパス表記例/完成例` フォルダを`VS Code`で開いて下さい。
 - `VS Code`で`aaa/index1.html`ファイルを開き、３つの`img`要素があることを確認して下さい。
 - `aaa/index1.html`を`Go live`で確認します。ブラウザーに３つの画像が表示されていることを確認して下さい。
-  % ```{include} cards/vscode/go-live.md {{TODO}} ここにまとめるかも
-  % ```
-  ````{hint}
-  `Go Live`のつかい方は {bdg-dark-line}`テキスト：P.29` に説明が記載されています。
-  具体的にはプレビューしたい`html`（例`index.html`）を開いた上で`VS Code`右下の**Go Live**をクリックするだけです。
-  ```{figure} https://i.gyazo.com/c352f89a26e943ac029124d35951d024.png
-  "Go Live"をクリックすると、編集中の`HTML`をブラウザでプレビューできます。
-  ```
-  ````
+	````{dropdown} Go liveの使い方をおさらいする
+	```{include} cards/vscode/go-live.md
+	```
+	````
 - 続いて`aaa/images/index2.html`を開き、３つの`img`要素があることを確認し、`Go Live`で３つの画像が表示されるかをプレビューします。
-  ````{hint}
-  一度`Go Live`した後は、`Go Live`の表示が`Port:5500`に変化します。
-  ```{figure} https://i.gyazo.com/62c04dba71e6acdbd57b8ba7252f7346.png
-  この表記になっていれば、既に`Live Server`は起動済みです。
-  ```
-  この状態で別のページをプレビューするには、ファイル名を右クリックして「Open with Live Server」を選んでください。
-
-  ```{figure} https://i.gyazo.com/22ea14f61a866b88892a8023f6da6dc9.png
-  ショートカットは{bdg-dark}`Alt+O` を押したのち {bdg-dark}`Alt+L` です。
-  ```
-  ````
   - ブラウザ上に３つの画像があればOKです。
 - 最後に`bbb/index0.html`を開き、２つの`img`要素があることを確認し、`Go Live`で２つの画像が表示されるかをプレビューします。
   - ブラウザ上に２つの画像があればOKです。

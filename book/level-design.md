@@ -349,7 +349,7 @@ https://github.com/AaronMaywood/coding_sample/tree/main/main-structure
 
 # LEVEL4 CSS - ボックスモデル
 
-## STAGE11 ボックスモデル
+## ボックスモデル
 
 - ボックスモデル {bdg-dark-line}`テキスト：P.111`
   % {bdg-primary-line}`教材：10_ボックスモデル` ←この教材フォルダはあるが、使って配付するテキスト素材にマークアップを施して、次の図で示す`index.html`を完成させて下さい。
@@ -373,7 +373,7 @@ https://github.com/AaronMaywood/coding_sample/tree/main/box-model
 ---------------------------------------- (論理的区切り、昇段試験を追加したい) ----
 # LEVEL5 CSS - 背景、float、実例:ナビメニュー
 
-## STAGE12 背景画像
+## 背景画像
 
 - (おさらい)background-color はカラーの説明P.104にあらわれていました
 - 背景画像のくりかえし P.117 {bdg-primary-line}`教材：13_背景画像の繰り返し`
@@ -386,7 +386,7 @@ https://github.com/AaronMaywood/coding_sample/tree/main/box-model
   - 「background-size」に「auto」を設定すると…。 P.121
   - 「background-size:cover」と「background-position」を組み合わせる P.122
 
-## STAGE13 float
+## float
 
 - 「float」と「clear」について
 - 「float」と「clear」を検証する P.123-126 P.123 {bdg-primary-line}`教材：16_フロート基本`
@@ -396,12 +396,12 @@ https://github.com/AaronMaywood/coding_sample/tree/main/box-model
   - 子要素がフロートしても、親要素がきちんと囲むには？ ─ 手法Ⓐ  P.130
   - 子要素がフロートしても、親要素がきちんと囲むには？ ─ 手法Ⓑ  P.131 {bdg-primary-line}`教材：18_clearfix`
 
-## STAGE13-2
+## リスト、`overflow`
 
 - `<ul>`、`<ol>` または`<li>`要素に設定するプロパティ P.132 {bdg-primary-line}`教材：19_リストマーカー`
 - overflow プロパティ P.133 {bdg-primary-line}`教材：20_overflow`
 
-## STAGE14 ナビメニュー
+## ナビメニュー
 
 - ナビメニュー - 縦組み P.136 {bdg-primary-line}`教材：21_メニュー縦組・横組`
 - ナビメニュー - 横組み P.137

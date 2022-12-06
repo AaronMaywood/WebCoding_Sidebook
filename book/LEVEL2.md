@@ -82,6 +82,7 @@ LEVEL2では`HTML`の残りの要素を学び、`HTML`の学習を終了しま�
 {bdg-dark-line}`テキスト：P.57`
 （補足事項はありません。）
 
+(block-and-inline)=
 ### 「旧ブロックレベル要素」・「旧インライン要素」について
 {bdg-dark-line}`テキスト：P.58`
 

@@ -2,6 +2,8 @@
 - 合格通知
 	cards/school/rule-of-exam.md の中にテンプレあり
 
+- テキスト通りにすすめてくださいの時の慣用句
+	{bdg-primary-line}`教材：11_見出し1のボックス化・リセットCSS` フォルダを`VS Code`で開き、 {bdg-dark-line}`テキスト：P.112〜114` に従って作業しながら読み進めて下さい。
 - 画像埋め込み(figureではない)
 	https://jupyterbook.org/en/stable/content/figures.html#images
 	- ![](https://i.gyazo.com/ee48fa64233c30409f71b97e06b65177.png)
