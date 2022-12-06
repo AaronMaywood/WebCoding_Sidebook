@@ -42,15 +42,17 @@ overflowが起こった際に溢れた部分をどうあしらうかを制御す
 - ナビメニュー - 縦組み P.136 {bdg-primary-line}`教材：21_メニュー縦組・横組`
 - ナビメニュー - 横組み P.137
 
-## 昇段試験 - 背景、float編を受験する
+## 昇段試験 - float編
 
 % {{TODO}} float編という名前だと、float以外が試験にあらわれないと思われてしまう。LEVEL5などとしたい
 
-```{include} cards/school/running-in-to-exam.md
+ここまでのことを学習したら、次の「昇段試験のルール」を確認の上、昇段試験に望んでください。
+````{dropdown} クリックして昇段試験のルールを確認する（退校となる場合の説明があります）
+```{include} cards/school/rule-of-exam.md
 ```
+````
 
-## 昇段試験 - 背景、float編
-
+### 問題「ア、秋」
 % 背景、float
 % 背景はcover
 % 文章と挿し絵
@@ -58,61 +60,55 @@ overflowが起こった際に溢れた部分をどうあしらうかを制御す
 % https://www.aozora.gr.jp/cards/000035/files/236_19996.html 
 % https://github.com/AaronMaywood/coding_sample/tree/main/a-aki	←試作品
 % 	→子孫セレクターを使用しているので説明が必要
-% 		教科書ではP.56で扱っている
+% 		→LEVEL3.md の子孫セレクター](descendands-selector) で説明しているのでOK
 % 
 % オーバーフロー、
 % リスト、ナビメニュー
 % - 横展開はflexを使ったBtypeがいい。flexと合わせて教えるのがいいかな
 % 	typeCはレガシーコード
 
+- {bdg-dark}`指示` 作業フォルダ名を`a-aki`として下さい。
 
-### 素材、採点基準
+- 必要な素材を提供します。以下からZIPファイルをダウンロードし、展開して利用して下さい。
+  % > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_float/archive/refs/heads/main.zip
+  - https://adjustacademy.com/webcoder/950058dd6702e10e6ff3fed5f462bbfb.zip
+  - 配付素材は`a-aki`フォルダです。この中に元になる`index.html`と`css/style.css`があります。
 
-- 解答に必要な素材を提供します。以下から素材のZIPファイルをダウンロードし、展開して利用して下さい。
-	% ハッシュ化してadjustacademy.omにアップロードする方法
-	% 2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
-	% > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_float/archive/refs/heads/main.zip
-	% https://adjustacademy.com/webcoder/950058dd6702e10e6ff3fed5f462bbfb.zip
-	- https://adjustacademy.com/webcoder/950058dd6702e10e6ff3fed5f462bbfb.zip
-    - この中にHTMLとCSSが含まれます。
+以下の見た目になるように`CSS`を調整して下さい。
+  1. 表題（冒頭部）に柿の背景を敷いて下さい。図のように柿の上半分が見えるよう、画像の位置調整を行ってさい。
+  2. 文中の挿し絵２枚について
+		- それぞれ右、左に配置し、画像に文字を回り込ませて下さい。
+		- スタイルを与えるにあたって、`index.html`にある`img`要素を適切な位置に設置して下さい。
+		```html
+		<!-- この画像２つを適切な位置に設置して下さい。 -->
+		<img class="right" height="500" src="images/autumn-mott-rodeheaver-SPd9CSoWCkY-unsplash.jpg" alt="">
+		<img class="left" height="500" src="images/j-lee-hTKzzm3sN-0-unsplash.jpg" alt="">
+		```
+```{figure} https://i.gyazo.com/cdf19cb0983323856c9f5b86f2f541c2.png
+```
+
+### 採点基準
 
 - 採点基準は以下のとおりです。
 	1. ブラウザーの表示をみて、指示通りの表示になっているかを確認します。
-	2. CSSを見て、`float`を使用した解答になっているかを確認します。
-	この両方の水準を満たしていれば合格です。
-	% 水準を満たしているような、満たしていないような場合のグレーゾーンでは、生徒に質問してみて理解できているようであれば（また、やる気のある回答であれば）（必要に応じて指摘箇所を再提させて、これは再提出としてはカウントしない）合格とするなどの配慮を行う。
+	2. CSSを見て、適切な背景指示や、`float`を使用した解答になっているかを確認します。
 
-### 昇段試験のルール
+この両方の水準を満たしていれば合格です。
 
-% 昇段試験の案内
-```{include} cards/school/rule-of-exam.md
-```
+% 水準を満たしているような、満たしていないような場合のグレーゾーンでは、生徒に質問してみて理解できているようであれば（また、やる気のある回答であれば）（必要に応じて指摘箇所を再提させて、これは再提出としてはカウントしない）合格とするなどの配慮を行う。
 
----
-### 問１ - 「ア、秋」
+### 解答の提出
 
-- {bdg-dark}`指示` 作業フォルダ名を`float/a-aki`として下さい。
-- 配付素材は`a-aki`フォルダです。この中に`index.html`と`css/style.css`があります。
-
-```{figure} https://i.gyazo.com/cdf19cb0983323856c9f5b86f2f541c2.png
-この見た目になるようにCSSを調整して下さい。
-```
-1. 表題に柿の背景を敷いて下さい。図のように柿の上半分が見えるようにして下さい。
-2. 文中の挿し絵２枚をそれぞれ右、左に配置し、画像に文字を回り込ませて下さい。
-
-## 解答の提出
-
-```{include} cards/school/filling.md
-```
-
-% {{TODO}} 回答のダウンロード指示は、合格通知の中で行う
-% > $ download-zip-to-rename-by-hash 
+- {bdg-dark}`指示` `boxmodel`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
+- 具体的には次のようにして下さい。
+	```{include} cards/school/filling.md
+	```
 
 % ```{code}
 % おめでとうございます。昇段試験に合格しました。
 % 
 % - 模範解答を以下のURLからダウンロードできます。自身の答えと照らし合わせて研究して下さい。
-TODO
+% % > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_float/archive/refs/heads/answer.zip
 % 	https://adjustacademy.com/webcoder/8f41205015c24ebc80ea45570bb06f6a.zip
 % 
 % 新しいガイドブックを案内します。次のレベル（レベル６）に進んで下さい。
@@ -123,28 +119,3 @@ TODO
 % 
 % 事務局 担当：安村(yasumura@adjust.ne.jp)
 % ```
-
-
-### 昇段試験のルール
-
-% 昇段試験の案内
-```{include} cards/school/rule-of-exam.md
-```
-
----
-### 問１ -  {{TODO}}
-
-- {{TODO}} {bdg-dark}`指示` 作業フォルダ名を`float/a-aki`として下さい。
-- {{TODO}} 配付素材は`a-aki`フォルダです。この中に`index.html`と`css/style.css`があります。
-
-```{figure} https://i.gyazo.com/cdf19cb0983323856c9f5b86f2f541c2.png
-この見た目になるようにCSSを調整して下さい。
-```
-1. 表題に柿の背景を敷いて下さい。図のように柿の上半分が見えるようにして下さい。
-2. 文中の挿し絵２枚をそれぞれ右、左に配置し、画像に文字を回り込ませて下さい。
-
-## 解答の提出
-
-```{include} cards/school/filling.md
-```
-

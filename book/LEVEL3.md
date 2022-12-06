@@ -238,6 +238,7 @@ p {
 ```
 ````
 
+(descendands-selector)=
 % {{TODO}} 書けたら書く
 % #### 子孫セレクタ
 % 
