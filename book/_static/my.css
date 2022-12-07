@@ -58,3 +58,11 @@ a.reference.external::after {
 .figure .codecell1 {
 	text-align: left;
 }
+
+/* LEVEL5.md (hover)= で使用 */
+a#link-hover-demo {
+	color: red;
+}
+a#link-hover-demo:hover {
+	color: green;
+}
