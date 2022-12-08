@@ -234,11 +234,11 @@ img {
 ここでは「`display: block;`」、「継承」、「`:hover`」の３つの話題が登場しています。それぞれ解説します。
 
 (display-property)=
-#### `display`でブロックを切り替える
+#### インラインとブロックレベルを`display`で切り替える
 
 `CSS`の基本レイアウトのルールである「通常のフロー」では、「[](box-layout)」で説明したようにブロックレベル要素とインライン要素の２つを扱います。
 
-表示形式を決める`display`プロパティを用いれば、ブロックレベル要素とインライン要素を切り替えることができます。
+そして、表示形式を決める`display`プロパティを用いれば、このブロックレベル要素とインライン要素を切り替えることができます。
 
 具体例で示しましょう。
 
@@ -277,18 +277,105 @@ img {
 	  <a style="display:block;" href="">リンク１</a><a style="display:block;" href="">リンク２</a>
 	</div>
 
-```{tip}
-**高度な話題 - `inline-block`**
+このように、`display`プロパティを用いれば、表示上の扱いを変更することができます。
 
-`display`プロパティに指定できる値は、`block`や`inline`の他にもいろいろなものが用意されています。（一覧を見たければ[mdn の`display`プロパティのページ](https://developer.mozilla.org/ja/docs/Web/CSS/display)にあります。ただし、多すぎて混乱するだけになると思います。）
+なお、`display`プロパティに使用する値として使われるものに、他に`inline-block`と`none（表示なし）`があります。
+次にこの２つを説明します。
 
-その中で`block`、`inline`に次いで使用頻度の高い値に`inline-block`があり、{bdg-dark-line}`テキスト：P.136` でも使用されています。
+(display-inline-block)=
+##### `display:inline-block`
 
+% https://developer.mozilla.org/ja/docs/Web/CSS/display#%E6%97%A7%E6%9D%A5%E3%81%AE%E3%82%82%E3%81%AE
+% 旧来のもの
+% inline-block
+% この要素はブロック要素ボックスを生成しますが、周囲のコンテンツに対しては単一のインラインボックスであるかのように流れるようになります (置換要素の場合と似ています)。
+% 
+% これは inline flow-root と等価です。 →なるほど！
+% 
+% flow-root
+% 要素は、新たなブロック整形コンテキストを確立するブロック要素ボックスを生成し、整形ルートがある場所を定義します。 →ブロック整形コンテキストは通常のフローを開始する
+% 
+% https://developer.mozilla.org/ja/docs/Web/Guide/CSS/Block_formatting_context
+% 
+% https://developer.mozilla.org/ja/docs/Web/CSS/display/two-value_syntax_of_display
+% code_sample/display/index.html
+% file:///C:/Users/yasumura/Desktop/HTML5%E6%9C%89%E6%96%99%E8%AC%9B%E5%BA%A7/%E8%AC%9B%E7%BE%A9%E3%83%8E%E3%83%BC%E3%83%88/ver1.03/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB/7-3-7(display).html
+% 
+%
+% `display`プロパティに指定できる値は、`block`や`inline`の他にもいろいろなものが用意されています。
+% ```{admonition} **高度な話題**
+% 一覧を見たければ[mdn の`display`プロパティのページ](https://developer.mozilla.org/ja/docs/Web/CSS/display)にあります。ただし、多すぎるし、専門的すぎて混乱するだけになると思います...実用的には`inline`、`block`、`inline-block`、`none`の４つだと思って下さい。
+% ```
+
+`display`プロパティには、`inline-block`という値があり、{bdg-dark-line}`テキスト：P.136` でも使用されています。
+ 
 この`inline-block`とは何でしょうか。
+ 
+結論を述べると、`inline-block`が指定された要素は「（それ自身がいかに大きくとも）一文字」として扱われ、行内に横に並べられるようになります。
 
-`inline-block`は、外見は`inline`、中身は`block`という意味で、それ自身は`inline`として横に並べられつつ、自身の内側にあるものははブロックレベル要素と扱われます。
+具体例で説明しましょう。
 
-{{TODO}} code_sample/display/index.html
+- まず、`display: inline-block`を**使用しない**例です。
+	```HTML
+	<div class="wrapper">
+	  abc
+	  <div>あい<p>うえ</p>お</div>
+	  <div>あい<p>うえ</p>お</div>
+	  かきく
+	</div>
+	```
+	```CSS
+	p {
+	    border: 1px solid blue;
+	    width: 2rem; /* ２文字ぶん幅 */
+	}
+
+	/* .wrapperの中にあるdiv */
+	.wrapper div {
+	    border: 1px dashed red;
+	    display: inline-block;
+	}
+	```
+	```{figure} https://i.gyazo.com/a201149fa9dce31199c30faead3933e4.png
+	```
+- 次に、内側の`div`要素に`display:inline-block;`を指定してみます。
+	```CSS
+	...略
+
+	/* .wrapperの中にあるdiv */
+	.wrapper div {
+	    border: 1px dashed red;
+	    display: inline-block; /* 追加しました  */
+	}
+	```
+	```{figure} https://i.gyazo.com/4b1709cb7435bc3ab116c2496c825ebc.png
+	```
+
+	```{admonition} 高度な話題
+	この`inline-block`を解説すると、外見は`inline`として扱われつつ、中身には`block`の世界が広がっているという意味になります。それ自身はインライン要素（つまり、一文字に相当）として行内に横に並べられつつ、自身の内側には外の世界とは異なる新たな「通常のフロー（ブロック整形コンテキスト）」を持ち、子要素はその通常のフローによって配置されるという働きをすることを説明しています。
+	```
+
+- ついでに内側の`div`要素に`display: inline;`を指定した場合を見てみましょう。
+	```CSS
+	...略
+
+	/* .wrapperの中にあるdiv */
+	.wrapper div {
+		border: 1px dashed red;
+		display: inline; /* 変更しました  */
+	}
+	```
+	```{figure} https://i.gyazo.com/2fa97c81e8bf9be7f315c5127eef897e.png
+	```
+
+(display-none)=
+##### `display:none`
+
+`display:none;` は「表示(display)しない(none)」という意味で、その要素がまるで書かれていなかったように扱われます。
+{bdg-dark-line}`テキスト：P.245` で、ある条件の時だけ非表示にするという仕組みの中で使用されています。
+
+```{admonition} 高度な話題
+`display:none;`はあくまでも見た目上の問題であり、`HTML`を書き換えてしまうわけではありません。したがって、`HTML`上はその場所に有り続け、セマンティクスは保たれています。
 ```
 
 #### 継承
@@ -368,11 +455,62 @@ a:hover {
 
 {bdg-dark-line}`テキスト：P.136` ではテキストを横に並べるだけの素朴なナビゲーションの実装の紹介しています。
 
-ここでは新たに `display: inline-block;` と `transition-duration:0.5s;` の表現が出てきます。順に解説します。
+ここでは新たに `display: inline-block;`と `transition-duration:0.5s;` の表現が出てきます。
 
-`display: inline-block;` は「[](display-property)」で説明しました。
+ `display: inline-block;`は「[](display-inline-block)」で説明しましたので、`transition-duration:0.5s;`を説明します。
 
+(transition)=
 #### `transition`プロパティ
+
+`transition-duration:0.5s`は、「（状態の）遷移」を表す`transition`（トランジション、遷移）プロパティの一部です。
+トランジションは、マウスオーバー前、マウスオーバー後で表示スタイルを変更するような場合に、その表示スタイルの遷移をアニメーションによって表現します。
+
+具体例で説明します。
+
+```html
+<a href="">リンク１</a>
+```
+```css
+a {
+    color: red;
+    transition-duration: 2s; /* 遷移にかかる時間は2秒(2seconds) */
+}
+a:hover {
+    color: green;
+}
+```
+% MEMO :hover のところに transition-duration を書いても結果は同じでした
+<div>
+  <p>↓マウスカーソルを重ねてみて下さい。２秒かけて<span style="color:green">緑色</span>に変化します。</p>
+</div>
+<div style="border:1px solid gray; padding: 1rem;">
+  <a id="transition-demo" href="">リンク１</a>
+</div>
+
+`transition-duration: 2s;`とは上の例で見たように、２秒かけて遷移のアニメーションを行う指定です。`duration`は間隔という意味の英単語です。
+
+```{admonition} 高度な話題
+トランジションのその他の関連プロパティや例に興味を持たれた方は、[mdn CSSトランジションの使用](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)をご覧ください。
+```
+
+````{hint}
+`CSS`にはトランジション機能の他に、アニメーション機能（一般的な用語と区別するために「**CSSアニメーション**」と呼びます）があります。
+
+```{admonition} 高度な話題
+CSSアニメーションについては本ガイドブック、テキストでは扱っていませんので[mdn CSSアニメーション](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Animations/Using_CSS_animations)を参照して下さい。
+```
+
+トランジションもアニメーションの一種なので、混同しないようにその違いを説明しておきます。
+
+トランジションは、**CSSプロパティの変化**をきっかけに、**変化の前後の２点間**（**２コマ**）をアニメーションでつなぎ、**状態が遷移したことを表現**します。
+したがって、プロパティの変化が無かった場合にはアニメーションしませんし、３コマ以上の変化を表現することもできません。
+
+それに対し、CSSアニメーションは**幅広い用途の一般的なアニメーション**を表現するための機能です。一般的なアニメーションは、複数のコマ（キーフレームと呼ばれています）をもち、長尺かつさまざまな展開をともなった表現が可能です。またどのタイミングで再生するか、また繰り返し再生するかなどを指定できます。
+
+まとめると、次のように説明できます。
+- トランジションは画面上の機能や表示物を操作した時の手応えを表現するのに使用され、使い勝手を向上させることができます。
+- CSSアニメーションはコンテンツとしてのアニメーションを表現するのに使用されます。
+````
 
 ## 昇段試験 - float編
 

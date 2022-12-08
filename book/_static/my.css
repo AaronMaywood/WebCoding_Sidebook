@@ -66,3 +66,12 @@ a#link-hover-demo {
 a#link-hover-demo:hover {
 	color: green;
 }
+/* LEVEL5.md (transition)= で使用 */
+a#transition-demo{
+	color: red;
+	transition-duration: 2s;
+}
+a#transition-demo:hover{
+	color: green;
+}
+
