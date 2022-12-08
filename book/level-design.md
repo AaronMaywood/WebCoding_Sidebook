@@ -423,13 +423,27 @@ https://github.com/AaronMaywood/coding_sample/tree/main/a-aki	←試作品
 ---------------------------------------- LEVEL5 昇段試験 ----
 
 # LEVEL6 CSS - Flexbox
-## STAGE15 Flexbox
 
-- CSS
-	- Flexbox（フレキシブルボックス） 61-65
-	- Flex を応用したニ段組みボックスレイアウト　─　第 1 段階 75-82
+## Flexbox（フレキシブルボックス）
+{bdg-dark-line}`テキスト：P.139〜143`
+{bdg-primary-line}`教材：24_flex_基本`
+### ボックス全体の横方向の揃え位置を指定する
+{bdg-dark-line}`テキスト：P.140`
+{bdg-primary-line}`教材：24_flex_基本`
+### フレックスアイテムの折返しを指定する
+{bdg-dark-line}`テキスト：P.141`
+### ボックス全体の縦方向の揃え位置を指定する
+{bdg-dark-line}`テキスト：P.141`
+### ボックス全体の横方向と縦方向の揃え位置を指定する
+{bdg-dark-line}`テキスト：P.142`
+### すべてのボックスの縦方向の揃え位置を指定する
+{bdg-dark-line}`テキスト：P.143`
 
-## STAGE15-2 Grid
+## Flex を応用したニ段組みボックスレイアウト　─　第１段階
+{bdg-dark-line}`テキスト：P.153〜155`
+{bdg-primary-line}`教材：27_二段組ボックスレイアウト`
+
+## Grid
 
 [TODO] テキストがない
 
@@ -439,28 +453,47 @@ https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox_skills を
 ---------------------------------------- LEVEL6 昇段試験 ----
 
 # LEVEL7 CSS - Position
-## STAGE16 position
+## position
+% https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Positioning
+{bdg-dark-line}`テキスト：P.144〜152`
+{bdg-primary-line}`CSS教材：25_position`
 
-- CSS
-https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Positioning
-	- positionレイアウト 66-68
-		-  参考：「position」を使わず、「ﬂoat」レイアウトで配置するには 69
-		- ボックスの重なり順を変更する「z-index」 70-71
-		- 注意：縦並びに配置するボックスに「position:absolute」は設定しません！ 72
-		- 「lesson_1.html」内にある「div.ﬁx_box」に ﬁxed の設定をする 73
-		- 「lesson_2.html」内にある「nav」に sticky の設定をする 74
+### 参考：「position」を使わず、「ﬂoat」レイアウトで配置するには
+{bdg-dark-line}`テキスト：P.147`
+### ボックスの重なり順を変更する「z-index」
+{bdg-dark-line}`テキスト：P.148〜149`
+### 注意：縦並びに配置するボックスに「position:absolute」は設定しません！
+{bdg-dark-line}`テキスト：P.150`
+### 「lesson_1.html」内にある「div.ﬁx_box」に ﬁxed の設定をする
+{bdg-dark-line}`テキスト：P.151`
+{bdg-primary-line}`CSS教材：26_position_fixedとsticky`
+### 「lesson_2.html」内にある「nav」に sticky の設定をする
+{bdg-dark-line}`テキスト：P.152`
+{bdg-primary-line}`CSS教材：26_position_fixedとsticky`
+## Flex を応用したニ段組みボックスレイアウト　─　第２段階
+{bdg-dark-line}`テキスト：P.156〜160`
+{bdg-primary-line}`CSS教材：27_二段組ボックスレイアウト`
 
-## STAGE16.5 付録
-- CSS
-### 付録：CSS3  簡易解説 トランジションなど 「CSS3基礎」P.85-89
-#### 不透明度・透明度 「CSS3基礎」P.85
-#### 角丸(かどまる) 「CSS3基礎」P.86
-#### 線形グラデーション 「CSS3基礎」P.87
-#### テキストシャドウ 「CSS3基礎」P.88
-#### ボックスシャドウ 「CSS3基礎」P.88
-#### トランジション 「CSS3基礎」P.89
-		参考: CSS Animation
-		https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+## 付録：CSS3 簡易解説
+### 透明度
+{bdg-dark-line}`テキスト：P.163`
+### 角丸(かどまる)
+{bdg-dark-line}`テキスト：P.164`
+### 線形グラデーション
+{bdg-dark-line}`テキスト：P.165`
+### テキストシャドウ
+{bdg-dark-line}`テキスト：P.166`
+### ボックスシャドウ
+{bdg-dark-line}`テキスト：P.166`
+### トランジション
+{bdg-dark-line}`テキスト：P.167`
+参考: CSS Animation
+https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+
+## 付録：文字サイズ単位換算表
+{bdg-dark-line}`テキスト：P.168`
+## 付録：コーディングガイドライン例
+{bdg-dark-line}`テキスト：P.169〜173`
 
 ---------------------------------------- LEVEL7 昇段試験 ----
 	position, 細かな装飾(2)

@@ -490,7 +490,7 @@ a:hover {
 `transition-duration: 2s;`とは上の例で見たように、２秒かけて遷移のアニメーションを行う指定です。`duration`は間隔という意味の英単語です。
 
 ```{admonition} 高度な話題
-トランジションのその他の関連プロパティや例に興味を持たれた方は、[mdn CSSトランジションの使用](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)をご覧ください。
+トランジションのその他の関連プロパティや例に興味を持たれた方は、{bdg-dark-line}`テキスト：P.167` 及び [mdn CSSトランジションの使用](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)をご覧ください。
 ```
 
 ````{hint}

@@ -2,25 +2,31 @@
 
 % https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Positioning
 
-## STAGE16 position レイアウト **「CSS3基礎」P.66-74**
+### 参考：「position」を使わず、「ﬂoat」レイアウトで配置するには
+{bdg-dark-line}`テキスト：P.147`
+### ボックスの重なり順を変更する「z-index」
+{bdg-dark-line}`テキスト：P.148〜149`
+### 注意：縦並びに配置するボックスに「position:absolute」は設定しません！
+{bdg-dark-line}`テキスト：P.150`
+### 「lesson_1.html」内にある「div.ﬁx_box」に ﬁxed の設定をする
+{bdg-dark-line}`テキスト：P.151`
+{bdg-primary-line}`CSS教材：26_position_fixedとsticky`
+### 「lesson_2.html」内にある「nav」に sticky の設定をする
+{bdg-dark-line}`テキスト：P.152`
+{bdg-primary-line}`CSS教材：26_position_fixedとsticky`
+## Flex を応用したニ段組みボックスレイアウト　─　第２段階
+{bdg-dark-line}`テキスト：P.156〜160`
+{bdg-primary-line}`CSS教材：27_二段組ボックスレイアウト`
 
-### positionレイアウト **「CSS3基礎」P.66-68**
-
-### 参考：「position」を使わず、「ﬂoat」レイアウトで配置するには **「CSS3基礎」P.69**
-
-### ボックスの重なり順を変更する「z-index」 **「CSS3基礎」P.70-71**
-
-### 注意：縦並びに配置するボックスに「position:absolute」は設定しません！ **「CSS3基礎」P.72**
-
-### 「lesson_1.html」内にある「div.ﬁx_box」に ﬁxed の設定をする **「CSS3基礎」P.73**
-
-### 「lesson_2.html」内にある「nav」に sticky の設定をする **「CSS3基礎」P.74**
-
-## STAGE16.5 付録 P.85-89
+## 付録：CSS3 簡易解説
+{bdg-dark-line}`テキスト：P.163〜167`
+{bdg-primary-line}`CSS教材：付録CSS3`
 
 様々な視覚効果を生むプロパティを紹介します。
 
-### 透明度 85 **「CSS3基礎」P.85**
+### 透明度
+{bdg-dark-line}`テキスト：P.163`
+
  ( 不透明度・透明度 「CSS3基礎」P.85）
 
 不透明度をopacity(オパシティ)、透明度をアルファ値と呼び、いずれも0(透明)から1.0(不透明)の間の値を指定します。
@@ -41,7 +47,8 @@ CSSで色を扱う`rgba()`などについては、[](color)で扱います。
 ```
 
 **「CSS3基礎」P.85**下にあるベンダープレフィックスは、まだ標準化されていない先進的なプロパティを使用する際に必要です。しかし本書の範囲では必要ありません。読み飛ばしで大丈夫です。
-### 角丸 86 **「CSS3基礎」P.86**
+### 角丸(かどまる)
+{bdg-dark-line}`テキスト：P.164`
 
 ボックスの角を丸くするプロパティです。
 
@@ -71,7 +78,8 @@ img {
 
 **「CSS3基礎」P.86**には、四隅のそれぞれの角毎に角丸を与える方法が書かれています。必要に応じて参照して下さい。
 
-### 線形グラデーション 87 **「CSS3基礎」P.84**
+### 線形グラデーション
+{bdg-dark-line}`テキスト：P.165`
 
 (補足事項はありません)
 - {{TODO}}円形グラデーションもあると伝える→パスとかもできるようになったかな？
@@ -84,13 +92,13 @@ img {
 % 扇形もあるよ
 % https://developer.mozilla.org/ja/docs/Web/CSS/gradient/conic-gradient
 
-### テキストシャドウ 88 **「CSS3基礎」P.88**
-(補足事項はありません)
+### テキストシャドウ
+{bdg-dark-line}`テキスト：P.166`
+### ボックスシャドウ
+{bdg-dark-line}`テキスト：P.166`
 
-### ボックスシャドウ 88 **「CSS3基礎」P.88**
-(補足事項はありません)
-
-### トランジション 89 **「CSS3基礎」P.89**
+### トランジション
+{bdg-dark-line}`テキスト：P.167`
 % https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions#which_css_properties_are_animatable
 
 トランジション(transition)は「遷移」と言う意味で、CSSのある状態Aから別の状態Bに変化することです。

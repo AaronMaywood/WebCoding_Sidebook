@@ -1,25 +1,99 @@
 # LEVEL6 CSS - Flexbox
-## STAGE15 Flexbox
 
-```{tip}
-**P.143 `align-items:center;`**
+## Flexbox
 
-縦方向の中央寄せは従来のCSSでは難易度が高いものでしたが、`Flexbox`の登場で簡単になりました。
-その方法をマスターしておきましょう。
+% https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Flexbox
+
+`flexbox`は、行の方向（横の方向）に対し、柔軟に（フレキシブルに）ボックスをレイアウトする手段を提供します。
+% https://ejje.weblio.jp/content/flexible
+
+```{hint}
+この`flexbox`が現れる以前は、同様のことを「`float`のパズル」によって達成する必要がありましたが、この`flexbox`は実現したいことを直接記述できるようになりました。
+```
+{bdg-dark-line}`テキスト：P.139` にあるフレックスボックスの用語を押さえておきましょう。
+
+```{glossary}
+フレックスボックス
+  横方向（や縦方向）を基準にし、柔軟にボックスを配置するレイアウト手法のことです。
+  フレックスボックスのレイアウトを使用するには、`display:flex;`を使用してフレックスコンテナを作成します。
+
+フレックスコンテナ
+  フレックスコンテナはフレックスボックスレイアウトの枠を提供し、並べられるフレックスアイテムの入れ物になります。
+  コンテナ(`container`)とは入れ物という意味の英単語です。
+  この中に入れた子要素はフレックスアイテムになります。
+
+フレックスアイテム
+  フレックスボックスレイアウトによって並べられるボックスのことです。
 ```
 
-- Flexbox（フレキシブルボックス） 139-143
-	教材: 24_flex_基本
-- Flex を応用したニ段組みボックスレイアウト ─第１段階 153-155
-	教材: 27_二段組ボックスレイアウト
-- Flex を応用したニ段組みボックスレイアウト ─第２段階 156-160
-	教材: 27_二段組ボックスレイアウト
+### ボックス全体の横方向の揃え位置を指定する
+{bdg-primary-line}`CSS教材：24_flex_基本` フォルダを`VS Code`で開き、 `lessonA.html`に対し {bdg-dark-line}`テキスト：P.140` のように`CSS`を書いてみて下さい。
 
+````{hint}
+```{glossary}
+justify
+  印刷用語で、行の中の字間を調整して行端が揃うように整える処理のことを指します。
+  ジャスティファイ。
+```
+````
 
-% ## STAGE15-2 Grid
+### フレックスアイテムの折返しを指定する
+`lessonA.html`に対し {bdg-dark-line}`テキスト：P.141` のように`HTML`のフレックスアイテムを増やし、`flex-wrap:wrap;`を書いてみて下さい。実施後の例は`lessonB.html`です。
+
+```{hint}
+フレックスアイテムが折り返すには、改行と同じくフレックスコンテナの幅が狭い必要があります。
+```
+
+### ボックス全体の縦方向の揃え位置を指定する
+`lessonB.html`に対し {bdg-dark-line}`テキスト：P.141` のように`align-content`を書いてみて下さい。
+
+````{hint}
+```{glossary}
+align
+  アラインとは、一列に整列させることを意味します。
+  % https://ejje.weblio.jp/content/align
+  `CSS`では、行内で横に並ぶものに対し、それぞれの高さが異なる場合に高さのどこを基準に整列させるかという概念（**縦を整列するものとして**）で使用されます。
+  フレックスボックスには、フレックスボックス内のコンテンツ全体の整列である{bdg-dark-line}`テキスト：P.141` `align-content`と、細かなアイテム同士の整列である{bdg-dark-line}`テキスト：P.143` `align-itemx` があります。
+  またインライン要素（文字）に対しては`text-align`（`text-align`は「[](text-properties)」で学びました）があり、同様の概念に対し同様の`align`の語が使用されています。
+```
+````
+
+### ボックス全体の横方向と縦方向の揃え位置を指定する
+`lessonC.html`に対し {bdg-dark-line}`テキスト：P.142` のように`CSS`を書いてみて動作を確認して下さい。
+
+### すべてのボックスの縦方向の揃え位置を指定する
+
+{bdg-dark-line}`テキスト：P.143` のように`align-items`を書いてみた例は `lessonD.html`となります。
+
+```{tip}
+**縦方向に中央に揃える**
+
+縦方向の中央寄せは従来の`CSS`では難易度が高いものでしたが、`Flexbox`の登場で簡単になりました。
+`align-content:center`や`align-items:center`の方法をマスターしておきましょう。
+また、横方向の中央寄せである`justify-content:center`を組み合わせて縦にも横にも中央に表示することもできます。
+```
+
+## Flex を応用したニ段組みボックスレイアウト　─　第１段階
+
+（テキストのページを飛ばし、{bdg-dark-line}`テキスト：P.153〜155` を扱います。）
+
+実用的な例から`flexbox`を見てみましょう。
+
+{bdg-primary-line}`教材：27_二段組ボックスレイアウト` フォルダを`VS Code`で開き、{bdg-dark-line}`テキスト：P.153〜155` に従って作業しながら読み進めて下さい。
+
+```{hint}
+{bdg-dark-line}`テキスト：155`の最後（『これで「第一段階」が完了しました。』）まででOKです。{bdg-dark-line}`テキスト：P.156〜` の「第２段階」は次のレベル６で`position`を学んでから再挑戦します。
+```
+
+% ## Grid
 % 
-% {{TODO}} テキストがない、ベータリリース以降増補する
-% 
+% {{TODO}} テキストがない、ベータリリース以降増補する→作例がある、それを元に解説するといいかも →LEVEL2の試験で使用したwikipiaにgridを適用することで説明する
+% cd ~/coding_sample
+% rg grid | vim -
+% responsive/css/style.css   1. 領域を分割してエリアを作る 2. エリアにボックスを配置する
+% media-query/css/style.css:  grid-area: main;
+% responsive-by-JoyShaheb/css/style.css:      grid-template-columns: 1fr;
+% main-structure/css/style.css:   grid-template:
 
 ## 昇段試験 - flexbox編を受験する
 

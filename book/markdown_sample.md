@@ -3,8 +3,17 @@
 	cards/school/rule-of-exam.md の中にテンプレあり
 
 - テキスト通りにすすめてくださいの時の慣用句
-	{bdg-primary-line}`CSS教材：11_見出し1のボックス化・リセットCSS` フォルダを`VS Code`で開き、{bdg-dark-line}`テキスト：P.112〜114` に従って作業しながら読み進めて下さい。
-	{bdg-primary-line}`CSS教材：14_背景画像の配置` フォルダを`VS Code`で開き、`lesson_1.html`、`lesson_2.html`、`lesson_4.html`に対し{bdg-dark-line}`テキスト：P.118` のように`CSS`を書いてみて下さい。
+	{bdg-primary-line}`CSS教材：11_見出し1のボックス化・リセットCSS`
+	フォルダを`VS Code`で開き、
+	{bdg-dark-line}`テキスト：P.112〜114`
+	に従って作業しながら読み進めて下さい。
+
+	{bdg-primary-line}`CSS教材：14_背景画像の配置`
+	フォルダを`VS Code`で開き、
+	`lesson_1.html`に対し
+	{bdg-dark-line}`テキスト：P.118`
+	のように`CSS`を書いてみて下さい。
+
 - 画像埋め込み(figureではない)
 	https://jupyterbook.org/en/stable/content/figures.html#images
 	- ![](https://i.gyazo.com/ee48fa64233c30409f71b97e06b65177.png)
