@@ -445,6 +445,16 @@ a:hover {
 	<a href="" id="link-hover-demo">リンク。この上にマウスカーソルの乗せたり外したりしてみてください。</a>
 </div>
 
+```{tip}
+**高度な話題**
+
+この`:hover`以外に`a`要素に指定できる修飾子には他に`:active`（`a`要素をクリックし続けている時）、`:link`（未訪問のリンクの時）、`:visited`（訪問済みのリンク）があります。
+以下を参照下さい。
+- https://developer.mozilla.org/ja/docs/Web/CSS/:active
+- https://developer.mozilla.org/ja/docs/Web/CSS/:visited
+- https://developer.mozilla.org/ja/docs/Web/CSS/:link
+```
+
 ### 横組み
 
 {bdg-primary-line}`CSS教材：21_メニュー縦組・横組` フォルダを`VS Code`で開き、`lesson_1.html`のクラス`Btype`に対し{bdg-dark-line}`テキスト：P.135` のように`CSS`を書いてみて下さい。

@@ -873,6 +873,7 @@ https://developer.mozilla.org/ja/docs/Web/HTML/Element/strong#b_%E3%81%A8_strong
 {bdg-dark-line}`テキスト：P.42` にある画像のパスを具体的に説明しているのが {bdg-dark-line}`テキスト：P.45` です。
 以下の節で説明します。
 
+(relative-path)=
 #### 画像のパス表記例
 {bdg-dark-line}`テキスト：P.45`
 {bdg-primary-line}`教材：HTML教材/04_画像のパス表記例`

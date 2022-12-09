@@ -6,7 +6,7 @@
 	{bdg-primary-line}`CSS教材：11_見出し1のボックス化・リセットCSS`
 	フォルダを`VS Code`で開き、
 	{bdg-dark-line}`テキスト：P.112〜114`
-	に従って作業しながら読み進めて下さい。
+	に沿って作業しながら読み進めて下さい。
 
 	{bdg-primary-line}`CSS教材：14_背景画像の配置`
 	フォルダを`VS Code`で開き、

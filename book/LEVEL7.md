@@ -1,22 +1,110 @@
 # LEVEL7 CSS - Position
 
+## position
 % https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Positioning
+
+`position`とは「位置」を意味する英単語ですが、`CSS`の`position`プロパティを使用すれば直接ボックスの表示位置を指定することが可能です。
+
+```{hint}
+`CSS`でのレイアウトの基本的な考え方は、通常フローを始めとして`float`や`flexbox`など、どのように表示してほしいかだけを書いて、実際の配置はブラウザー任せであるのに対し、`position`は製作者が直接位置を指定できる点で趣が異なります。
+```
+
+{bdg-primary-line}`CSS教材：25_position` フォルダを`VS Code`で開き、{bdg-dark-line}`テキスト：P.144〜152` に沿って作業しながら読み進めて下さい。
+
+```{admonition} 高度な話題
+`positon:relative;`及び`position:aboslute;`は単独で使用することもできますが、{bdg-dark-line}`テキスト`では実際に使用することの多い、この２つの組み合わせのパターンの手法を伝えています。
+```
+
+````{hint}
+参考までに用語の英単語の意味を説明します。
+```{glossary}
+relative
+  相対的という意味です。反対語は絶対的です。
+  比較をする時において、基準に取り上げたものとの差を表現します。
+  住所で例えると「鈴木さんの家は、私の家の２つ隣です」という表現を指します。（私の家を基準にしています。） {bdg-dark-line}`関連` 「相対パス（[](relative-path)）」
+  
+  レラティブ、リラティブ。
+
+absolute
+  絶対的という意味です。反対語は相対的です。
+  比較をする時において、基準にするものが共通認識にある価値基準をもとにして表現します。
+  住所で例えると「鈴木さんの家は、東京都新宿区歌舞伎町2-2-15です。」という表現を指します。（日本人の共通認識である日本国を基準にしています。）
+  
+  アブソリュート。
+``` 
+````
 
 ### 参考：「position」を使わず、「ﬂoat」レイアウトで配置するには
 {bdg-dark-line}`テキスト：P.147`
+
+```{admonition} 重要度が低い
+{bdg-dark-line}`テキスト：P.147` で説明しているのは「`float`のパズル」を使用した方法で、`float`の概念で同じことをするにはということを念の為に（あるいは`float`の知識を確たるものにするために）説明しています。まさにこういうことをするために`positon`があるのであり、主要な方法ではないので読み飛ばしてかまいません。
+```
+
 ### ボックスの重なり順を変更する「z-index」
 {bdg-dark-line}`テキスト：P.148〜149`
+
+`CSS`の通常のフローを始め、各種のレイアウト方法はボックスが重ならないようにできています。したがってボックスの重なりは特別な状態であり、`positon`の使用ではじめて発生します。（`position`の他に、`flexbox`のフレックスアイテムが重なる場合があります。）
+
+ボックスが重なった場合にどちらを手前に表示するかを制御するのが`z-index`プロパティです。
+```{hint}
+`z-index`の言葉を解説します。
+`z`は数学の用語に由来しており、横方向を示す`x軸`と縦方向を示す`y軸`に対し、奥行き方向を`z軸`と呼ぶことから来ています。
+`index`とは並び順の番号のことを指しています。
+したがって`z-index`は奥行き方向での並び順の番号という意味です。
+```
+
+- `z-index`の並び順番号が１番のボックスよりも、２番目のボックスが手前に表示されます。
+- `z-index`の番号は連続している必要はなく、１番の次に999番を並べてもかまいません。（999番の人が手前に表示されます。）
+- ただし、番号には整数しか使えません。たとえば1.5番というのはありません。
+
 ### 注意：縦並びに配置するボックスに「position:absolute」は設定しません！
 {bdg-dark-line}`テキスト：P.150`
+
+```{hint}
+これは単に「通常のフロー」の説明です。
+`position`を指定しないボックスは通常のフローに従い、ブロックレベル要素（ブロックレベルボックス）は自動的に縦に並ぶことを説明しています。
+```
+
 ### 「lesson_1.html」内にある「div.ﬁx_box」に ﬁxed の設定をする
-{bdg-dark-line}`テキスト：P.151`
-{bdg-primary-line}`CSS教材：26_position_fixedとsticky`
+
+`positon`に指定できる値には、ここまでに学んだ`relative`、`absolute`の他に`fixed`と`sticky`があります。それぞれの特徴を見ていきましょう。
+
+````{hint}
+```{glossary}
+fixed
+  固定された、という意味の英単語です。画鋲でラベルを貼っておくイメージです。
+  フィクスト。
+
+sticky
+  粘着性のある、という意味の英単語です。べたべたした付箋を貼り付けるイメージです。
+  スティッキー。
+``` 
+````
+
+{bdg-primary-line}`CSS教材：26_position_fixedとsticky` フォルダを`VS Code`で開き、 {bdg-dark-line}`テキスト：P.151` に沿って作業しながら読み進めて下さい。
+
 ### 「lesson_2.html」内にある「nav」に sticky の設定をする
-{bdg-dark-line}`テキスト：P.152`
-{bdg-primary-line}`CSS教材：26_position_fixedとsticky`
+
+`fixed`に続き、`sticky`を見ていきましょう。この２つは似ているようで違います。
+
+{bdg-primary-line}`CSS教材：26_position_fixedとsticky` フォルダを`VS Code`で開き、 {bdg-dark-line}`テキスト：P.152` に沿って作業しながら読み進めて下さい。
+
+
 ## Flex を応用したニ段組みボックスレイアウト　─　第２段階
-{bdg-dark-line}`テキスト：P.156〜160`
-{bdg-primary-line}`CSS教材：27_二段組ボックスレイアウト`
+
+LEVEL6「[](flex-example-first)」の作業の続きです。
+
+{bdg-primary-line}`CSS教材：27_二段組ボックスレイアウト` フォルダを`VS Code`で開き、 {bdg-dark-line}`テキスト：P.156〜160` に沿って作業しながら読み進めて下さい。
+
+## 「WinSCP」でWWWサーバーへアップする
+
+```{hint}
+**{bdg-dark-line}`テキスト：P.161〜162` は読み飛ばして下さい。**
+
+作成したファイルを`Webサーバー`へアップロードする方法を説明しています。
+本ガイドブックの読者はすでに「[](webserver.md)」でお馴染みの手順です。（なお、ファイルをアップロードに使用するアプリケーションが`Filezilla`の代わりに`WinSCP`となっていますが、できることは同じです。）
+```
 
 ## 付録：CSS3 簡易解説
 {bdg-dark-line}`テキスト：P.163〜167`
@@ -27,141 +115,144 @@
 ### 透明度
 {bdg-dark-line}`テキスト：P.163`
 
- ( 不透明度・透明度 「CSS3基礎」P.85）
+````{tip}
+コンピューター用語では透明を指す用語に２つの語が使われます。
 
-不透明度をopacity(オパシティ)、透明度をアルファ値と呼び、いずれも0(透明)から1.0(不透明)の間の値を指定します。
+一つが**不**透明度で`opacity`（オパシティ）と書きます。もう一つが透明度で、アルファ値と呼び、いずれも0(透明)から1.0(不透明)の間の値を指定します。
+
 ```{tip}
-**不透明度と透明度とは同じ概念です**
+**不透明度と透明度とは実用的には同じ概念です**
+
 不透明度はどのくらい不透明であるか？を扱い、0(透明=全く不透明でない)〜1.0(完全に不透明)の範囲で指定します。0.5では半透明になります。
 同様に透明度も0(透明)〜1.0(不透明＝透明ではない)の範囲で指定します。これも0.5で半透明になります。
 不透明度も透明度も指定する数値の範囲や意味が同じであるため、どちらの用語を使用しても間違いではありません。
-であれば、「透明度」で統一したほうが直感的で分かりやすいと思います。
+
+まぎらわしいね！
+```
+
+`CSS`でもこの２つの用語が使用されています。`opacity`プロパティと、色の表現で使用される`rgba()`（末尾の`a`がアルファ値を指しています）です。
 ````
 
 透明度をコントロールできるものには２種類あります。
 1. 要素そのもの ... `opacityプロパティ`で指定する
 2. 背景や文字など色指定ができるもの ... `rgba()`で色指定にアルファ値を含めた透明色を指定する
+	```{tip}
+	CSSで色を扱う`rgba()`については「[](color)」でも紹介しています。
+	```
 
-```{tip}
-CSSで色を扱う`rgba()`などについては、[](color)で扱います。
+```{hint}
+{bdg-dark-line}`テキスト：P.163` の下の枠で紹介されているベンダープレフィックスは、まだ標準化されていない先進的な（及び実験的な）プロパティを使用する際に使用する接頭辞です。
+
+本書では既に普及しているプロパティを扱っているため読み飛ばしてかまいませんが、読者が将来できたてホヤホヤのプロパティを使用する場合には必要になるかもしれません。
 ```
 
-**「CSS3基礎」P.85**下にあるベンダープレフィックスは、まだ標準化されていない先進的なプロパティを使用する際に必要です。しかし本書の範囲では必要ありません。読み飛ばしで大丈夫です。
 ### 角丸(かどまる)
+% https://developer.mozilla.org/ja/docs/Web/CSS/border-radius
 {bdg-dark-line}`テキスト：P.164`
 
-ボックスの角を丸くするプロパティです。
+ボックスに引いたボーダーの角を丸くするプロパティです。角丸を使用するには、`border-radius`だけではだめで、必ず`border`を引いて下さい。
 
-`border-radius`の名前は、境界線や枠線という意味の`border`(ボーダー)と、角を丸める時の円の半径`radius`(ラディウス)と覚えましょう。
-
-`border-radius`で最初に押さえるといいのが次の設定です。
-
-```{code} css
-p {
-	border-radius: 3px;  /* 四隅全てを少し丸くする */
-}
+```{hint}
+`border-radius`の`radius`は円の半径という意味の英単語です。
+角を丸める時に使用する円の半径という意味です。
 ```
 
-`border-radius`に小さなさりげない数値(3px前後)を与えるとおしゃれな雰囲気が出ます。
+`border-radius`で最初に覚えてほしい慣用表現２つを紹介します。
 
-もう一つテクニックを紹介します。
-
-```{code} css
-img {
-	border-radius: 50%;	/* ボックスが正方形の時、完全に丸くなる */
-}
-```
-
-`border-radius`に`%値`を指定すると、セレクターで指定したボックスの幅や高さに対するパーセンテージになります。
-% https://developer.mozilla.org/ja/docs/Web/CSS/border-radius
-したがって50%を指定するとボックス全体が角丸で囲われることになり、まんまるになります。(ボックスが正方形の時のみの話です)
-
-**「CSS3基礎」P.86**には、四隅のそれぞれの角毎に角丸を与える方法が書かれています。必要に応じて参照して下さい。
+1. ボックスをおしゃれにする
+	```{code} css
+	p {
+	    border-radius: 3px;  /* 四隅全てを少し丸くする */
+	}
+	```
+	`border-radius`に小さなさりげない数値(`3px`前後)を与えるとおしゃれな雰囲気が出ることが知られています。その反対に大きな数値を与えると子供っぽいかわいらしい雰囲気となります。
+2. 正方形の画像を丸く切り抜く
+	正方形の画像にしか使えませんが、以下のスタイルを与えると、丸く切り抜かれたような画像にできます。
+	```{code} css
+	img {
+	    border-radius: 50%;	/* ボックスが正方形の時、完全に丸くなる */
+	}
+	```
+	`50%`は画像の半分を意味しており、角丸の４つの円がそれぞれ画像の半分の半径を持つため、全体としては丸く切り抜かれる効果となります。
 
 ### 線形グラデーション
 {bdg-dark-line}`テキスト：P.165`
 
-(補足事項はありません)
-- {{TODO}}円形グラデーションもあると伝える→パスとかもできるようになったかな？
+% - {{TODO}} 色だよ、テキストのカラーにも使えるよ
+%   →嘘でした。色ではなく、iamgeの特殊なもの。
+%     https://developer.mozilla.org/ja/docs/Web/CSS/gradient/linear-gradient
 
-% CSSグラデーションの使用
-% https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Images/Using_CSS_gradients
-% →反復グラデーションの応用例がやばい
-% 円形グラデーションもあるよ
-% https://developer.mozilla.org/ja/docs/Web/CSS/gradient/radial-gradient
-% 扇形もあるよ
-% https://developer.mozilla.org/ja/docs/Web/CSS/gradient/conic-gradient
+% MEMO 虹色テキストの作り方→けっこう複雑だった.
+% https://csshtml.work/rainbow/
+% <div>
+%   <p style="
+%		background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+%		background-clip: text;
+%		-webkit-text-fill-color:transparent;">
+% 	CSSグラデーションの使用
+% 	https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Images/Using_CSS_gradients
+% 	https://developer.mozilla.org/ja/docs/Web/CSS/gradient/radial-gradient
+%   </p>
+% </div>
 
-### テキストシャドウ
+```{hint}
+グラデーションにはここで説明する線形グラデーション`liner-gradient`の他に、円形`radial-gradient`や扇形`conic-gradient`、また反復を伴ったグラデーションのサポートが追加されています。
+グラデーションや模様が好きなら、[mdn CSSグラデーション](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Images/Using_CSS_gradients)を覗いてみて下さい。（記事の後半には、グラデーションでできているとは思えないやばい例があります）
+```
+
+### 影（シャドウ）
+
+`CSS`では、テキストとボックスに影を付けることができます。
+影に対する数値の意味は、この両者で共通しています。
+
+% ↓filterプロパティであり、影とは異色なので紹介しなくてもいいかな。(filterそのものを説明していないし）
+% ```{tip}
+% 切り抜かれた画像の形に沿って影を付けるドロップシャドウもあります。
+% 
+% % https://developer.mozilla.org/ja/docs/Web/CSS/filter
+% https://developer.mozilla.org/ja/docs/Web/CSS/filter-function/drop-shadow
+% ```
+
+#### テキストシャドウ
 {bdg-dark-line}`テキスト：P.166`
-### ボックスシャドウ
+
+````{tip}
+**カンマ区切り**で複数の影を付けることもできます。（ボックスシャドウも同様です）
+```html
+<p>hello</p>
+```
+```css
+p {
+    font-size: 3rem;
+    text-shadow:
+       /* １つ目の影 */
+        4px -4px 1px lightgreen, 
+       /* ２つ目の影 */
+       -4px  4px 3px lightblue;
+}
+```
+<div>
+   <p style="font-size: 3rem; text-shadow: 4px -4px 1px lightgreen, -4px 4px 3px lightblue;">hello</p>
+</div>
+````
+
+#### ボックスシャドウ
 {bdg-dark-line}`テキスト：P.166`
 
-### トランジション
+４つめの数値である広がり（影の拡大縮小）と、オプションとして内側に影を設定する`inset`キーワードが追加されています。
+
+### トランジッション（トランジション）
 {bdg-dark-line}`テキスト：P.167`
+
 % https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions#which_css_properties_are_animatable
 
-トランジション(transition)は「遷移」と言う意味で、CSSのある状態Aから別の状態Bに変化することです。
-A→Bに変化する間は途中経過がアニメーションによって表現されます。
-
-**「CSS3基礎」P.89**には、`a要素`に対して`transition(transition-duration)`を設定しています。
-`a要素`の最初の状態は`ul li a`セレクターに示されたマウスオーバー(ホバー)していない時で、マウスオーバーした際に`ul li a:hover`セレクターで示された新しい状態（widthが大きくなり、背景色色が赤)に遷移します。
-
-% {{DONE}} ul li a の子孫セレクターを説明していない
-%	→P.56に子孫セレクタについてと紹介がある
-```{tip}
-**子孫セレクター**
-`ul li a`というように半角スペース区切りのセレクターは、`ul`の中の`li`の中の`a要素`という意味です。
-半角スペースには「〜の中の」という意味が与えられており、単なる空白ではないので注意して下さい。
-この半角スペースは「子孫セレクター」と言い、HTMLの入れ子の階層構造の中のものを指定する際に使用します。
-非常によく使う表現であるため、しっかり覚えておいて下さい。
-
-テキストでは**「CSS3基礎」P.56**に子孫セレクターの説明があります。
-```
-
-% {{DONE}} a:hover を説明していない
-```{tip}
-**:hover疑似クラス**
-`a要素`のセレクター`a`には、`a:hover`のように「hover疑似クラス」と呼ばれる修飾子`:hover`を付けることができます。
-`a要素`はマウスで操作できる要素であるため、操作に応じてスタイルを変化させたい（操作に応じて反応する、手応えをデザインする）というニーズがあります。
-その際に`:hover`を使用します。
-`a:hover`はマウスカーソルが`a要素`に乗っかっている状態を指します。
-具体例として、マウスカーソルを乗せていない時、乗せた時で色を変える場合を示します。
-```{code} css
-a {
-	color: blue;
-}
-
-a:hover {
-	color: green;
-}
-```
-マウスカーソルが乗っていない時には青、マウスカーソルを乗せた時(覆いかぶさるという意味でホバー時と言います)には緑です。
-マウスカーソルを外したら再び青の状態に戻ります。
-
-`a要素`に指定できる修飾子には他に`:active疑似クラス`(a要素をクリックし続けている時)、`:link疑似クラス`(未訪問のリンク)、`:visited疑似クラス`(訪問済みのリンク)があります。
-以下を参照下さい。
-- https://developer.mozilla.org/ja/docs/Web/CSS/:active
-- https://developer.mozilla.org/ja/docs/Web/CSS/:visited
-- https://developer.mozilla.org/ja/docs/Web/CSS/:link
+トランジションについては「[](transition)」で説明しました。
 
 % ↓この説明は間違いで、color もアニメーションする
 % なお、幅widthはアニメーションしますが(幅がにゅーと伸びる)、色の移り変わりはアニメーションしません。
 % プロパティの種類毎にアニメーション可能かどうかが決められています。
 % https://developer.mozilla.org/ja/docs/Web/CSS/CSS_animated_properties
 
-このトランジション（遷移）は２つの状態の間をアニメーションで繋げます。
-トランジションにはアニメーション効果はありますが、アニメーションを制作する道具ではなく、どちらかというと「状態の遷移」を表現する道具です。
-
-それに対し、アニメーションのための道具`animationプロパティ`があります。
-`animation`はトランジションのように状態の変化という概念がなく、すぐ再生するか、また繰り返し再生するかなどの再生コントロール機能をもちます。
-また２点間をつなぐトランジションとはことなり、キーフレームと呼ばれるアニメーションの通過点をいくつも持つことができます。
-
-アニメーション(CSSアニメーション)に関しては本書の範囲をはずれます。
-https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Animations/Using_CSS_animations 等を参考にしてください。
-
-% 参考: CSS Animation
-% https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 ## 昇段試験 - position
 
 % 位置指定のテスト
