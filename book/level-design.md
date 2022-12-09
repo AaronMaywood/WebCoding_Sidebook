@@ -568,13 +568,10 @@ https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transiti
 {bdg-dark-line}`テキスト：P.213`
 ### tool.html
 {bdg-dark-line}`テキスト：P.213〜216`
-	# 演習になる
 ### catalog.html
 {bdg-dark-line}`テキスト：P.219〜220`
-- catalog.htmlの作成 43-46				# 演習になる
 ### common.html
 {bdg-dark-line}`テキスト：P.221〜224`
-- common.htmlの作成47-50				# 演習になる
 ### contact.html
 {bdg-dark-line}`テキスト：P.225〜229`
 
@@ -583,10 +580,12 @@ TODO 何をしよう？
 ---------------------------------------- ↑LEVEL8 昇段試験 LEVEL29-LEVEL32 ----
 
 # LEVEL9(LEVEL9.md) マルチデバイス
+## 要点解説
 ## 「マルチデバイスサイト」とは？
 {bdg-dark-line}`テキスト：P.232`
 ## 01-Multi_sample(マルチデバイス基本）
 {bdg-dark-line}`テキスト：P.233`
+- {{TODO}} 勘違いな作業です、をどこかで補足してあるはずだがどうか？
 
 ## World_literature(世界の文学)
 {bdg-dark-line}`テキスト：P.234〜236`
@@ -595,7 +594,12 @@ TODO 何をしよう？
 ## 補足  追記/ハンバーガーナビ（ドロワー）
 {bdg-dark-line}`テキスト：P.244〜246`
 
-## STAGE37 マルチデバイスサイト Green Camp ←これがなくなっているのか！
+## Sass
+{bdg-dark-line}`テキスト：P.248〜265`
+## SCSS
+{bdg-dark-line}`テキスト：P.267〜286`
+
+## マルチデバイスサイト Green Camp ←これがなくなっているのか！
 
 % - ドキュメントマルチビューの概念の応用
 %	- 複数のスタイルを作って張り合わせて切り替える
@@ -610,17 +614,17 @@ TODO 何をしよう？
 	- タグ付け 4-5
 		- HTML 8-10
 
-## STAGE38 PCサイト
+### STAGE38 PCサイト
 
 - スマートフォンサイトテキスト
 	- Green Camp （PC サイト用） 6-7,11-13	←jQuery(SlickNav)
 
-## STAGE39 タブレットサイズ
+### STAGE39 タブレットサイズ
 
 - スマートフォンサイトテキスト
 	- 14-15
 
-## STAGE40 スマートフォンサイズ
+### STAGE40 スマートフォンサイズ
 
 - スマートフォンサイトテキスト
 	- 16-18
