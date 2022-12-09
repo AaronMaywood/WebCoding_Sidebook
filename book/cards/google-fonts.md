@@ -69,5 +69,3 @@ Google Fontsの利用方法は以上です。
 - https://aaronmaywood.github.io/coding_sample/google-font/ （画面表示とソースの両方を覗いてみてください。ソースはHTMLとCSSの両方を覗いて下さい。）
 ````
 `````
-
-

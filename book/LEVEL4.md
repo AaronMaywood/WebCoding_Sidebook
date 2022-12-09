@@ -238,6 +238,7 @@ CSSはボックスの集合体であると説明しましたが、 ボックス�
 ```{include} cards/resetcss.md
 ```
 
+(box-sizing)=
 ### 「標準モード」とは
 {bdg-dark-line}`テキスト：P.114`
 

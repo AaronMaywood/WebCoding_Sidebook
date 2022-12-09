@@ -520,128 +520,82 @@ https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transiti
 
 # LEVEL8 お茶サイト実装
 
-## STAGE19 お茶サイト紹介
+{bdg-primary-line}`お茶サイト制作教材/お茶サイト配付データ`
 
-- お茶
-	- ページ構成 2-6
-	- ワイヤーフレーム（サイト設計図） 12
+## お茶サイト紹介
+### ページ構成 
+{bdg-dark-line}`テキスト：P.176〜180`
+### ワイヤーフレーム（サイト設計図） P.186
+{bdg-dark-line}`テキスト：P.186`
 
-## STAGE20 基本ページの作成
+## 基本ページの作成
+{bdg-dark-line}`テキスト：P.181〜`
+### STEP-1 「base.html」を開く
+{bdg-dark-line}`テキスト：P.181`
+### STEP-2 <head> 内に追記
+{bdg-dark-line}`テキスト：P.182`
+### STEP-3 「Google日本語フォント」の設定
+{bdg-dark-line}`テキスト：P.183〜185`
+### ワイヤーフレーム（サイト設計図）
+{bdg-dark-line}`テキスト：P.186`
+### 基本ページの作成
+{bdg-dark-line}`テキスト：P.187`
+### index.html コードタグ付け	14
+{bdg-dark-line}`テキスト：P.188〜195`
 
-- お茶
-	- STEP-1 「base.html」を開く	7
-	- STEP-2 <head> 内に追記		8
-		※：「ファビコンの設定」	8
-	- STEP-3 「Google日本語フォント」の設定 9-11
-	- ワイヤーフレーム（サイト設計図） **「お茶サイト 作成・解説」P.12**
-		→すでに「お茶サイト紹介」で説明済みなので何も言うことはない
-	- 基本ページの作成	13
-		←クラス名
-	- index.html コードタグ付け	14
-		←main, header, div, aside, footer
+## リセットCSS
+{bdg-dark-line}`テキスト：P.196〜197`
+## スタイルシートの設定(style.css)
+### 各ページ共通CSS
+{bdg-dark-line}`テキスト：P.198`
+### index.html header 部分
+{bdg-dark-line}`テキスト：P.199〜201`
+### visual_img
+{bdg-dark-line}`テキスト：P.202`
+### お茶のはじまり
+{bdg-dark-line}`テキスト：P.203〜204`
+### 世界のお茶の生産量
+{bdg-dark-line}`テキスト：P.205〜206`
+### インフォメーション
+{bdg-dark-line}`テキスト：P.207〜206`
+### aside
+{bdg-dark-line}`テキスト：P.209`
+### footer
+{bdg-dark-line}`テキスト：P.210〜212`
 
-## STAGE20.5 index.htmlの細部
-
-- お茶
-	- index.html header 部分
-		- (A) 15
-	- visual_img
-		- (B) 15
-	- お茶のはじまり
-		- (C) 16
-	- 世界のお茶の生産量
-		- (D) 17
-	- インフォメーション
-		- (E) 18
-	- aside
-		- (F) 19
-	- footer
-		- (G) 20
-
-## STAGE21 リセットCSS
-
-- お茶
-	- リセット CSS を設定します 22-23
-	- 各ページ共通 CSS 24	←ここではWebフォントを使っていなかった
-
-## STAGE22 header CSS
-
-- お茶
-	- index.html_header 部分 - (A) 15に対するCSS
-		- 25-27
-	- visual_img - (B) 15 に対するCSS
-		- 28
-	- お茶のはじまり - (C) 16 に対するCSS
-		- 29-30
-	- 世界のお茶の生産量 - (D) 17 に対するCSS
-		- 31-32
-	- インフォメーション - (E) 18 に対するCSS
-		- 33-34
-	- aside - (F) 19 に対するCSS
-		- 35
-	- footer - (G) 20  に対するCSS
-		- 36-38
-
-
-以下、下層ページの実装
-## STAGE29 下層ページの実装
-
-- お茶
-	- temp.html（テンプレート）の作成 39	# 授業の便宜のためで、必須ではない
-
-## STAGE30 
-
-- お茶
-	- tool.htmlの作成 39-42					# 演習になる
-
-## STAGE31 
-
-- お茶
-	- catalog.htmlの作成 43-46				# 演習になる
-
-## STAGE32 
-
-- お茶
-	- common.htmlの作成47-50				# 演習になる
-
-## STAGE33(option)
-
-- お茶
-	- contact.htmlの作成51-55
+## 下層ページの実装
+### temp.html
+{bdg-dark-line}`テキスト：P.213`
+### tool.html
+{bdg-dark-line}`テキスト：P.213〜216`
+	# 演習になる
+### catalog.html
+{bdg-dark-line}`テキスト：P.219〜220`
+- catalog.htmlの作成 43-46				# 演習になる
+### common.html
+{bdg-dark-line}`テキスト：P.221〜224`
+- common.htmlの作成47-50				# 演習になる
+### contact.html
+{bdg-dark-line}`テキスト：P.225〜229`
 
 ---------------------------------------- LEVEL8 昇段試験 LEVEL29-LEVEL32 ----
 TODO 何をしよう？
 ---------------------------------------- ↑LEVEL8 昇段試験 LEVEL29-LEVEL32 ----
 
-% このレベルはボツにして前のレベルに統合する↑
-% # LEVEL8(LEVEL8.md) フォーム
-% ## STAGE33(option)
-% 
-% - お茶
-% 	- contact.htmlの作成51-55			←フォーム
-% ---------------------------------------- ↑LEVEL8 昇段試験 ----
-% 	ここは無くてもいいかな
-% ---------------------------------------- ↑LEVEL8 昇段試験 ----
+# LEVEL9(LEVEL9.md) マルチデバイス
+## 「マルチデバイスサイト」とは？
+{bdg-dark-line}`テキスト：P.232`
+## 01-Multi_sample(マルチデバイス基本）
+{bdg-dark-line}`テキスト：P.233`
 
-# LEVEL9(LEVEL9.md) マルチデバイス(2)
-## STAGE34 スマートフォンサイト制作実習 ver.1.0 F 22.06.15
-- スマートフォン
-	- 「マルチデバイスサイト」  とは？ 2-3
-## STAGE35 World_literature(世界の文学)
+## World_literature(世界の文学)
+{bdg-dark-line}`テキスト：P.234〜236`
+## Japanese_literature(日本の文学)
+{bdg-dark-line}`テキスト：P.237〜243`
+## 補足  追記/ハンバーガーナビ（ドロワー）
+{bdg-dark-line}`テキスト：P.244〜246`
 
-- スマートフォン
-	- World_literature(世界の文学) 4-6
-## STAGE36 Japanese_literature(日本の文学)
-
-- スマートフォン
-	- Japanese_literature(日本の文学) 7-13
-
-## STAGE36-2 ドロワー
-
-- スマートフォン
-	- 補足　追記 / ハンバーガーナビ 14-16
-
-## STAGE37 マルチデバイスサイト Green Camp
+## STAGE37 マルチデバイスサイト Green Camp ←これがなくなっているのか！
 
 % - ドキュメントマルチビューの概念の応用
 %	- 複数のスタイルを作って張り合わせて切り替える
