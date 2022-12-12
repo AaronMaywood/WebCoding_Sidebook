@@ -1,4 +1,4 @@
-# LEVEL8 お茶サイト実装
+# LEVEL8 お茶サイト
 
 これまでに`HTML`と`CSS`を一揃い学びました。
 
@@ -364,7 +364,7 @@ width: calc(100% / 5);     /* 割り算 */
 
 表は「[](table)」で学びましたが、{bdg-dark-line}`テキスト：P.225` には表の内部構造に新しい`th`要素が用いられています。
 
-`th`要素はセルを示す`td`（`table-data-cell`）の特殊系で、項目の見出し（項目名）を意味する`table-cell-header`を縮めたものです。
+`th`要素はセルを示す`td`（`table-data-cell`）の特別版で、項目の見出し（項目名）を意味する`table-cell-header`を縮めたものです。
 `th`（項目名）と`td`（項目の内容）を使用することにより、項目名付きの表を定義することができます。
 
 ```{hint}
@@ -389,8 +389,6 @@ width: calc(100% / 5);     /* 割り算 */
 	</div>
 ```
 
-
----------------------------------------- ↓LEVEL7 昇段試験 LEVEL29-LEVEL32 ----
 ## 昇段テストの前に
 
 お茶サイトに示したようなページを自作できるスキルが必要です。
@@ -399,7 +397,49 @@ width: calc(100% / 5);     /* 割り算 */
 - 必要な指示を読み取ったり、以前学んだことをおさらいする目的以外にはなるべくテキストを見ずにコーディングしてみましょう。テキストで使用しているコーディングとぴったり一致する必要はありません。表示が等しければHTML/CSSコーディングの方法は自由です。
 - 自分でHTMLをマークアップし、CSSをコーディングしてページを仕上げる過程を経験して下さい。
 
-## 昇段テスト
+## 昇段テスト - お茶サイト編
+
+ここまでのことを学習したら、次の「昇段試験のルール」を確認の上、昇段試験に望んでください。
+````{dropdown} クリックして昇段試験のルールを確認する（退校となる場合の説明があります）
+```{include} cards/school/rule-of-exam.md
+```
+````
+
+### 素材の配付
+{{TODO}}
+
+### 問題 - 「」
+{{TODO}}
+
+
+# 完成図
+
+https://www.figma.com/proto/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?page-id=656%3A1016&node-id=660%3A1284&viewport=774%2C160%2C0.29&scaling=min-zoom
+
+# 制作指示
+
+この指示どおりにCSSを実装して下さい。
+https://www.figma.com/proto/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?page-id=656%3A1016&node-id=660%3A1283&viewport=774%2C160%2C0.29&scaling=min-zoom
+
+HTMLに対し、必要に応じて以下の加工を行ってかまいません。
+- divの追加
+- クラス名の追加
+
+# reset.css
+
+リセットCSSは任意とします。使用しても、しなくともかまいません。
+Google Chromeで表示できていればよしとします。
+
+# 使用するGoogle Fonts
+
+以下のGoogle Fonts を読み込んであり、利用可能です。
+- Noto Sans JP ... ウェイトは400と700
+	font-family: 'Noto Sans JP', sans-serif; /* CSSにはこのように書いて下さい */
+- Kosugi Maru ... ウェイトは400
+	font-family: 'Kosugi Maru', sans-serif; /* CSSにはこのように書いて下さい */
+
+
+
 
 以下のデザイン指示を基にページのコーディングを行って下さい。
 
@@ -410,7 +450,10 @@ width: calc(100% / 5);     /* 割り算 */
 	- {{TODO}} テキストに従ったリハーサル後に加害を作成するのがいいか？（テキストに沿った内容になるので)
 		adjustacademy.comはかわいくていいなあ
 			https://adjustacademy.com/
----------------------------------------- ↑LEVEL7 昇段試験 LEVEL29-LEVEL32 ----
+### 解答の提出
+
+```{include} cards/school/filling.md
+```
 % ```{code}
 % おめでとうございます。昇段試験に合格しました。
 % 
@@ -419,7 +462,7 @@ width: calc(100% / 5);     /* 割り算 */
 % 
 % 新しいガイドブックを案内します。次のレベル（レベル４）に進んで下さい。
 % - 新しいガイドブックのレベル４のページ
-https://adjustacademy.com/webcoder/guidebook/eaff21cfa63a828f34f02f4bc739a5de/LEVEL9.html
+%   https://adjustacademy.com/webcoder/guidebook/eaff21cfa63a828f34f02f4bc739a5de/LEVEL9.html
 %   	ID: adjust
 %   	パスワード: academy
 % 

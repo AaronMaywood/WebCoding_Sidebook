@@ -286,7 +286,13 @@ p {
 
 「改行コードを原則`CR+LF(Windows)`とする」など未説明の不明なルールも多々見られますが、全体を一読して、現場で求められるルールの雰囲気を読み取って下さい。
 
-## 昇段試験 - position
+## 昇段試験 - position編
+
+ここまでのことを学習したら、次の「昇段試験のルール」を確認の上、昇段試験に望んでください。
+````{dropdown} クリックして昇段試験のルールを確認する（退校となる場合の説明があります）
+```{include} cards/school/rule-of-exam.md
+```
+````
 
 % 位置指定のテスト
 % https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Position_skills
@@ -294,12 +300,13 @@ p {
 % 実用的な位置指定の応用例→JavaScriptが必要だから不採用
 % https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Practical_positioning_examples
 
-- {{TODO}} 元素材のダウンロード指示
-	素材を入手して下さい
-		以下のURLから素材のZIPファイルをダウンロードし、展開して置いて下さい。
-			https://adjustacademy.com/..../9879878a797878.zip
-- {{TODO}} 回答のダウンロード指示
-- {{TODO}} 採点の方式
+### 素材の配付
+
+解答に必要な素材を提供します。以下から素材のZIPファイルをダウンロードし、展開して利用して下さい。
+% ハッシュ化してadjustacademy.omにアップロードする方法
+% 2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
+- https://adjustacademy.com/webcoder/99499273a32af05f7e1ef566528cbb71.zip
+  - この中に`HTML`と`CSS`が含まれます。
  
 ### 問１ - 右上表示
 
@@ -307,7 +314,7 @@ p {
 `css/style.css`を編集して以下の問いに答えてください。
 
 ```{figure} https://i.gyazo.com/049658e1f669ded396e2067f62864a62.png
-この状態からスタートして、
+この状態からスタートして...
 ```
 ```{figure} https://i.gyazo.com/0631e6f5499cbed55b429fbb13c0a723.png
 この見た目にしてください。 （黄緑色のボックスは下にある文字を隠してかまいません。）
@@ -323,7 +330,7 @@ p {
 `css/style.css`を編集して以下の問いに答えてください。
 
 ```{figure} https://i.gyazo.com/7e29530dcee9b5a11d2551a228b371f0.png
-この状態からスタートして、
+この状態からスタートして...
 ```
 
 ```{figure} https://i.gyazo.com/479fe0cb4a8bd896a8f3011896dbedd9.png
@@ -343,13 +350,10 @@ p {
 `css/style.css`を編集して以下の問いに答えてください。
 
 ```{figure} https://i.gyazo.com/45b7a1ab2a51344f8c44300562d764e5.png
-この状態からスタートして、
-```
-```{figure} https://i.gyazo.com/c6a6f0be42fca09e3926a1cfe37bfb89.png
-この見た目にしてください。 （黄緑色のボックスは下にある文字を隠してかまいません。）
+この状態からスタートして...
 ```
 ```{figure} https://i.gyazo.com/fe2fd558d7f999979d963f3c18eaca71.gif
-なお、記事内容をスクロールさせても左側メニューは固定されています。
+左側の黄色の領域を画面に固定し、記事内容をスクロールさせても動かないようにして下さい。
 ```
 
 % その他のネタ
@@ -367,25 +371,20 @@ p {
 %	https://github.com/AaronMaywood/coding_sample/tree/main/transition
 %		https://aaronmaywood.github.io/coding_sample/transition/
 
-## 提出方法（検証〜提出）
+### 解答の提出
 
-- 動作確認ができたら提出して下さい。
-	````{dropdown} 課題の提出方法を確認する
-	```{include} cards/school/send-in-files.md
-	```
-	````
-- 合格すれば模範解答を手に入れることができます。模範回答と照らし合わせ、さらに知識を固めて下さい。
-	- また、次のレベル教材が示されます。次のレベルに進んでください。
+```{include} cards/school/filling.md
+```
 
 % ```{code}
 % おめでとうございます。昇段試験に合格しました。
 % 
 % - 模範解答を以下のURLからダウンロードできます。自身の答えと照らし合わせて研究して下さい。
-% 	https://adjustacademy.com/webcoder/8f41205015c24ebc80ea45570bb06f6a.zip
+%   https://adjustacademy.com/webcoder/76d09673c0816680c01e26555d569fab.zip
 % 
 % 新しいガイドブックを案内します。次のレベル（レベル８）に進んで下さい。
 % - 新しいガイドブックのレベル８のページ
-https://adjustacademy.com/webcoder/guidebook/f9438d369d723c8e8b6cdc3f1cd78b64/LEVEL8.html
+%   https://adjustacademy.com/webcoder/guidebook/f9438d369d723c8e8b6cdc3f1cd78b64/LEVEL8.html
 %   	ID: adjust
 %   	パスワード: academy
 % 

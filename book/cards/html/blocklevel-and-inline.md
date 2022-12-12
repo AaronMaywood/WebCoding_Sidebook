@@ -30,7 +30,7 @@
 `HTML5`からブロックレベル要素、インライン要素の用語の代わりに用いられるようになったのが「コンテンツカテゴリ」です。
 コンテンツカテゴリの中には次の図のように様々なカテゴリーがあります。
 
-```{figure} https://developer.mozilla.org/ja/docs/Web/Guide/HTML/Content_categories/content_categories_venn.png
+```{figure} https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories/content_categories_venn.png
 ブロックレベル要素とインライン要素はより複雑なコンテンツカテゴリに細分化されました。
 > 図は https://developer.mozilla.org/ja/docs/Web/Guide/HTML/Content_categories より
 ```

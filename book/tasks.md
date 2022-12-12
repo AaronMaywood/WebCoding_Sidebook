@@ -10,8 +10,8 @@
 |LEVEL3.md CSS基礎|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
 |LEVEL4.md ボックスモデル|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
 |LEVEL5.md float|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
-|LEVEL6.md Flexbox|{{DONE}}|{{DONE}}|{{HALF}}|{{TODO}}|
-|LEVEL7.md Position|{{DONE}}|{{DONE}}|{{HALF}}|{{TODO}}|
+|LEVEL6.md Flexbox|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
+|LEVEL7.md Position|{{DONE}}|{{DONE}}|{{DONEF}}|{{TODO}}|
 |LEVEL8.md お茶サイト|{{DONE}}|{{DONE}}|{{TODO}}|{{TODO}}|
 |LEVEL9.md スマートフォン|{{DONE}}|{{TODO}}|{{HALF}}|{{TODO}}|
 |昇段テストの受験方法|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
