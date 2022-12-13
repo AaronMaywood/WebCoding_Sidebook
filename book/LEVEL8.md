@@ -389,7 +389,7 @@ width: calc(100% / 5);     /* 割り算 */
 	</div>
 ```
 
-## 昇段テストの前に
+## 昇段試験の前に
 
 お茶サイトに示したようなページを自作できるスキルが必要です。
 自身のスキルの基準に引き上げるために、お茶サイトの各ページの自作にチャレンジしましょう。
@@ -397,7 +397,7 @@ width: calc(100% / 5);     /* 割り算 */
 - 必要な指示を読み取ったり、以前学んだことをおさらいする目的以外にはなるべくテキストを見ずにコーディングしてみましょう。テキストで使用しているコーディングとぴったり一致する必要はありません。表示が等しければHTML/CSSコーディングの方法は自由です。
 - 自分でHTMLをマークアップし、CSSをコーディングしてページを仕上げる過程を経験して下さい。
 
-## 昇段テスト - お茶サイト編
+## 昇段試験 - お茶サイト編
 
 ここまでのことを学習したら、次の「昇段試験のルール」を確認の上、昇段試験に望んでください。
 ````{dropdown} クリックして昇段試験のルールを確認する（退校となる場合の説明があります）
@@ -405,60 +405,67 @@ width: calc(100% / 5);     /* 割り算 */
 ```
 ````
 
+% {{DONE}} どうしよう？→SCSSの教材「SAMPLE PAGE」をそのまま使用した
+% 	{{TODO}} １ページ実装してもらう課題を用意する→LEVEL9.MDのスマートフォンサイト作成と同様の指示出しや提出方法、採点方法を用意する
+% 	- デザインカンプ、素材(テキスト＆画像)の提供
+% 	- HTMLのマークアップとCSS
+% 	- {{TODO}} テキストに従ったリハーサル後に加害を作成するのがいいか？（テキストに沿った内容になるので)
+% 		adjustacademy.comはかわいくていいなあ
+% 			https://adjustacademy.com/
+
 ### 素材の配付
-{{TODO}}
 
-### 問題 - 「」
-{{TODO}}
+解答に必要な素材を提供します。以下から素材のZIPファイルをダウンロードし、展開して利用して下さい。
+% ハッシュ化してadjustacademy.omにアップロードする方法
+% 2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
+- https://adjustacademy.com/webcoder/df3139b465e1ef998870c844c1064831.zip
+  - この中に`HTML`と`CSS`、また`img`フォルダに必要な画像素材が含まれます。
 
+### 問題 - 「SAMPLE SITE」ページを仕上げてして下さい
 
-# 完成図
+- {bdg-dark}`指示` 作業フォルダ名を`samplepage`として下さい。
 
-https://www.figma.com/proto/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?page-id=656%3A1016&node-id=660%3A1284&viewport=774%2C160%2C0.29&scaling=min-zoom
+はじめに完成図を示します。
 
-# 制作指示
+```{figure} https://i.gyazo.com/cff74ae61121166ed74fd3aefa35bf3b.png
+% https://www.figma.com/proto/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?page-id=656%3A1016&node-id=660%3A1284&viewport=774%2C160%2C0.29&scaling=min-zoom
+この見た目になるように仕上げてください。
+```
 
-この指示どおりにCSSを実装して下さい。
-https://www.figma.com/proto/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?page-id=656%3A1016&node-id=660%3A1283&viewport=774%2C160%2C0.29&scaling=min-zoom
+次に細かな作成指示を行います。
 
-HTMLに対し、必要に応じて以下の加工を行ってかまいません。
+- [細かな作業指示を見る](https://www.figma.com/proto/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?page-id=656%3A1016&node-id=660%3A1283&viewport=840%2C-242%2C0.27&scaling=scale-down-width)
+
+この指示どおりに`CSS`を実装して下さい。
+
+HTMLに対し、必要に応じて以下の加工を行って下さい。
 - divの追加
 - クラス名の追加
 
-# reset.css
-
 リセットCSSは任意とします。使用しても、しなくともかまいません。
-Google Chromeで表示できていればよしとします。
-
-# 使用するGoogle Fonts
 
 以下のGoogle Fonts を読み込んであり、利用可能です。
-- Noto Sans JP ... ウェイトは400と700
-	font-family: 'Noto Sans JP', sans-serif; /* CSSにはこのように書いて下さい */
-- Kosugi Maru ... ウェイトは400
-	font-family: 'Kosugi Maru', sans-serif; /* CSSにはこのように書いて下さい */
+- Noto Sans JP ... ウェイトは400(normal)と700(bold)の２種類があります。
+	```css
+	font-family: 'Noto Sans JP', sans-serif; /* 使用するにはこのように書いて下さい */
+	```
+- Kosugi Maru ... ウェイトは400(normal)のみです。
+	```css
+	font-family: 'Kosugi Maru', sans-serif; /* 使用するにはこのように書いて下さい */
+	```
 
-
-
-
-以下のデザイン指示を基にページのコーディングを行って下さい。
-
-{{TODO}} どうしよう？
-	{{TODO}} １ページ実装してもらう課題を用意する→LEVEL9.MDのスマートフォンサイト作成と同様の指示出しや提出方法、採点方法を用意する
-	- デザインカンプ、素材(テキスト＆画像)の提供
-	- HTMLのマークアップとCSS
-	- {{TODO}} テキストに従ったリハーサル後に加害を作成するのがいいか？（テキストに沿った内容になるので)
-		adjustacademy.comはかわいくていいなあ
-			https://adjustacademy.com/
 ### 解答の提出
 
-```{include} cards/school/filling.md
-```
+- {bdg-dark}`指示` `samplepage`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
+- 具体的には次のようにして下さい。
+	```{include} cards/school/filling.md
+	```
+
 % ```{code}
 % おめでとうございます。昇段試験に合格しました。
 % 
 % - 模範解答を以下のURLからダウンロードできます。自身の答えと照らし合わせて研究して下さい。
-% 	https://adjustacademy.com/webcoder/8f41205015c24ebc80ea45570bb06f6a.zip
+%   https://adjustacademy.com/webcoder/05dbbfeb62d641f4ee43fdf083e8f3c6.zip
 % 
 % 新しいガイドブックを案内します。次のレベル（レベル４）に進んで下さい。
 % - 新しいガイドブックのレベル４のページ
