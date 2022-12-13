@@ -11,15 +11,17 @@
 1. レスポンシブとは
 2. メディアクエリーを利用したCSS切り替え
 3. デバイスモードを使用して検証する
-% Chromeの画面には出てこないが、デバイスモードの名称で良いようだ。
-% Google 公式記事でデバイスモードの名称が出てくる
-% https://developer.chrome.com/ja/blog/new-in-devtools-97/#device
-% また、デバイスモードの役割はモバイルデバイスのビューポートをエミュレートするものとある。<meta name="viewport"> を確認するには好適だが、あくまでもビューポート（画面の大きさ）のみで、表示品質まではエミュレートしないという点に注意
-% https://developer.chrome.com/docs/devtools/device-mode/#viewport
+	% Chromeの画面には出てこないが、デバイスモードの名称で良いようだ。
+	% Google 公式記事でデバイスモードの名称が出てくる
+	% https://developer.chrome.com/ja/blog/new-in-devtools-97/#device
+	% また、デバイスモードの役割はモバイルデバイスのビューポートをエミュレートするものとある。<meta name="viewport"> を確認するには好適だが、あくまでもビューポート（画面の大きさ）のみで、表示品質まではエミュレートしないという点に注意
+	% https://developer.chrome.com/docs/devtools/device-mode/#viewport
 4. ビューポート設定
 5. リキッドレイアウト
 6. ハンバーガーメニュー（ドロワーメニュー）
 % 7. レティナディスプレイ対応		←これはPCの4Kなどのより広い話題も含み、大きすぎる話題なので省く
+
+以下、一つづつ解説します。
 
 ### 要点解説 1. レスポンシブとは
 
@@ -554,22 +556,48 @@ SlickNavの使用方法は公式サイトの指示に従います。
 }
 ```
 
-## Sass
-{bdg-dark-line}`テキスト：P.248〜265`
-## SCSS
-{bdg-dark-line}`テキスト：P.267〜286`
+## `Sass`と`SCSS`
+- `Sass` ... {bdg-dark-line}`テキスト：P.248〜265`
+- `SCSS` ... {bdg-dark-line}`テキスト：P.267〜286`
 
+**本カリキュラムでは`Sass`と`SCSS`を飛ばします。**
 
-## {{TODO}} マルチデバイスサイト Green Camp
+この`Sass`（サス、サース）と次の`SCSS`（エス・シー・エス・エス）では、`CSS`の記述を合理的にし、管理を助ける新しい書法を学びます。
+ただし、楽にするのは記述と管理だけであり、`CSS`そのものの難易度を下げたりはしません。
+書くべき`CSS`のイメージがきちんとあり、その`CSS`をどのように合理的に生成するか？を扱うのが`Sass`と`SCSS`です。
 
-ここからは新しいテキスト**初心者からOK「スマートフォンサイトテキスト」 ver.1.0 F 22.08.01**に移ります。
+したがってこの`Sass`と`SCSS`は迷いなく`CSS`を書ける人が次に学ぶものであり、最初から必要なもの、必須なものではありません。
+本カリキュラムでは`Sass`と`SCSS`をオプションとし、扱いません。飛ばします。
 
-新しい教材「Green Camp」は、ここまでに実装してきた「世界の文学」「日本の文学」をふまえており、新しい話題はありません。力試しとして取り組みましょう。
+```{hint}
+`Sass`と`SCSS`はプロの現場では普及しています。
+そのために学んでおくことは就職上有利ではあるでしょう。
 
-{{TODO}}この作例の難点が見えない。動画で研究し、また、自身で実装して確認する必要があるかも。
-{{TODO}}この記事に対する教材はどこにあるか？全て調べる。→指示書付きフォルダはあるが、完成品はないっぽい？
-	C:\Users\yasumura\Desktop\コーディング\テキスト\220920_0241_9月コーステキスト\★事前購入分\スマホ\スマートフォン_作例編・教科書\スマホ_Green_Camp_配布用
+`Sass`と`SCSS`を学ぶことは読者の判断に任せます。
+学ぶとしたら、本質的には`CSS`に代わりがないことを知っておいて下さい。（`Sass`や`SCSS`の機能を全く使わず、純粋な`CSS`をそのまま書くことすらできます。）
+`Sass`や`SCSS`は、`CSS`に「こんな機能があったら便利だな、こんな風にCSSが書けると楽だな」といういくつかの機能を追加したものです。
+% （`CSS`をたくさん書いた経験者ほどその便利さに気づくでしょう）
+追加された機能の数もそれほど多くはありませんので、学びとることはそれほど困難ではないでしょう。
+```
 
+```{tip}
+{bdg-dark-line}`テキスト：P.267〜286` の`SCSS`のテキストでは、LEVEL8の昇段試験で扱った「SAMPLE SITE」が出てきており、それを`SCSS`で書いたらどうなるかを説明しています。
+昇段試験の際に`CSS`をどう書くかに取り組んだ経験が`SCSS`の学習に活かせると思います。
+なお、{bdg-primary-line}`SCSS教材/完成版` にある完成版のコーディングは、LEVEL8昇段試験の模範解答とは以下の点で若干異なります。
+- リキッドレイアウトに対応している
+- 「WORKS」の部分に、`flexbox`の代わりに`grid`レイアウトを使用している
+```
+
+% ## {{TODO}} マルチデバイスサイト Green Camp
+% 
+% ここからは新しいテキスト**初心者からOK「スマートフォンサイトテキスト」 ver.1.0 F 22.08.01**に移ります。
+% 
+% 新しい教材「Green Camp」は、ここまでに実装してきた「世界の文学」「日本の文学」をふまえており、新しい話題はありません。力試しとして取り組みましょう。
+% 
+% {{TODO}}この作例の難点が見えない。動画で研究し、また、自身で実装して確認する必要があるかも。
+% {{TODO}}この記事に対する教材はどこにあるか？全て調べる。→指示書付きフォルダはあるが、完成品はないっぽい？
+% 	C:\Users\yasumura\Desktop\コーディング\テキスト\220920_0241_9月コーステキスト\★事前購入分\スマホ\スマートフォン_作例編・教科書\スマホ_Green_Camp_配布用
+% 
 % %	- マルチデバイスサイト Green Camp 2-3
 % %	- タグ付け 4-5
 % %		- HTML 8-10
@@ -605,7 +633,15 @@ SlickNavの使用方法は公式サイトの指示に従います。
 % %   - Android
 % %   - iPhone
  
-## 昇段試験
+## 昇段試験 - レスポンシブ編
+
+ここまでのことを学習したら、次の「昇段試験のルール」を確認の上、昇段試験に望んでください。
+````{dropdown} クリックして昇段試験のルールを確認する（退校となる場合の説明があります）
+```{include} cards/school/rule-of-exam.md
+```
+````
+
+### 問題「レスポンシブ対応のページの作成」
 
 図に示すレスポンシブ対応のページを実装して下さい。
 ```{figure} https://i.gyazo.com/282a10c93f9f756f25c908e734452f21.png
@@ -615,9 +651,11 @@ SlickNavの使用方法は公式サイトの指示に従います。
 ```
 
 以下に必要な素材・指示を示します。
+% 画像素材 https://github.com/AaronMaywood/responsive-by-JoyShaheb/archive/refs/heads/main.zip
 
+- {bdg-dark}`指示` 作業フォルダ名を`responsive`として下さい。
 - 画像素材をダウンロードして下さい。
-	- https://github.com/AaronMaywood/responsive-by-JoyShaheb/archive/refs/heads/main.zip
+	- https://adjustacademy.com/webcoder/23d6b1fe28d2b9635186d6009dedbe33.zip
 		- ZIPファイルを展開すると`images`フォルダが現れます。この`images`フォルダをコピーして制作に使用して下さい。
 - デザインカンプ
 	- デザインカンプはAdobe社のFigmaで作成・共有しており、以下のURLで確認できます。
@@ -626,11 +664,11 @@ SlickNavの使用方法は公式サイトの指示に従います。
 		```{include} cards/figma.md
 		```
 		````
-- デザインシステム（デザイナーからの指示）
+- デザインシステム（デザインの全体的な話）
 	- 次のURLを開いて下さい。
 		- https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=1%3A3377&t=jZACmIAskTTrw8VJ-1
 	- デザインシステムとはデザイナーの意図を言語化したもので、デザイナーとコーダーの共通認識を表したものです。具体的には、色や使用するフォントの指示、ブレークポイントなどの指示が含まれます。
-	- なお、フォントにはGoogle Fontsを使用します。
+	- フォントにはGoogle Fontsを使用します。
 		````{dropdown} 指定されたフォントをGoogle Fontから使用する方法を確認する
 		```{include} cards/google-fonts.md
 		```
@@ -643,30 +681,54 @@ SlickNavの使用方法は公式サイトの指示に従います。
 % ```{include} cards/rem-px-conversion.md
 % ```
 
-## 提出方法（検証〜提出）
+% - コーディングができたら動作確認を行って下さい。
+% 	````{dropdown} ウェブサイトの検証方法を確認する
+% 	```{include} cards/testing.md
+% 	```
+% 	````
 
-- コーディングができたら動作確認を行って下さい。
-	````{dropdown} ウェブサイトの検証方法を確認する
-	```{include} cards/testing.md
+コーディングできたら、以下の４つの画面幅での表示崩れがないかの検証をお願いします。
+- 1440px周辺として
+  - `1441px`以上
+  - `1440px`の時
+- 375px周辺として
+  - `376px`
+  - `375px`の時
+
+これらの画面幅を確認するには、デバイスモードを使用して下さい。
+```{figure} https://i.gyazo.com/2fe5c0c2484ef3d95f05671f05bf6afa.png
+デベロッパーツールから、デバイスモードの表示を選び、「レスポンシブ」を選択します。
+```
+```{figure} https://i.gyazo.com/ada924f38b275b33bff681b9ff309eaa.png
+確認したい画面幅を入力します。
+```
+
+### 採点基準
+1. ブラウザーの表示をみて、指示通りの表示になっているかを確認します。
+2. レスポンシブ対応されているかどうかを次の画面幅で確認します。
+	1. 1440px周辺として、`1441px`以上、`1440px`の時
+	2. 375px周辺として、`376px`、`375px`の時
+
+### 提出方法（検証〜提出）
+
+- {bdg-dark}`指示` `responsive`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
+- 具体的には次のようにして下さい。
+	```{include} cards/school/filling.md
 	```
-	````
-- 動作確認ができたら提出して下さい。
-	````{dropdown} 課題の提出方法を確認する
-	```{include} cards/school/send-in-files.md
-	```
-	````
-- 合格すれば模範解答を手に入れることができます。模範回答と照らし合わせ、さらに知識を固めて下さい。
-	- また、次のレベル教材が示されます。次のレベルに進んでください。
 
 % ```{code}
 % おめでとうございます。昇段試験に合格しました。
 % 
 % - 模範解答を以下のURLからダウンロードできます。自身の答えと照らし合わせて研究して下さい。
-% 	https://adjustacademy.com/webcoder/8f41205015c24ebc80ea45570bb06f6a.zip
+% % download-zip-to-rename-by-hash https://github.com/AaronMaywood/responsive-by-JoyShaheb/archive/refs/heads/answer.zip
+%   https://adjustacademy.com/webcoder/c3549e90b6e7ac579944f567876218ff.zip
+% % download-zip-to-rename-by-hash https://github.com/AaronMaywood/responsive-by-JoyShaheb/archive/refs/heads/answer-by-grid.zip
+%   (gridを使用した版)
+%   https://adjustacademy.com/webcoder/001a163c73788986e7ce4450589ba3f7.zip
 % 
 % 新しいガイドブックを案内します。次のレベル（レベル１０）に進んで下さい。
 % - 新しいガイドブックのレベル１０のページ
-https://adjustacademy.com/webcoder/guidebook/f3a643dd575af9baeb1ba1d032959358/LEVEL10.html
+%   https://adjustacademy.com/webcoder/guidebook/f3a643dd575af9baeb1ba1d032959358/LEVEL10.html
 %   	ID: adjust
 %   	パスワード: academy
 % 
