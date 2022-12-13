@@ -13,7 +13,7 @@
 |LEVEL6.md Flexbox|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
 |LEVEL7.md Position|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
 |LEVEL8.md お茶サイト|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
-|LEVEL9.md スマートフォン|{{DONE}}|{{TODO}}|{{HALF}}|{{TODO}}|
+|LEVEL9.md スマートフォン|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
 |昇段テストの受験方法|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
 |cards/vscode/golive.md Go Liveの方法 |{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
 

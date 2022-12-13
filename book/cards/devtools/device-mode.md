@@ -2,7 +2,7 @@
 ````{card} デバイスモードの利用方法
 1. 任意のページを開きます。
 	- 例: https://aaronmaywood.github.io/coding_sample/media-query/sample2/
-2. {bdg-dark}`F12`で`DevTools`に入ります。
+2. {bdg-dark}`F12`で`デベロッパーツール`に入ります。
 3. 図の赤丸のアイコンをクリックします。
 	```{figure} https://i.gyazo.com/73082443c2ce5b19399ab5e971e6f67e.png
 	「デバイスツールバーを切り替え」をクリックします。
