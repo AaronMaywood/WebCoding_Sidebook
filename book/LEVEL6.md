@@ -86,7 +86,40 @@ align
 {bdg-dark-line}`テキスト：155`の最後（『これで「第一段階」が完了しました。』）まででOKです。{bdg-dark-line}`テキスト：P.156〜` の「第２段階」は次のレベル６で`position`を学んでから再挑戦します。
 ```
 
+% {{DONE}} align-items の `flex-end`と`end`の違いがわからない→おそらく`end`は`flex-end`の旧い値
+% この説明の意味がぜんぜんわからない
+% https://developer.mozilla.org/ja/docs/Web/CSS/align-items
+% 	flex-end
+% 	フレックスアイテムの cross-end 側マージンの端は、ラインの cross-end の端に寄せられます。
+% 	end
+% 	そのアイテムは、互いにその軸の配置コンテナーの末尾側の端に寄せられます。
+% https://shanabrian.com/web/css3/flex-align-items.php
+% 	ここには`end`は`flex-end`の旧仕様の値とあるが、ほんとうだろうか？
+% 仕様書にはたしかに`end`がない！
+% https://w3c.github.io/csswg-drafts/css-flexbox/#align-items-property
+
 % ## Grid
+
+% flexはコンテンツの幅優先、gridは枠優先
+% glid のリスト例
+% https://www.figma.com/file/BcWrFX2j7lslCymV8fLUQR/Responsive-Design-Art-News-Landing-Page-(Community)?node-id=1%3A5&t=382485YnHDoo0qeg-1
+% →行内３列を維持している
+
+% flexは行内にいくつアイテムが入るかは気にせず、入るだけ入れてはみ出したら改行する。改行によって２行目以降ができるが、考え方としては一次元。つまり、ここに一覧を作ろうとおもったらそれはflexだ。
+% それに対し、gridは表のように縦横に配置されたマス目（セル）の集合。（蜂の巣）
+% 行内には列数が固定されていて、画面幅を変えるとセルの幅が変わることで列数は保たれていて、セル内のコンテンツが押しつぶされる。したがってflexのような折返しの概念はない。
+% 表のようにセルの結合はできる。
+% flexが一覧を作ったのに対し、gridは表をつくる。そして表のようなレイアウト手法をもたらす。表でも一列だけの表にして一覧を作ることはできるが(flexとの境目)、表の特徴は行と列からなる構造で、その行と列を保ち続けようとするところにある。
+% 表のように区切られた構造を作ろうと思ったらそれはgridだ。
+
+% flexは各アイテムの幅に頓着しない。長さが異なるものを並べるのにも利用される。一方、gridはセルの大きさ、あるいは一行のなかに２列を均等割りで確保するということに関心がある。したがって、 https://www.figma.com/file/7AubNTW0tPsiGlDlAlV3Mg/Responsive-Startup-Website-(Community)?node-id=3%3A199&t=3JcWWchTcLtm0DM7-1 のようなカードとサムネイルが横に並ぶUIはgridで実装するのがふさわしい。これは一覧ではなく、この形を持った一個のものだ。
+% 
+% 一次元VS二次元レイアウト
+% https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout#one-dimensional_vs._two-dimensional_layout
+% 
+% https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Grids
+% https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Grid_Layout#%E3%82%AC%E3%82%A4%E3%83%89
+% https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grid_skills 
 % 
 % {{TODO}} テキストがない、ベータリリース以降増補する→作例がある、それを元に解説するといいかも →LEVEL2の試験で使用したwikipiaにgridを適用することで説明する
 % cd ~/coding_sample
@@ -95,6 +128,8 @@ align
 % media-query/css/style.css:  grid-area: main;
 % responsive-by-JoyShaheb/css/style.css:      grid-template-columns: 1fr;
 % main-structure/css/style.css:   grid-template:
+
+% 折り返し付きのflexはgridに似ている→一次元とみなすか二次元とみなすかの違いがあり、その間にどちらともとれるものがある。flexの場合には折り返すだけと考え、行内のアイテム数にはこだわらない。gridの場合には列数を決めてそれに当てはめることを制御する。
 
 ## 昇段試験 - flexbox編
 
