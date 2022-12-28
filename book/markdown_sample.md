@@ -1,4 +1,8 @@
 # 執筆ノート
+
+- HTML 開発中のリロード時の参照点
+	<a name="now"><a href="#now">TODO 今ココ</a></a>
+	http:.....html#now
 - 合格通知
 	cards/school/rule-of-exam.md の中にテンプレあり
 

@@ -13,18 +13,25 @@
 |LEVEL6.md Flexbox|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
 |LEVEL7.md Position|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
 |LEVEL8.md お茶サイト|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
-|LEVEL9.md スマートフォン|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
+|LEVEL9.md スマートフォン|{{HALF}}|{{HALF}}|{{TODO}}|{{TODO}}|
 |昇段テストの受験方法|{{DONE}}|-|-|{{TODO}}|
 |cards/vscode/go-live.md Go Liveの方法 |{{DONE}}|-|-|{{TODO}}|
+|animation （扱わない予定）|（扱わない）|-|-|-|
+|Sass （扱わない予定）|（扱わない）|-|-|-|
 
+## 2023/01月
+|LEVEL|ガイドブック制作|教材の確認|昇段テスト|検証|
+|:---|:---|:---|:---|:---|
+|LEVEL10.md 卒業制作|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
+|フィードバック反映|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
+|アジャバイト制作物採点|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
+
+## 優先度低い
 |LEVEL|ガイドブック制作|教材の確認|昇段テスト|検証|
 |:---|:---|:---|:---|:---|
 |LEVEL9.md Green Camp|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
-|LEVEL10.md 卒業制作|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
 |cards/devtools/ デベロッパーツール|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
 |Gridレイアウト|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
-|animation （扱わない予定）|（扱わない）||{{TODO}}|{{TODO}}|
-|Sass （扱わない予定）|（扱わない）|-|-|-|
 
 # サンプルが命
 

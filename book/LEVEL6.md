@@ -147,7 +147,7 @@ align
 解答に必要な素材を提供します。以下から素材のZIPファイルをダウンロードし、展開して利用して下さい。
 % ハッシュ化してadjustacademy.omにアップロードする方法
 % 2022\11\2022-11-14-120952.txt|1| = 試験の素材と解答の提供方法
-% > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_flexbox/archive/refs/heads/main.zip
+% $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_flexbox/archive/refs/heads/main.zip
 - https://adjustacademy.com/webcoder/b70da6b74278c1bb2f77436fb7dca15a.zip
 - この中に`HTML`と`CSS`が含まれます。
 
@@ -238,7 +238,8 @@ Flexboxを使用して図のように改行ありの横並びにするよう、`
 % おめでとうございます。昇段試験に合格しました。
 % 
 % - 模範解答を以下のURLからダウンロードできます。自身の答えと照らし合わせて研究して下さい。
-% 	https://adjustacademy.com/webcoder/8f41205015c24ebc80ea45570bb06f6a.zip
+%   % $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_flexbox/archive/refs/heads/answer.zip
+%	https://adjustacademy.com/webcoder/4de2b09f57f8cda592c50c0e00a2a2de.zip
 % 
 % 新しいガイドブックを案内します。次のレベル（レベル７）に進んで下さい。
 % - 新しいガイドブックのレベル７のページ
