@@ -184,6 +184,8 @@ HTML5で`section`要素がサポートされて以来、見出しだけで文書
 `header`要素は`head`要素と名前が似ていますので気をつけて下さい。
 ```
 
+
+
 % https://developer.mozilla.org/ja/docs/Web/HTML/Element/footer 
 % https://en.wikipedia.org/wiki/Page_footer
 `header`同様`section`のオプションである`footer`要素はページの下のスペースに相当する部分のことで、著作権情報や最終更新日、利用規約へのリンク等を格納します。
@@ -285,7 +287,7 @@ HTML5で`section`要素がサポートされて以来、見出しだけで文書
 ## フォーム関連要素
 {bdg-primary-line}`教材：HTML教材/14_form`
 
-「フォーム」とはの記入用紙のことで、閲覧者が自由に記入できる入力欄を並べたものです。ます。
+「フォーム」とはの記入用紙のことで、閲覧者が自由に記入できる入力欄を並べたものです。
 「入力フォーム」とも言います。
 
 フォームを用いると、閲覧者からのお問い合わせを受ける「お問い合わせフォーム」の入力画面を作成したり、ショッピングカートなどの操作部分を作成することができます。
@@ -365,7 +367,7 @@ HTML5で`section`要素がサポートされて以来、見出しだけで文書
 {bdg-dark-line}`テキスト：P.72〜73` に従ってブラウザーで https://adjustacademy.com/ のページを開き、実際に操作をしてみてください。
 
 ````{hint}
-https://adjustacademy.com/ は改訂されました。したがって
+テキスト作成時から https://adjustacademy.com/ は新しいデザインに改訂されました。
 とはいえ、やることは同じです。左上のロゴの部分を調べてみましょう。
 ```{figure} https://i.gyazo.com/9e61c7b43e8dd484ab4151f994f7f937.png
 ```
@@ -431,27 +433,30 @@ https://adjustacademy.com/ は改訂されました。したがって
 ### 試験問題「大規模構造をマークアップする」
 
 素材にマークアップを施して`index.html`を完成させて下さい。
-- {bdg-dark}`指示` 作業フォルダ名を`wikipedia`とし、`HTML`のファイル名は`wikipedia/index.html`として下さい。
+- {bdg-dark}`指示` 作業フォルダ名を`wikipedia`とし、`HTML`のファイル名は`index.html`として下さい。
 
-
-Wikipediaのページの大規模構造を色分けしてみました。この構造を真似してマークアップしたいと思います。
+Wikipediaのページの大規模構造を色分けしてみました。この構造を真似してマークアップしたいと思います。**ただしページ全体を作るとなると量が多すぎるので、途中までで端折っています。完全版のページを作るわけではないことに留意して下さい。**
 ```{figure} https://gyazo.com/39b2a438fa19201a4f36cee9baf18acc.png
+-----
+class: full-width
+-----
 ```
 
 Wikipediaのページ構成の意味を汲んで、冒頭部や主要なナビゲーション等の説明を入れると次のようになります。
 ```{figure} https://i.gyazo.com/f8d55ac689cdf8694cff743f5a645d6e.png
 ---
 name: structures
+class: full-width
 ---
 真似したい部分は次の図の色分けした部分になります。
 ```
 
-{ref}`structures`の図中、色で示したように、ページの冒頭部、主要なナビゲーションその１、主要なナビゲーションその２、articleかつページの主要部分をそれぞれマークアップして下さい。
+{numref}`structures`の図中、色で示したように、ページの冒頭部、主要なナビゲーションその１、主要なナビゲーションその２、articleかつページの主要部分をそれぞれマークアップして下さい。
 
 - 以下の素材を利用して下さい。（コピペして下さい。）
 	``` html
   <!-- 冒頭部 -->
-  <p>ロゴ画像</p>
+  <h1>Wikipedia</h1>
 
   <!-- 主要なナビゲーションその１ -->
   <p>アカウント作成</p>
@@ -471,20 +476,22 @@ name: structures
   </ul>
 
   <!-- article の中身 -->
-  <h1>HyperText Markup Language</h1>
+  <h2>HyperText Markup Language</h2>
   <p>HyperText Markup Language（ハイパーテキスト マークアップ ランゲージ）は、ハイパーテキストを記述するためのマークアップ言語の1つで、主にWorld Wide Web（WWW）において、ウェブページを表現するために用いられる。</p>
-  <h2>特徴</h2>
+  <h3>特徴</h3>
   <p>HTMLは木構造（入子構造）のマークアップ言語であり、形式言語である。</p>
+	
+	（素材はここまでです）
 	```
-- 見出しにはその見出しを含むようにセクション要素（`section`、`article`、`aside`、`nav`）を配置して下さい。
+- `h2`以降のレベルの見出しにはその見出しを含むようにセクション要素（`section`、`article`、`aside`、`nav`）を配置して下さい。（`h1`は`body`に対するものなのでセクション要素で囲む必要はありません）
   ``` html
   例)
-  <h1>見出し１</h1>
+  <h2>見出し２</h2>
   ↓
   見出しにはセクション要素を配置して以下のようにします。
   ↓
   <section>
-    <h1>見出し１</h1>
+    <h2>見出し２</h2>
   </section>
   ```
 
@@ -495,7 +502,7 @@ name: structures
 
 ### 採点基準
 
-- `section`、`article`、`aside`、`nav`、`header`、`footer`、`main`を適切に使用していること。
+- `section`、`article`、`aside`、`nav`、`header`、`footer`、`main`を適切に使用していること。（**これら要素全てが含まれている必要はありません**。どの要素が必要か判断し、必要な箇所に適切な要素を使っていればOKです）
 - 見出しがあるところにセクション要素を配置してあること。
 
 ### 解答の提出
