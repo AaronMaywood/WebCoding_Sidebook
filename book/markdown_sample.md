@@ -28,10 +28,10 @@
 		:align: center
 		```
 - コードブロックへのrefはつけられないようだ
-	```{code}
-    :label: foo
-    :name: bar
-    ```
+	% ```{code}
+    % :label: foo
+    % :name: bar
+    % ```
     {ref}`foo`も{ref}`bar`もない
 	https://jupyterbook.org/en/stable/content/references.html
 	https://jupyterbook.org/en/stable/content/content-blocks.html
@@ -347,10 +347,12 @@ name: html-syntax1
 > {sub-ref}`today` | {sub-ref}`wordcount-words` words | {sub-ref}`wordcount-minutes` min read
 
 ### おさらい
+- Tipの淡黄色のスタイルを指定
 	```{admonition} おさらい
-	:class: tip					←Tipの淡黄色のスタイルを指定
+	:class: tip
 	hello world
 	```
+
 ### Web引用
 > 「マークアップ」という用語は、英語圏で伝統的な出版の作業過程である原稿の「マーキング・アップ」という作業から派生した。「marking up」とは、原稿用紙の余白に印刷に関する指示の記号を書き加えることである。
 > ―――https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E8%A8%80%E8%AA%9E#%E8%AA%9E%E6%BA%90
@@ -406,7 +408,7 @@ CommonMark
 
  - https://docutils.sourceforge.io/docs/ref/rst/directives.html
 	```{admonition} カスタマイズ
-	:class: tip					←Tipの淡黄色のスタイルを指定
+	:class: tip
 	foo
 	```
    ```{attention}
