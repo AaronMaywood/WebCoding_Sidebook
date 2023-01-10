@@ -168,12 +168,12 @@ p {
   - 更に、`ID`名は固有名称であるため、最も優先度が高くなります。（ありふれた`p`は`green`、`testクラス`に所属している`p`だけは`red`、しかし`taro-yamada`（固有名称だと思って下さい）だけは`blue`のように）
 
 % {{TODO}} 時間があれば説明を追加する
-% https://www.figma.com/file/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?node-id=605%3A976&t=5R8CzA2GpIsRjghp-1 はFirefoxのDevToolsの図。これのChrome版を作って図解する. ソースは file:///home/yasumura/coding_sample/priority/index.html
+% https://www.figma.com/file/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?node-id=605%3A976&t=5R8CzA2GpIsRjghp-1 はFirefoxのデベロッパーツールの図。これのChrome版を作って図解する. ソースは file:///home/yasumura/coding_sample/priority/index.html
 % ```{hint}
 % CSSに優先順位があることを説明しました。
 % しかし、どう優先度を定めるかのルール（たとえば「約10倍強い」などの）は複雑で、直感的ではありません。
 % 
-% {{TODO}}そこで`DevTools`を使用して優先度を確かめる方法を説明します。
+% {{TODO}}そこで`デベロッパーツール`を使用して優先度を確かめる方法を説明します。
 % 
 % 詳細に理解するには、次の記事を紹介します。
 % - カスケードと継承 ... https://developer.mozilla.org/ja/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance

@@ -36,7 +36,7 @@
 - index.html をChromeで開く
 	1. ダブルクリック
 	2. ドラッグ
-### DevTools
+### デベロッパーツール
 - Element
   HTMLのデバック
 	https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML

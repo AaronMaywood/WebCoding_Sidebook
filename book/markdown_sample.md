@@ -571,7 +571,7 @@ https://sphinx-design.readthedocs.io/en/sbt-theme/additional.html#article-info
 
 ## 定義済みCSS変数
 デザインシステムに則った色が定義されている。
-DevToolsで:root 要素見ればそこに一覧がある。
+デベロッパーツールで:root 要素見ればそこに一覧がある。
 
 ## 定義済みクラス名
 https://sphinx-design.readthedocs.io/en/sbt-theme/css_classes.html
