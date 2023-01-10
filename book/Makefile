@@ -1,7 +1,11 @@
 # Makefile で引数を使う方法
 # https://qiita.com/algas/items/499d0d69d51a1cc7639f
 
+# 著者用のフルセットの本（管理用の記事を含む）をブラウザーで開き、ファイル更新をウォッチする
 default: preview watch
+
+build:
+	jb build ./
 
 watch:
 	bin/watch.sh $(level)
@@ -9,13 +13,12 @@ watch:
 preview:
 	firefox _build/html/index.html &
 
+# 配付用のLEVEL1の本をブラウザーで開く
 preview-level1:
 	firefox ../mapc-build-levels/level1/_build/html/index.html &
 
 build-and-sync-all: build build-level1 build-level2 build-level3 build-level4 build-level5 build-level6 build-level7 build-level8 build-level9 build-level10 sync
 
-build:
-	jb build ./
 build-level1:
 	cd ../mapc-build-levels/level1 ; jb build ./
 build-level2:
