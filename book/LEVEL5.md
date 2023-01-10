@@ -39,9 +39,9 @@ background: red;       /* 短略形 */
 
 #### 背景画像サイズ
 {bdg-dark-line}`テキスト：P.119` 
-{bdg-primary-line}`CSS教材：15_背景画像の配置`
+{bdg-primary-line}`CSS教材：15_背景画像サイズ`
 
-{bdg-primary-line}`CSS教材：15_背景画像の配置` フォルダを`VS Code`で開き、{bdg-dark-line}`テキスト：P.119〜122` に従って作業しながら読み進めて下さい。
+{bdg-primary-line}`CSS教材：15_背景画像サイズ` フォルダを`VS Code`で開き、{bdg-dark-line}`テキスト：P.119〜122` に従って作業しながら読み進めて下さい。
 
 % 作業の内訳
 % - 「header」・「article」・「section」等のボックスに「高さ」を設定するには {bdg-dark-line}`テキスト：P.120` 
@@ -191,7 +191,7 @@ img {
 ```html
 <p class="end"></p>
 ↓書き換えます
-<div class="end"></end>
+<div class="end"></div>
 ```
 これで「手法Ⓐ」の「`SEO`的に不適切」の欠点を取り除く事ができました。
 ````
@@ -228,9 +228,14 @@ img {
 ここでは各リストの内容は「項目１」「項目２」のようになっていますが、実際には「トップページ」「よくあるご質問」などのサイト内のリンク集になります。
 ```
 
+(vertical-column)=
 ### 縦組み
 
 {bdg-primary-line}`CSS教材：21_メニュー縦組・横組` フォルダを`VS Code`で開き、`lesson_1.html`のクラス`Atype`に対し{bdg-dark-line}`テキスト：P.134` のように`CSS`を書いてみて下さい。 （完成形は`kansei.html`です。）
+
+```{hint}
+`lesson_1.html`中のクラス`Btype`（`<nav class="Btype">`）は次の「[](horizontal-column)」で使用します。ここでは無視して下さい。
+```
 
 ここでは「`display: block;`」、「継承」、「`:hover`」の３つの話題が登場しています。それぞれ解説します。
 
@@ -334,7 +339,6 @@ img {
 	/* .wrapperの中にあるdiv */
 	.wrapper div {
 	    border: 1px dashed red;
-	    display: inline-block;
 	}
 	```
 	```{figure} https://i.gyazo.com/a201149fa9dce31199c30faead3933e4.png
@@ -456,15 +460,23 @@ a:hover {
 - https://developer.mozilla.org/ja/docs/Web/CSS/:link
 ```
 
+(horizontal-column)=
 ### 横組み
 
 {bdg-primary-line}`CSS教材：21_メニュー縦組・横組` フォルダを`VS Code`で開き、`lesson_1.html`のクラス`Btype`に対し{bdg-dark-line}`テキスト：P.135` のように`CSS`を書いてみて下さい。
+
+```{hint}
+`lesson_1.html`中のクラス`Atype`（`<nav class="Atype">`）は前の「[](vertical-column)」で使用します。ここでは無視して下さい。
+```
+
 
 なお、ここでは新たに `display:flex;`および`justify-content:space-between;` というプロパティが出てきていますが、これは後に学習する`flexbox`に関連するものです。ここでは`display:flex`で横に並べ、`justify-content:space-between;`で配置を均等割にするものだと考えて下さい。
 
 ### 横組み（シンプルタイプ）
 
-{bdg-dark-line}`テキスト：P.136` ではテキストを横に並べるだけの素朴なナビゲーションの実装の紹介しています。
+{bdg-dark-line}`テキスト：P.136` ではテキストを横に並べるだけの素朴なナビゲーションの実装を紹介しています。
+
+{bdg-primary-line}`CSS教材：22_メニューシンプルタイプ` フォルダを`VS Code`で開き、`lesson1.html`に対し{bdg-dark-line}`テキスト：P.136` のように`CSS`を書いてみて下さい。 （完成形は`kansei.html`です。） 
 
 ここでは新たに `display: inline-block;`と `transition-duration:0.5s;` の表現が出てきます。
 
@@ -554,7 +566,9 @@ CSSアニメーションについては本ガイドブック、テキストで�
   - 配付素材は`a-aki`フォルダです。この中に元になる`index.html`と`css/style.css`、また`images`フォルダには画像素材があります。
 
 以下の見た目になるように`CSS`を調整して下さい。
-  1. 表題（冒頭部）に柿の背景を敷いて下さい。図のように柿の上半分が見えるよう、画像の位置調整を行ってさい。
+  1. 表題（冒頭部）に柿の背景を敷いて下さい。{numref}`a-aki-sample` {ref}`a-aki-sample` とだいたい同じ位置に柿が見えるよう、背景画像の表示位置の調整を行って下さい。
+	- 実際にはブラウザーの幅によって背景が表示される位置が異なります。読者によって使用しているディスプレイのサイズはマチマチであるため、**読者の環境で適宜に調整されてあればOKです**。
+	- 参考までに、{numref}`a-aki-sample` はブラウザーの幅が`1536px`の時の表示になります。
   2. 文中の挿し絵２枚について
 		- それぞれ右、左に配置し、画像に文字を回り込ませて下さい。
 		- スタイルを与えるにあたって、`index.html`にある`img`要素を適切な位置に設置して下さい。
@@ -563,7 +577,41 @@ CSSアニメーションについては本ガイドブック、テキストで�
 		<img class="right" height="500" src="images/autumn-mott-rodeheaver-SPd9CSoWCkY-unsplash.jpg" alt="">
 		<img class="left" height="500" src="images/j-lee-hTKzzm3sN-0-unsplash.jpg" alt="">
 		```
+		````{dropdown} imgにwidthが指定されていない理由を知る
+		```{hint}
+		上記`img`要素には、高さ`height="500"`のみが記載されていて、幅`width`の指定がありません。
+		このように書いた時、ブラウザーは`height="500"`と画像素材の縦横比から`width`を自動計算します。
+
+		`height="500"`のみを書くことで、高さだけを制御したい（幅はそれに沿っていればよく、何ピクセルかどうかには関心がない）ことを意図しています。
+
+		ブラウザーによる自動計算のデメリットは、画像読み込み完了前後のレイアウトのずれです。
+
+		ブラウザーが`width`を自動計算するには画像の読み込み完了を待つ必要があり、それまでの間ページは仮の画像サイズでレイアウトするしかありません。そして画像読み込み完了後に正しい画像サイズで**レイアウトされなおされる**という現象が発生します。これによってレイアウトのずれが発生します。
+
+		> インターネットで記事を読んでいて、突然ページのレイアウトが変わってしまったことはありませんか？何の警告もなく文字が移動してしまい、自分がページ内のどこを読んでいたのか分からなくなってしまうことがあります。さらにひどい場合には、リンクやボタンをタップしようとしてから画面に指が触れるまでのほんの一瞬の間に "パッ" とリンクが移動してしまい、結局別のものをクリックしてしまう場合もあります。
+		> https://web.dev/cls/ より
+
+		このように閲覧者をイライラさせる現象を累積レイアウトシフト（`Cumulative Layout Shift`、 **`CLS`** ）と呼び、`Google`の`SEO`指標のひとつである[`Core Web Vitals`](https://web.dev/vitals/)の一部として注目を集めました。
+
+		この累積レイアウトシフトを回避する方法が`img`要素に`width`、`height`の両方を指定するということになります。
+
+		% Cumulative Layout Shift を最適化する ― 突然のレイアウト シフトを回避し、ユーザー エクスペリエンスを改善させる方法について説明します。
+		% https://web.dev/i18n/ja/optimize-cls/
+
+		この昇段試験においては`SEO`対策は重要ではないので、`width`をあえて指定せず、累積レイアウトシフトを許す代わりに便利な自動計算を利用しています。（もちろん、`width`を指定したほうがベターです。`width`の指定は意欲ある読者の宿題とします。画像の原寸を調べ、高さ`500px`の時の幅を算出してみて下さい。）
+
+		% なお累積レイアウトシフトは`SEO`対策の指標の一つに過ぎず、またズレの程度にもよるので「累積レイアウトシフトが一つでもあったらNG」という性質のものでもありません。
+		% そのため`SEO`対策が重要になる業務等では、`Google Chrome`のデベロッパーツールに内蔵されているページの診断ツールである`Lighthouse`を利用して、どの程度改善が必要かどうかを測定して判断するということが行われます。
+		% 
+		% `Lighthouse`のごく簡単な使い方は[Lighthouseの使い方](https://webitworks.jp/how-to-use-lighthouse/)や[GoogleによるWebサイトパフォーマンス測定ツール「Lighthouse」入門](https://knowledge.sakura.ad.jp/21477/)（記事では「`Audit`タブ」となっていますが、最新版では「`Lighthouse`タブ」です）を参照して下さい。
+		```
+		````
+
 ```{figure} https://i.gyazo.com/cdf19cb0983323856c9f5b86f2f541c2.png
+---
+name: a-aki-sample
+---
+完成図
 ```
 
 ### 採点基準
@@ -578,7 +626,7 @@ CSSアニメーションについては本ガイドブック、テキストで�
 
 ### 解答の提出
 
-- {bdg-dark}`指示` `boxmodel`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
+- {bdg-dark}`指示` `a-aki`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```

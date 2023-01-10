@@ -24,13 +24,15 @@
 |:---|:---|:---|:---|:---|
 |LEVEL10.md 卒業制作|{{DONE}}|-|-|{{TODO}}|
 |LEVEL10.md ポートフォリオ制作|{{HALF}}|-|-|{{TODO}}|
+|昇段テストの解答には62.5%のテクニックを使っていないことを説明するか、62.5%を使うように改訂すること LV4|-|-|{{TODO}}|
 |フィードバック反映|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
 |アジャバイト制作物採点|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
-|画像取り込み(Gyazo→ダウンロード）|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
+|リリースに向けた細々した作業|{{TODO}}|-|-|{{TODO}}|
 
 ## 優先度低い
 |LEVEL|ガイドブック制作|教材の確認|昇段テスト|検証|
 |:---|:---|:---|:---|:---|
+|画像取り込み(Gyazo→ダウンロード）|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
 |LEVEL9.md Green Camp|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
 |cards/devtools/ デベロッパーツール|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
 |Gridレイアウト|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|

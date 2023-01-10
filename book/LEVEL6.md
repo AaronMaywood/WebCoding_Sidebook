@@ -1,6 +1,6 @@
 # LEVEL6 CSS - Flexbox
 
-## Flexbox
+## Flexbox（フレキシブルボックス）
 
 % https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Flexbox
 
@@ -12,9 +12,16 @@
 ```
 {bdg-dark-line}`テキスト：P.139` にあるフレックスボックスの用語を押さえておきましょう。
 
-```{glossary}
+````{glossary}
 フレックスボックス
-  横方向（や縦方向）を基準にし、柔軟にボックスを配置するレイアウト手法のことです。
+  横方向（や縦方向）を基準にし、柔軟に（フレキシブルに）ボックスを配置するレイアウト手法のことです。
+  ```{tip}
+  % `CSS Flexible Box Layout`の略で
+  % https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Flexible_Box_Layout
+  % `flexbox`
+  % https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Flexbox
+  正式名称`CSS Flexible Box Layout`（CSSフレキシブルボックスレイアウト）の略で一般にフレックスボックスと呼びます。
+  ```
   フレックスボックスのレイアウトを使用するには、`display:flex;`を使用してフレックスコンテナを作成します。
 
 フレックスコンテナ
@@ -24,7 +31,7 @@
 
 フレックスアイテム
   フレックスボックスレイアウトによって並べられるボックスのことです。
-```
+````
 
 ### ボックス全体の横方向の揃え位置を指定する
 {bdg-primary-line}`CSS教材：24_flex_基本` フォルダを`VS Code`で開き、 `lessonA.html`に対し {bdg-dark-line}`テキスト：P.140` のように`CSS`を書いてみて下さい。
@@ -53,8 +60,8 @@ align
   アラインとは、一列に整列させることを意味します。
   % https://ejje.weblio.jp/content/align
   `CSS`では、行内で横に並ぶものに対し、それぞれの高さが異なる場合に高さのどこを基準に整列させるかという概念（**縦を整列するものとして**）で使用されます。
-  フレックスボックスには、フレックスボックス内のコンテンツ全体の整列である{bdg-dark-line}`テキスト：P.141` `align-content`と、細かなアイテム同士の整列である{bdg-dark-line}`テキスト：P.143` `align-itemx` があります。
-  またインライン要素（文字）に対しては`text-align`（`text-align`は「[](text-properties)」で学びました）があり、同様の概念に対し同様の`align`の語が使用されています。
+  フレックスボックスには、フレックスボックス内のコンテンツ全体の整列である{bdg-dark-line}`テキスト：P.141` `align-content`と、細かなアイテム同士の整列である{bdg-dark-line}`テキスト：P.143` `align-items` があります。
+  またインライン要素（文字）に対しては`text-align`（`text-align`は「[](text-properties)」で学びました）があり、同様の概念に対して同じ用語`align`が使用されています。
 ```
 ````
 
@@ -83,7 +90,7 @@ align
 {bdg-primary-line}`教材：27_二段組ボックスレイアウト` フォルダを`VS Code`で開き、{bdg-dark-line}`テキスト：P.153〜155` に従って作業しながら読み進めて下さい。
 
 ```{hint}
-{bdg-dark-line}`テキスト：155`の最後（『これで「第一段階」が完了しました。』）まででOKです。{bdg-dark-line}`テキスト：P.156〜` の「第２段階」は次のレベル６で`position`を学んでから再挑戦します。
+{bdg-dark-line}`テキスト：155`の最後（『これで「第一段階」が完了しました。』）まででOKです。{bdg-dark-line}`テキスト：P.156〜` の「第２段階」は次のレベル７で`position`を学んでから再挑戦します。
 ```
 
 % {{DONE}} align-items の `flex-end`と`end`の違いがわからない→おそらく`end`は`flex-end`の旧い値
@@ -153,7 +160,7 @@ align
 
 ### 問１ - 横並び
 
-- {bdg-dark}`指示` 作業フォルダ名を`flexbox/1`として下さい。
+- {bdg-dark}`指示` 作業フォルダ名を`flexbox/1`として下さい。（`flexbox`フォルダを作り、その中に`1`フォルダを作って下さい。）
 - 使用する配付素材は`1`フォルダです。この中に`index.html`と`css/style.css`があります。
 
 ```{figure} https://i.gyazo.com/f022295e9e24477a80bbf7de096167f6.png
@@ -166,7 +173,7 @@ Flexboxを使用して図のように横に並べるよう、`style.css`に手�
 
 ### 問２ - コンテンツの横並び
 
-- {bdg-dark}`指示` 作業フォルダ名を`flexbox/2`として下さい。
+- {bdg-dark}`指示` 作業フォルダ名を`flexbox/2`として下さい。（`flexbox`フォルダを作り、その中に`2`フォルダを作って下さい。）
 - 使用する配付素材は`2`フォルダです。この中に`index.html`と`css/style.css`があります。
 
 ```{figure} https://i.gyazo.com/92ac5e6e527db6d27e81133b3a0a9fff.png
@@ -175,13 +182,14 @@ Flexboxを使用して図のように横に並べるよう、`style.css`に手�
 ```
 
 ```{figure} https://i.gyazo.com/977b6a49ab5216e2c48eee644a51e227.png
-Flexboxを使用して図のように横に並べるよう、`style.css`に手を加えて下さい。３つのボックスの幅と高さは同じにしてください。
+`style.css`に手を加え、`Flexbox`を使用して図のように横に並べてください。
+３つのボックスの幅は画面幅を３等分するようにし、高さは内容の多い３つ目のボックスに揃えて下さい。
 ```
 
 ### 問３ - 中央寄せ
 
 % {{DONE}} 縦方向の中央寄せは教科書にある？→教科書P.143に存在した
-- {bdg-dark}`指示` 作業フォルダ名を`flexbox/3`として下さい。
+- {bdg-dark}`指示` 作業フォルダ名を`flexbox/3`として下さい。（`flexbox`フォルダを作り、その中に`3`フォルダを作って下さい。）
 - 使用する配付素材は`3`フォルダです。この中に`index.html`と`css/style.css`があります。
 
 ```{figure} https://i.gyazo.com/0ddc5909ccf8b243c51fa2f523500481.png
@@ -198,7 +206,7 @@ Flexboxを使用して枠内の中央に配置するよう、`style.css`に手�
 ### 問４ - レンガ組み
 % {{DONE}} 改行の方法と、flex-startの方法は教科書にあるか？→P.141とP.143にあった
 
-- {bdg-dark}`指示` 作業フォルダ名を`flexbox/4`として下さい。
+- {bdg-dark}`指示` 作業フォルダ名を`flexbox/4`として下さい。（`flexbox`フォルダを作り、その中に`4`フォルダを作って下さい。）
 - 使用する配付素材は`4`フォルダです。この中に`index.html`と`css/style.css`があります。
 
 ```{figure} https://i.gyazo.com/9342edcfcce1278c6404267094a35ec9.png
@@ -225,9 +233,6 @@ Flexboxを使用して図のように改行ありの横並びにするよう、`
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
-
-```{include} cards/school/filling.md
-```
 
 % {{TODO}} 回答のダウンロード指示は、合格通知の中で行う
 % ハッシュ化してadjustacademy.omにアップロードする方法

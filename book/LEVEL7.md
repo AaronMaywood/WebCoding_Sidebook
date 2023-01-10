@@ -6,13 +6,13 @@
 `position`とは「位置」を意味する英単語ですが、`CSS`の`position`プロパティを使用すれば直接ボックスの表示位置を指定することが可能です。
 
 ```{hint}
-`CSS`でのレイアウトの基本的な考え方は、通常フローを始めとして`float`や`flexbox`など、どのように表示してほしいかだけを書いて、実際の配置はブラウザー任せであるのに対し、`position`は製作者が直接位置を指定できる点で趣が異なります。
+`CSS`でのレイアウトの基本的な考え方は、通常フローを始めとして`float`や`flexbox`など、どのように表示してほしいかだけを書いて、実際の配置はブラウザー任せであるのに対し、`position`は製作者が直接位置を指定できる点で趣旨が異なります。
 ```
 
-{bdg-primary-line}`CSS教材：25_position` フォルダを`VS Code`で開き、{bdg-dark-line}`テキスト：P.144〜152` に沿って作業しながら読み進めて下さい。
+{bdg-primary-line}`CSS教材：25_position` フォルダを`VS Code`で開き、{bdg-dark-line}`テキスト：P.144〜150` に沿って作業しながら読み進めて下さい。
 
 ```{admonition} 高度な話題
-`positon:relative;`及び`position:aboslute;`は単独で使用することもできますが、{bdg-dark-line}`テキスト`では実際に使用することの多い、この２つの組み合わせのパターンの手法を伝えています。
+`position:relative;`及び`position:absolute;`は単独で使用することもできますが、{bdg-dark-line}`テキスト：P.144〜150`では実際に使用することの多い、この２つの組み合わせのパターンの手法を伝えています。
 ```
 
 ````{hint}
@@ -23,7 +23,7 @@ relative
   比較をする時において、基準に取り上げたものとの差を表現します。
   住所で例えると「鈴木さんの家は、私の家の２つ隣です」という表現を指します。（私の家を基準にしています。） {bdg-dark-line}`関連` 「相対パス（[](relative-path)）」
   
-  レラティブ、リラティブ。
+  レラティブ、リラティブ、リレイティブ。
 
 absolute
   絶対的という意味です。反対語は相対的です。
@@ -62,7 +62,7 @@ absolute
 {bdg-dark-line}`テキスト：P.150`
 
 ```{hint}
-これは単に「通常のフロー」の説明です。
+ここで述べているのは単に「通常のフロー」の説明です。
 `position`を指定しないボックスは通常のフローに従い、ブロックレベル要素（ブロックレベルボックス）は自動的に縦に並ぶことを説明しています。
 ```
 
@@ -83,6 +83,72 @@ sticky
 ````
 
 {bdg-primary-line}`CSS教材：26_position_fixedとsticky` フォルダを`VS Code`で開き、 {bdg-dark-line}`テキスト：P.151` に沿って作業しながら読み進めて下さい。
+
+### 高さを画面いっぱいにする方法
+
+`position:fixed;`がらみの話題としてボックスの高さを画面いっぱいにする方法を紹介します。（テキストにはない話題です。）
+
+````{tip}
+ここで説明する具体例をこちらから確認できます。
+https://aaronmaywood.github.io/coding_sample/full-height/index.html
+```{figure} https://i.gyazo.com/a0adf5bac7ba7efbfe47a8ddf39b5e28.png
+```
+````
+
+`CSS`で要素の高さを画面いっぱいにするには２つの方法があります。
+
+1. `position: fixed;`を使用する
+
+	`position: fixed;`を指定した要素は自身の親要素ではなくビューポートの高さを参照するようになります。
+	```{hint}
+	ビューポートとは画面を指す用語です。ビューポートの高さとは、画面の高さのことです。
+	（ビューポートのより厳密な意味をレベル10で説明します。）
+	```
+	従って`position: fixed;`かつ`height: 100%;`とすることで画面の高さいっぱいにすることができます。
+	```html
+	<p class="full1">このボックスは画面の高さと同じです。</p>
+	```
+	```css
+	.full1 {
+	    position: fixed;
+	    right: 0;				/* 右寄せ */
+	    height: 100%;
+	    background: lightblue;
+	}
+	```
+
+2. 単位`vh`を使用する
+	
+	`CSS`の単位`vh`は、ビューポート高さ（`viewport height`）を表します。
+	従って、`height: 100vh;`とするとそのボックスは画面の高さと同じになります。
+
+	```html
+	<p class="full2">このボックスは画面の高さと同じです。</p>
+	```
+	```css
+	.full2 {
+	    width: 30rem;
+	    height: 100vh;
+	    background: lightgreen;
+	    border: 3px solid green;
+	}
+	```
+
+% # height: 100%; にすると画面の高さになる理由
+% 
+% `position: fixed;` に指定したボックスは、包含ブロックがビューポートとなるため、`height:100%;`で画面高さとなる。
+% 
+% > 3. position プロパティが fixed の場合、包含ブロックはビューポート (連続的なメディアの場合) またはページ領域 (ページメディアの場合) によって確立されます。
+% > https://developer.mozilla.org/ja/docs/Web/CSS/Containing_block
+% 
+% `position: fixed;`でない場合にもビューポート高さとなることがある。
+% 
+% https://developer.mozilla.org/ja/docs/Web/CSS/height
+% ルート要素で高さをパーセント値で指定すると、初期包含ブロックに対する相対値になります。 
+% https://developer.mozilla.org/ja/docs/Web/CSS/Containing_block
+% ルート要素 (<html>) が包含ブロックである場合、初期包含ブロックと呼ばれる矩形になります。これはビューポート (連続的なメディアの場合) またはページ領域 (ページメディアの場合) の寸法を持ちます。
+% 
+% もっと直接的には、`height: 100vh;`を使用すればよい。
 
 ### 「lesson_2.html」内にある「nav」に sticky の設定をする
 
@@ -150,7 +216,40 @@ LEVEL6「[](flex-example-first)」の作業の続きです。
 % https://developer.mozilla.org/ja/docs/Web/CSS/border-radius
 {bdg-dark-line}`テキスト：P.164`
 
-ボックスに引いたボーダーの角を丸くするプロパティです。角丸を使用するには、`border-radius`だけではだめで、必ず`border`を引いて下さい。
+ボックスに引いたボーダーの角を丸くするプロパティです。
+
+````{hint}
+`border-radius`で角丸を指定したのに、角丸が見えなくて「あれれ？」となることがあります。
+これは**単に背景に溶け込んで見えないだけ**なので、以下の点を確認して下さい。
+
+- 角丸指定のボックスに`border`を引く
+	```html
+	<div class="child">角丸指定ボックス</div>
+	```
+	```css
+	.child {
+	    /* このボーダーによって角丸が縁取りされて見えるようになる */
+	    border: 1px solid gray;
+	    border-radius: 10px;
+	}
+	```
+- 角丸指定のボックスの背後に**異なる背景色の親ボックス**を用意する
+	```html
+	<div class="parent">
+	    <div class="child">角丸指定ボックス</div>
+	</div>
+	```
+	```css
+	.parent {
+	    /* 背景色が異なっていれば角丸が見える */
+	    background: red;
+	}
+	.child {
+	    background: blue;
+	    border-radius: 10px;
+	}
+	```
+````
 
 ```{hint}
 `border-radius`の`radius`は円の半径という意味の英単語です。
@@ -310,7 +409,7 @@ p {
  
 ### 問１ - 右上表示
 
-- {bdg-dark}`指示` 作業フォルダ名を`position/1`として下さい。
+- {bdg-dark}`指示` 作業フォルダ名を`position/1`として下さい。（`position`フォルダを作り、その中に`1`フォルダを作って下さい。）
 
 素材の`1/`フォルダを`VS Code`で開いて下さい。
 `css/style.css`を編集して以下の問いに答えてください。
@@ -324,7 +423,7 @@ p {
 
 ### 問２ - 欄外にはみ出る吹き出し
 
-- {bdg-dark}`指示` 作業フォルダ名を`position/2`として下さい。
+- {bdg-dark}`指示` 作業フォルダ名を`position/2`として下さい。（`position`フォルダを作り、その中に`2`フォルダを作って下さい。）
 
 ```{figure} https://i.gyazo.com/68646dbc76316e4d588dae039143d72a.png
 オレンジ色の「最新の開講情報」の吹き出しのように、ボックスからはみ出したデザインにチャレンジします。
@@ -343,7 +442,7 @@ p {
 
 ### 問３ - 左側エリア
 
-- {bdg-dark}`指示` 作業フォルダ名を`position/3`として下さい。
+- {bdg-dark}`指示` 作業フォルダ名を`position/3`として下さい。（`position`フォルダを作り、その中に`3`フォルダを作って下さい。）
 
 ```{figure} https://i.gyazo.com/72e8b3c527654b8a53533bd23acac6fe.jpg
 左側のメニュー領域を作成します。
