@@ -290,7 +290,7 @@ p:last-child {
 ````
 
 ### インフォメーション
-{bdg-dark-line}`テキスト：P.207〜206`
+{bdg-dark-line}`テキスト：P.207〜208`
 
 {bdg-dark-line}`テキスト：P.208` ではスタイルシートの中で`width: calc(100% - 9em);`の部分に`calc()`を使用しています。次に説明します。
 

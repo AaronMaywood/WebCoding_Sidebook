@@ -4,9 +4,12 @@
 	```{image} https://i.gyazo.com/d7036acf145a6c9ffcddfc404cf156da.png
 	```
 2. {bdg-dark}`F12` でデベロッパーツールを開きます。
-	```{figure} https://i.gyazo.com/56618abf9cf2e8af15f5ff06f68e96bf.png
+	````{figure} https://i.gyazo.com/56618abf9cf2e8af15f5ff06f68e96bf.png
 	右側にデベロッパーツールが開きました。
+	```{tip}
+	再度{bdg-dark}`F12` を押すとデベロッパーツールを閉じることができます。
 	```
+	````
 	```{figure} https://i.gyazo.com/7aba84d8195e39341e7f3a698d071026.png
 	「**要素**」のタブが選択されています。「要素」は既定値で、これから説明するのもコーダーとして主に使用するのもこの「要素」の機能です。「要素」は`HTML`とそれに関連する`CSS`を紐付けて確認することができる機能です。またその場でスタイルを変更して即座にプレビューすることもでき、コーディングの理解を助ける優れた機能を有しています。
 	```
