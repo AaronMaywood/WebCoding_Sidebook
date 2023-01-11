@@ -12,6 +12,21 @@ JupyterBookで出版する仕組みをそのまま流用しているので、設
 	https://docs.google.com/document/d/1q8QJhsaq7xCMHLkFfy8-gpw1EYzr6qKif7AX53opJzQ/edit#
 - 査読フィードバック
 	https://docs.google.com/spreadsheets/d/1G7E-Co0QIncXFfHJQSDzc6wdNHIhodR-4uo_FsTPArg/edit#gid=0 
+- 教材
+  - スクラッチボード https://github.com/AaronMaywood/coding_sample
+  - 各昇段試験
+    - https://github.com/AaronMaywood/quick-hummus
+    - https://github.com/AaronMaywood/exam_page
+    - https://github.com/AaronMaywood/exam_position
+    - https://github.com/AaronMaywood/exam_flexbox
+    - https://github.com/AaronMaywood/exam_float
+    - https://github.com/AaronMaywood/text-style
+    - https://github.com/AaronMaywood/wikipedia
+    - https://github.com/AaronMaywood/Website3
+    - https://github.com/AaronMaywood/Website2
+    - https://github.com/AaronMaywood/Website1
+    - https://github.com/AaronMaywood/responsive-by-JoyShaheb 
+    - https://github.com/AaronMaywood/boxmodel
 
 ## 本の構成
 
