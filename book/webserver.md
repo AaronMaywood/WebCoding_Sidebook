@@ -223,6 +223,11 @@ https://filezilla-project.org/ をクリックして、`FileZilla`の公式ト�
 ここで必要なのは`FileZilla`のみです。不要なので「Decline」（断ります）を選択のうえ、「Next」をクリックします。
 ```
 
+```{warning}
+この手順の直後、`FileZilla`のインストーラーが突然終了し、インストール作業を継続できない場合が報告されています。
+うまくインストールできない場合には、いったん`Windows`に「管理者」でログインし直し、インストール時に「（次の選択肢で説明する）全員（「Anyone who uses this computer」）」を選択してインストールを行って下さい。
+```
+
 ```{figure} https://i.gyazo.com/fa627478da73a64a8ffd50e686495af4.png
 `Windows`を利用する複数のユーザーのうち、全員（「Anyone who uses this computer(all users)」）か自分だけ（「Only for me」）かを選択できます。
 それほど重要な選択ではありません。そのまま「Next」をクリックします。
