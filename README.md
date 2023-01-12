@@ -35,6 +35,14 @@ JupyterBookで出版する仕組みをそのまま流用しているので、設
 
 ### ガイドブックのレベル別URL
 
+これは、
+```
+$ sync-guidebook level1
+```
+にて更新可能です。
+
+URLの一部をハッシュ化しているのは、そのレベルに到達していない人にわからないようにする工夫です。
+
 LEVEL1
 https://adjustacademy.com/webcoder/guidebook/c341b271f5dba18dd4099435670a2c74/intro.html
 LEVEL2
@@ -59,12 +67,18 @@ https://adjustacademy.com/webcoder/guidebook/f3a643dd575af9baeb1ba1d032959358/LE
 
 ### LEVEL1の本を書く時に使用するコマンド
 
+ビルドされたウェブサイトをプレビューするため、以下のコマンドを実行しておく
 ```
-cd ~/WebCoding_Sidebook/book
-make watch level=level1
+$ firefox ~/WebCoding_Sidebook/mapc-build-levels/level1/_build/html/index.html &
 ```
-この状態で ~/WebCoding_Sidebook/book/LEVEL1.md などのテキストを編集すると自動的にビルドされる。
-ビルドされたウェブサイトは、 ~/WebCoding_Sidebook/mapc-build-levels/level1/_build/html/index.html から確認できる。
+次に、ファイル更新を監視してビルドを繰り返すバッチを起動しておく
+```
+$ cd ~/WebCoding_Sidebook/book
+$ make watch level=level1
+```
+
+この状態で ~/WebCoding_Sidebook/book/LEVEL1.md などのテキストを編集すると自動的にビルドされる。（ブラウザーを開いていたら、ブラウザーがリロードされる）
+
 adjustacademy.comに公開するには、
 ```
 sync-guidebook level1
@@ -92,6 +106,7 @@ $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/quick-hummus/ar
 指定されたリポジトリーがPUBLICである必要があります。（でないと壊れたZIPがadjustacademy.comにアップロードされます) よろしいですか？[Y/n]:
 read>                   ↑確認のうえ、[Enter] を押す
 実行します。
+...略...
 https://adjustacademy.com/webcoder/f0bc3a313cc5162e2e83b2d6eb51656d.zip    ←これがアップロード後のURL
 ```
 
@@ -135,7 +150,14 @@ function sync-guidebook
 end
 ```
 
-## 使用する画像
+## スクリーンショットのワークフロー
+
+スクリーンショットはGyazoを使用してインターネットにアップロードし、外部URLの埋め込みとして使用している。
+- TODO Gyazoに依存しているので、全画像をローカルにダウンロードしておきたい
+
+スクリーンショットに説明を入れたい場合には、撮ったスクリーンショットをFigmaに貼り付け、Figmaで説明を入れた上でその画像をGyazoで撮影し、使用している。
+
+## 使用する画像のライセンス
 - Wikipedia 
  - https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Windows_key_logo_2012_%28dark-grey%29.svg/800px-Windows_key_logo_2012_%28dark-grey%29.svg.png
 - Unsplash.com

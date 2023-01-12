@@ -41,7 +41,7 @@ Google FontsとはWeb上で提供するフォント（WebFont）のサービス�
 - 次のフォント"Crimson Text"を検索し、指定のウェイトを追加します。
 	一度「Google Fonts」のロゴをクリックして、検索画面に戻って下さい。
 	```{figure} https://i.gyazo.com/9b995d201f4871b027028fc07cf73c47.png
-	Google Fontsのトップページから改めて「Crimson Text」を検索します。
+	Google Fontsのトップページから改めて「Crimson Text」を検索します。検索結果の`Crimson Text`のフォントをクリックして選択します。
 	```
 	```{figure} https://i.gyazo.com/b26e13fda2b23467bb9b5855b5ac9df1.png
 	BOLD(700)を追加すると、右側の選択済みフォントファミリーに追加されました。
@@ -50,14 +50,11 @@ Google FontsとはWeb上で提供するフォント（WebFont）のサービス�
 必要なフォントを全て選択し終えました。
 
 - 次にこれらフォントを利用するためのコードスニペット（コピペで利用できるコード片）を入手します。
-	```{figure} https://i.gyazo.com/b1620286919ee2c12e15dfda2bdf18da.png
+	```{figure} https://i.gyazo.com/a662f0f6e734002b45f5b2c7124ed9f6.png
 	ページの右下に表示されているものがコードスニペットです。
 	```
-	```{figure} https://i.gyazo.com/6468e8c3ca50f8a3df8e6f26ccb2c715.png
+	```{figure} https://i.gyazo.com/56f4e9420b244480f6b9de2096fab16e.png
 	コードスニペットの部分を拡大しました。
-	```
-	コードスニペットの使用方法を次の図で説明します。
-	```{figure} https://i.gyazo.com/8eee0c0528e53b8c41d996313b5d4d01.png
 	①をHTMLに貼ればこのフォントが利用可能になります。
 	また、このフォントを利用する際にはCSSに②に示されたプロパティを記述します。
 	```
