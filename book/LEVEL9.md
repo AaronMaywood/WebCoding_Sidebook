@@ -808,6 +808,15 @@ SlickNavの使用方法は公式サイトの指示に従います。
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
+- 以下の文言テンプレートを利用し事務局{{OFFICE}}に提出して下さい。
+	```{code}
+	件名：LEVEL9の昇段試験のファイルを提出します
+
+	○○です。
+	{{TODO}}
+	http://xxx.html.xdomain.jp/responsive/index.html
+	```
+
 
 % ```{code}
 % おめでとうございます。昇段試験に合格しました。

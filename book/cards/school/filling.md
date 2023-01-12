@@ -22,24 +22,5 @@
 % ↓この説明は、次のメールテンプレートに仄めかしてあるので不要
 %  - アップロードしたページを閲覧できる`URL`を作成して下さい。
 %    - 例) `http://(Xfreeのアカウント名)/flexbox/1/index.html`
-- 以下の文言テンプレートを利用し事務局{{OFFICE}}に提出して下さい。
-	```{code}
-	件名：「HTML(1)編の昇段試験のファイルを提出します」
-
-	○○です。
-	
-	（問題が一つの場合）
-	http://am7274183.html.xdomain.jp/hummus/index.html
-
-	（問題が複数ある場合）
-	問１
-	http://am7274183.html.xdomain.jp/flexbox/1/index.html
-	問２
-	http://am7274183.html.xdomain.jp/flexbox/2/index.html
-	問３
-	http://am7274183.html.xdomain.jp/flexbox/3/index.html
-	問４
-	http://am7274183.html.xdomain.jp/flexbox/4/index.html
-	```
 ````
 `````

@@ -233,6 +233,17 @@ Flexboxを使用して図のように改行ありの横並びにするよう、`
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
+- 以下の文言テンプレートを利用し事務局{{OFFICE}}に提出して下さい。
+	```{code}
+	件名：LEVEL6の昇段試験のファイルを提出します
+
+	○○です。
+	http://xxx.html.xdomain.jp/flexbox/1/index.html
+	http://xxx.html.xdomain.jp/flexbox/2/index.html
+	http://xxx.html.xdomain.jp/flexbox/3/index.html
+	http://xxx.html.xdomain.jp/flexbox/4/index.html
+	```
+
 
 % {{TODO}} 回答のダウンロード指示は、合格通知の中で行う
 % ハッシュ化してadjustacademy.omにアップロードする方法

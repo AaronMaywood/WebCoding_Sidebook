@@ -566,18 +566,24 @@ CSSアニメーションについては本ガイドブック、テキストで�
   - 配付素材は`a-aki`フォルダです。この中に元になる`index.html`と`css/style.css`、また`images`フォルダには画像素材があります。
 
 以下の見た目になるように`CSS`を調整して下さい。
-  1. 表題（冒頭部）に柿の背景を敷いて下さい。{numref}`a-aki-sample` {ref}`a-aki-sample` とだいたい同じ位置に柿が見えるよう、背景画像の表示位置の調整を行って下さい。
+
+1. 表題（冒頭部）に柿の背景を敷いて下さい。{numref}`a-aki-sample` {ref}`a-aki-sample` とだいたい同じ位置に柿が見えるよう、背景画像の表示位置の調整を行って下さい。
+
 	- 実際にはブラウザーの幅によって背景が表示される位置が異なります。読者によって使用しているディスプレイのサイズはマチマチであるため、**読者の環境で適宜に調整されてあればOKです**。
 	- 参考までに、{numref}`a-aki-sample` はブラウザーの幅が`1536px`の時の表示になります。
-  2. 文中の挿し絵２枚について
-		- それぞれ右、左に配置し、画像に文字を回り込ませて下さい。
-		- スタイルを与えるにあたって、`index.html`にある`img`要素を適切な位置に設置して下さい。
+		````{dropdown} ブラウザーの幅を知る方法を確認する
+		```{include} cards/devtools/screen-width.md
+		```
+		````
+2. 文中の挿し絵２枚について
+	- それぞれ右、左に配置し、画像に文字を回り込ませて下さい。
+	- スタイルを与えるにあたって、`index.html`にある`img`要素を適切な位置に設置して下さい。
+	- この画像２つを適切な位置に設置して下さい。
 		```html
-		<!-- この画像２つを適切な位置に設置して下さい。 -->
 		<img class="right" height="500" src="images/autumn-mott-rodeheaver-SPd9CSoWCkY-unsplash.jpg" alt="">
 		<img class="left" height="500" src="images/j-lee-hTKzzm3sN-0-unsplash.jpg" alt="">
 		```
-		````{dropdown} imgにwidthが指定されていない理由を知る
+		````{dropdown} 上記imgにwidthが指定されていない理由を知る
 		```{hint}
 		上記`img`要素には、高さ`height="500"`のみが記載されていて、幅`width`の指定がありません。
 		このように書いた時、ブラウザーは`height="500"`と画像素材の縦横比から`width`を自動計算します。
@@ -630,6 +636,18 @@ name: a-aki-sample
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
+- 以下の文言テンプレートを利用し事務局{{OFFICE}}に提出して下さい。
+	```{code}
+	件名：LEVEL5の昇段試験のファイルを提出します
+
+	○○です。
+	http://xxx.html.xdomain.jp/a-aki/index.html
+	細作環境の画面幅は1536pxです。 （←※調べた上で記載して下さい。）
+	```
+	````{dropdown} ブラウザーの幅を知る方法を確認する
+	```{include} cards/devtools/screen-width.md
+	```
+	````
 
 % ```{code}
 % おめでとうございます。昇段試験に合格しました。

@@ -482,6 +482,17 @@ p {
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
+- 以下の文言テンプレートを利用し事務局{{OFFICE}}に提出して下さい。
+	```{code}
+	件名：LEVEL7の昇段試験のファイルを提出します
+
+	○○です。
+	http://xxx.html.xdomain.jp/position/1/index.html
+	http://xxx.html.xdomain.jp/position/2/index.html
+	http://xxx.html.xdomain.jp/position/3/index.html
+	```
+
+
 
 % ```{code}
 % おめでとうございます。昇段試験に合格しました。

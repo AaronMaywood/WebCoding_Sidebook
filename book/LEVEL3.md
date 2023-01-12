@@ -646,6 +646,14 @@ color: #ff3300 部分を宣言という
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
+- 以下の文言テンプレートを利用し事務局{{OFFICE}}に提出して下さい。
+	```{code}
+	件名：LEVEL3の昇段試験のファイルを提出します
+
+	○○です。
+	http://xxx.html.xdomain.jp/text-style/index.html
+	```
+
 
 % {{TODO}} 回答のダウンロード指示は、合格通知の中で行う
 % wikipediaの解答例、解説付き{{TODO}}解説はまだ

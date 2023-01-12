@@ -400,6 +400,17 @@
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
+- 以下の文言テンプレートを利用し事務局{{OFFICE}}に提出して下さい。
+	```{code}
+	件名：LEVEL10の卒業制作のファイルを提出します
+
+	○○です。
+
+	（※以下のうち、取り組んだもののURLを記載して下さい。）
+	http://xxx.html.xdomain.jp/website1/index.html
+	http://xxx.html.xdomain.jp/website2/index.html
+	http://xxx.html.xdomain.jp/website3/index.html
+	```
 
 % おめでとうございます。卒業試験に合格しました。
 %

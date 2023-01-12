@@ -1183,6 +1183,13 @@ Webの生みの親はティム・バーナーズ=リーです。
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
+- 以下の文言テンプレートを利用し事務局{{OFFICE}}に提出して下さい。
+	```{code}
+	件名：LEVEL1の昇段試験のファイルを提出します
+
+	○○です。
+	http://xxx.html.xdomain.jp/hummus/index.html
+	```
 
 % {{TODO}} 回答のダウンロード指示は、合格通知の中で行う
 % > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_float/archive/refs/heads/answer.zip
