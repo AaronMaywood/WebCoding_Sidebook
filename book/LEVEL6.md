@@ -157,6 +157,10 @@ align
 % $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_flexbox/archive/refs/heads/main.zip
 - https://adjustacademy.com/webcoder/b70da6b74278c1bb2f77436fb7dca15a.zip
 - この中に`HTML`と`CSS`が含まれます。
+	````{dropdown} 配付素材の中で単位remを使用している理由を読む
+	```{include} cards/css/why-use-rem.md
+	```
+	````
 
 ### 問１ - 横並び
 

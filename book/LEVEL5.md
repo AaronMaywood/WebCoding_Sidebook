@@ -564,6 +564,10 @@ CSSアニメーションについては本ガイドブック、テキストで�
   % > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_float/archive/refs/heads/main.zip
   - https://adjustacademy.com/webcoder/950058dd6702e10e6ff3fed5f462bbfb.zip
   - 配付素材は`a-aki`フォルダです。この中に元になる`index.html`と`css/style.css`、また`images`フォルダには画像素材があります。
+	````{dropdown} 配付素材の中で単位remを使用している理由を読む
+	```{include} cards/css/why-use-rem.md
+	```
+	````
 
 以下の見た目になるように`CSS`を調整して下さい。
 
@@ -583,7 +587,7 @@ CSSアニメーションについては本ガイドブック、テキストで�
 		<img class="right" height="500" src="images/autumn-mott-rodeheaver-SPd9CSoWCkY-unsplash.jpg" alt="">
 		<img class="left" height="500" src="images/j-lee-hTKzzm3sN-0-unsplash.jpg" alt="">
 		```
-		````{dropdown} 上記imgにwidthが指定されていない理由を知る
+		````{dropdown} 【ちなみに】 上記imgにwidthが指定されていない理由を知る
 		```{hint}
 		上記`img`要素には、高さ`height="500"`のみが記載されていて、幅`width`の指定がありません。
 		このように書いた時、ブラウザーは`height="500"`と画像素材の縦横比から`width`を自動計算します。

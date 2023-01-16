@@ -135,7 +135,7 @@
 自身がこの業界に関心のあることをアピールしましょう。
 - 好きなウェブサイト（結構聞かれます）とその理由
 - `HTML`や`CSS`コーディングについて、読んでいる記事
-- 次に習得したいこと（自身が学習の過程で目にしたコーディングに関わるキーワードを記しましょう。コーディング規約やスタイルガイド、BEMやOOCMSなどのCSS設計、Sass、HTML LintやStyle Lint、アクセシビリティ、ハンバーガーメニュー等のjQueryプラグイン、などなど）
+- 次に習得したいこと（自身が学習の過程で目にしたコーディングに関わるキーワードを記しましょう。コーディング規約やスタイルガイド、BEMやOOCMSなどのCSS設計、Sass、HTML LintやStyle Lint、アクセシビリティやユーザビリティ、ハンバーガーメニュー等のjQueryプラグイン、などなど）
 % - スタイルガイド
 %   - https://fueru.info/design/html-css/google-styleguide/
 %   - https://coding-factory.com/file/guideline
@@ -215,16 +215,17 @@
 
 - **A.** Responsive Design Art News Landing Page
 	```{figure} https://i.gyazo.com/36815a9337f1e03ad65b28082e03a7e5.png
+	```
 	% https://www.figma.com/community/file/1150370769219258177
 	% ttps://github.com/AaronMaywood/coding_sample/tree/main/website1
-	```
 - **B.** Responsive Startup Website
 	```{figure} https://i.gyazo.com/c1443bce6da04492575fe8d25f225c8e.png
+	```
 	% https://www.figma.com/community/file/1095377079540950532
 	% ttps://github.com/AaronMaywood/coding_sample/tree/main/website2
-	```
 - **C.** Responsive Web Page （**原作はトルコ語版、課題に際してはこれを日本語化した素材を提供します**）
 	```{figure} https://i.gyazo.com/013d997dbbd13b677c82c3a9596140de.png
+	```
 	% - https://www.figma.com/community/file/992410574427069906
 
 `````{hint}
@@ -254,8 +255,8 @@
 
 素材の`ZIP`ファイルを以下の`URL`からダウンロードして下さい。
 
-% $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/Website2/archive/refs/heads/master.zip
-- https://adjustacademy.com/webcoder/eaa4b6e1370c62fece3ba9a65138df0a.zip
+% download-zip-to-rename-by-hash https://github.com/AaronMaywood/Website1/archive/refs/heads/master.zip
+- https://adjustacademy.com/webcoder/8dad759b580d31d4024ef84ba896bba5.zip
 
 `ZIP`を展開したら、その中に`README.md`というファイル名のテキストファイルがあります。これを`VS Code`で開いて下さい。
 `README.md`のなかに細かな指示が書かれていますので、それに従って実装して下さい。
@@ -280,15 +281,16 @@
 - 採点基準については「[](level10-scoring-criteria)」を、提出方法については「[](level10-filling-method)」を確認して下さい。
 
 % 答え
-% $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/Website2/archive/refs/heads/answer.zip
-% https://adjustacademy.com/webcoder/69dd79519f07998d954cdbd38f690acf.zip
+% download-zip-to-rename-by-hash https://github.com/AaronMaywood/Website1/archive/refs/heads/answer.zip
+% https://adjustacademy.com/webcoder/f97b728469b2e2d539d04a78909c8777.zip
 
 ### B. Responsive Startup Website の課題について
 
 素材の`ZIP`ファイルを以下の`URL`からダウンロードして下さい。
 
-% download-zip-to-rename-by-hash https://github.com/AaronMaywood/Website1/archive/refs/heads/master.zip
-- https://adjustacademy.com/webcoder/8dad759b580d31d4024ef84ba896bba5.zip
+% $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/Website2/archive/refs/heads/master.zip
+- https://adjustacademy.com/webcoder/eaa4b6e1370c62fece3ba9a65138df0a.zip
+
 
 `ZIP`を展開したら、その中に`README.md`というファイル名のテキストファイルがあります。これを`VS Code`で開いて下さい。
 `README.md`のなかに細かな指示が書かれていますので、それに従って実装して下さい。
@@ -298,7 +300,7 @@
 	- HTMLは`index.html`としてください。
 	- CSSは`css/style.css`として下さい。
 - デザインカンプはAdobe社のFigmaで作成・共有しており、以下のURLで確認できます。
-  - https://www.figma.com/proto/7AubNTW0tPsiGlDlAlV3Mg/Responsive-Startup-Website-(Community)?page-id=0%3A1&node-id=723%3A677&viewport=430%2C437%2C0.12&scaling=min-zoom
+  - https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=203%3A2&t=K2W0vFsLxEKFq0Qk-1
 	````{dropdown} Figmaの画面でデザインカンプの指示を読む方法を確認する
 	```{include} cards/figma.md
 	```
@@ -313,8 +315,8 @@
 - 採点基準については「[](level10-scoring-criteria)」を、提出方法については「[](level10-filling-method)」を確認して下さい。
 
 % 答え
-% download-zip-to-rename-by-hash https://github.com/AaronMaywood/Website1/archive/refs/heads/answer.zip
-% https://adjustacademy.com/webcoder/f97b728469b2e2d539d04a78909c8777.zip
+% $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/Website2/archive/refs/heads/answer.zip
+% https://adjustacademy.com/webcoder/69dd79519f07998d954cdbd38f690acf.zip
 
 ### C. Responsive Web Page の課題について
 
@@ -344,7 +346,7 @@
 2. 完成見本
 	- https://adjustacademy.com/webcoder/7d8b5ed936e7752f1011f15390242d27.zip
 		```{tip}
-		**2. 完成見本**の`css/style.css`は読みにくいように**難読化**しています。（難読化はソースの上だけで、デベロッパーツール上からは普通に見えます。）
+		**2. 完成見本**の`css/style.css`は読みにくいように**難読化**しています。（難読化はソースの上だけで、ページの解析に必要なデベロッパーツール上からは普通に見えます。）
 
 		これは`CSS`をコピペして、できたつもり・理解したつもりになることを防ぐためです。
 		あくまでもこの作例からデベロッパーツールを通じて学びとったことをベースに、自身の知識や考えに基づいてコーディングを行っていただくための配慮です。
@@ -367,7 +369,7 @@
 以下、その他の細かな指示です。
 
 - {bdg-dark}`指示` 作業フォルダ名を`website3`として下さい。
-- `1. 素材`の`ZIP`を展開したら、その中に`README.md`というファイル名のテキストファイルがあります。これを`VS Code`で開いて下さい。`README.md`のなかに細かな指示が書かれていますので、従って下さい。
+- 「`1. 素材`」の`ZIP`を展開したら、その中に`README.md`というファイル名のテキストファイルがあります。これを`VS Code`で開いて下さい。`README.md`のなかに細かな指示が書かれていますので、従って下さい。
 - ファイル名の指示
 	- HTMLは`index.html`としてください。
 	- CSSは`css/style.css`として下さい。
@@ -394,9 +396,18 @@
 ### 提出方法（検証〜提出）
 
 - {bdg-dark}`指示`
-  - 問題A. の場合 ... `website1`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
-  - 問題B. の場合 ... `website2`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
-  - 問題C. の場合 ... `website3`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
+  - 問題A. の場合
+
+	`website1`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
+
+  - 問題B. の場合
+
+	`website2`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
+
+  - 問題C. の場合
+
+	`website3`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
+
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
@@ -412,20 +423,44 @@
 	http://xxx.html.xdomain.jp/website3/index.html
 	```
 
+% https://docs.google.com/document/d/1q8QJhsaq7xCMHLkFfy8-gpw1EYzr6qKif7AX53opJzQ/edit#heading=h.nphs7fg0hkdl
+% 
 % おめでとうございます。卒業試験に合格しました。
 %
-% `website1`の実装は合格です。
-% 続けて`website2`や`website3`の実装にもチャレンジしてみませんか？
-% その意思があればお知らせ下さい。
+% - 模範解答を以下のURLからダウンロードできます。自身の答えと照らし合わせて研究して下さい。
+% % ※運用メモ：３つの答えのうち、合格したものだけを連絡すること。
+% % $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/Website1/archive/refs/heads/answer.zip
+% % $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/Website2/archive/refs/heads/answer.zip
+% % $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/Website3/archive/refs/heads/answer.zip
+% 	- website1
+% 	    https://adjustacademy.com/webcoder/f97b728469b2e2d539d04a78909c8777.zip
+% 	- website2
+% 	    https://adjustacademy.com/webcoder/69dd79519f07998d954cdbd38f690acf.zip
+% 	- website3
+% 	    https://adjustacademy.com/webcoder/d63749d940c22e2955ca01e55955f27c.zip
+% 
+% 	☆ヒント
+% 	website1、website2、website3の３つの課題のうち、まだ手がけていない実装にもチャレンジしてみませんか？
 %
-% また、ポートフォリオ制作に着手して下さい。
-% {{TODO}} ポートフォリオ制作をキャリコンがサポートする
+% - ポートフォリオ作りを進めて下さい。
+%   - 【指示】作業フォルダ名を`portfolio`として下さい。
+%   - ポートフォリオができたら以下の文言テンプレートを利用し事務局{{OFFICE}}に提出して下さい。
+% 	  件名：ポートフォリオを提出します
+% 
+% 	  ○○です。
+% 
+% 	  http://xxx.html.xdomain.jp/portfolio/index.html
+%   - このポートフォリオを元にして就職支援を受けることができます。
+% 
+% 事務局 担当：安村(yasumura@adjust.ne.jp)
 
 # ポートフォリオを作る
 
 卒業制作の課題提出が終わったら、「[](making-portfolio)」に沿ってポートフォリオ作りを進めて下さい。
 
-その後のことは卒業制作の課題提出からの合格通知にしたがって下さい。
+- {bdg-dark}`指示` 作業フォルダ名を`portfolio`として下さい。
+
+**その後のことは卒業制作提出後の事務局からの返信メールを待って、その案内に従って下さい。無事卒業が認められたらポートフォリオを元にした就職支援等を受けることができます。**
 
 % {{TODO}} ポートフォリオを提出して、キャリア・コンサルタントのアドバイスを受けましょう
 % - ポートフォリオは紙のものもあると便利です。

@@ -1,5 +1,5 @@
-`````{div} taskcard
-````{card} Figmaでのデザインカンプの見方
+``````{div} taskcard
+`````{card} Figmaでのデザインカンプの見方
 `Figma`は`Adboe`社の新しいグラフィックツールで、従来には見られないような手軽さ（動作の軽快さや共有の楽さなど）が売りです。
 手軽さの一例としてファイル共有があり、デザイナーがコーダーへコーディング指示をする等に使用されます。
 今後広く普及していくであろうツールとして、コーダーの立場からの利用を試みてみましょう。
@@ -12,8 +12,7 @@
 さて、アカウントがない場合の使い方を説明します。
 
 1. 共有された`Figama`のURLをブラウザーで開いて下さい。
-	今回はこちらで説明します。
-	https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=0%3A1
+	（今回は[こちら](https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=0%3A1 )のFigmaを使用して説明します。）
 2. ブラウザーで共有ファイルを開いた状態です。
 	```{figure} https://i.gyazo.com/57d866a68128092ccc02d89cd7186094.png
 	```
@@ -31,5 +30,15 @@
 		```
 以上、Figmaの使い方はこれだけです。
 拡大縮小とスクロール操作を使用して閲覧して下さい。
+
+````{tip}
+**だれかが居てもびっくりしないで**
+
+`Figma`の画面を閲覧中に、他の人のマウスカーソルが現れることがあります。これは`Figma`ファイルを共有しているためであり、問題ありません。
+```{figure} https://i.gyazo.com/8025e6de075d79ff7671df3eb2d8357e.png
+他人（みなさんと同じ学習者）のマウスカーソルを緑の丸で示しました。カーソルが動き回っていてもびっくりしないでね😊
+```
 ````
+
 `````
+``````

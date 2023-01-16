@@ -754,7 +754,7 @@ SlickNavの使用方法は公式サイトの指示に従います。
 		- ZIPファイルを展開すると`images`フォルダが現れます。この`images`フォルダをコピーして制作に使用して下さい。
 - デザインカンプ
 	- デザインカンプはAdobe社のFigmaで作成・共有しており、以下のURLで確認できます。
-	- https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=0%3A1&t=jZACmIAskTTrw8VJ-1
+	- https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=0%3A1
 		````{dropdown} Figmaの読み方を確認する
 		```{include} cards/figma.md
 		```
@@ -768,6 +768,11 @@ SlickNavの使用方法は公式サイトの指示に従います。
 		```{include} cards/google-fonts.md
 		```
 		````
+リセットCSSは任意とします。使用しても、しなくともかまいません。
+% 62.5%のテクニックを使用は自由です。模範解答は`px`を使用しています。
+```{include} cards/css/not-use-62.5.md
+```
+
 - ファイル名の指示
 	- HTMLは`index.html`としてください。
 	- CSSは`css/style.css`として下さい。

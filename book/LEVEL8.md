@@ -453,6 +453,7 @@ width: calc(10px+100px);   /* NG */
 
 - 細かな作業指示（デザインカンプ）はAdobe社の`Figma`で作成・共有しており、以下のURLで確認できます。
 	- https://www.figma.com/proto/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?page-id=656%3A1016&node-id=660%3A1283&viewport=840%2C-242%2C0.27&scaling=scale-down-width)
+{{TODO}} ここでのFigmaの見方はスクロールができるだけだ、要改修
 		````{dropdown} Figmaの読み方を確認する
 		```{include} cards/figma.md
 		```
@@ -465,6 +466,9 @@ HTMLに対し、必要に応じて以下の加工を行って下さい。
 - クラス名の追加
 
 リセットCSSは任意とします。使用しても、しなくともかまいません。
+% 62.5%のテクニックを使用は自由です。模範解答は`px`を使用しています。
+```{include} cards/css/not-use-62.5.md
+```
 
 以下のGoogle Fonts を読み込んであり、利用可能です。
 - Noto Sans JP ... ウェイトは400(normal)と700(bold)の２種類があります。
