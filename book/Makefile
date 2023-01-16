@@ -17,7 +17,7 @@ preview:
 preview-level1:
 	firefox ../mapc-build-levels/level1/_build/html/index.html &
 
-build-and-sync-all: build build-level1 build-level2 build-level3 build-level4 build-level5 build-level6 build-level7 build-level8 build-level9 build-level10 sync
+build-and-sync-all: build build-level1 build-level2 build-level3 build-level4 build-level5 build-level6 build-level7 build-level8 build-level9 build-level10 sync-all
 
 build-level1:
 	cd ../mapc-build-levels/level1 ; jb build ./
@@ -40,7 +40,8 @@ build-level9:
 build-level10:
 	cd ../mapc-build-levels/level10 ; jb build ./
 
-sync:
+# fish-shllのfunctionであるためか、以下のコマンドはないとして以下を実行できない. 手動で実施すること。
+sync-all:
 	sync-guidebook level1
 	sync-guidebook level2
 	sync-guidebook level3

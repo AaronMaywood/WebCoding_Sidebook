@@ -444,8 +444,8 @@ width: calc(10px+100px);   /* NG */
 
 はじめに完成図を示します。
 
-```{figure} https://i.gyazo.com/cff74ae61121166ed74fd3aefa35bf3b.png
 % https://www.figma.com/proto/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?page-id=656%3A1016&node-id=660%3A1284&viewport=774%2C160%2C0.29&scaling=min-zoom
+```{figure} https://i.gyazo.com/cff74ae61121166ed74fd3aefa35bf3b.png
 この見た目になるように仕上げてください。
 ```
 
