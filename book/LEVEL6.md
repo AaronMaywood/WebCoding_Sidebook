@@ -59,7 +59,7 @@ justify
 align
   アラインとは、一列に整列させることを意味します。
   % https://ejje.weblio.jp/content/align
-  `CSS`では、行内で横に並ぶものに対し、それぞれの高さが異なる場合に高さのどこを基準に整列させるかという概念（**縦を整列するものとして**）で使用されます。
+  `CSS`では、行内で横に並ぶもののそれぞれの高さが異なる場合、どの高さを基準に整列させるかという概念で使用されます。 
   フレックスボックスには、フレックスボックス内のコンテンツ全体の整列である{bdg-dark-line}`テキスト：P.141` `align-content`と、細かなアイテム同士の整列である{bdg-dark-line}`テキスト：P.143` `align-items` があります。
   またインライン要素（文字）に対しては`text-align`（`text-align`は「[](text-properties)」で学びました）があり、同様の概念に対して同じ用語`align`が使用されています。
 ```
@@ -161,6 +161,7 @@ align
 	```{include} cards/css/why-use-rem.md
 	```
 	````
+  - 展開した`exam_flexbox-main`というフォルダ名を`flexbox`に変更して使用して下さい。解答やサーバーアップロードにそのまま使用できます。
 
 ### 問１ - 横並び
 
@@ -169,10 +170,9 @@ align
 
 ```{figure} https://i.gyazo.com/f022295e9e24477a80bbf7de096167f6.png
 配付素材`1/index.html`の初期状態です。
-`one`〜`four`のボックスを...
 ```
 ```{figure} https://i.gyazo.com/c1843df5e122540b1052209705af1f78.png
-Flexboxを使用して図のように横に並べるよう、`style.css`に手を加えて下さい。
+Flexboxを使用して`one`〜`four`のボックスを横に並べるよう、`style.css`に手を加えて下さい。
 ```
 
 ### 問２ - コンテンツの横並び
@@ -182,12 +182,12 @@ Flexboxを使用して図のように横に並べるよう、`style.css`に手�
 
 ```{figure} https://i.gyazo.com/92ac5e6e527db6d27e81133b3a0a9fff.png
 配付素材`2/index.html`の初期状態です。
-３つのボックスを...
 ```
 
 ```{figure} https://i.gyazo.com/977b6a49ab5216e2c48eee644a51e227.png
-`style.css`に手を加え、`Flexbox`を使用して図のように横に並べてください。
-３つのボックスの幅は画面幅を３等分するようにし、高さは内容の多い３つ目のボックスに揃えて下さい。
+`style.css`に手を加え、`Flexbox`を使用して３つのボックスを横に並べてください。
+
+幅は画面幅を３等分するようにし、高さは内容の多い３つ目のボックスに揃えて下さい。
 ```
 
 ### 問３ - 中央寄せ
@@ -199,12 +199,11 @@ Flexboxを使用して図のように横に並べるよう、`style.css`に手�
 ```{figure} https://i.gyazo.com/0ddc5909ccf8b243c51fa2f523500481.png
 :class: no-border
 配付素材`3/index.html`の初期状態です。
-灰色のボックスを、
 ```
 
 ```{figure} https://i.gyazo.com/856c242fde1c4d2eec06a271f906be7d.png
 :class: no-border
-Flexboxを使用して枠内の中央に配置するよう、`style.css`に手を加えて下さい。
+Flexboxを使用して灰色のボックスを枠内の中央に配置するよう、`style.css`に手を加えて下さい。
 ```
 
 ### 問４ - レンガ組み
@@ -215,11 +214,11 @@ Flexboxを使用して枠内の中央に配置するよう、`style.css`に手�
 
 ```{figure} https://i.gyazo.com/9342edcfcce1278c6404267094a35ec9.png
 配付素材`4/index.html`の初期状態です。
-縦に並んでいる「ドロップ」「タフィ」などのお菓子の名前を...
 ```
 
 ```{figure} https://i.gyazo.com/f41d0456f5205b47de6a136a6a609ab0.png
-Flexboxを使用して図のように改行ありの横並びにするよう、`style.css`に手を加えて下さい。
+Flexboxを使用して「ドロップ」「タフィ」などのお菓子の名前を横並びにするよう、`style.css`に手を加えて下さい。
+（枠内に入りきらない時には改行して下さい。）
 ```
 
 ### 採点基準

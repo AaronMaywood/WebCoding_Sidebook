@@ -365,6 +365,14 @@
 % https://ja.wikipedia.org/wiki/HyperText_Markup_Language#HTML%E6%96%87%E6%9B%B8
 % https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/Getting_started#html_%E6%96%87%E6%9B%B8%E3%81%AE%E6%A7%8B%E6%88%90
 
+```{hint}
+**`<meta http-equiv="X-UA-Compatibe" content="IE=edge">`について**
+
+{bdg-dark-line}`テキスト：P.33` で削除を指示されているこの行は、`Microsoft`社の古いブラウザー`IE(Internet Explorer)`（`Edge`ブラウザーの前身）に対する設定です。
+`IE(Internet Explorer)`は既に開発元である`Microsoft`からのサポートも打ち切られており、過去のものとなっていることから、この一行を入れておく意味がなくなりました。
+これがこの一行を削除する理由です。
+```
+
 #### `<meta name="description" content="□□□□">`と「スニペット」との関係は？
 {bdg-dark-line}`テキスト：P.35`
 （補足事項はありません。）
@@ -670,7 +678,7 @@ Wikipediaの目次は実際に見出しを集めたもので構成されてい�
 
 一方では困ったことが起こってしまいました。
 `HTML`の`要素`には全て特有の「意味」が持たせられているため、`em`を挿入したことによって文の意味が変わってしまったのです。
-（`em`はそのぶぶんを強く発音して強調するという意味があります。毒の入ったりんごは「赤」ではなく「青」だ！というようなときです。)
+（`em`はその部分を強く発音して強調するという意味があります。毒の入ったりんごは「赤」ではなく「青」だ！というようなときです。)
 
 つまり`CSS`側の都合で`HTML`のマークアップを変えてしまうと、文章の意味を汚染してしまうのです。
 
@@ -844,7 +852,8 @@ Wikipediaの目次は実際に見出しを集めたもので構成されてい�
 ここまでに文章を目立たせる要素として`b`、`em`、`strong`を見ました。
 
 これらは誤用されやすいものの一つです。次の記事も参考にして下さい。
-https://developer.mozilla.org/ja/docs/Web/HTML/Element/strong#b_%E3%81%A8_strong
+
+- [MDN Web docs <strong>: 強い重要性要素](https://developer.mozilla.org/ja/docs/Web/HTML/Element/strong#b_%E3%81%A8_strong)
 
 (img-and-path)=
 ## 画像、ファイルパス

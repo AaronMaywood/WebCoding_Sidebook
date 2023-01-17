@@ -33,9 +33,9 @@
 ```{figure} https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories/content_categories_venn.png
 ブロックレベル要素とインライン要素はより複雑なコンテンツカテゴリに細分化されました。
 **注意：この図はコンテンツカテゴリを説明するときの定番の図ですが、わかりにくく、細かな意味を読み取ろうとする必要はありません。細分化されて複雑になったという雰囲気だけを読み取れればOKです。**
-> 図は https://developer.mozilla.org/ja/docs/Web/Guide/HTML/Content_categories より
-**
 
+% https://github.com/mdn/translated-content/blob/main/LICENSE.md
+（図はライセンス[CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/deed.ja)にて提供される[Mdn web Referenceのコンテンツカテゴリーの記事](https://developer.mozilla.org/ja/docs/Web/Guide/HTML/Content_categories) より）
 ```
 
 この新しいカテゴリーは`HTML`の仕様の記述を明確にするために用いられており、ブロックレベル要素・インライン要素のように表示のされ方を示す区分（つまり、直感に訴える区分）ではないため、**初心者にはあまり役立つものではありません**。

@@ -186,7 +186,7 @@
 
 ## 卒業制作「レスポンシブ対応のページの作成」
 
-次の「昇段試験のルール」を確認の上、卒業試験に望んでください。
+次の「卒業試験のルール」を確認の上、卒業試験に望んでください。
 ````{dropdown} クリックして卒業試験のルールを確認する（退校となる場合の説明があります）
 ```{include} cards/school/rule-of-graduation-exam.md
 ```
@@ -224,7 +224,7 @@
 	% https://www.figma.com/community/file/1095377079540950532
 	% ttps://github.com/AaronMaywood/coding_sample/tree/main/website2
 - **C.** Responsive Web Page （**原作はトルコ語版、課題に際してはこれを日本語化した素材を提供します**）
-	```{figure} https://i.gyazo.com/013d997dbbd13b677c82c3a9596140de.png
+	```{figure} https://i.gyazo.com/301a8afad06cba1829f925bcd5db816d.png
 	```
 	% - https://www.figma.com/community/file/992410574427069906
 
@@ -261,7 +261,7 @@
 `ZIP`を展開したら、その中に`README.md`というファイル名のテキストファイルがあります。これを`VS Code`で開いて下さい。
 `README.md`のなかに細かな指示が書かれていますので、それに従って実装して下さい。
 
-- {bdg-dark}`指示` 作業フォルダ名を`website2`として下さい。
+- {bdg-dark}`指示` 作業フォルダ名を`website1`として下さい。
 - ファイル名の指示
 	- HTMLは`index.html`としてください。
 	- CSSは`css/style.css`として下さい。
@@ -295,7 +295,7 @@
 `ZIP`を展開したら、その中に`README.md`というファイル名のテキストファイルがあります。これを`VS Code`で開いて下さい。
 `README.md`のなかに細かな指示が書かれていますので、それに従って実装して下さい。
 
-- {bdg-dark}`指示` 作業フォルダ名を`website1`として下さい。
+- {bdg-dark}`指示` 作業フォルダ名を`website2`として下さい。
 - ファイル名の指示
 	- HTMLは`index.html`としてください。
 	- CSSは`css/style.css`として下さい。
