@@ -103,16 +103,17 @@ Xfreeを契約するのは読者自身の責任において行う必要があり
 「サーバーIDの登録（確定）」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/e33c972040749f53ffc3803a169205f7.png
+```{figure} https://i.gyazo.com/d094f986dd3e5aa590f8878e8101724d.png
 「初期設定中です」の画面からこの画面になるまでしばらく待って下さい。（**この画面になるまで何も操作しないで下さい。**）
 この画面になれば、サーバーIDの登録が完了です。
 次に左側のメニューより無料レンタルサーバー」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/0febcc0c0a501f3fe38be98dbb7f8a9f.png
+```{figure} https://i.gyazo.com/073d3ec4de6de6b13def9a151f34a748.png
 表の一番上の行である、オレンジ色の「HTML」の「利用を開始する」をクリックして下さい。（その他の「PHP・MySQL」や「WordPress」は有料版の登録が必要です。HTML/CSSだけでウェブページを制作する本テキストでは「HTML」プランで十分です。）
 ```
-```{figure} https://i.gyazo.com/5b3c04f8d338f2083931f1bee80922ed.png
+
+```{figure} https://i.gyazo.com/983e1275165563e146164c69f3716d72.png
 登録が完了しました。左側のメニューより「無料レンタルサーバー」をクリックします。
 ```
 
@@ -121,7 +122,7 @@ Xfreeを契約するのは読者自身の責任において行う必要があり
 
 `Xfree`では、SVG画像を表示するための設定が必要です。以下の通り行って下さい。
 
-```{figure} https://i.gyazo.com/5052825a0c285560b4e13be511574d55.png
+```{figure} https://i.gyazo.com/7574652c8758729d884c6c46d6485677.png
 「HTML」の欄に「管理パネルログイン」ボタンがあります。クリックして下さい。
 ```
 
@@ -151,11 +152,11 @@ Xfreeを契約するのは読者自身の責任において行う必要があり
 % 「HTML」の欄に「管理パネルログイン」ボタンがあります。クリックして下さい。
 % ```
 
-```{figure} https://i.gyazo.com/b3fcf6ce645aa4908edc7a889b549861.png
+```{figure} https://i.gyazo.com/521773254e10b4e9a9fd4cdb0b61189a.png
 右にある「FTPアカウント設定」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/8427a793a534c8c8347939a7e6bccfd3.png
+```{figure} https://i.gyazo.com/3aeabaef0c333c118c78bbf3884636ec.png
 「編集」ボタンをクリックして下さい。
 ```
 ```{figure} https://i.gyazo.com/c109ace45acaca3c924af925585d6ff0.png
@@ -190,6 +191,8 @@ Webサーバーのレンタルが終わったら、今度はそのレンタル�
 テキストでは{bdg-dark-line}`テキスト：P.161〜162` にかけて`WinSCP`というアプリケーションで同じことを説明しています。`WinSCP`は`Windows`専用で、`FileZilla`は`Windows`でも`Mac`でも利用可能です。やれることは同じで、どちらのアプリを使用してもかまいません。
 ```
 
+### FileZillaのダウンロード
+
 https://filezilla-project.org/ をクリックして、`FileZilla`の公式トップページを開きます。
 
 ```{figure} https://i.gyazo.com/af9e9705a2084ee1970528eb4bb5c44e.png
@@ -206,44 +209,51 @@ https://filezilla-project.org/ をクリックして、`FileZilla`の公式ト�
 ダウンロードが開始されました。
 ```
 
+### FileZillaのインストール
+
 しばらくしてダウンロードが終わったら、ダウンロードしたファイル（ダウンロードフォルダに`FileZilla_3.62.0_win64_sponsored2-setup.exe`のようなファイル名で有るはずです）をダブルクリックしてインストールを開始して下さい。
 
 ```{hint}
 ファイル名`FileZilla_3.62.0_win64_sponsored2-setup.exe`に含まれる **「`_3.62.0_`」という表記は`FileZilla`のバージョン番号です**。ダウンロード時期によりこの番号は変化しますのでご了承下さい。
 ```
 
-```{figure} https://i.gyazo.com/7a0c63afe74890cf3753237c56be34ee.png
-インストールを開始すると、`Windows`が「このアプリがデバイスに変更することを許可しますか？」と尋ねてきます。アプリケーションが「FileZilla FTP Client」で、確認済みの発行者が「Tim Kosse」であることを確認の上、「はい」を選択して下さい。
-```
+**最初の画面では、現在使用している`Windows`のユーザーの権限によって異なる画面となります。どちらの画面かを確認して進めて下さい。**
 
-```{figure} https://i.gyazo.com/4522c3c3fe267c0ba94e262bbd3002c7.png
+- ユーザーが管理者(`Administrator`)権限の場合
+	```{figure} https://i.gyazo.com/d82f8a79b22b00bae2fc4e2892dedd92.png
+	「はい」を選択して下さい。
+	```
+- ユーザーが一般の場合
+	```{figure} https://i.gyazo.com/bebea921b95e19dcc543be6988c460ed.png
+	管理者のパスワードを入れ、「はい」を選択して下さい。
+	**「いいえ」をクリックしないで下さい。**（「いいえ」をクリックしてインストールを進めると途中でエラーになり、最初からやり直しになります。）
+	```
+
+（この後の画面は管理者と一般ユーザーで同一の画面です。）
+
+```{figure} https://i.gyazo.com/04c2d4be2cea180bf7fef18219aa2d2a.png
 ライセンス（利用許諾書）が表示されます。利用は無料ですが、使用する上で起こったトラブル（たとえばサーバーにアップした自分のファイルを誤って消してしまうなど）については作者は保証できません等という案内が行われています。**読者の責任において利用するようにお願いします。** よろしければ「I Agree」（同意します）をクリックして下さい。
 ```
-```{figure} https://i.gyazo.com/738a436c152ba73b9d147b678de22366.png
+```{figure} https://i.gyazo.com/bf93a1caf0d3c7b91b1e906d1325e028.png
 スポンサーの宣伝です。
 （`Brave`というブラウザー（あるいは**他のソフトのこともあります**）を一緒にインストールするかを尋ねています。）
 ここで必要なのは`FileZilla`のみです。不要なので「Decline」（断ります）を選択のうえ、「Next」をクリックします。
 ```
 
-```{warning}
-この手順の直後、`FileZilla`のインストーラーが突然終了し、インストール作業を継続できない場合が報告されています。
-うまくインストールできない場合には、いったん`Windows`に「管理者」でログインし直し、インストール時に「（次の選択肢で説明する）全員（「Anyone who uses this computer」）」を選択してインストールを行って下さい。
-```
-
-```{figure} https://i.gyazo.com/fa627478da73a64a8ffd50e686495af4.png
-`Windows`を利用する複数のユーザーのうち、全員（「Anyone who uses this computer(all users)」）か自分だけ（「Only for me」）かを選択できます。
+```{figure} https://i.gyazo.com/5e8bb86477bdd455438e4dada7699280.png
+`Windows`の全ユーザー（「Anyone who uses this computer(all users)」）が使えるようにするか、自分だけ（「Only for me」）かを選択できます。
 それほど重要な選択ではありません。そのまま「Next」をクリックします。
 ```
 
-```{figure} https://gyazo.com/b5bf2c03425ec028a74aaeb6b9b0f1a3.png
+```{figure} https://i.gyazo.com/815efa2874c6028c3d5703198578db7b.png
 （インストールするものを選択できます。）そのまま、「Next」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/cc89decf0ab716185d4ec456bc393e49.png
+```{figure} https://i.gyazo.com/a132ab5f77b307163670ccbc70bd1323.png
 （インストール先を聞いてきます。）そのまま「Next」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/fdac07c494bf62df7660c0e67e4cb501.png
+```{figure} https://i.gyazo.com/b5ea57b3c8d6ab7dc26fa962ac7ba5a5.png
 （インストール時に登録するスタートメニュー上のフォルダ名を聞いてきます。）
 そのまま「Install」をクリックします。
 ```
@@ -252,7 +262,7 @@ https://filezilla-project.org/ をクリックして、`FileZilla`の公式ト�
 （インストール中です）
 ```
 
-```{figure} https://i.gyazo.com/de818072c35bc60dffae9fe6e47dd8c2.png
+```{figure} https://i.gyazo.com/c7a8cadfa3afaa4688edc40e468debc1.png
 インストールが完了しました。「Finish」をクリックします。
 「start FileZilla now」にチェックが入っているので、「Finish」をクリックすると同時に`FileZilla`が起動します。
 ```
@@ -263,7 +273,9 @@ https://filezilla-project.org/ をクリックして、`FileZilla`の公式ト�
 ```
 ````
 
-インストールが終わり、`FileZilla`が起動しました。ここからは`FileZilla`の操作を説明します。
+### FileZillaへアップロード先のサーバーを設定する
+
+インストールが終わり、`FileZilla`が起動しました。
 
 ```{figure} https://i.gyazo.com/06149bcffabf6be13361eccb3d10e68b.png
 ポップアップで表示される「FileZillaにようこそ」は「OK」をクリックして閉じます。
@@ -279,7 +291,7 @@ https://filezilla-project.org/ をクリックして、`FileZilla`の公式ト�
 ```{figure} https://i.gyazo.com/d7fd41ba6c41806dda4da12f57c09f28.png
 右側に入力欄が表示されました。
 ```
-````{tip}
+````{hint}
 ここで`Xfree`の**FTP接続情報**が必要になります。
 
 ```{figure} https://i.gyazo.com/abe67b8f0b5fce27eaaf3a57e973265f.png
@@ -357,7 +369,7 @@ https://filezilla-project.org/ をクリックして、`FileZilla`の公式ト�
 これで`FileZilla`の設定は完了です。次に、サンプルのページをWebサーバーにアップロードして閲覧できるかどうかの確認を行います。
 
 (upload-to-webserver)=
-## サンプルページをWebサーバーにアップロードして確認する
+## サンプルページをWebサーバーにアップロードして確認する（FileZillaの使い方）
 
 Webサーバーにファイルをアップロードして、ページが公開できるかを確かめましょう。
 
@@ -378,7 +390,7 @@ https://github.com/AaronMaywood/simplepage/archive/refs/heads/master.zip
 
 #### `FileZilla`を使ってサーバーにファイルをアップロードする
 
-次に`FileZilla`を開きます。
+`FileZilla`を起動します。
 
 ```{figure} https://i.gyazo.com/f395b927208931e6bad08e0da3bd53f7.png
 `FileZilla`が起動したら、「ファイル」メニューから「サイトマネージャー(S)」を選択します。

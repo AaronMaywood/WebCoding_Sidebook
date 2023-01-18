@@ -133,7 +133,7 @@
 % https://unsplash.com/ja/%E5%86%99%E7%9C%9F/ATgfRqpFfFI
 ```
 ↑は`figure`の例として写真を扱っています。
-ここは本文です。{numref}`figure-sample`は <a href="https://unsplash.com/ja/s/%E5%86%99%E7%9C%9F/%E3%81%AF%E3%81%AA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>の<a href="https://unsplash.com/@roonz_nl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">RoonZ nl</a>が撮影した写真です。←このように図を「{numref}`figure-sample`」のように本文から参照しています。
+ここは本文です。{numref}`figure-sample`は <a href="https://unsplash.com/ja/s/%E5%86%99%E7%9C%9F/%E3%81%AF%E3%81%AA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="reference external">Unsplash</a>の<a class="reference external" href="https://unsplash.com/@roonz_nl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">RoonZ nl</a>が撮影した写真です。←このように図を「{numref}`figure-sample`」のように本文から参照しています。
 ````
 
 図版にキャプションを付けたいな、と思うことがあればそれは`figure`にふさわしいということになります。
@@ -164,7 +164,7 @@
 [`figure`](https://ejje.weblio.jp/content/figure) は輪郭のはっきりしている形という意味の英単語です。額縁（という輪郭）に入れられて外部の世界観とは隔てられ、キャプションというタイトルが付けられた芸術作品をイメージして下さい。
 ```{figure} https://i.gyazo.com/f5ff9df0f7a996dae39a5d1f17ef9d5c.png
 `figure`のイメージ。
-<a href="https://unsplash.com/ja/%E5%86%99%E7%9C%9F/gzb4RKX-pdc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>の<a href="https://unsplash.com/@villxsmil?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luis Villasmil</a>が撮影した写真
+<a href="https://unsplash.com/ja/%E5%86%99%E7%9C%9F/gzb4RKX-pdc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="reference external">Unsplash</a>の<a class="reference external" href="https://unsplash.com/@villxsmil?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luis Villasmil</a>が撮影した写真
 % https://unsplash.com/ja/%E5%86%99%E7%9C%9F/gzb4RKX-pdc
 ```
 ````

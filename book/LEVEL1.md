@@ -387,7 +387,7 @@
   `HTML`では要素を入れ子にできます。
   ```{figure} https://images.unsplash.com/photo-1585849834908-3481231155e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80
   入れ子は玉ねぎのような連続した多層構造です。
-  （<a href="https://unsplash.com/ja/s/%E5%86%99%E7%9C%9F/%E7%8E%89%E3%81%AD%E3%81%8E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>の<a href="https://unsplash.com/@k8_iv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">K8</a>が撮影した写真）
+  （<a href="https://unsplash.com/ja/s/%E5%86%99%E7%9C%9F/%E7%8E%89%E3%81%AD%E3%81%8E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="reference external">Unsplash</a>の<a class="reference external" href="https://unsplash.com/@k8_iv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">K8</a>が撮影した写真）
   ```
   具体例で説明します。
   まず外側の構造を用意して、
@@ -789,7 +789,7 @@ Wikipediaの目次は実際に見出しを集めたもので構成されてい�
 
 また、きちんと説明するために必然的に長い説明となっています。あとまわしでかまいません。
 
-読み飛ばす場合には[](img-and-path)に移動して下さい。
+読み飛ばす場合には「[](img-and-path)」に移動して下さい。
 ```
 
 #### `b`要素
@@ -853,7 +853,7 @@ Wikipediaの目次は実際に見出しを集めたもので構成されてい�
 
 これらは誤用されやすいものの一つです。次の記事も参考にして下さい。
 
-- [MDN Web docs <strong>: 強い重要性要素](https://developer.mozilla.org/ja/docs/Web/HTML/Element/strong#b_%E3%81%A8_strong)
+- [MDN Web docs &lt;strong&gt;: 強い重要性要素](https://developer.mozilla.org/ja/docs/Web/HTML/Element/strong#b_%E3%81%A8_strong)
 
 (img-and-path)=
 ## 画像、ファイルパス
@@ -1086,7 +1086,7 @@ Webの生みの親はティム・バーナーズ=リーです。
     </p>
 </div>
 <div style="text-align: right;">
-	<small>画像 by <a href="https://commons.wikimedia.org/wiki/File:Sir_Tim_Berners-Lee_(cropped).jpg">Paul Clarke</a></small>
+	<small>画像 by <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Sir_Tim_Berners-Lee_(cropped).jpg">Paul Clarke</a></small>
 </div>
 
 #### 複数画像を横並びに配置・画像をクリックさせるとハイパーリンクさせるには

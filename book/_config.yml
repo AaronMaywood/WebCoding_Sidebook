@@ -35,7 +35,7 @@ html:
   use_edit_page_button: true
   favicon: "images/favicon.ico"
   # https://jupyterbook.org/en/stable/web/announcements.html
-  announcement: "<p class='mystyle'>この本はまだ開発段階です。</p>"
+  # announcement: "<p class='mystyle'>この本はまだ開発段階です。</p>"
   # Powered by を無効化
   extra_navbar: ""
   google_analytics_is: ""

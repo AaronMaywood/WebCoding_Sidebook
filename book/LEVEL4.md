@@ -37,7 +37,7 @@ CSSはボックスの集合体であると説明しましたが、 ボックス�
 
 まず基本の「通常のフロー」を説明します。
 
-「通常のフロー」は既定のレイアウトであり、そのルールは「（インライン要素である）行は横{bdg-primary}`→`に流れ」「（ブロックレベル要素である） 段落は縦{bdg-primary}`↓`に流れる」となっています。
+「通常のフロー」は既定のレイアウトであり、そのルールは「（インライン要素である）行は横 {bdg-primary-line}`→` に流れ」「（ブロックレベル要素である） 段落は縦 {bdg-primary-line}`↓` に流れる」となっています。
 
 ````{hint}
 ブロックレベル要素、インライン要素は`CSS`での基本のレイアウトルールである「通常のフロー」を構成します。
@@ -62,12 +62,12 @@ CSSはボックスの集合体であると説明しましたが、 ボックス�
 - 中国語や日本語の「縦書き」文字
 	- 例）[縦書きWeb普及委員会のページ](https://tategaki.github.io/)
 
-そこで様々な書字方向をサポートする`writing-mode`という`CSS`があります。`writing-mode`を用いれば「通常のフロー」をカスタマイズ（たとえば、行の流れを{bdg-primary}`←`にしたり、段落の流れを{bdg-primary}`↑`にしたり）できます。
+そこで様々な書字方向をサポートする`writing-mode`という`CSS`があります。`writing-mode`を用いれば「通常のフロー」をカスタマイズ（たとえば、行の流れを {bdg-primary-line}`←` にしたり、段落の流れを {bdg-primary-line}`↑` にしたり）できます。
 - [writing-mode](https://developer.mozilla.org/ja/docs/Web/CSS/writing-mode)
 ```
 ````
 
-「通常のフロー」はボックスが横{bdg-primary}`→`と縦{bdg-primary}`↓`に並びたがる（決してこの逆ではありません）ことを説明する重要なルールで、CSSレイアウトの基本中の基本です。
+「通常のフロー」はボックスが横 {bdg-primary-line}`→` と縦 {bdg-primary-line}`↓` に並びたがる（決してこの逆ではありません）ことを説明する重要なルールで、CSSレイアウトの基本中の基本です。
 
 % {{TODO}} 行ボックス、行内ボックスなども図解して通常のフローを説明しておいた方がよいかもしれない
 
@@ -126,7 +126,7 @@ CSSはボックスの集合体であると説明しましたが、 ボックス�
 全てのボックスには共通する玉ねぎのような階層構造があり、それによってボックス自身の大きさが決定し、また隣り合うボックス同士の余白を決めます。
 
 ```{figure} https://i.gyazo.com/5dd4d8f5939d9741d0f1cc7b38df2941.png
-ボックスには玉ねぎのような階層構造があります。（玉ねぎは<a href="https://unsplash.com/ja/s/%E5%86%99%E7%9C%9F/%E7%8E%89%E3%81%AD%E3%81%8E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>の<a href="https://unsplash.com/@k8_iv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">K8</a>が撮影した写真）
+ボックスには玉ねぎのような階層構造があります。（玉ねぎは<a href="https://unsplash.com/ja/s/%E5%86%99%E7%9C%9F/%E7%8E%89%E3%81%AD%E3%81%8E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="reference external">Unsplash</a>の<a class="reference external" href="https://unsplash.com/@k8_iv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">K8</a>が撮影した写真）
 ```
 
 ボックスの構造は内側から外側に向かって「コンテンツ（内容）」「パディング（境界線とコンテンツの間に敷かれるボックス内部の余白）」「ボーダー（境界線）」「マージン（他のボックスとの余白）」と４階層に渡って広がります。
@@ -225,7 +225,7 @@ CSSはボックスの集合体であると説明しましたが、 ボックス�
 
 「標準ボックスモデル」と「代替ボックスモデル」の違いは、幅`width`（及び高さ`height`）の解釈の違いです。
 
-```{figure} https://i.gyazo.com/19ade8ec9d11d0ac014d6469ab548135.png
+```{figure} https://i.gyazo.com/331926bbb851e57ea80e704659a3d8d2.png
 :class: full-width
 代替ボックスモデルは、標準ボックスモデルの欠点を取り除いてわかりやすくしたものです。
 ```
