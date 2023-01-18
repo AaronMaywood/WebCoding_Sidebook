@@ -24,8 +24,6 @@
 
 - [新米デザイナーがこれだけは抑えておきたいデベロッパーツールの使い方](https://www.webcreatorbox.com/webinfo/devtools-basic)
 - [Google Chromeデベロッパーツールの基本的な使い方をわかりやすく解説](https://willcloud.jp/knowhow/dev-tools-01/)
-- [CSS GridをChrome デベロッパーツールで検証、デバッグする方法を解説](https://coliss.com/articles/build-websites/operation/css/inspect-css-grid-by-chrome-devtools.html)
-  - 「フレックスボックス」についてもほぼ同様の機能があります。
 
 ````{dropdown} （基本的な使い方も含め）ボックスモデルについてはこちらの話題もお読み下さい
 ```{include} cards/devtools/box-model.md
@@ -35,4 +33,7 @@
 ```{include} cards/devtools/device-mode.md
 ```
 `````
+
+基本的な使い方＋αの機能として`display:grid;`や`display:flex;`を観察する機能もあります。その解説も併せてご紹介します。（解説は「グリッド」に関してですが、「フレックスボックス」についてもほぼ同様の機能があります。）
+- [CSS GridをChrome デベロッパーツールで検証、デバッグする方法を解説](https://coliss.com/articles/build-websites/operation/css/inspect-css-grid-by-chrome-devtools.html)
 ``````
