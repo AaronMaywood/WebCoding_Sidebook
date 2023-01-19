@@ -10,33 +10,9 @@ options:
 # [TODO] 本文だけに章番号を付けるにはどうしたらいい？
 # https://jupyterbook.org/en/stable/structure/configure.html
 parts:
-  - caption: 準備
-    numbered: false
-    chapters:
-      - file: equip
-      - file: webserver
-  - caption: ガイドブック
-    numbered: true
-    chapters:
-      - file: LEVEL1
-      - file: LEVEL2
-      - file: LEVEL3
-      - file: LEVEL4
-      - file: LEVEL5
-      - file: LEVEL6
-      - file: LEVEL7
-      - file: LEVEL8
-      - file: LEVEL9
-      - file: LEVEL10
-  - caption: Appendix
-    numbered: false
-    chapters:
-      - file: terms
-      # 自動作成される索引
-      # https://jupyterbook.org/en/stable/content/content-blocks.html#add-the-general-index-to-your-table-of-contents
-      - file: genindex
   - caption: （著者用）執筆ノート
     chapters:
+    - file: ux
     - file: tasks
     - file: method
     - file: skillcards
@@ -44,3 +20,27 @@ parts:
     - file: character_sheet
     - file: markdown_sample
     - file: cards
+  - caption: 準備
+    numbered: false
+    chapters:
+      - file: webserver
+#  - caption: ガイドブック
+#    numbered: true
+#    chapters:
+#      - file: LEVEL1
+#      - file: LEVEL2
+#      - file: LEVEL3
+#      - file: LEVEL4
+#      - file: LEVEL5
+#      - file: LEVEL6
+#      - file: LEVEL7
+#      - file: LEVEL8
+#      - file: LEVEL9
+#      - file: LEVEL10
+#  - caption: Appendix
+#    numbered: false
+#    chapters:
+#      - file: terms
+#      # 自動作成される索引
+#      # https://jupyterbook.org/en/stable/content/content-blocks.html#add-the-general-index-to-your-table-of-contents
+#      - file: genindex
