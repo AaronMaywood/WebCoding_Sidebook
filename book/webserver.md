@@ -473,4 +473,59 @@ http://am7274183.html.xdomain.jp/simplepage-master/index.html
 
 レンタルサーバーを借り、ファイルを`FTP`でアップロードしてブラウザーで確認する手順を説明しました。
 
-% {{TODO}} ベーシック認証、ロボットメタタグなど、非公開にする方法を説明する
+(installing-chrome)=
+# Google Chrome のインストール
+
+現在、世の中で使われているブラウザーにはいくつかの種類があります。`Google Chrome`、`Safari`、`Edge`、`Firefox`などです。
+
+以下の記事に従って`Google Chrome`を**インストール**し、**規定のブラウザーに設定**して下さい。
+
+1. インストール
+	https://support.google.com/chrome/answer/95346
+2. 規定のブラウザーに設定
+	https://support.google.com/chrome/answer/95417
+	``{tip}
+	**規定のブラウザー**に設定すれば、`index.html`などの`HTML`ファイルをダブルクリックするだけで`Google Chrome`起動するようになります。
+	```
+
+% 本書で使用するブラウザーをChromeとします。(これはLEVEL1にも同じ情報を記している)
+```{include} cards/default-browser.md
+```
+
+# ファイルの拡張子を表示するようにする
+
+`index.html`というファイル名があったとき（ウェブでは典型的なファイル名です）、末尾の`.html`の部分を「拡張子」と言います。
+「拡張子」はファイルの種類を知るためのもので、 **開発者にとって重要な情報**です。
+
+初期設定の`Windows`では「拡張子」が表示されませんので、表示されるように設定を変更する必要があります。
+
+何らかのフォルダを開いて下さい。
+```{figure} images/gyazo/ec0cdc36bd6d40ecbdc709674ea6408a.png
+どのフォルダを開いてもかまいません。例では`index.html`というファイルがあるフォルダを開いています。
+（ちなみに、`index.html`と拡張子まで見えています。設定変更するまでは`index`しか見えていません。）
+```
+
+エクスプローラーを利用して拡張子が表示されるように設定変更します。
+- Windows10の場合 ... エクスプローラーから[表示]-[ファイル名拡張子]を選択する
+	```{figure} images/gyazo/780ed50ab66223ccf660b609f53e936b.gif
+	:class: full-width
+	最初は拡張子（`.html`）が表示されていませんが、この設定によって表示されるようになりました。
+	```
+- windows11の場合
+	https://pc-karuma.net/show-file-extensions-on-windows-11/ を参考に設定して下さい。
+% 
+% **Mac**
+% 
+% 初期設定のMacでは、**Finder**上にファイル名`index.html`の拡張子`.html`が表示されません。
+% ````{tip}
+% Macでファイルを操作する標準アプリの名前を**Finder**と言います。
+% おなじみのこのウインドウの事です。
+% % ```{figure} 画像を用意する
+% % {{TODO}}
+% % このウインドウは**Finder**というアプリの画面です。
+% % ````
+% 
+% 拡張子が表示されるように設定を変更しましょう。
+% - Finderに拡張子を表示するようにする
+% 	https://support.apple.com/ja-jp/guide/mac-help/mchlp2304/mac
+
