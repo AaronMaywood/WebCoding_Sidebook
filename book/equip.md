@@ -76,9 +76,9 @@ macOSの場合
 - インストール
 {{TODO}}
 - 日本語化
-```{figure} https://i.gyazo.com/8ff02ee08449fc4fb9f18828b6e990f8.png
+```{figure} images/gyazo/8ff02ee08449fc4fb9f18828b6e990f8.png
 ```
-```{figure} https://i.gyazo.com/9bdb9c6fb2d29850611f6e3f79f669f4.png
+```{figure} images/gyazo/9bdb9c6fb2d29850611f6e3f79f669f4.png
 ```
 
 - Live Server{{TODO}}

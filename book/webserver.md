@@ -36,20 +36,20 @@
 
 - 国内
 - 無料
-- 広告が挿入されない（`HTML/CSS`が改変されない）
+- 広告が挿入されない（`HTML/CSS`が改変されないために特に重要な要件です）
 
-上記の３つの条件を満たすサービスが`Xfree`だったからです。
+上記の３つの条件を満たすからです。
 ```
 
 `Xfree`を導入する方法を説明します。
 
 https://www.xfree.ne.jp/ から`Xfree`のトップページにアクセスして下さい。
 
-```{figure} https://i.gyazo.com/942959f998656e4003efbb31c14c02c3.png
+```{figure} images/gyazo/942959f998656e4003efbb31c14c02c3.png
 `Xfree.ne.jp` のトップページです。
 ```
 
-```{figure} https://i.gyazo.com/0eac63bc83d2f9d471ab8f453e9b5fcb.png
+```{figure} images/gyazo/0eac63bc83d2f9d471ab8f453e9b5fcb.png
 オレンジ色のボタン「無料のレンタルサーバーご利用お申し込み」をクリックします。
 ```
 
@@ -58,35 +58,35 @@ Xfreeを契約するのは読者自身の責任において行う必要があり
 その点に合意の上、以下の手順に進んで下さい。
 ```
 
-```{figure} https://i.gyazo.com/530c1bfa08e51106a2c1ee410cba7eac.png
+```{figure} images/gyazo/530c1bfa08e51106a2c1ee410cba7eac.png
 借り主である読者自身のメールアドレスを入力して「確認メールを送信」ボタンを押して下さい。
 ```
 
-```{figure} https://i.gyazo.com/200ace7c3357ec5c45ad75bbfb9f7403.png
+```{figure} images/gyazo/200ace7c3357ec5c45ad75bbfb9f7403.png
 確認メールが送信されました。メールの受信ボックスを開いて下さい。
 ```
 
-```{figure} https://i.gyazo.com/36d0a5e1564b39f8d1d0bf10e2ee1cbd.png
+```{figure} images/gyazo/36d0a5e1564b39f8d1d0bf10e2ee1cbd.png
 メールの受信ボックスにメールが届いていました。お申し込みURLをクリックして下さい。
 ```
 
-```{figure} https://i.gyazo.com/6d35c77973a9cdca30db64bc8ba2a541.png
+```{figure} images/gyazo/6d35c77973a9cdca30db64bc8ba2a541.png
 お申し込みURLをクリックしたら、会員情報登録フォームが開きます。必要事項を全て記入して下さい。
 ```
-```{figure} https://i.gyazo.com/5ce5803deb9fd294e7b310a59bde0550.png
+```{figure} images/gyazo/5ce5803deb9fd294e7b310a59bde0550.png
 ```
-```{figure} https://i.gyazo.com/04d7ad00dcebc19ef4c6b86327c7d7b9.png
+```{figure} images/gyazo/04d7ad00dcebc19ef4c6b86327c7d7b9.png
 ```
-```{figure} https://i.gyazo.com/7a115bc6aa6b1ad7f9fa58849605bfca.png
+```{figure} images/gyazo/7a115bc6aa6b1ad7f9fa58849605bfca.png
 利用規約は読者の責任においてお読み下さい。
 全て記入したら「確認画面へ進む」をクリックして下さい。
 ```
 
-```{figure} https://i.gyazo.com/8bd8bbb68e545612e1514593974e3871.png
+```{figure} images/gyazo/8bd8bbb68e545612e1514593974e3871.png
 内容を確認のうえ、よろしければ「会員情報を確定する」をクリックして下さい。
 ```
 
-```{figure} https://i.gyazo.com/5e9effae8c318f0bc2a7f1e54f8ce519.png
+```{figure} images/gyazo/5e9effae8c318f0bc2a7f1e54f8ce519.png
 「ログイン」をクリックして下さい。
 ```
 
@@ -94,26 +94,26 @@ Xfreeを契約するのは読者自身の責任において行う必要があり
 
 ### サーバーIDを登録する
 
-```{figure} https://i.gyazo.com/2f3522ba5f25f8ed3eaf6d37c2e4e8d9.png
+```{figure} images/gyazo/2f3522ba5f25f8ed3eaf6d37c2e4e8d9.png
 `サーバーID`はページを公開する際の`URL`の一部として利用されるので、自身がわかりやすく、かつ、公開されても差し支えない名前を登録して下さい。
 図ではサーバーIDに`am7274183`を指定しており、`URL`はこの`サーバーID`を使用して`http://am7274183.html.xdomain.jp/index.html`になります。
 ```
 
-```{figure} https://i.gyazo.com/b5de34f397a7b96299b7e1716329b5f1.png
+```{figure} images/gyazo/b5de34f397a7b96299b7e1716329b5f1.png
 「サーバーIDの登録（確定）」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/d094f986dd3e5aa590f8878e8101724d.png
+```{figure} images/gyazo/d094f986dd3e5aa590f8878e8101724d.png
 「初期設定中です」の画面からこの画面になるまでしばらく待って下さい。（**この画面になるまで何も操作しないで下さい。**）
 この画面になれば、サーバーIDの登録が完了です。
 次に左側のメニューより無料レンタルサーバー」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/073d3ec4de6de6b13def9a151f34a748.png
+```{figure} images/gyazo/073d3ec4de6de6b13def9a151f34a748.png
 表の一番上の行である、オレンジ色の「HTML」の「利用を開始する」をクリックして下さい。（その他の「PHP・MySQL」や「WordPress」は有料版の登録が必要です。HTML/CSSだけでウェブページを制作する本テキストでは「HTML」プランで十分です。）
 ```
 
-```{figure} https://i.gyazo.com/983e1275165563e146164c69f3716d72.png
+```{figure} images/gyazo/983e1275165563e146164c69f3716d72.png
 登録が完了しました。左側のメニューより「無料レンタルサーバー」をクリックします。
 ```
 
@@ -122,23 +122,23 @@ Xfreeを契約するのは読者自身の責任において行う必要があり
 
 `Xfree`では、SVG画像を表示するための設定が必要です。以下の通り行って下さい。
 
-```{figure} https://i.gyazo.com/7574652c8758729d884c6c46d6485677.png
+```{figure} images/gyazo/7574652c8758729d884c6c46d6485677.png
 「HTML」の欄に「管理パネルログイン」ボタンがあります。クリックして下さい。
 ```
 
-```{figure} https://i.gyazo.com/b82740bab708221a71016473694a1fcd.png
+```{figure} images/gyazo/b82740bab708221a71016473694a1fcd.png
 「MIME設定」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/d922b71fb352404d359e4cae9d606228.png
+```{figure} images/gyazo/d922b71fb352404d359e4cae9d606228.png
 「MIME設定追加」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/79d5b246679833ad86367e8d9319a63d.png
+```{figure} images/gyazo/79d5b246679833ad86367e8d9319a63d.png
 「MIMEタイプ」に「image/svg+xml」を、「拡張子」に「.svg」を入力し、「確定する」をクリックします。
 ```
 
-````{figure} https://i.gyazo.com/d8589cebfde0bec516ee582fc55fc50e.png
+````{figure} images/gyazo/d8589cebfde0bec516ee582fc55fc50e.png
 しばらく待って、この画面になれば設定完了です。
 念の為、**入力した文字に間違いがないか**を照らし合わせて置いて下さい。
 ````
@@ -148,18 +148,18 @@ Xfreeを契約するのは読者自身の責任において行う必要があり
 `FTP`とは、Webサーバーにファイルをアップロードする手段のことです。後ほど紹介する`FileZilla`というアプリケーションがその`FTP`を担当します。
 
 % 一つ前の.svg の設定直後はこの画面ではない
-% ```{figure} https://i.gyazo.com/5052825a0c285560b4e13be511574d55.png
+% ```{figure} images/gyazo/5052825a0c285560b4e13be511574d55.png
 % 「HTML」の欄に「管理パネルログイン」ボタンがあります。クリックして下さい。
 % ```
 
-```{figure} https://i.gyazo.com/521773254e10b4e9a9fd4cdb0b61189a.png
+```{figure} images/gyazo/521773254e10b4e9a9fd4cdb0b61189a.png
 右にある「FTPアカウント設定」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/3aeabaef0c333c118c78bbf3884636ec.png
+```{figure} images/gyazo/3aeabaef0c333c118c78bbf3884636ec.png
 「編集」ボタンをクリックして下さい。
 ```
-```{figure} https://i.gyazo.com/c109ace45acaca3c924af925585d6ff0.png
+```{figure} images/gyazo/c109ace45acaca3c924af925585d6ff0.png
 パスワードを新規に作成して登録します。ページ下部にある「※推測されやすいパスワードは登録できません。」にある案内に従って、推測されにくいパスワードを作成し、登録して下さい。
 ```
 
@@ -171,10 +171,10 @@ Xfreeを契約するのは読者自身の責任において行う必要があり
 上述の話題の他に、**この無料版`Xfree`のFTP接続用パスワードは暗号化を利用することができないという事情もあります**。万一、FTP接続時に途中の経路で盗聴されたときには、パスワードが盗聴者に漏れてしまいます。**したがって、漏れたとしても被害を最小限に抑えるため、他のサービスでは利用していないパスワードを入力することが非常に重要です**。
 ```
 
-```{figure} https://i.gyazo.com/60ad32728c18b93427f7517f9896338e.png
+```{figure} images/gyazo/60ad32728c18b93427f7517f9896338e.png
 内容確認のうえ、「確定する」をクリックして下さい。
 ```
-```{figure} https://i.gyazo.com/abe67b8f0b5fce27eaaf3a57e973265f.png
+```{figure} images/gyazo/abe67b8f0b5fce27eaaf3a57e973265f.png
 パスワードの入力が終わり、**FTP接続情報**が完成しました。
 ここに記載されている**FTP接続情報**を後で使用します。
 ```
@@ -195,17 +195,17 @@ Webサーバーのレンタルが終わったら、今度はそのレンタル�
 
 https://filezilla-project.org/ をクリックして、`FileZilla`の公式トップページを開きます。
 
-```{figure} https://i.gyazo.com/af9e9705a2084ee1970528eb4bb5c44e.png
+```{figure} images/gyazo/af9e9705a2084ee1970528eb4bb5c44e.png
 公式サイトに来ました。
 左側のボタン「Download FileZilla Client」をクリックします。
 ```
-```{figure} https://i.gyazo.com/b3e51d964cc711d7b441c9a53691f268.png
+```{figure} images/gyazo/b3e51d964cc711d7b441c9a53691f268.png
 「Download FileZilla Client」をクリックします。
 ```
-```{figure} https://i.gyazo.com/c44b6b06a2e1f9d884d04c2bd3745f3e.png
+```{figure} images/gyazo/c44b6b06a2e1f9d884d04c2bd3745f3e.png
 どの`FileZilla`をダウンロードするかを聞いてきます。一番左の「Download」ボタンをクリックして、通常版（英語版マニュアルなし）を選択します。
 ```
-```{figure} https://i.gyazo.com/338ffba753bdc3b5f7537d740d809240.png
+```{figure} images/gyazo/338ffba753bdc3b5f7537d740d809240.png
 ダウンロードが開始されました。
 ```
 
@@ -220,55 +220,55 @@ https://filezilla-project.org/ をクリックして、`FileZilla`の公式ト�
 **最初の画面では、現在使用している`Windows`のユーザーの権限によって異なる画面となります。どちらの画面かを確認して進めて下さい。**
 
 - ユーザーが管理者(`Administrator`)権限の場合
-	```{figure} https://i.gyazo.com/d82f8a79b22b00bae2fc4e2892dedd92.png
+	```{figure} images/gyazo/d82f8a79b22b00bae2fc4e2892dedd92.png
 	「はい」を選択して下さい。
 	```
 - ユーザーが一般の場合
-	```{figure} https://i.gyazo.com/bebea921b95e19dcc543be6988c460ed.png
+	```{figure} images/gyazo/bebea921b95e19dcc543be6988c460ed.png
 	管理者のパスワードを入れ、「はい」を選択して下さい。
 	**「いいえ」をクリックしないで下さい。**（「いいえ」をクリックしてインストールを進めると途中でエラーになり、最初からやり直しになります。）
 	```
 
 （この後の画面は管理者と一般ユーザーで同一の画面です。）
 
-```{figure} https://i.gyazo.com/04c2d4be2cea180bf7fef18219aa2d2a.png
+```{figure} images/gyazo/04c2d4be2cea180bf7fef18219aa2d2a.png
 ライセンス（利用許諾書）が表示されます。利用は無料ですが、使用する上で起こったトラブル（たとえばサーバーにアップした自分のファイルを誤って消してしまうなど）については作者は保証できません等という案内が行われています。**読者の責任において利用するようにお願いします。** よろしければ「I Agree」（同意します）をクリックして下さい。
 ```
-```{figure} https://i.gyazo.com/bf93a1caf0d3c7b91b1e906d1325e028.png
+```{figure} images/gyazo/bf93a1caf0d3c7b91b1e906d1325e028.png
 スポンサーの宣伝です。
 （`Brave`というブラウザー（あるいは**他のソフトのこともあります**）を一緒にインストールするかを尋ねています。）
 ここで必要なのは`FileZilla`のみです。不要なので「Decline」（断ります）を選択のうえ、「Next」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/5e8bb86477bdd455438e4dada7699280.png
+```{figure} images/gyazo/5e8bb86477bdd455438e4dada7699280.png
 `Windows`の全ユーザー（「Anyone who uses this computer(all users)」）が使えるようにするか、自分だけ（「Only for me」）かを選択できます。
 それほど重要な選択ではありません。そのまま「Next」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/815efa2874c6028c3d5703198578db7b.png
+```{figure} images/gyazo/815efa2874c6028c3d5703198578db7b.png
 （インストールするものを選択できます。）そのまま、「Next」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/a132ab5f77b307163670ccbc70bd1323.png
+```{figure} images/gyazo/a132ab5f77b307163670ccbc70bd1323.png
 （インストール先を聞いてきます。）そのまま「Next」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/b5ea57b3c8d6ab7dc26fa962ac7ba5a5.png
+```{figure} images/gyazo/b5ea57b3c8d6ab7dc26fa962ac7ba5a5.png
 （インストール時に登録するスタートメニュー上のフォルダ名を聞いてきます。）
 そのまま「Install」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/b5434f0854c6eea7235f2d6ba6236a24.png
+```{figure} images/gyazo/b5434f0854c6eea7235f2d6ba6236a24.png
 （インストール中です）
 ```
 
-```{figure} https://i.gyazo.com/c7a8cadfa3afaa4688edc40e468debc1.png
+```{figure} images/gyazo/c7a8cadfa3afaa4688edc40e468debc1.png
 インストールが完了しました。「Finish」をクリックします。
 「start FileZilla now」にチェックが入っているので、「Finish」をクリックすると同時に`FileZilla`が起動します。
 ```
 
 ````{attention}
-```{figure} https://i.gyazo.com/643724f48639dec4a65ad0e006c42ecf.png
+```{figure} images/gyazo/643724f48639dec4a65ad0e006c42ecf.png
 「Finish」クリック後にこのエラーが出ることがありますが、そのまま「OK」を押して下さい。`FileZilla`は問題なく起動します。
 ```
 ````
@@ -277,24 +277,24 @@ https://filezilla-project.org/ をクリックして、`FileZilla`の公式ト�
 
 インストールが終わり、`FileZilla`が起動しました。
 
-```{figure} https://i.gyazo.com/06149bcffabf6be13361eccb3d10e68b.png
+```{figure} images/gyazo/06149bcffabf6be13361eccb3d10e68b.png
 ポップアップで表示される「FileZillaにようこそ」は「OK」をクリックして閉じます。
 ```
 
-```{figure} https://i.gyazo.com/f395b927208931e6bad08e0da3bd53f7.png
+```{figure} images/gyazo/f395b927208931e6bad08e0da3bd53f7.png
 `FileZilla`にアップロード先のWebサーバー情報を登録します。「ファイル」メニューから「サイトマネージャー(S)」を選択します。
 ```
 
-```{figure} https://i.gyazo.com/4063dd8c5d2f7263a6853a020a015dae.png
+```{figure} images/gyazo/4063dd8c5d2f7263a6853a020a015dae.png
 左側の「新しいサイト(N)」を選択します。
 ```
-```{figure} https://i.gyazo.com/d7fd41ba6c41806dda4da12f57c09f28.png
+```{figure} images/gyazo/d7fd41ba6c41806dda4da12f57c09f28.png
 右側に入力欄が表示されました。
 ```
 ````{hint}
 ここで`Xfree`の**FTP接続情報**が必要になります。
 
-```{figure} https://i.gyazo.com/abe67b8f0b5fce27eaaf3a57e973265f.png
+```{figure} images/gyazo/abe67b8f0b5fce27eaaf3a57e973265f.png
 この画面が必要です。表示するには、https://www.xfree.ne.jp/ にアクセスし、「ログイン」からログインし、「管理パネルログイン」「FTPアカウント設定」と進みます。
 ```
 ````
@@ -329,40 +329,40 @@ https://filezilla-project.org/ をクリックして、`FileZilla`の公式ト�
 - パスワード ... FTP接続用に作成したパスワードを指定して下さい。（パスワードには、`Xfree`にログインするためのものと、`FTP`接続用の２種類がありますが、ここでは後者を入力して下さい。）
 
 
-```{figure} https://i.gyazo.com/2c64be1e17fc89e0c63d5747e4f560e3.png
+```{figure} images/gyazo/2c64be1e17fc89e0c63d5747e4f560e3.png
 すべての入力項目を埋めました。
 「接続」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/6a102b87d0435477907f9106d5825584.png
+```{figure} images/gyazo/6a102b87d0435477907f9106d5825584.png
 先程入力したパスワードを保存し、次回以降パスワード入力しなくてもよいようにするかを聞いてきます。
 毎回パスワードを入れるのは面倒なので、「パスワードを保存する」が選ばれた状態で「OK」をクリックして下さい。
 ```
 
-```{figure} https://i.gyazo.com/145858ee89cdaefdd10cb1d00e3535dd.png
+```{figure} images/gyazo/145858ee89cdaefdd10cb1d00e3535dd.png
 「このサーバーでは常に安全でない平文でのFTP接続を許可する」をチェックした上で「OK」をクリックして下さい。
 ```
 
 入力したFTP接続情報を元にレンタルしたWebサーバーへの接続を試みます。
 
-```{figure} https://i.gyazo.com/9b53c4b38eb754f993f90848837c9b06.png
+```{figure} images/gyazo/9b53c4b38eb754f993f90848837c9b06.png
 右側の「リモート（サーバー）側」のところに`.htaccess`、`default_page.png`、`index.html`のファイル名が表示されれば接続成功です。
 ```
 % {{TODO}} ↑失敗した場合にどうするかを説明する
 
-```{figure} https://i.gyazo.com/f69c05353ec1017954df18c1b018d73d.png
+```{figure} images/gyazo/f69c05353ec1017954df18c1b018d73d.png
 接続確認ができたら **右上の「閉じる」** をクリックし、`FileZilla`を一度閉じます。
 ```
 
-```{figure} https://i.gyazo.com/8f5964f303dc29797ed1950bc8f44eb0.png
+```{figure} images/gyazo/8f5964f303dc29797ed1950bc8f44eb0.png
 再度`FileZilla`を起動します。
 ```
 
-```{figure} https://i.gyazo.com/f395b927208931e6bad08e0da3bd53f7.png
+```{figure} images/gyazo/f395b927208931e6bad08e0da3bd53f7.png
 「ファイル」メニューから「サイトマネージャー(S)」を選択します。
 ```
 
-```{figure} https://i.gyazo.com/4dced80e48d573a952a999857650b420.png
+```{figure} images/gyazo/4dced80e48d573a952a999857650b420.png
 この操作は任意ですが、登録済みのサイト名を「名前の変更」から「Xfree無料Webサーバー」等に自分の分かる名前に変更しましょう。
 ```
 
@@ -380,11 +380,11 @@ Webサーバーにファイルをアップロードして、ページが公開�
 次のURLからzipファイルを用意して、展開して下さい。
 https://github.com/AaronMaywood/simplepage/archive/refs/heads/master.zip
 
-```{figure} https://i.gyazo.com/3506e6ac27bdee843ca3c159a58f0d81.png
+```{figure} images/gyazo/3506e6ac27bdee843ca3c159a58f0d81.png
 展開すると、`simplepage-master`というフォルダが手に入ります。
 ```
 
-```{figure} https://i.gyazo.com/2ee694b3a24ea4e47be2f0aad973b35d.png
+```{figure} images/gyazo/2ee694b3a24ea4e47be2f0aad973b35d.png
 `simplepage-master`フォルダの中には`README.md`（説明文、使用しません）と`index.html`（ウェブページ）の２ファイルがあることを確認して下さい。
 ```
 
@@ -392,28 +392,28 @@ https://github.com/AaronMaywood/simplepage/archive/refs/heads/master.zip
 
 `FileZilla`を起動します。
 
-```{figure} https://i.gyazo.com/f395b927208931e6bad08e0da3bd53f7.png
+```{figure} images/gyazo/f395b927208931e6bad08e0da3bd53f7.png
 `FileZilla`が起動したら、「ファイル」メニューから「サイトマネージャー(S)」を選択します。
 ```
 
-```{figure} https://i.gyazo.com/2c64be1e17fc89e0c63d5747e4f560e3.png
+```{figure} images/gyazo/2c64be1e17fc89e0c63d5747e4f560e3.png
 登録済みの「Xfree無料Webサーバー」を選択して右下の「接続」をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/9b53c4b38eb754f993f90848837c9b06.png
+```{figure} images/gyazo/9b53c4b38eb754f993f90848837c9b06.png
 接続が完了し、サーバー側に`index.html`などが見えています。これらファイルはレンタル時に最初から入っているものです。
 ```
 
 用意した`simplepage-master`をサーバーにアップロードします。
-```{figure} https://i.gyazo.com/62d58b6c8f503f915bfc9daf321a3d61.png
+```{figure} images/gyazo/62d58b6c8f503f915bfc9daf321a3d61.png
 アップロードは、右側のサーバー側の領域にドラッグ＆ドロップするだけです。
 ```
 
-```{figure} https://i.gyazo.com/34937dfc8907206986043e4794a2654d.png
+```{figure} images/gyazo/34937dfc8907206986043e4794a2654d.png
 サーバーにアップロードされました。`simplepage-master`が見えています。
 ```
 
-```{figure} https://i.gyazo.com/f69c05353ec1017954df18c1b018d73d.png
+```{figure} images/gyazo/f69c05353ec1017954df18c1b018d73d.png
 アップロードが終われば、`FileZilla`は閉じてかまいません。
 ```
 
@@ -427,23 +427,23 @@ https://github.com/AaronMaywood/simplepage/archive/refs/heads/master.zip
 
 https://www.xfree.ne.jp/ からXfreeのトップページにアクセスして下さい。
 
-```{figure} https://i.gyazo.com/942959f998656e4003efbb31c14c02c3.png
+```{figure} images/gyazo/942959f998656e4003efbb31c14c02c3.png
 Xfree.ne.jp のトップページです。右上の**ログイン**をクリックして下さい。
 ```
 
-```{figure} https://i.gyazo.com/389a2f800df04e0f291f9ff9c5a6ac74.png
+```{figure} images/gyazo/389a2f800df04e0f291f9ff9c5a6ac74.png
 ログインに必要な情報を入力して「ログイン」をクリックして下さい。
 ```
 
-```{figure} https://i.gyazo.com/aef0bd6a355f949c4bd00d867bb367f8.png
+```{figure} images/gyazo/aef0bd6a355f949c4bd00d867bb367f8.png
 オレンジの行にある「管理パネルログイン」をクリックして下さい。
 ```
 
-```{figure} https://i.gyazo.com/b82fd67989e3540d07c45d29bb062dd8.png
+```{figure} images/gyazo/b82fd67989e3540d07c45d29bb062dd8.png
 右端の「FTPアカウント設定」をクリックして下さい。
 ```
 
-```{figure} https://i.gyazo.com/734dc3623596e1e8c31b7688559717ce.png
+```{figure} images/gyazo/734dc3623596e1e8c31b7688559717ce.png
 真ん中の「アカウント名」が、あなたのサーバーの名前です。（図では`am7274183.html.xdomain.jp`の部分です。）
 ```
 
@@ -465,7 +465,7 @@ http://am7274183.html.xdomain.jp/simplepage-master/index.html
 
 ブラウザーにこの`URL`を指定して、閲覧してみましょう。
 
-```{figure} https://i.gyazo.com/18248da1fd4c634c01d097a7515df9c0.png
+```{figure} images/gyazo/18248da1fd4c634c01d097a7515df9c0.png
 `index.html`（中身は「こんにちは！」だけ）が表示されました。
 ```
 

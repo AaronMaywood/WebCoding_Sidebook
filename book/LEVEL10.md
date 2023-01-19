@@ -221,17 +221,17 @@
 以下にしめす`A.`、`B.`、`C.`の３つのレスポンシブ対応のウェブデザインのうち、**一つを選び、デザイン指示に従って`HTML/CSS`コーディングを行って下さい**。（複数の課題提出も歓迎します）
 
 - **A.** Responsive Design Art News Landing Page
-	```{figure} https://i.gyazo.com/36815a9337f1e03ad65b28082e03a7e5.png
+	```{figure} images/gyazo/36815a9337f1e03ad65b28082e03a7e5.png
 	```
 	% https://www.figma.com/community/file/1150370769219258177
 	% ttps://github.com/AaronMaywood/coding_sample/tree/main/website1
 - **B.** Responsive Startup Website
-	```{figure} https://i.gyazo.com/c1443bce6da04492575fe8d25f225c8e.png
+	```{figure} images/gyazo/c1443bce6da04492575fe8d25f225c8e.png
 	```
 	% https://www.figma.com/community/file/1095377079540950532
 	% ttps://github.com/AaronMaywood/coding_sample/tree/main/website2
 - **C.** Responsive Web Page （**原作はトルコ語版、課題に際してはこれを日本語化した素材を提供します**）
-	```{figure} https://i.gyazo.com/301a8afad06cba1829f925bcd5db816d.png
+	```{figure} images/gyazo/301a8afad06cba1829f925bcd5db816d.png
 	```
 	% - https://www.figma.com/community/file/992410574427069906
 
@@ -247,7 +247,7 @@
 しかし、**それ以上のことを判断するには経験が必要です。**
 シンプルそうに見えてもコーディングが難しかったり、その逆のこともあるからです。
 
-```{figure} https://i.gyazo.com/6cf1d0a653f306f39e579aec96485cbc.png
+```{figure} images/gyazo/6cf1d0a653f306f39e579aec96485cbc.png
 例えば、`C.`のこの部分はさりげないデザインですがコーディングは難しかったです。最初は`flexbox`で組んでみて、その後`grid`でも実装を試みるなど試行錯誤もありました。
 ```
 

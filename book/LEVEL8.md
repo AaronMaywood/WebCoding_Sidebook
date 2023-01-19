@@ -162,7 +162,7 @@
 
 ````{tip}
 [`figure`](https://ejje.weblio.jp/content/figure) は輪郭のはっきりしている形という意味の英単語です。額縁（という輪郭）に入れられて外部の世界観とは隔てられ、キャプションというタイトルが付けられた芸術作品をイメージして下さい。
-```{figure} https://i.gyazo.com/f5ff9df0f7a996dae39a5d1f17ef9d5c.png
+```{figure} images/gyazo/f5ff9df0f7a996dae39a5d1f17ef9d5c.png
 `figure`のイメージ。
 <a href="https://unsplash.com/ja/%E5%86%99%E7%9C%9F/gzb4RKX-pdc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="reference external">Unsplash</a>の<a class="reference external" href="https://unsplash.com/@villxsmil?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luis Villasmil</a>が撮影した写真
 % https://unsplash.com/ja/%E5%86%99%E7%9C%9F/gzb4RKX-pdc
@@ -433,7 +433,7 @@ width: calc(10px+100px);   /* NG */
 はじめに完成図を示します。
 
 % https://www.figma.com/proto/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?page-id=656%3A1016&node-id=660%3A1284&viewport=774%2C160%2C0.29&scaling=min-zoom
-```{figure} https://i.gyazo.com/cff74ae61121166ed74fd3aefa35bf3b.png
+```{figure} images/gyazo/cff74ae61121166ed74fd3aefa35bf3b.png
 この見た目になるように仕上げてください。
 ```
 

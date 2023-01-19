@@ -75,7 +75,7 @@ background: red;       /* 短略形 */
 <div style="border: 1px solid gray; padding: 2rem; width: 300px;">
   <!-- 段落pのなかに画像imgが入っています -->
   <p>As much mud in the streets as if the waters
-    <img src="https://i.gyazo.com/06a32191e2ab716be3be9fe30ed89b6b.png" alt="Float me" style="border:none;">
+    <img src="images/gyazo/06a32191e2ab716be3be9fe30ed89b6b.png" alt="Float me" style="border:none;">
     had but newly retired from the face of the earth, and it would not be wonderful to meet a Megalosaurus,
     forty feet long or so, waddling like an elephantine lizard up Holborn Hill.
   </p>
@@ -99,7 +99,7 @@ img {
 	<div style="border: 1px solid gray; padding: 2rem; width: 300px;">
 	  <!-- 段落pのなかに画像imgが入っています -->
 	  <p>As much mud in the streets as if the waters
-		<img src="https://i.gyazo.com/06a32191e2ab716be3be9fe30ed89b6b.png" alt="Float me" style="border:none;">
+		<img src="images/gyazo/06a32191e2ab716be3be9fe30ed89b6b.png" alt="Float me" style="border:none;">
 		had but newly retired from the face of the earth, and it would not be wonderful to meet a Megalosaurus,
 		forty feet long or so, waddling like an elephantine lizard up Holborn Hill.
 	  </p>
@@ -108,7 +108,7 @@ img {
 	<div style="border: 1px solid gray; padding: 2rem; width: 300px;">
 	  <!-- 段落pのなかに画像imgが入っています -->
 	  <p>As much mud in the streets as if the waters
-		<img src="https://i.gyazo.com/06a32191e2ab716be3be9fe30ed89b6b.png" alt="Float me" style="border:none; float:left;">
+		<img src="images/gyazo/06a32191e2ab716be3be9fe30ed89b6b.png" alt="Float me" style="border:none; float:left;">
 		had but newly retired from the face of the earth, and it would not be wonderful to meet a Megalosaurus,
 		forty feet long or so, waddling like an elephantine lizard up Holborn Hill.
 	  </p>
@@ -117,7 +117,7 @@ img {
 	<div style="border: 1px solid gray; padding: 2rem; width: 300px;">
 	  <!-- 段落pのなかに画像imgが入っています -->
 	  <p>As much mud in the streets as if the waters
-		<img src="https://i.gyazo.com/06a32191e2ab716be3be9fe30ed89b6b.png" alt="Float me" style="border:none; float:right;">
+		<img src="images/gyazo/06a32191e2ab716be3be9fe30ed89b6b.png" alt="Float me" style="border:none; float:right;">
 		had but newly retired from the face of the earth, and it would not be wonderful to meet a Megalosaurus,
 		forty feet long or so, waddling like an elephantine lizard up Holborn Hill.
 	  </p>
@@ -340,7 +340,7 @@ img {
 	    border: 1px dashed red;
 	}
 	```
-	```{figure} https://i.gyazo.com/a201149fa9dce31199c30faead3933e4.png
+	```{figure} images/gyazo/a201149fa9dce31199c30faead3933e4.png
 	```
 - 次に、内側の`div`要素に`display:inline-block;`を指定してみます。
 	```CSS
@@ -352,7 +352,7 @@ img {
 	    display: inline-block; /* 追加しました  */
 	}
 	```
-	```{figure} https://i.gyazo.com/4b1709cb7435bc3ab116c2496c825ebc.png
+	```{figure} images/gyazo/4b1709cb7435bc3ab116c2496c825ebc.png
 	```
 
 	```{admonition} 高度な話題
@@ -369,7 +369,7 @@ img {
 		display: inline; /* 変更しました  */
 	}
 	```
-	```{figure} https://i.gyazo.com/2fa97c81e8bf9be7f315c5127eef897e.png
+	```{figure} images/gyazo/2fa97c81e8bf9be7f315c5127eef897e.png
 	```
 
 (display-none)=
@@ -671,7 +671,7 @@ CSSアニメーションについては本ガイドブック、テキストで�
 		```
 		````
 
-```{figure} https://i.gyazo.com/cdf19cb0983323856c9f5b86f2f541c2.png
+```{figure} images/gyazo/cdf19cb0983323856c9f5b86f2f541c2.png
 ---
 name: a-aki-sample
 ---

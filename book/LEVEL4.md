@@ -125,7 +125,7 @@ CSSはボックスの集合体であると説明しましたが、 ボックス�
 
 全てのボックスには共通する玉ねぎのような階層構造があり、それによってボックス自身の大きさが決定し、また隣り合うボックス同士の余白を決めます。
 
-```{figure} https://i.gyazo.com/5dd4d8f5939d9741d0f1cc7b38df2941.png
+```{figure} images/gyazo/5dd4d8f5939d9741d0f1cc7b38df2941.png
 ボックスには玉ねぎのような階層構造があります。（玉ねぎは<a href="https://unsplash.com/ja/s/%E5%86%99%E7%9C%9F/%E7%8E%89%E3%81%AD%E3%81%8E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="reference external">Unsplash</a>の<a class="reference external" href="https://unsplash.com/@k8_iv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">K8</a>が撮影した写真）
 ```
 
@@ -188,7 +188,7 @@ CSSはボックスの集合体であると説明しましたが、 ボックス�
 
 本ガイドブックにおいて、この`rem`と`62.5%`の使用についてはテキストと意見を異にしており、「[62.5%とremを使用せず、単位pxを使用する](dont-use-62.5)」の中で「 **単位`px`を使用する** 」と結論づけています。
 
-```{figure} https://i.gyazo.com/03ac6ea30331a7a4dab566b5974d65ad.png
+```{figure} images/gyazo/03ac6ea30331a7a4dab566b5974d65ad.png
 したがって、{bdg-dark-line}`テキスト：P.112` のこの図の箇所で、`html { font-size:62.5%; }` は不要で、また `font-size: 2rem; ←文字サイズ：（2rem = 20px）` のところは `font-size: 20px;` でかまいません。
 ```
 
@@ -225,7 +225,7 @@ CSSはボックスの集合体であると説明しましたが、 ボックス�
 
 「標準ボックスモデル」と「代替ボックスモデル」の違いは、幅`width`（及び高さ`height`）の解釈の違いです。
 
-```{figure} https://i.gyazo.com/331926bbb851e57ea80e704659a3d8d2.png
+```{figure} images/gyazo/331926bbb851e57ea80e704659a3d8d2.png
 :class: full-width
 代替ボックスモデルは、標準ボックスモデルの欠点を取り除いてわかりやすくしたものです。
 ```
@@ -375,7 +375,7 @@ body {
 % {{TODO}} 子に指定したマージンは親側のマージンとも相殺することを説明する(二階の子供部屋の住人も5mほしいとおもっていた場合の話. 親からのマージンではなく、親が隣り合っている家とのマージンになる. また親ボックスに対するマージンという概念はなく、パディングしかない。これは親ボックスに背景を描画したさい、描画エリア内の話であることからも諒解できる。（背景が描画されるのは`bordr-box`であるから）
 % いや、親と子のマージンはあるな！
 % file:///home/yasumura/coding_sample/box-model/2/index.html
-% ```{figure} https://i.gyazo.com/528fcc65debc64512d994f93e3351005.png
+% ```{figure} images/gyazo/528fcc65debc64512d994f93e3351005.png
 % ```
 
 ## デベロッパーツールを使用してボックスモデルを確認する
@@ -514,7 +514,7 @@ body {
 
 ダウンロード素材として提供する`index.html`に`CSS`ファイル(`css/style.css`)を加え、次の見た目のページを実装して下さい。
 
-```{figure} https://i.gyazo.com/fc2b22f9e8b94a3be46631358f921152.png
+```{figure} images/gyazo/fc2b22f9e8b94a3be46631358f921152.png
 ```
 
 - {bdg-dark}`指示` 作業フォルダ名を`boxmodel`として下さい。
@@ -535,10 +535,10 @@ body {
 ````{hint}
 内容の幅や高さについて指定が無い場合には、スタイルを書く必要はありません。
 （幅や高さの初期値`auto`に基づいてブラウザが自動的に大きさを計算します。）
-```{figure} https://i.gyazo.com/2ed4ae9b49cc740a0c083dc7b40d9679.png
+```{figure} images/gyazo/2ed4ae9b49cc740a0c083dc7b40d9679.png
 例）この場合には幅と高さのスタイルを書く必要はありません。
 ```
-```{figure} https://i.gyazo.com/4deecdc88e134c2f057149fbfcba9881.png
+```{figure} images/gyazo/4deecdc88e134c2f057149fbfcba9881.png
 例）この場合には高さのスタイルを書く必要があります。
 ```
 ````

@@ -4,16 +4,16 @@
 
 ソースコードを確認したいページをブラウザーで開いておきます。
 
-```{figure} https://i.gyazo.com/df0ba70bd64519dd1fdcf6347ca5844b.png
+```{figure} images/gyazo/df0ba70bd64519dd1fdcf6347ca5844b.png
 [右クリック]-[ページのソースを表示]を選択します。
 ```
 
-```{figure} https://i.gyazo.com/fdd5a6fd45af2b05b55a358afa14c156.png
+```{figure} images/gyazo/fdd5a6fd45af2b05b55a358afa14c156.png
 ページのソースコードが表示されました。
 ここからページ内で使用しているスタイルシートのURLをクリックすると...
 ```
 
-```{figure} https://i.gyazo.com/d61e4417918294a2b45a248e3d6e115b.png
+```{figure} images/gyazo/d61e4417918294a2b45a248e3d6e115b.png
 スタイルシートのファイルが開かれ、ソースコードを確認できました。
 ```
 

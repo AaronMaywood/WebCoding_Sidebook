@@ -52,3 +52,40 @@ sync-all:
 	sync-guidebook level8
 	sync-guidebook level9
 	sync-guidebook level10
+
+# ../gyazo-to-local/ にて、gyazoの画像を images/gyazo に落とし込んだあとに以下のコマンドを実行して下さい。
+all-gyazo-to-local-images:
+	make gyazo-to-local-images target=LEVEL1.md
+	make gyazo-to-local-images target=LEVEL2.md
+	make gyazo-to-local-images target=LEVEL3.md
+	make gyazo-to-local-images target=LEVEL4.md
+	make gyazo-to-local-images target=LEVEL5.md
+	make gyazo-to-local-images target=LEVEL6.md
+	make gyazo-to-local-images target=LEVEL7.md
+	make gyazo-to-local-images target=LEVEL8.md
+	make gyazo-to-local-images target=LEVEL9.md
+	make gyazo-to-local-images target=LEVEL10.md
+	make gyazo-to-local-images target=cards/devtools/screen-width.md
+	make gyazo-to-local-images target=cards/devtools/device-mode.md
+	make gyazo-to-local-images target=cards/devtools/box-model.md
+	make gyazo-to-local-images target=cards/vscode/go-live.md
+	make gyazo-to-local-images target=cards/vscode/save.md
+	make gyazo-to-local-images target=cards/vscode/auto-complete.md
+	make gyazo-to-local-images target=cards/devtools/japanese.md
+	make gyazo-to-local-images target=cards/new-file.md
+	make gyazo-to-local-images target=cards/url-chars.md
+	make gyazo-to-local-images target=cards/favicon.md
+	make gyazo-to-local-images target=cards/google-fonts.md
+	make gyazo-to-local-images target=cards/view-source.md
+	make gyazo-to-local-images target=cards/extension-settings.md
+	make gyazo-to-local-images target=cards/figma.md
+	make gyazo-to-local-images target=cards/open-folder.md
+	make gyazo-to-local-images target=equip.md
+	make gyazo-to-local-images target=intro.md
+
+gyazo-to-local-images:
+	sed -r 's/https:\/\/(i.)?gyazo.com/images\/gyazo/' $(target) > /tmp/tmp.md
+	mv /tmp/tmp.md $(target)
+	@echo 置換箇所一覧:
+	grep gyazo $(target)
+

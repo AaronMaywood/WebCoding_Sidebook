@@ -137,17 +137,17 @@ body {
 % https://github.com/AaronMaywood/coding_sample/tree/main/media-query/sample1/index.html
 https://aaronmaywood.github.io/coding_sample/media-query/sample1/index.html
 
-```{figure} https://gyazo.com/7660620827b8787a46baa1d8534ba0d2.gif
+```{figure} images/gyazo/7660620827b8787a46baa1d8534ba0d2.gif
 ブラウザーの幅を狭くしたり広くしたりしてみましょう。幅が600px以下の時には青色に変化します。
 ```
 
 サンプルでどのようにスタイルが適用されているのかを、`デベロッパーツール`から確認してみます。
 % cards/devtools.md ←ここに展開する必要はないが、どこかで必要かもなのでメモ。ただしまだ書いていない{{TODO}}
 
-```{figure} https://i.gyazo.com/2795efad6129632c8b0c5b0d0a089bd7.png
+```{figure} images/gyazo/2795efad6129632c8b0c5b0d0a089bd7.png
 `body`の背景色は`background:lightgreen;`です。
 ```
-````{figure} https://i.gyazo.com/fe175e030a3f1d2a1b2d76f10da33509.png
+````{figure} images/gyazo/fe175e030a3f1d2a1b2d76f10da33509.png
 幅を600px以下にした時には新たに`background:blue;`のスタイルが追加になり、当初の`background:lightgreen;`が上書きされて見た目が変化しました。
 ````
 
@@ -226,15 +226,15 @@ https://aaronmaywood.github.io/coding_sample/media-query/sample2/index.html
 % cards/view-source.md	にブラウザーからソースコードを開く方法をまとめたい。
 % ただし、ここではsample2/index.htmlに特化した説明のため、cardsをインポートせず、展開している。
 
-```{figure} https://i.gyazo.com/df0ba70bd64519dd1fdcf6347ca5844b.png
+```{figure} images/gyazo/df0ba70bd64519dd1fdcf6347ca5844b.png
 [右クリック]-[ページのソースを表示]を選択します。
 ```
 
-```{figure} https://i.gyazo.com/fdd5a6fd45af2b05b55a358afa14c156.png
+```{figure} images/gyazo/fdd5a6fd45af2b05b55a358afa14c156.png
 ページのソースコードが表示されました。スタイルシートを確認したいので`css/style.css`をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/d61e4417918294a2b45a248e3d6e115b.png
+```{figure} images/gyazo/d61e4417918294a2b45a248e3d6e115b.png
 スタイルシートのソースコードが開かれました。
 ```
 
@@ -346,7 +346,7 @@ PC版のGoogle Chromeのデベロッパーツールには各種スマートフ�
 スマートフォンには「レスポンシブ」に対応していない一般のPC版のウェブサイトを閲覧できるようにするための仕組みがあります。
 それは内部的にPC版相当の仮想的な画面幅（実機より広い画面幅）を持ち、そこに描画したページを実機の横幅である`375px`に**縮小表示**するというしかけになっています。
 
-```{figure} https://i.gyazo.com/e9c4894cfc2f337e1c6d44aea9dfc1dc.png
+```{figure} images/gyazo/e9c4894cfc2f337e1c6d44aea9dfc1dc.png
 文字がやたらに小さいのは縮小表示されているためです。
 ```
 
@@ -378,7 +378,7 @@ https://aaronmaywood.github.io/coding_sample/media-query/sample3/
 
 デバイスモードに入り、`iPhone SE`として確認してみましょう。
 
-```{figure} https://i.gyazo.com/0cded285d20ab0d03af63ed1d614da54.png
+```{figure} images/gyazo/0cded285d20ab0d03af63ed1d614da54.png
 正しい表示（青）になりました。
 ```
 
@@ -464,7 +464,7 @@ https://aaronmaywood.github.io/coding_sample/media-query/sample3/
 
 https://aaronmaywood.github.io/coding_sample/liquid/index.html
 
-```{figure} https://i.gyazo.com/8720935717ebcb2413c38e1fcba97109.png
+```{figure} images/gyazo/8720935717ebcb2413c38e1fcba97109.png
 ```
 
 まず、３つの色分けされたボックスがありますが、それぞれのボックスの幅には`width: 90%;`のように`％幅`を指定しています。
@@ -478,7 +478,7 @@ https://aaronmaywood.github.io/coding_sample/liquid/index.html
 - オレンジの点線で描かれた`body要素`は、その親、`body要素`の親は`html要素`で、`html要素`の幅は画面幅と等しいことになっていますから、画面幅に対しての90%が指定されています。
 
 画面幅を変更した場合は次のようになります。
-```{figure} https://i.gyazo.com/621225a5c5687e8e7769882b49062eff.gif
+```{figure} images/gyazo/621225a5c5687e8e7769882b49062eff.gif
 ```
 
 画面幅が変わると`body要素`の幅が変わる、`body要素`の幅が変わるとその子要素の青が変わる...と連鎖的に反応してそれぞれのボックスの比率を保ったまま、画面幅に応じた表示が実現できます。
@@ -507,7 +507,7 @@ https://aaronmaywood.github.io/coding_sample/liquid/index.html
 
 しかし、極端に小さいサイズには対応しきれません。（大きすぎるサイズも同様に対応しきれません。）
 
-```{figure} https://i.gyazo.com/70b25e526e7720e4c23d0a9e14171441.gif
+```{figure} images/gyazo/70b25e526e7720e4c23d0a9e14171441.gif
 リキッドレイアウトは小さすぎる幅にまで過剰に応じてしまい、レイアウトや内容がクラッシュする原因になります。
 ```
 
@@ -521,11 +521,11 @@ https://aaronmaywood.github.io/coding_sample/liquid/index.html
 
 ハンバーガーメニューとは、狭い画面でも操作しやすいナビゲーションを提供するために、引き出して使用できるようにしたメニュー（ナビゲーション）のことです。
 
-```{figure} https://i.gyazo.com/9f3a8f93aac7b1b10a6ed58c3cbde3c6.png
+```{figure} images/gyazo/9f3a8f93aac7b1b10a6ed58c3cbde3c6.png
 :class: full-width
 引き出しボタンをクリックすると...
 ```
-```{figure} https://i.gyazo.com/ba81c0d097ed5815f269becafad5ab93.png
+```{figure} images/gyazo/ba81c0d097ed5815f269becafad5ab93.png
 :class: full-width
 グローバルナビゲーションが引き出されました。
 ```
@@ -764,7 +764,7 @@ SlickNavの使用方法は公式サイトの指示に従います。
 ### 問題「レスポンシブ対応のページの作成」
 
 図に示すレスポンシブ対応のページを実装して下さい。
-```{figure} https://i.gyazo.com/282a10c93f9f756f25c908e734452f21.png
+```{figure} images/gyazo/282a10c93f9f756f25c908e734452f21.png
 本教材は<a class="reference external" href="https://www.figma.com/@joyshaheb" target="_blank">Khondokor Alarm@JoyShaheb</a>氏によるもので、それに加筆したものです。
 オリジナルはライセンス<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank">CC BY 4.0</a>にて配付されており、<a class="reference external" href="https://www.figma.com/community/file/1150370769219258177" target="_blank">https://www.figma.com/community/file/1150370769219258177</a>にあります。
 本作品の中で使用されている各画像素材のライセンスは、<a class="reference external" href="https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=19%3A6&t=jZACmIAskTTrw8VJ-1" target="_blank">画像素材一覧</a>の中にあるそれぞれのURLから確認することができます。

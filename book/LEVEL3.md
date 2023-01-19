@@ -385,7 +385,7 @@ p {
   text-align: center;
 }
 ```
-```{figure} https://i.gyazo.com/2ad59ef619dda9b25debc46b77fdb904.png
+```{figure} images/gyazo/2ad59ef619dda9b25debc46b77fdb904.png
 このような見た目になればOKです。
 ```
 
@@ -675,18 +675,18 @@ p {
 
 完成形は次の通りです。
 
-```{figure} https://i.gyazo.com/78435f72c7c38fc346a3bb34abaf737f.png
+```{figure} images/gyazo/78435f72c7c38fc346a3bb34abaf737f.png
 :class: full-width
 （よく見えるようにブラウザで拡大表示を行っています。等倍表示の場合を次↓に示します。）
 ```
 
-```{figure} https://i.gyazo.com/bd346469223d3b17e9b18af9e2701198.png
+```{figure} images/gyazo/bd346469223d3b17e9b18af9e2701198.png
 （ブラウザで等倍表示の場合です。）**この見た目を目指して作成して下さい**。
 ```
 
 テキスト素材です。こちらをコピペして`index.html`を作成して下さい。
 ````{margin} 右肩のアイコンからコピーできます
-```{image} https://i.gyazo.com/ee48fa64233c30409f71b97e06b65177.png
+```{image} images/gyazo/ee48fa64233c30409f71b97e06b65177.png
 ```
 ````
 ``` text
@@ -709,7 +709,7 @@ color: #ff3300 部分を宣言という
 
 細かな作成指示を示します。
 
-```{figure} https://i.gyazo.com/907456caa5369fe81cb34b3503bc47f7.png
+```{figure} images/gyazo/907456caa5369fe81cb34b3503bc47f7.png
 :class: full-width
 ```
 

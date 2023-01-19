@@ -136,7 +136,7 @@ LEVEL2では`HTML`の残りの要素を学び、`HTML`の学習を終了しま�
 </body>
 ```
 ブラウザでは次のように表示されます。
-```{figure} https://i.gyazo.com/1c96b044a85e3d9018cb533b7242c84c.png
+```{figure} images/gyazo/1c96b044a85e3d9018cb533b7242c84c.png
 ```
 
 ここに`section`要素が適用できます。
@@ -303,7 +303,7 @@ LEVEL2では`HTML`の残りの要素を学び、`HTML`の学習を終了しま�
 ````{tip}
 一般的なウェブサイトでは、`body`の`header`（つまり、ページの冒頭部）にロゴやグローバルナビゲーション（主要なサイト内リンク集）を配置することが典型的です。
 同様に`body`に大きめの`footer`領域をとり、サイト内のナビゲーションを提供したりします。
-```{figure} https://i.gyazo.com/b32484ef5445ed8be3cbacc23be96ea0.png
+```{figure} images/gyazo/b32484ef5445ed8be3cbacc23be96ea0.png
 典型的な`header`と`footer`の用法
 ```
 ````
@@ -477,7 +477,7 @@ LEVEL2では`HTML`の残りの要素を学び、`HTML`の学習を終了しま�
 ````{hint}
 テキスト作成時から https://adjustacademy.com/ は新しいデザインに改訂されました。
 とはいえ、やることは同じです。左上のロゴの部分を調べてみましょう。
-```{figure} https://i.gyazo.com/9e61c7b43e8dd484ab4151f994f7f937.png
+```{figure} images/gyazo/9e61c7b43e8dd484ab4151f994f7f937.png
 ```
 ````
 
@@ -544,14 +544,14 @@ LEVEL2では`HTML`の残りの要素を学び、`HTML`の学習を終了しま�
 - {bdg-dark}`指示` 作業フォルダ名を`wikipedia`とし、`HTML`のファイル名は`index.html`として下さい。
 
 Wikipediaのページの大規模構造を色分けしてみました。この構造を真似してマークアップしたいと思います。**ただしページ全体を作るとなると量が多すぎるので、途中までで端折っています。完全版のページを作るわけではないことに留意して下さい。**
-```{figure} https://gyazo.com/39b2a438fa19201a4f36cee9baf18acc.png
+```{figure} images/gyazo/39b2a438fa19201a4f36cee9baf18acc.png
 -----
 class: full-width
 -----
 ```
 
 Wikipediaのページ構成の意味を汲んで、冒頭部や主要なナビゲーション等の説明を入れると次のようになります。
-```{figure} https://i.gyazo.com/f8d55ac689cdf8694cff743f5a645d6e.png
+```{figure} images/gyazo/f8d55ac689cdf8694cff743f5a645d6e.png
 ---
 name: structures
 class: full-width
@@ -604,7 +604,7 @@ class: full-width
   ```
 
 なお、完成したページは、ブラウザーでは次のように見えます。
-```{figure} https://i.gyazo.com/79098540e5a024ea2f7a01f9f751cb8c.png
+```{figure} images/gyazo/79098540e5a024ea2f7a01f9f751cb8c.png
 この出題で使用する`section`、`article`、`aside`、`nav`、`header`、`footer`、`main`要素は、いずれも見た目に影響を与えません。したがって**見た目ではなく、意味を踏まえて正しくマークアップを行えるかが問われます**。
 ```
 

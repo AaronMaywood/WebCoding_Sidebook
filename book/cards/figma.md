@@ -14,19 +14,19 @@
 1. 共有された`Figama`のURLをブラウザーで開いて下さい。
 	（今回は[こちら](https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=0%3A1 )のFigmaを使用して説明します。）
 2. ブラウザーで共有ファイルを開いた状態です。
-	```{figure} https://i.gyazo.com/57d866a68128092ccc02d89cd7186094.png
+	```{figure} images/gyazo/57d866a68128092ccc02d89cd7186094.png
 	```
 3. 目立つ場所にあるこの表示は邪魔ですが、無視してください。
-	```{figure} https://i.gyazo.com/414847918074058113b2621c4334b196.png
+	```{figure} images/gyazo/414847918074058113b2621c4334b196.png
 	Figmaのアカウントを作れば編集したりの共同作業ができますよというお誘いです。
 	（もちろんアカウントを作ってもかまいません。本項ではアカウントを作らない場合について説明します。）
 	```
 4. 可能な操作は２つだけです。
 	- {bdg-dark}`Ctrl+マウスホイール`で拡大縮小できます。
-		```{figure} https://i.gyazo.com/c903240653aefc9791220de2ca29e9fa.gif
+		```{figure} images/gyazo/c903240653aefc9791220de2ca29e9fa.gif
 		```
 	- ドラッグでスクロールできます。
-		```{figure} https://i.gyazo.com/d170bc67ef59b46a3a58247a5af597c3.gif
+		```{figure} images/gyazo/d170bc67ef59b46a3a58247a5af597c3.gif
 		```
 以上、Figmaの使い方はこれだけです。
 拡大縮小とスクロール操作を使用して閲覧して下さい。
@@ -35,7 +35,7 @@
 **だれかが居てもびっくりしないで**
 
 `Figma`の画面を閲覧中に、他の人のマウスカーソルが現れることがあります。これは`Figma`ファイルを共有しているためであり、問題ありません。
-```{figure} https://i.gyazo.com/8025e6de075d79ff7671df3eb2d8357e.png
+```{figure} images/gyazo/8025e6de075d79ff7671df3eb2d8357e.png
 他人（みなさんと同じ学習者）のマウスカーソルを緑の丸で示しました。カーソルが動き回っていてもびっくりしないでね😊
 ```
 ````

@@ -90,7 +90,7 @@ sticky
 ````{tip}
 ここで説明する具体例をこちらから確認できます。
 https://aaronmaywood.github.io/coding_sample/full-height/index.html
-```{figure} https://i.gyazo.com/a0adf5bac7ba7efbfe47a8ddf39b5e28.png
+```{figure} images/gyazo/a0adf5bac7ba7efbfe47a8ddf39b5e28.png
 ```
 ````
 
@@ -417,10 +417,10 @@ p {
 素材の`1/`フォルダを`VS Code`で開いて下さい。
 `css/style.css`を編集して以下の問いに答えてください。
 
-```{figure} https://i.gyazo.com/049658e1f669ded396e2067f62864a62.png
+```{figure} images/gyazo/049658e1f669ded396e2067f62864a62.png
 この状態からスタートして...
 ```
-```{figure} https://i.gyazo.com/0631e6f5499cbed55b429fbb13c0a723.png
+```{figure} images/gyazo/0631e6f5499cbed55b429fbb13c0a723.png
 この見た目にしてください。 （黄緑色のボックスは下にある文字を隠してかまいません。）
 ```
 
@@ -428,18 +428,18 @@ p {
 
 - {bdg-dark}`指示` 作業フォルダ名を`position/2`として下さい。（`position`フォルダを作り、その中に`2`フォルダを作って下さい。）
 
-```{figure} https://i.gyazo.com/68646dbc76316e4d588dae039143d72a.png
+```{figure} images/gyazo/68646dbc76316e4d588dae039143d72a.png
 オレンジ色の「最新の開講情報」の吹き出しのように、ボックスからはみ出したデザインにチャレンジします。
 ```
 
 素材の`2/`フォルダを`VS Code`で開いて下さい。
 `css/style.css`を編集して以下の問いに答えてください。
 
-```{figure} https://i.gyazo.com/7e29530dcee9b5a11d2551a228b371f0.png
+```{figure} images/gyazo/7e29530dcee9b5a11d2551a228b371f0.png
 この状態からスタートして...
 ```
 
-```{figure} https://i.gyazo.com/479fe0cb4a8bd896a8f3011896dbedd9.png
+```{figure} images/gyazo/479fe0cb4a8bd896a8f3011896dbedd9.png
 この見た目にしてください。 （黄緑色のボックスは下にある文字を隠してかまいません。）
 ```
 
@@ -447,20 +447,20 @@ p {
 
 - {bdg-dark}`指示` 作業フォルダ名を`position/3`として下さい。（`position`フォルダを作り、その中に`3`フォルダを作って下さい。）
 
-```{figure} https://i.gyazo.com/72e8b3c527654b8a53533bd23acac6fe.jpg
+```{figure} images/gyazo/72e8b3c527654b8a53533bd23acac6fe.jpg
 左側のメニュー領域を作成します。
 ```
-```{figure} https://i.gyazo.com/fbd9f57fef854d4e2c9f5c6db9209cfd.gif
+```{figure} images/gyazo/fbd9f57fef854d4e2c9f5c6db9209cfd.gif
 なお、記事内容をスクロールさせても左側メニューは固定されています。
 ```
 
 素材の`3/`フォルダを`VS Code`で開いて下さい。
 `css/style.css`を編集して以下の問いに答えてください。
 
-```{figure} https://i.gyazo.com/45b7a1ab2a51344f8c44300562d764e5.png
+```{figure} images/gyazo/45b7a1ab2a51344f8c44300562d764e5.png
 この状態からスタートして...
 ```
-```{figure} https://i.gyazo.com/fe2fd558d7f999979d963f3c18eaca71.gif
+```{figure} images/gyazo/fe2fd558d7f999979d963f3c18eaca71.gif
 左側の黄色の領域を画面に固定し、記事内容をスクロールさせても動かないようにして下さい。
 ```
 

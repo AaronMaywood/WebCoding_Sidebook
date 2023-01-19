@@ -168,10 +168,10 @@ align
 - {bdg-dark}`指示` 作業フォルダ名を`flexbox/1`として下さい。（`flexbox`フォルダを作り、その中に`1`フォルダを作って下さい。）
 - 使用する配付素材は`1`フォルダです。この中に`index.html`と`css/style.css`があります。
 
-```{figure} https://i.gyazo.com/f022295e9e24477a80bbf7de096167f6.png
+```{figure} images/gyazo/f022295e9e24477a80bbf7de096167f6.png
 配付素材`1/index.html`の初期状態です。
 ```
-```{figure} https://i.gyazo.com/c1843df5e122540b1052209705af1f78.png
+```{figure} images/gyazo/c1843df5e122540b1052209705af1f78.png
 Flexboxを使用して`one`〜`four`のボックスを横に並べるよう、`style.css`に手を加えて下さい。
 ```
 
@@ -180,11 +180,11 @@ Flexboxを使用して`one`〜`four`のボックスを横に並べるよう、`s
 - {bdg-dark}`指示` 作業フォルダ名を`flexbox/2`として下さい。（`flexbox`フォルダを作り、その中に`2`フォルダを作って下さい。）
 - 使用する配付素材は`2`フォルダです。この中に`index.html`と`css/style.css`があります。
 
-```{figure} https://i.gyazo.com/92ac5e6e527db6d27e81133b3a0a9fff.png
+```{figure} images/gyazo/92ac5e6e527db6d27e81133b3a0a9fff.png
 配付素材`2/index.html`の初期状態です。
 ```
 
-```{figure} https://i.gyazo.com/977b6a49ab5216e2c48eee644a51e227.png
+```{figure} images/gyazo/977b6a49ab5216e2c48eee644a51e227.png
 `style.css`に手を加え、`Flexbox`を使用して３つのボックスを横に並べてください。
 
 幅は画面幅を３等分するようにし、高さは内容の多い３つ目のボックスに揃えて下さい。
@@ -196,12 +196,12 @@ Flexboxを使用して`one`〜`four`のボックスを横に並べるよう、`s
 - {bdg-dark}`指示` 作業フォルダ名を`flexbox/3`として下さい。（`flexbox`フォルダを作り、その中に`3`フォルダを作って下さい。）
 - 使用する配付素材は`3`フォルダです。この中に`index.html`と`css/style.css`があります。
 
-```{figure} https://i.gyazo.com/0ddc5909ccf8b243c51fa2f523500481.png
+```{figure} images/gyazo/0ddc5909ccf8b243c51fa2f523500481.png
 :class: no-border
 配付素材`3/index.html`の初期状態です。
 ```
 
-```{figure} https://i.gyazo.com/856c242fde1c4d2eec06a271f906be7d.png
+```{figure} images/gyazo/856c242fde1c4d2eec06a271f906be7d.png
 :class: no-border
 Flexboxを使用して灰色のボックスを枠内の中央に配置するよう、`style.css`に手を加えて下さい。
 ```
@@ -212,11 +212,11 @@ Flexboxを使用して灰色のボックスを枠内の中央に配置するよ�
 - {bdg-dark}`指示` 作業フォルダ名を`flexbox/4`として下さい。（`flexbox`フォルダを作り、その中に`4`フォルダを作って下さい。）
 - 使用する配付素材は`4`フォルダです。この中に`index.html`と`css/style.css`があります。
 
-```{figure} https://i.gyazo.com/9342edcfcce1278c6404267094a35ec9.png
+```{figure} images/gyazo/9342edcfcce1278c6404267094a35ec9.png
 配付素材`4/index.html`の初期状態です。
 ```
 
-```{figure} https://i.gyazo.com/f41d0456f5205b47de6a136a6a609ab0.png
+```{figure} images/gyazo/f41d0456f5205b47de6a136a6a609ab0.png
 Flexboxを使用して「ドロップ」「タフィ」などのお菓子の名前を横並びにするよう、`style.css`に手を加えて下さい。
 （枠内に入りきらない時には改行して下さい。）
 ```

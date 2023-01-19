@@ -11,12 +11,12 @@
 ````{tip}
 Windowsでファイルを操作する標準アプリの名前を**エクスプローラー**と言います。
 おなじみのこのウインドウの事です。
-```{figure} https://i.gyazo.com/ec0cdc36bd6d40ecbdc709674ea6408a.png
+```{figure} images/gyazo/ec0cdc36bd6d40ecbdc709674ea6408a.png
 このウインドウは**エクスプローラー**というアプリの画面です。
 ````
 拡張子が表示されるように設定を変更しましょう。
 - Windows10の場合 ... エクスプローラーから[表示]-[ファイル名拡張子]を選択する
-	```{figure} https://i.gyazo.com/780ed50ab66223ccf660b609f53e936b.gif
+	```{figure} images/gyazo/780ed50ab66223ccf660b609f53e936b.gif
 	```
 - windows11の場合
 	https://pc-karuma.net/show-file-extensions-on-windows-11/ を参考に設定して下さい。

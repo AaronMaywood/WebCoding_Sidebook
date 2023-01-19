@@ -1,49 +1,49 @@
 ````{card} デベロッパーツールを使用してボックスモデルを確認する方法
 
 1. 見たいページを表示します。
-	```{image} https://i.gyazo.com/d7036acf145a6c9ffcddfc404cf156da.png
+	```{image} images/gyazo/d7036acf145a6c9ffcddfc404cf156da.png
 	```
 2. {bdg-dark}`F12` でデベロッパーツールを開きます。
-	````{figure} https://i.gyazo.com/56618abf9cf2e8af15f5ff06f68e96bf.png
+	````{figure} images/gyazo/56618abf9cf2e8af15f5ff06f68e96bf.png
 	右側にデベロッパーツールが開きました。
 	```{tip}
 	再度{bdg-dark}`F12` を押すとデベロッパーツールを閉じることができます。
 	```
 	````
-	```{figure} https://i.gyazo.com/7aba84d8195e39341e7f3a698d071026.png
+	```{figure} images/gyazo/7aba84d8195e39341e7f3a698d071026.png
 	「**要素**」のタブが選択されています。「要素」は既定値で、これから説明するのもコーダーとして主に使用するのもこの「要素」の機能です。「要素」は`HTML`とそれに関連する`CSS`を紐付けて確認することができる機能です。またその場でスタイルを変更して即座にプレビューすることもでき、コーディングの理解を助ける優れた機能を有しています。
 	```
 3. 画面要素を選択する矢印マークのアイコンをクリックします。
-	```{figure} https://i.gyazo.com/58446296c0b2c97ebb3b14947ad198a6.png
+	```{figure} images/gyazo/58446296c0b2c97ebb3b14947ad198a6.png
 	クリックするたびに水色と灰色が交互に変わります。水色の状態にしてください。
 	```
 4. 矢印マークが水色のとき、マウスカーソルで画面上の見たい要素を選ぶことができます。
-	```{figure} https://i.gyazo.com/c42263f3e2406cad903a9e1dabc12cfd.png
+	```{figure} images/gyazo/c42263f3e2406cad903a9e1dabc12cfd.png
 	:class: full-width
 	見たい要素にカーソルを合わせたら、クリックで確定して下さい。
 	```
 5. 画面上のクリックした箇所に対応する`HTML`のソースコードと`CSS`スタイルが確認できます。スタイルとして表示されるのは選んだ行に対するもののみとなっており、この行に関係のないスタイルは現れません。したがって、この場所にどんなスタイルが当たっているか（または当たっていないか）を確認できる絶好の機能です。これは**スタイル上のトラブルを解消するのに役立ちます。**
-	```{figure} https://i.gyazo.com/4523edf5f5cd0c144bd5d123bd8a2c23.png
+	```{figure} images/gyazo/4523edf5f5cd0c144bd5d123bd8a2c23.png
 	:class: full-width
 	```
 6. この状態で「計算済み」のタブに切り替えて下さい。
-	```{figure} https://i.gyazo.com/d85007f4764cf44447749af23f3eee4a.png
+	```{figure} images/gyazo/d85007f4764cf44447749af23f3eee4a.png
 	選択箇所のボックスモデルが確認できました。
 	```
 7. ボックスモデルの読み方を説明します。
-	```{figure} https://gyazo.com/3027f50cdbf770bbccd21641909dcc27.png
+	```{figure} images/gyazo/3027f50cdbf770bbccd21641909dcc27.png
 	ボックスモデルは、外側に広がるマージンから、内側に収まるコンテンツにかけての各段階の情報を示します。
 	```
 	具体例を２つ示します。左図と右の説明を照らし合わせて図を読み解いてください。
-	```{figure} https://i.gyazo.com/bba8e86ea99aeab2801c718014d8748e.png
+	```{figure} images/gyazo/bba8e86ea99aeab2801c718014d8748e.png
 	```
 	具体例のうち、後者のボックスモデルに対するスタイルを確認するには、次のようにします。
-	```{figure} https://i.gyazo.com/dbfbbbb3e0e5551816e08643812d6476.png
+	```{figure} images/gyazo/dbfbbbb3e0e5551816e08643812d6476.png
 	:class: full-width
 	ボックスモデルにはブラウザの解釈結果である**計算値**が示されているため、源となったスタイル指示とは異なる場合があります。
 	```
 8. 最後に「要素」の編集機能も使ってみましょう。図ではボックスモデルの値をいじっていますが、「スタイル」タブからその他のスタイルの値も同様に操作可能です。
-	```{figure} https://i.gyazo.com/f413f9bcd84a3faa81752c6ae7bd40d9.png
+	```{figure} images/gyazo/f413f9bcd84a3faa81752c6ae7bd40d9.png
 	:class: full-width
 	編集機能は即座にプレビューされるため、**学習用途にも非常に便利です。**
 	```

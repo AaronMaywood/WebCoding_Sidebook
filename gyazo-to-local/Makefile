@@ -1,5 +1,5 @@
 express-gyazo-url:
-	rg i.gyazo.co ../book/*.md ../book/cards > gyazo.list
+	rg gyazo.com ../book/*.md ../book/cards > gyazo.list
 	@ echo gyazo.list を生成しました. $ make download でgyazo.list に含まれるURLのリソースを gyazo フォルダにダウンロードします。
 
 download:
