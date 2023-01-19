@@ -153,9 +153,23 @@ end
 ## スクリーンショットのワークフロー
 
 スクリーンショットはGyazoを使用してインターネットにアップロードし、外部URLの埋め込みとして使用している。
-- TODO Gyazoに依存しているので、全画像をローカルにダウンロードしておきたい
 
 スクリーンショットに説明を入れたい場合には、撮ったスクリーンショットをFigmaに貼り付け、Figmaで説明を入れた上でその画像をGyazoで撮影し、使用している。
+
+
+### スクリーンショットのGyazo依存を止めて全画像をローカルにダウンロードする方法
+
+gyazoのURLを埋め込んだら次のコマンドを実行してローカル化して下さい。
+
+```
+# gyazoのURLから画像を book/images/gyazoにダウンロードする
+make extract-gyazo-url
+make download
+# 各.mdに含まれているgyazoのURLを book/images/gazo を見るように置換する
+cd ../book
+make all-gyazo-to-local-images
+git diff  # 差分の確認
+```
 
 ## 使用する画像のライセンス
 - Wikipedia 

@@ -1,4 +1,4 @@
-express-gyazo-url:
+extrac-gyazo-url:
 	rg gyazo.com ../book/*.md ../book/cards > gyazo.list
 	@ echo gyazo.list を生成しました. $ make download でgyazo.list に含まれるURLのリソースを gyazo フォルダにダウンロードします。
 
