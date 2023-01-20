@@ -19,12 +19,12 @@ latex:
     targetname: book.tex
 
 # Add a bibtex file so that we can create citations
-bibtex_bibfiles:
-  - references.bib
+#bibtex_bibfiles:
+#  - references.bib
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/AaronMaywood/WebCodingTextbook  # Online location of your book
+  url: https://github.com/AaronMaywood/WebCoding_Sidebook  # Online location of your book
   path_to_book: book  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
@@ -32,7 +32,7 @@ repository:
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   # 読んでいる時に編集できる(GitHub側で編集を行う) →リリース時にはfalseにすること
-  use_edit_page_button: true
+  use_edit_page_button: false
   favicon: "images/favicon.ico"
   # https://jupyterbook.org/en/stable/web/announcements.html
   # announcement: "<p class='mystyle'>この本はまだ開発段階です。</p>"
@@ -65,16 +65,16 @@ parse:
     # Windows特有のキー
     WIN-WIN: '<img class="char" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Windows_key_logo_2012_%28dark-grey%29.svg/800px-Windows_key_logo_2012_%28dark-grey%29.svg.png"> '
     # Mac特有のキー
-    MAC-COMMAND: '{bdg-dark}`⌘`'   # TODO MAC- をうまく設置できない. 設置しても無視される
-    MAC-SHIFT: '{bdg-dark}`⇧`'
-    MAC-OPTION: '{bdg-dark}`⌥`'
-    MAC-CONTROL: '{bdg-dark}`⌃`'
+    # MAC-COMMAND: '{bdg-dark}`⌘`'   # TODO MAC- をうまく設置できない. 設置しても無視される. おそらく`-`が利用できない
+    # MAC-SHIFT: '{bdg-dark}`⇧`'
+    # MAC-OPTION: '{bdg-dark}`⌥`'
+    # MAC-CONTROL: '{bdg-dark}`⌃`'
     # badges
     # TODO: <span style="border-radius:3px;background:yellow;font-weight:bold;font-size:2rem;"> TODO </span>
     TODO: "{bdg-danger}`TODO`"
     DONE: "{bdg-success}`DONE`"
     HALF: "{bdg-success-line}`50%`"
-    KBD: "{bdg-dark}`ENTER`" # TODO このENTERを任意にするようなマクロが定義できないかな？
+    KBD: "{bdg-dark}`ENTER`" # TODO このENTERを任意にするようなマクロが定義できないかな？→確か置換できたはず
     BAN: "{bdg-danger}`閲覧にはレベルアップが必要です。`"
     PC: "{bdg-info}`コンピューター`"
     BROWSER: "{bdg-info}`ウェブブラウザー`"

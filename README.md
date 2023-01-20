@@ -41,8 +41,11 @@ $ sync-guidebook level1
 ```
 にて更新可能です。
 
-URLの一部をハッシュ化しているのは、そのレベルに到達していない人にわからないようにする工夫です。
+各レベルのガイドブックは`リンクを知っている人のみ公開`のため、
+URLの一部をハッシュ化しています。
 
+開発者ノート
+TODO
 LEVEL1
 https://adjustacademy.com/webcoder/guidebook/c341b271f5dba18dd4099435670a2c74/intro.html
 LEVEL2
@@ -69,12 +72,14 @@ https://adjustacademy.com/webcoder/guidebook/f3a643dd575af9baeb1ba1d032959358/LE
 
 ビルドされたウェブサイトをプレビューするため、以下のコマンドを実行しておく
 ```
-$ firefox ~/WebCoding_Sidebook/mapc-build-levels/level1/_build/html/index.html &
+$ cd ~/WebCoding_Sidebook/book
+$ pwd
+/home/yasumura/WebCoding_Sidebook/book	# makeツールを使うときには book フォルダにいること
+$ make preview target=level1
 ```
 次に、ファイル更新を監視してビルドを繰り返すバッチを起動しておく
 ```
-$ cd ~/WebCoding_Sidebook/book
-$ make watch level=level1
+$ make watch target=level1
 ```
 
 この状態で ~/WebCoding_Sidebook/book/LEVEL1.md などのテキストを編集すると自動的にビルドされる。（ブラウザーを開いていたら、ブラウザーがリロードされる）
@@ -88,6 +93,24 @@ sync-guidebook level1
 ```
 See: https://adjustacademy.com/webcoder/guidebook/c341b271f5dba18dd4099435670a2c74/
 ```
+
+### 警告 ビルド時のエラー
+
+IndexError: list index out of range エラーでビルドに失敗することがある。
+
+```
+Exception occurred:
+  File "/home/yasumura/.local/lib/python3.8/site-packages/markdown_it/rules_block/state_block.py", line 137, in isEmpty
+    return (self.bMarks[line] + self.tShift[line]) >= self.eMarks[line]
+  ...略
+IndexError: list index out of range
+```
+
+ux.md 編集時にみられた。ux.md の中身を空にするとビルド成功し、中身を戻すとエラーとなった。
+このことから、ux.md の中の特定の文字が悪さをすると思い、二分探索で調査したが、エラーが発生する箇所が行末にあることはわかったものの、その行末だけを抽出した場合にはエラーと
+ならないため、特定の書式や文字がおかしいわけではない。
+
+したがって、このエラーが誘発される原因はわからず、単に「ビルドに失敗することがあり、そのさいはテキストを調整して出ないようにする」としか言えない。
 
 ## 昇段試験教材の提供方法
 

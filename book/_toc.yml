@@ -14,29 +14,29 @@ parts:
     chapters:
     - file: ux
     - file: tasks
-    - file: method
-    - file: skillcards
-    - file: level-design
-    - file: character_sheet
-    - file: markdown_sample
-    - file: cards
+#    - file: method
+#    - file: skillcards
+#    - file: level-design
+#    - file: character_sheet
+#    - file: markdown_sample
+#    - file: cards
   - caption: 準備
     numbered: false
     chapters:
       - file: webserver
-#  - caption: ガイドブック
-#    numbered: true
-#    chapters:
-#      - file: LEVEL1
-#      - file: LEVEL2
-#      - file: LEVEL3
-#      - file: LEVEL4
-#      - file: LEVEL5
-#      - file: LEVEL6
-#      - file: LEVEL7
-#      - file: LEVEL8
-#      - file: LEVEL9
-#      - file: LEVEL10
+  - caption: ガイドブック
+    numbered: true
+    chapters:
+      - file: LEVEL1
+      - file: LEVEL2
+      - file: LEVEL3
+      - file: LEVEL4
+      - file: LEVEL5
+      - file: LEVEL6
+      - file: LEVEL7
+      - file: LEVEL8
+      - file: LEVEL9
+      - file: LEVEL10
 #  - caption: Appendix
 #    numbered: false
 #    chapters:
