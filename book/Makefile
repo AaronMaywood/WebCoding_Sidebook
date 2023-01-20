@@ -4,39 +4,55 @@
 # 著者用のフルセットの本（管理用の記事を含む）をブラウザーで開き、ファイル更新をウォッチする
 default: preview watch
 
-build:
-	jb build ./
-
+# ファイル更新を監視し、リビルドします
 watch:
-	bin/watch.sh $(level)
+	bin/watch.sh $(target)
 
+# ビルドされた本をfirefoxで開きます
+# （ビルドされたそれぞれの本の場所は mapc-build-levels/$(target)/_build です）
+# preview target=all や preview target=level1 として利用して下さい
 preview:
-	firefox _build/html/index.html &
-
-# 配付用のLEVEL1の本をブラウザーで開く
-preview-level1:
-	firefox ../mapc-build-levels/level1/_build/html/index.html &
+	firefox ../mapc-build-levels/$(target)/_build/html/index.html &
 
 build-and-sync-all: build build-level1 build-level2 build-level3 build-level4 build-level5 build-level6 build-level7 build-level8 build-level9 build-level10 sync-all
 
-build-level1:
-	cd ../mapc-build-levels/level1 ; jb build ./
-build-level2:
-	cd ../mapc-build-levels/level2 ; jb build ./
-build-level3:
-	cd ../mapc-build-levels/level3 ; jb build ./
-build-level4:
-	cd ../mapc-build-levels/level4 ; jb build ./
-build-level5:
-	cd ../mapc-build-levels/level5 ; jb build ./
-build-level6:
-	cd ../mapc-build-levels/level6 ; jb build ./
-build-level7:
-	cd ../mapc-build-levels/level7 ; jb build ./
-build-level8:
-	cd ../mapc-build-levels/level8 ; jb build ./
-build-level9:
-	cd ../mapc-build-levels/level9 ; jb build ./
+# 各レベル毎の本をビルドします (build target=devnote は開発者向けの「執筆ノート」情報を追加した本をビルドします）
+build-all:
+	make build target=devnote
+	make build target=level1
+	make build target=level2
+	make build target=level3
+	make build target=level4
+	make build target=level5
+	make build target=level6
+	make build target=level7
+	make build target=level8
+	make build target=level9
+	make build target=level10
+
+build:
+	cd ../mapc-build-levels/$(target) ; jb build ./
+
+#build-devnote:
+#	cd ../mapc-build-levels/all ; jb build ./
+#build-level1:
+#	cd ../mapc-build-levels/level1 ; jb build ./
+#build-level2:
+#	cd ../mapc-build-levels/level2 ; jb build ./
+#build-level3:
+#	cd ../mapc-build-levels/level3 ; jb build ./
+#build-level4:
+#	cd ../mapc-build-levels/level4 ; jb build ./
+#build-level5:
+#	cd ../mapc-build-levels/level5 ; jb build ./
+#build-level6:
+#	cd ../mapc-build-levels/level6 ; jb build ./
+#build-level7:
+#	cd ../mapc-build-levels/level7 ; jb build ./
+#build-level8:
+#	cd ../mapc-build-levels/level8 ; jb build ./
+#build-level9:
+#	cd ../mapc-build-levels/level9 ; jb build ./
 build-level10:
 	cd ../mapc-build-levels/level10 ; jb build ./
 
@@ -54,6 +70,7 @@ sync-all:
 	sync-guidebook level10
 
 # ../gyazo-to-local/ にて、gyazoの画像を images/gyazo に落とし込んだあとに以下のコマンドを実行して下さい。
+# gyazoのURLをローカルの images/gyazo/ を指すようにリファクタリングします
 all-gyazo-to-local-images:
 	make gyazo-to-local-images target=LEVEL1.md
 	make gyazo-to-local-images target=LEVEL2.md

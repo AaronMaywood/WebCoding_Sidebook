@@ -1,11 +1,11 @@
 #!/usr/bin/bash
 # srcフォルダ直下のファイル書き込みを監視してbuild&ブラウザーの再読込
 #
-# 使用方法
+# 使用方法 .. Makefile のwatch 経由で使用して下さい
 # 1) 本全体をビルド
 #     watch
 # 2) LEVEL1用の本をビルド
-#     watch level=level1
+#     watch target=level1
 #
 # MEMO bash で引数あり/なしを判定する方法
 # http://itdoc.hitachi.co.jp/manuals/3020/30203S3530/JPAS0134.HTM
@@ -19,10 +19,10 @@
 while true
 do
   if [[ -n $1 ]]; then
-    arg="build-$1"
+    arg="build target=$1"
     echo $arg
   else
-    arg="build"
+    arg="build-all"
     echo $arg
   fi
   
