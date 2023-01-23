@@ -38,10 +38,12 @@
     - 完全に自習ではなく、不明点は質問できる
 - {{TODO}} https://coliss.com/articles/build-websites/operation/work/useful-tools-for-web-developer.html グリッド、flexboxジェネレーター、これで学ぶといい
 
+- {{TODO}} 検証のスキルも売りになります！
+
 ## 優先度低い
 |LEVEL|ガイドブック制作|教材の確認|昇段テスト|検証|
 |:---|:---|:---|:---|:---|
-|画像取り込み(Gyazo→ダウンロード）|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
+|画像取り込み(Gyazo→ダウンロード）|{{DONE}}|-|-|{{TODO}}|
 |LEVEL9.md Green Camp|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
 |cards/devtools/ デベロッパーツール|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
 

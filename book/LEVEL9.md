@@ -853,15 +853,20 @@ SlickNavの使用方法は公式サイトの指示に従います。
 	```
 
 
+% % download-zip-to-rename-by-hash https://github.com/AaronMaywood/responsive-by-JoyShaheb/archive/refs/heads/answer.zip
+%   https://adjustacademy.com/webcoder/001a163c73788986e7ce4450589ba3f7.zip
+% % download-zip-to-rename-by-hash https://github.com/AaronMaywood/responsive-by-JoyShaheb/archive/refs/heads/answer-by-grid.zip
+%   (gridを使用した版)
+%   https://adjustacademy.com/webcoder/c3549e90b6e7ac579944f567876218ff.zip
 % ```{code}
 % おめでとうございます。昇段試験に合格しました。
 % 
 % - 模範解答を以下のURLからダウンロードできます。自身の答えと照らし合わせて研究して下さい。
-% % download-zip-to-rename-by-hash https://github.com/AaronMaywood/responsive-by-JoyShaheb/archive/refs/heads/answer.zip
-%   https://adjustacademy.com/webcoder/c3549e90b6e7ac579944f567876218ff.zip
-% % download-zip-to-rename-by-hash https://github.com/AaronMaywood/responsive-by-JoyShaheb/archive/refs/heads/answer-by-grid.zip
-%   (gridを使用した版)
 %   https://adjustacademy.com/webcoder/001a163c73788986e7ce4450589ba3f7.zip
+% 
+% - 付録： テキストではCSSのgridを扱っておりませんが、参考までにgridを使用した解答についても共有します。
+%   https://adjustacademy.com/webcoder/c3549e90b6e7ac579944f567876218ff.zip  
+% CSSのgridについてもぜひ学んでいただきたいと思います。学ぶには「MDN グリッドレイアウト（https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Grids）」などインターネット上の文書を見てください。
 % 
 % 新しいガイドブックを案内します。次のレベル（レベル１０）に進んで下さい。
 % - 新しいガイドブックのレベル１０のページ

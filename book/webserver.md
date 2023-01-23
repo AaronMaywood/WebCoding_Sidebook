@@ -179,6 +179,11 @@ Xfreeを契約するのは読者自身の責任において行う必要があり
 ここに記載されている**FTP接続情報**を後で使用します。
 ```
 
+```{figure} https://images.unsplash.com/photo-1623593721974-f39b78528626?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
+この章はこれでおしまい。記事は長いので、次の章に行く前に休憩を挟んではいかが？😎  
+（<a href="https://unsplash.com/ja/%E5%86%99%E7%9C%9F/_NPyWow9CZk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>の<a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel Czerwinski</a>が撮影した写真）
+```
+
 ## FileZillaのインストール
 
 Webサーバーのレンタルが終わったら、今度はそのレンタルサーバーにファイルをアップロードする必要があります。
