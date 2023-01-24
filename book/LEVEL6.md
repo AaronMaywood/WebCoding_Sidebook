@@ -8,7 +8,7 @@
 % https://ejje.weblio.jp/content/flexible
 
 ```{hint}
-この`flexbox`が現れる以前は、同様のことを「`float`のパズル」によって達成する必要がありましたが、この`flexbox`は実現したいことを直接記述できるようになりました。
+この`flexbox`が現れる以前は、同様のことを「`float`のパズル」によって達成する必要がありましたが、この`flexbox`によって実現したいことを直接記述できるようになりました。
 ```
 {bdg-dark-line}`テキスト：P.139` にあるフレックスボックスの用語を押さえておきましょう。
 
@@ -20,7 +20,7 @@
   % https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Flexible_Box_Layout
   % `flexbox`
   % https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Flexbox
-  正式名称`CSS Flexible Box Layout`（CSSフレキシブルボックスレイアウト）の略で一般にフレックスボックスと呼びます。
+  正式名称を`CSS Flexible Box Layout`（CSSフレキシブルボックスレイアウト）と言い、一般にはフレックスボックス、また**単にフレックス**と呼びます。
   ```
   フレックスボックスのレイアウトを使用するには、`display:flex;`を使用してフレックスコンテナを作成します。
 
@@ -31,6 +31,18 @@
 
 フレックスアイテム
   フレックスボックスレイアウトによって並べられるボックスのことです。
+````
+
+````{hint}
+フレックスボックスレイアウトは非常に便利ですが、これから学ぶように関連するプロパティが多く、把握するまでが一苦労です。
+
+そこで、これを直感的に理解することのできるツールがありましたので紹介しておきます。
+
+- https://flexbox.buildwithreact.com/
+
+```{figure} https://i.gyazo.com/c21a3374a8ca451ee2f486f627cb2a14.png
+左側の設定をいじると右側に反映されます。いじってみて下さい。
+```
 ````
 
 ### ボックス全体の横方向の揃え位置を指定する
@@ -48,7 +60,8 @@ justify
 `lessonA.html`に対し {bdg-dark-line}`テキスト：P.141` のように`HTML`のフレックスアイテムを増やし、`flex-wrap:wrap;`を書いてみて下さい。実施後の例は`lessonB.html`です。
 
 ```{hint}
-フレックスアイテムが折り返すには、改行と同じくフレックスコンテナの幅が狭い必要があります。
+フレックスアイテムの折り返しはテキストの改行と同じ要領で行われ、行内にこれ以上新しいフレックスアイテムを格納できないときに起こります。（行溢れ）
+したがって折返しの効果を確認するには幅を狭めてやる必要があります。
 ```
 
 ### ボックス全体の縦方向の揃え位置を指定する
@@ -105,7 +118,66 @@ align
 % 仕様書にはたしかに`end`がない！
 % https://w3c.github.io/csswg-drafts/css-flexbox/#align-items-property
 
-% ## Grid
+## グリッドレイアウト
+
+（テキストにはない話題です。軽く補足します。なおグリッドレイアウトは昇段試験にも出ず、本カリキュラムを受講する上で必須ではありません。しかし、現在では常識的な`CSS`の一部であるためどこかのタイミングで学ぶようにして下さい。）
+
+グリッドレイアウトはフレックスボックスに並んで登場した新しいレイアウトの道具です。
+
+フレックスボックスが「横方向」あるいは「縦方向」の一直線上（ただし行が折返す場合はある）に要素を配置するのに対し、表のように縦横のマス目を作り、そのマス目上に要素をレイアウトするのがグリッドレイアウトです。
+```{figure} https://i.gyazo.com/ff7501d07711d512560f4940793ab48e.png
+フレックスボックスとグリッドレイアウトで表現できる典型的なレイアウトです。フレックスボックスが「横並び」で構成されているのに対し、グリッドは縦横の「マス目」を引いて、マス目上に要素を配置（マス目を空白にすることもできる）してレイアウトを構成します。
+（図は[CSS Layout Generator](https://layout.bradwoods.io/)より）
+```
+
+グリッドレイアウトに関しては推奨する次のウェブサイトで学んでください。
+
+推奨する情報源
+- [ほんっとにはじめての HTML5 と CSS3、今回から Grid Layout を作ってみよう。](http://honttoni.blog74.fc2.com/blog-entry-380.html)
+- [MDN グリッドレイアウトの基本概念](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
+
+% 
+% 
+% フレックスボックスが「横方向」あるいは「縦方向」の一直線にレイアウトするのに対し、表のように縦横のマス目にレイアウトするのがグリッドレイアウトです。
+% 
+% ```{hint}
+% **フレックスボックスはリスト、グリッドレイアウトは表**
+% 
+% フレックスボックスは「横方向」あるいは「縦方向」の一直線に並べることを扱いますが、行の折返しによって二行目ができ、結果的に縦横のマス目上に並んでいるように見えることがあります。
+% そのため、グリッドレイアウトと混同することがあります。
+% 
+% フレックスボックスはあくまでも一直線に並べるだけであり、二行目移行はあくまでも行の折返しによって生成されます。したがって十分な幅があれば二行目は作られません。
+% それに対し、グリッドレイアウトは最初から縦横のマス目を設計し、どのマス目に何を入れるかを考えていきます。したがって十分な幅があっても二行目を設置してあれば必ず二行目が見えます。
+% 
+% ブラウザーの種類: Google Chrome, Safari, Microsoft Edge, Mozilla Firefox, Opera, Brave, Vivaldi, Midori, Pale Moon, Tor Browser, w3m, Uzbl, Nyxt, 等
+% 
+% 
+% |ブラウザーの種類|
+% Google Chrome, Safari, Microsoft Edge, Mozilla Firefox, Opera, Brave, Vivaldi, Midori, Pale Moon, Tor Browser, w3m, Uzbl, Nyxt, 等
+% 
+% 一覧や人気店の行列のような、一列に並んでほしい（必要に応じて改行も）と考える時にはフレックスボックスを、
+% 縦横のマス目を引いてどのマス目にどれを配置するかを考える時にはグリッドレイアウトを使用して下さい。
+% 
+% ```
+% 
+% 
+% 
+% ```{hint}
+% フレックスボックスレイアウト、グリッドレイアウトは非常に便利ですが、関連するプロパティも多く、慣れるまでに時間がかかります。
+% 
+% そこで、これらを直感的に使用するための各種ツールがいくつかありますので使ってみて下さい。
+% 
+% - [最近のWeb制作に役立つ、CSSの便利ツール総まとめ](https://coliss.com/articles/build-websites/operation/work/useful-tools-for-web-developer.html) の「CSSで実装するレイアウトのツール」に紹介されています。
+% 
+% - [最近のWeb制作に役立つ、CSSの便利ツール総まとめ](https://coliss.com/articles/build-websites/operation/work/useful-tools-for-web-developer.html) の「CSSで実装するレイアウトのツール」に紹介されています。
+% ```
+% 正式名称
+% CSSフレックスボックスレイアウト
+% https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Flexible_Box_Layout
+% CSSグリッドレイアウト
+% https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Grid_Layout
+
+ 
 
 % flexはコンテンツの幅優先、gridは枠優先
 % glid のリスト例
