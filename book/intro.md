@@ -165,3 +165,61 @@
 	`MDN`は読みたいトピックを`Google`で検索して辞書として利用しましょう。
 	```
 
+# オンラインミーティング（Jitsi Meet）の使い方 
+
+{{TODO}} このセクションは準備中です。
+% https://www.irasutoya.com/2013/09/blog-post_6062.html
+```{figure} https://i.gyazo.com/bd4425eb246761e46d7a51289c43c54b.png
+```
+
+% チャットボットを入れよう
+% http://www.jca.apc.org/jca-net/sites/default/files/2021-02/20210220JCA-NET_Jitsi%20Meet%20Turtorial.pdf
+
+講師にオンラインミーティングで質問をすることができます。
+
+
+{{OFFICED}}に質問予約を依頼したら、次の案内が届きます。
+
+
+> 2023/01/24 15:00〜15:15 に質問時間を予約しました。
+> 時間になったら以下のURLにアクセスして下さい。
+>
+> https://meet.jit.si/SafeSolidaritiesAwaitUneasily
+> パスワード： airseti
+ 
+
+```{figure} https://i.gyazo.com/f66a3ae07e9c3db36c2e4a5beae2275a.png
+マイクとカメラの使用を許可していいか聞いてきます。マイクのみ使用し、カメラは使用しませんが、ここではいったん「許可する」を選んで下さい。カメラを不使用にするのはこの後の操作で行います。
+```
+```{figure} https://i.gyazo.com/1ecc6790f0f33b7d0de8eb852f8e6f22.png
+ミーティングで使用する名前を入力します。
+```
+```{figure} https://i.gyazo.com/b94c9d2b2443e8a13bb2996e2bb86f80.png
+このアイコンをクリックして、カメラの使用を止めて下さい。
+```
+```{figure} https://i.gyazo.com/5f97892f54142ccfef6b0ef3816973a8.png
+「ミーティングに参加」を押します。
+```
+```{figure} https://i.gyazo.com/7d6225c7bbfd466d1f11ddb0a12964c3.png
+パスワードを入力して「OK」を押して下さい。
+```
+```{figure} https://i.gyazo.com/5e55709e2dbb949f9d6fa03ed8bbc97f.png
+これでミーティングが開始しました。終了するときにはブラウザーを閉じるだけでOKです。
+```
+
+ミーティングの最中に画面共有の必要が出たら、次の操作を行って下さい。
+
+```{figure} https://i.gyazo.com/588761dd89a992e0b61992d0b2ed7cbe.png
+「画面共有の開始 / 停止」を押して下さい。
+```
+
+```{figure} https://i.gyazo.com/b512b63596ebc9ebc90ceefe0f7d92e6.png
+共有する画面を選択します。通常は「画面全体」をクリックして下さい。
+（`VS Code`や`Chrome`を行ったり来たりすることがあるため、画面全体の共有が便利です）
+```
+```{figure} https://i.gyazo.com/8f027297e0f6665443bd003a12ff0714.png
+共有したい画面（複数のモニターを使用している場合にはそのどちらか）をクリックした上で「共有」を押して下さい。
+```
+```{figure} https://i.gyazo.com/2a03a39722800728d23d8eaf5db80000.png
+画面共有している間はこのバーが画面下に表示されます。画面共有を停止する場合には「共有を停止」を押して下さい。
+```

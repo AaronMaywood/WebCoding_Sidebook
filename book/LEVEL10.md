@@ -95,6 +95,18 @@
   - https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg?hl=jaX
 ```
 
+````{hint}
+**ポートフォリオサイトをGoogle検索結果に現れないようにするには**
+
+ウェブ上に公開したページは、Google検索結果に現れる対象となります。
+
+しかし、ポートフォリオのようなプライバシーにかかわるページはそうなって欲しくありません。
+それを防ぐには次の図のようにします。
+
+```{figure} https://i.gyazo.com/7bd7053de98ab8b3fd18c4ed23e6d790.png
+`head`要素内に`<meta name="robots" content="noindex,nofollow">` の一行を入れて下さい。そうすればGoogleの検索結果に現れることはありません。
+```
+````
 ### ポートフォリオに盛り込みたい自己アピール要素
 
 コーディングした作例に併せて以下の要素をアピールしましょう。
