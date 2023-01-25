@@ -76,3 +76,6 @@ a#transition-demo:hover{
 	color: green;
 }
 
+.mermaid {
+	margin-bottom: 2rem;
+}

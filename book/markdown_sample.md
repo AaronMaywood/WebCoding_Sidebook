@@ -144,6 +144,11 @@ https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/HTML_ba
 %   こう書けるのはすばらしい
 %     F(コーヒー) --> 紅茶
 %     F --> 緑茶
+%
+% mermaidでは使用できない文字あり
+% https://notchained.hatenablog.com/entry/2015/05/09/004745
+% https://zenn.dev/kinkinbeer135ml/articles/f08ce790091aca
+% ！”＃＄％＆’（）＝＾〜｜￥１２３４５６７８９０＠｀「」｛｝；：＋＊＜＞、。・？＿／
 
 % ```{mermaid}
 % flowchart TD
