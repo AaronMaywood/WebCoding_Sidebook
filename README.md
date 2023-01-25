@@ -184,14 +184,12 @@ end
 
 gyazoのURLを埋め込んだら次のコマンドを実行してローカル化して下さい。
 
-```
 # gyazoのURLから画像を book/images/gyazoにダウンロードする
-make extract-gyazo-url
-make download
-# 各.mdに含まれているgyazoのURLを book/images/gazo を見るように置換する
-cd ../book
-make all-gyazo-to-local-images
-git diff  # 差分の確認
+
+```
+$ cd gyazo-to-local
+$ make extract-gyazo-url
+$ make download
 ```
 
 ## 使用する画像のライセンス
