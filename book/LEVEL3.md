@@ -651,7 +651,7 @@ p {
 % - emや%などの相対単位 ... 継承された計算値の倍数となる（自身のフォントサイズは見ない）
 ````
 
-## 昇段試験 - CSS基礎編
+## 昇段試験
 
 % テキストの装飾
 % https://docs.google.com/document/d/1WI5_-_zzrHpZVJsxFvpkwz1t10ft5lc86TGsdTtPH2E/edit#heading=h.ei8r1exdw47m をもとにindex.html を書いて下さい。

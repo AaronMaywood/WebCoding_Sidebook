@@ -7,6 +7,11 @@
 - 有料紹介業の企画自体についての渡邊さんのコメントはここにまとめてあります。
 	- https://trello.com/c/PBwqSW8i/69-%E6%9C%89%E6%96%99%E7%B4%B9%E4%BB%8B%E6%A5%AD%EF%BC%88%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC%E8%82%B2%E6%88%90%E3%80%81%E3%83%AA%E3%82%B9%E3%82%AD%E3%83%AA%E3%83%B3%E3%82%B0%EF%BC%89
 
+# 集客〜入学〜卒業〜就職支援までの流れ
+<div>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FA996Ho9Ea1d9MCti8iB87m%2FHTML%252FCSS%25E5%2585%25A5%25E9%2596%2580%25E7%2594%25A8%25E7%25B4%25A0%25E6%259D%2590%3Fpage-id%3D1047%253A1186%26node-id%3D1048%253A1234%26viewport%3D460%252C365%252C1.29%26scaling%3Dcontain" allowfullscreen></iframe>
+</div>
+
 ## 入校時
 
 - 契約内容は？
