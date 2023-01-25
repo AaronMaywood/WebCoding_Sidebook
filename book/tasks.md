@@ -43,7 +43,7 @@
 |LEVEL|ガイドブック制作|教材の確認|昇段テスト|検証|
 |:---|:---|:---|:---|:---|
 |画像取り込み(Gyazo→ダウンロード）|{{DONE}}|-|-|{{TODO}}|
-|LEVEL9.md Green Camp|{{TODO}}|{{TODO}}|{{TODO}}|{{TODO}}|
+|LEVEL9.md Green Camp|{{TODO}} C:\Users\yasumura\Desktop\コーディング\テキスト\220920_0241_9月コーステキスト\★事前購入分\スマホ\スマホサイトテキスト.pdf P.17〜、{{TODO}}完成版のコードを作成する必要あり|{{TODO}}|{{TODO}}|{{TODO}}|
 |cards/devtools/ デベロッパーツール|{{DONE}}|-|-|{{TODO}}|
 
 # サンプルが命
