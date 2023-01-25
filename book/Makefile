@@ -50,5 +50,5 @@ sync-all:
 # ../gyazo-to-local/ にて、gyazoの画像を images/gyazo に落とし込んだあとに以下のコマンドを実行して下さい。
 # gyazoのURLをローカルの images/gyazo/ を指すようにリファクタリングします
 gyazo-to-local-images:
-	rg -l gyazo.com | xargs sed -i -e 's|https://i.gyazo.com|images/gyazo|'
+	rg -l gyazo.com -g '**/*.md' | xargs sed -i -e 's|https://i.gyazo.com|images/gyazo|'
 	@echo gyazoのURLをローカルのimages/gyazoに書き換えました. book フォルダにて、git diff で確認して下さい。
