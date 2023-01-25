@@ -7,11 +7,11 @@
 
 世の中に無数にあるウェブサイト（ホームページ）は、どんなにきらびやかでも、その中身は「コード」と言われる「文字」でできています。
 
-```{figure} https://i.gyazo.com/6e1d3c18bfd55da080ac535a221dce82.jpg
+```{figure} images/gyazo/6e1d3c18bfd55da080ac535a221dce82.jpg
 こんなデザイン✨のページも...
 ```
 
-```{figure} https://i.gyazo.com/494caa042791fd1e2f87e548447987b9.png
+```{figure} images/gyazo/494caa042791fd1e2f87e548447987b9.png
 一皮むけば、こんなコードでできています。このコードでどの素材をどこに配置するのかを決めています。
 ```
 
@@ -213,7 +213,7 @@ flowchart LR
 	それでも初心者のうちからチラ見して、わからないなりにどんな話題が書いてあるかを知っておくことは大切です。
 
 	ウェブ開発に携わるプロならだれもがこのサイトを参照していますので、`MDN`知らないの？と言われないように少しづつ慣らしていきましょう。
-	```{figure} https://i.gyazo.com/59542416056cd651519ca827ab7edcfc.png
+	```{figure} images/gyazo/59542416056cd651519ca827ab7edcfc.png
 	`MDN`は読みたいトピックを`Google`で検索して辞書として利用しましょう。
 	```
 
@@ -221,7 +221,7 @@ flowchart LR
 
 {{TODO}} このセクションは準備中です。
 % https://www.irasutoya.com/2013/09/blog-post_6062.html
-```{figure} https://i.gyazo.com/bd4425eb246761e46d7a51289c43c54b.png
+```{figure} images/gyazo/bd4425eb246761e46d7a51289c43c54b.png
 ```
 
 % チャットボットを入れよう
@@ -240,38 +240,38 @@ flowchart LR
 > パスワード： airseti
  
 
-```{figure} https://i.gyazo.com/f66a3ae07e9c3db36c2e4a5beae2275a.png
+```{figure} images/gyazo/f66a3ae07e9c3db36c2e4a5beae2275a.png
 マイクとカメラの使用を許可していいか聞いてきます。マイクのみ使用し、カメラは使用しませんが、ここではいったん「許可する」を選んで下さい。カメラを不使用にするのはこの後の操作で行います。
 ```
-```{figure} https://i.gyazo.com/1ecc6790f0f33b7d0de8eb852f8e6f22.png
+```{figure} images/gyazo/1ecc6790f0f33b7d0de8eb852f8e6f22.png
 ミーティングで使用する名前を入力します。
 ```
-```{figure} https://i.gyazo.com/b94c9d2b2443e8a13bb2996e2bb86f80.png
+```{figure} images/gyazo/b94c9d2b2443e8a13bb2996e2bb86f80.png
 このアイコンをクリックして、カメラの使用を止めて下さい。
 ```
-```{figure} https://i.gyazo.com/5f97892f54142ccfef6b0ef3816973a8.png
+```{figure} images/gyazo/5f97892f54142ccfef6b0ef3816973a8.png
 「ミーティングに参加」を押します。
 ```
-```{figure} https://i.gyazo.com/7d6225c7bbfd466d1f11ddb0a12964c3.png
+```{figure} images/gyazo/7d6225c7bbfd466d1f11ddb0a12964c3.png
 パスワードを入力して「OK」を押して下さい。
 ```
-```{figure} https://i.gyazo.com/5e55709e2dbb949f9d6fa03ed8bbc97f.png
+```{figure} images/gyazo/5e55709e2dbb949f9d6fa03ed8bbc97f.png
 これでミーティングが開始しました。終了するときにはブラウザーを閉じるだけでOKです。
 ```
 
 ミーティングの最中に画面共有の必要が出たら、次の操作を行って下さい。
 
-```{figure} https://i.gyazo.com/588761dd89a992e0b61992d0b2ed7cbe.png
+```{figure} images/gyazo/588761dd89a992e0b61992d0b2ed7cbe.png
 「画面共有の開始 / 停止」を押して下さい。
 ```
 
-```{figure} https://i.gyazo.com/b512b63596ebc9ebc90ceefe0f7d92e6.png
+```{figure} images/gyazo/b512b63596ebc9ebc90ceefe0f7d92e6.png
 共有する画面を選択します。通常は「画面全体」をクリックして下さい。
 （`VS Code`や`Chrome`を行ったり来たりすることがあるため、画面全体の共有が便利です）
 ```
-```{figure} https://i.gyazo.com/8f027297e0f6665443bd003a12ff0714.png
+```{figure} images/gyazo/8f027297e0f6665443bd003a12ff0714.png
 共有したい画面（複数のモニターを使用している場合にはそのどちらか）をクリックした上で「共有」を押して下さい。
 ```
-```{figure} https://i.gyazo.com/2a03a39722800728d23d8eaf5db80000.png
+```{figure} images/gyazo/2a03a39722800728d23d8eaf5db80000.png
 画面共有している間はこのバーが画面下に表示されます。画面共有を停止する場合には「共有を停止」を押して下さい。
 ```

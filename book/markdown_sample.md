@@ -20,9 +20,9 @@
 
 - 画像埋め込み(figureではない)
 	https://jupyterbook.org/en/stable/content/figures.html#images
-	- ![](https://i.gyazo.com/ee48fa64233c30409f71b97e06b65177.png)
+	- ![](images/gyazo/ee48fa64233c30409f71b97e06b65177.png)
 	- 属性を付けることもできる
-		```{image} https://i.gyazo.com/ee48fa64233c30409f71b97e06b65177.png
+		```{image} images/gyazo/ee48fa64233c30409f71b97e06b65177.png
 		:class: bg-primary mb-1
 		:width: 200px
 		:align: center
@@ -332,13 +332,13 @@ https://azure.microsoft.com/ja-jp/products/visual-studio-code/
 
 
 ## 図の表示幅を広げる
-```{figure} https://i.gyazo.com/7f2f98f5c5a3bbf84acccf8b81742a52.png
+```{figure} images/gyazo/7f2f98f5c5a3bbf84acccf8b81742a52.png
 :class: full-width
 ```
 
 ## 図と番号付き参照
 
-```{figure} https://i.gyazo.com/7f2f98f5c5a3bbf84acccf8b81742a52.png
+```{figure} images/gyazo/7f2f98f5c5a3bbf84acccf8b81742a52.png
 ---
 name: html-syntax1
 ---

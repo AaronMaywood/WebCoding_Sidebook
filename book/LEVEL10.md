@@ -106,7 +106,7 @@
 しかし、ポートフォリオのようなプライバシーにかかわるページはそうなって欲しくありません。
 それを防ぐには次の図のようにします。
 
-```{figure} https://i.gyazo.com/7bd7053de98ab8b3fd18c4ed23e6d790.png
+```{figure} images/gyazo/7bd7053de98ab8b3fd18c4ed23e6d790.png
 `head`要素内に`<meta name="robots" content="noindex,nofollow">` の一行を入れて下さい。そうすればGoogleの検索結果に現れることはありません。
 ```
 ````
