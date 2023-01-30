@@ -26,7 +26,7 @@ do
     echo $arg
   fi
   
-  RESULT=$(inotifywait -e modify -q ./ 2>&1)
+  RESULT=$(inotifywait -e modify -r -q ./ 2>&1)
   echo $RESULT
   make $arg
   bin/reload.sh
