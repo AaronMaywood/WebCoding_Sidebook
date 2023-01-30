@@ -149,6 +149,17 @@ https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/HTML_ba
 % https://notchained.hatenablog.com/entry/2015/05/09/004745
 % https://zenn.dev/kinkinbeer135ml/articles/f08ce790091aca
 % ！”＃＄％＆’（）＝＾〜｜￥１２３４５６７８９０＠｀「」｛｝；：＋＊＜＞、。・？＿／
+%
+% TDは使用できない
+% mermaid のフローチャートのレイアウトには、横方向のLR、縦方向のTB(Top to Bottom)のキーワードを使用すること（縦方向のエイリアス TD(Top to Down)はエラーになる）
+%
+% 使用できないstyleがある
+% box-shadow: 10px 10px 5px blue は受け付けるが、DOMの構造の関係で影は見えない
+% drop-shadowを指定するとSyntax Errorになる
+%	style 模範解答の配付と次のレベルのガイドブック解禁 fill:lightgreen,filter:drop-shadow(0 0 5px blue)
+% どのスタイルが使用できるかどうかはREPL で確認すると速い https://mermaid.live/
+% なお、このような場合にCSSのclassを定義して指定することができる
+% https://mermaid.js.org/syntax/flowchart.html#css-classes
 
 % ```{mermaid}
 % flowchart TD

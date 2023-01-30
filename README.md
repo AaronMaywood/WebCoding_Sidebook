@@ -27,6 +27,8 @@ JupyterBookで出版する仕組みをそのまま流用しているので、設
     - https://github.com/AaronMaywood/Website1
     - https://github.com/AaronMaywood/responsive-by-JoyShaheb 
     - https://github.com/AaronMaywood/boxmodel
+- クリエィティブ試し読み依頼
+	- https://docs.google.com/document/d/1IPSoQN2xTI5yhdi1tLg-CgRiHHZYWpUpsekxR9-eg5o/edit#heading=h.2g8u224ivt9a
 
 ## 本の構成
 

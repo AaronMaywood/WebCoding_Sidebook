@@ -15,6 +15,8 @@
 |LEVEL9.md スマートフォン|{{DONE}}|{{DONE}}|{{DONE}}|{{TODO}}|
 |昇段テストの受験方法|{{DONE}}|-|-|{{TODO}}|
 |cards/vscode/go-live.md Go Liveの方法 |{{DONE}}|-|-|{{TODO}}|
+|cards/devtools/ デベロッパーツール|{{DONE}}|-|-|{{TODO}}|
+|画像取り込み(Gyazo→ダウンロード）|{{DONE}}|-|-|{{DONE}}|
 |animation|（扱わない）|-|-|-|
 |Sass, SCSS|（扱わない）|-|-|-|
 
@@ -31,6 +33,7 @@
 |リリースに向けた細々した作業|{{TODO}}|-|-|{{TODO}}|
 |Gridレイアウト|{{HALF}}リンク先のウェブサイトで学ぶように促すに留めた→拡充したい|-|-|{{TODO}}| 
 |62.5%を使用しないことの説明|{{DONE}}|-|-|{{TODO}}|
+|LEVEL9.md Green Camp|{{TODO}} C:\Users\yasumura\Desktop\コーディング\テキスト\220920_0241_9月コーステキスト\★事前購入分\スマホ\スマホサイトテキスト.pdf P.17〜、{{TODO}}完成版のコードを作成する必要あり|{{TODO}}|{{TODO}}|{{TODO}}|
 
 - {{TODO}} 入社試験代わりの仕組み ... 紹介先からこれを作って下さいという課題（課題を下さいという）担保する仕組みとして、またはレベルの違う素材を用意して紹介先に選んでもらう（課題を複数用意する）指定の時間内にコーディングしてみせる
 - {{TODO}} クリエィティブにチェックしてもらいたいことをまとめる ... クリエイティブの話、作業の時間がとれない、チェックシートや目標の指示がほしいという声が上がった、そうすれば作業時間を割り当てますと言われた。そもそもは全部確認してくれと言われた。
@@ -39,12 +42,28 @@
 		- 売り物になるコーダーが育つか
 		- 完全に自習ではなく、不明点は質問できる
 
-## 優先度低い
-|LEVEL|ガイドブック制作|教材の確認|昇段テスト|検証|
-|:---|:---|:---|:---|:---|
-|画像取り込み(Gyazo→ダウンロード）|{{DONE}}|-|-|{{DONE}}|
-|LEVEL9.md Green Camp|{{TODO}} C:\Users\yasumura\Desktop\コーディング\テキスト\220920_0241_9月コーステキスト\★事前購入分\スマホ\スマホサイトテキスト.pdf P.17〜、{{TODO}}完成版のコードを作成する必要あり|{{TODO}}|{{TODO}}|{{TODO}}|
-|cards/devtools/ デベロッパーツール|{{DONE}}|-|-|{{TODO}}|
+# {{TODO}} 卒業後に学ぶとよい技術
+
+## ドリル、具体例
+よさそうな教材
+https://moshashugyo.com/
+模写修行 - 駆け出しエンジニアのためのコーディング練習教材 -
+https://moshashugyo.com/media/categories/html-css
+
+## ページトップ (動くWebデザインアイディア帳）
+https://coco-factory.jp/ugokuweb/move01-cat/pagetoplink/
+	CSSだけでできる？
+		CSSスクロールスナップ→これは違った
+		https://coliss.com/articles/build-websites/operation/css/usecase-of-css-scroll-snap.html
+		https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Scroll_Snap
+			https://caniuse.com/?search=scroll-snap
+
+## jQuery プラグイン
+bxslider の入れ方
+https://on-ze.com/archives/1658
+lightbox2の入れ方
+https://webdesign-pg.com/lightbox2
+
 
 # サンプルが命
 

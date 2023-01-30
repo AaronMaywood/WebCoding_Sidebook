@@ -43,15 +43,15 @@ html:
   #  <p>
   #    ©2022 安村 淳、ADjust Co.,Ltd.
   #  </p>
-  # チャネルトークの設置
-  extra_footer: |
-    <script>
-      (function(){const w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.")}const ch=function(...args){ch.c(args)};ch.q=[];ch.c=function(args){ch.q.push(args)};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return}w.ChannelIOInitialized=true;const s=document.createElement("script");s.type="text/javascript";s.async=true;s.src='https://cdn.channel.io/plugin/ch-plugin-web.js';const x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x)}}if(document.readyState==="complete"){l()}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l)}})();
+  # チャネルトークの設置→2023/01/27、MTG にて対応が膨大になることから使用しないことにした
+  #extra_footer: |
+  #  <script>
+  #    (function(){const w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.")}const ch=function(...args){ch.c(args)};ch.q=[];ch.c=function(args){ch.q.push(args)};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return}w.ChannelIOInitialized=true;const s=document.createElement("script");s.type="text/javascript";s.async=true;s.src='https://cdn.channel.io/plugin/ch-plugin-web.js';const x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x)}}if(document.readyState==="complete"){l()}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l)}})();
 
-      ChannelIO('boot', {
-        "pluginKey": "407621f2-56bf-4bfb-9de8-6f602acb6523"
-      });
-    </script>
+  #    ChannelIO('boot', {
+  #      "pluginKey": "407621f2-56bf-4bfb-9de8-6f602acb6523"
+  #    });
+  #  </script>
 
 # デフォルトのテーマ"Sphinx-book-theme"の言語を日本語にする(Jupyter Bookの背後にあるSphix側の設定を記述)
 sphinx:
