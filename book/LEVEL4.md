@@ -123,7 +123,7 @@ CSSはボックスの集合体であると説明しましたが、 ボックス�
 
 ボックスのもう一つの側面は、それぞれのボックスには共通する内部構造（=**ボックスモデル**）を持つ、というものです。
 
-全てのボックスには共通する玉ねぎのような階層構造があり、それによってボックス自身の大きさが決定し、また隣り合うボックス同士の余白を決めます。
+全てのボックスには共通する玉ねぎのような階層構造があり、それによってボックス自身の大きさが決定され、また隣り合うボックス同士の余白を決めます。
 
 ```{figure} images/gyazo/5dd4d8f5939d9741d0f1cc7b38df2941.png
 ボックスには玉ねぎのような階層構造があります。（玉ねぎは<a href="https://unsplash.com/ja/s/%E5%86%99%E7%9C%9F/%E7%8E%89%E3%81%AD%E3%81%8E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="reference external">Unsplash</a>の<a class="reference external" href="https://unsplash.com/@k8_iv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">K8</a>が撮影した写真）
@@ -152,7 +152,7 @@ CSSはボックスの集合体であると説明しましたが、 ボックス�
 
 % {bdg-primary-line}`CSS教材：10_ボックスモデル` ←この教材フォルダにはlesson4までの４つのファイルはあるが、中身は空だ。おそらく授業では使っていて、ボックスモデルを練習させるのだろうが、何をさせたのかはわからない。
 
-ボックスの四階層（マージン、ボーダー、パディング、コンテンツ）を紹介しています。
+ボックスの四階層「内容を表示する領域（**コンテンツ**）」「**パディング**」「**マージン**」「枠線（**ボーダー**）」を紹介しています。
 
 ````{glossary}
 マージン

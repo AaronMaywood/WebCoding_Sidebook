@@ -636,20 +636,28 @@ p {
 
 `line-height`（行の高さ）プロパティを用いて行間をコントロールすることができます。
 
-````{hint}
-{bdg-dark-line}`テキスト：P.109〜110` での結論は`line-height`には単位を付けないというものです。
-```{code} css
-p {
-  line-height: 1.5rem;  /* NG!、思わぬ大きさになる */
-  line-height: 1.5;  /* OK、自身のフォントサイズを1.5倍した大きさになる */
-}
-```
-% line-height に単位を付けないのはなぜ？
-% https://developer.mozilla.org/en-US/docs/Web/CSS/line-height ここの説明はおそらく間違い。
-% https://triple-underscore.github.io/css-inline-ja.html#line-height-property には、次のようにある。
-% - 単位なし（推奨） ... それ自身のフォントサイズの倍数となる
-% - emや%などの相対単位 ... 継承された計算値の倍数となる（自身のフォントサイズは見ない）
-````
+% 2023/02/14 改訂提案を出した
+% - https://www.figma.com/file/VECkDP4bjQ6nU7At3be54a/HTML_CSS_Sass_SCSS.pdf-%E6%94%B9%E5%AE%9A%E6%A1%88?node-id=1%3A4&t=48rYX8o8VzfYgJra-1
+% 改訂に伴い、以下の説明はボツ（また、説明も誤っている！）
+% ````{hint}
+% {bdg-dark-line}`テキスト：P.109〜110` では`line-height`に与える値について説明しており、結論は次のとおりです。
+% 1. 絶対値`px`を使用する
+% 2. 相対値を使用する際には単位を付けない（一般的な相対値の単位`%`、`em`、`rem`を使用してはいけない）
+% 	```{code} css
+% 	p {
+% 	  line-height: 1.5rem;  /* NG!、思わぬ大きさになる */
+% 	  line-height: 1.5;     /* OK、自身のフォントサイズを1.5倍した大きさになる */
+% 	}
+% 	```
+% 
+% 「2.」のルールは`line-height` 特有のお約束ですので、しっかり押さえておきましょう。
+% 
+% % line-height に単位を付けないのはなぜ？
+% % https://developer.mozilla.org/en-US/docs/Web/CSS/line-height ここの説明はおそらく間違い。
+% % https://triple-underscore.github.io/css-inline-ja.html#line-height-property には、次のようにある。
+% % - 単位なし（推奨） ... それ自身のフォントサイズの倍数となる
+% % - emや%などの相対単位 ... 継承された計算値の倍数となる（自身のフォントサイズは見ない）
+% ````
 
 ## 昇段試験
 
