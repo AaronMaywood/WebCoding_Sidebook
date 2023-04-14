@@ -6,6 +6,10 @@
 このリポジトリーは、https://github.com/AaronMaywood/WebCodingTextbookの中断を受けて開始しました。
 JupyterBookで出版する仕組みをそのまま流用しているので、設定ファイルなどは共通点があります。
 
+## ビルド環境(JupyterBook)のセットアップ
+
+https://github.com/AaronMaywood/Frontend-Guidebook#%E3%83%93%E3%83%AB%E3%83%89%E7%92%B0%E5%A2%83jupyterbook%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97 を参照のこと.
+
 ## 関連資料
 - https://www.figma.com/file/GVVSLV0yBe9qVhKVdZZ6yI/%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC%E3%81%AE%E5%9C%B0%E5%9B%B3%EF%BC%88%E6%A6%82%E5%BF%B5%E9%9A%8E%E5%B1%A4%EF%BC%89-%E9%AB%98%E6%A9%8B%E5%85%88%E7%94%9F%E3%81%AE%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E7%B7%A8?node-id=0%3A1
 - 昇段試験合格案内集
