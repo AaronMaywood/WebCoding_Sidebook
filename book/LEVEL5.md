@@ -75,7 +75,7 @@ background: red;       /* 短略形 */
 <div style="border: 1px solid gray; padding: 2rem; width: 300px;">
   <!-- 段落pのなかに画像imgが入っています -->
   <p>As much mud in the streets as if the waters
-    <img src="images/gyazo/06a32191e2ab716be3be9fe30ed89b6b.png" alt="Float me" style="border:none;">
+    <img src="_static/gyazo/06a32191e2ab716be3be9fe30ed89b6b.png" alt="Float me" style="border:none;">
     had but newly retired from the face of the earth, and it would not be wonderful to meet a Megalosaurus,
     forty feet long or so, waddling like an elephantine lizard up Holborn Hill.
   </p>
@@ -99,7 +99,7 @@ img {
 	<div style="border: 1px solid gray; padding: 2rem; width: 300px;">
 	  <!-- 段落pのなかに画像imgが入っています -->
 	  <p>As much mud in the streets as if the waters
-		<img src="images/gyazo/06a32191e2ab716be3be9fe30ed89b6b.png" alt="Float me" style="border:none;">
+		<img src="_static/gyazo/06a32191e2ab716be3be9fe30ed89b6b.png" alt="Float me" style="border:none;">
 		had but newly retired from the face of the earth, and it would not be wonderful to meet a Megalosaurus,
 		forty feet long or so, waddling like an elephantine lizard up Holborn Hill.
 	  </p>
@@ -108,7 +108,7 @@ img {
 	<div style="border: 1px solid gray; padding: 2rem; width: 300px;">
 	  <!-- 段落pのなかに画像imgが入っています -->
 	  <p>As much mud in the streets as if the waters
-		<img src="images/gyazo/06a32191e2ab716be3be9fe30ed89b6b.png" alt="Float me" style="border:none; float:left;">
+		<img src="_static/gyazo/06a32191e2ab716be3be9fe30ed89b6b.png" alt="Float me" style="border:none; float:left;">
 		had but newly retired from the face of the earth, and it would not be wonderful to meet a Megalosaurus,
 		forty feet long or so, waddling like an elephantine lizard up Holborn Hill.
 	  </p>
@@ -117,7 +117,7 @@ img {
 	<div style="border: 1px solid gray; padding: 2rem; width: 300px;">
 	  <!-- 段落pのなかに画像imgが入っています -->
 	  <p>As much mud in the streets as if the waters
-		<img src="images/gyazo/06a32191e2ab716be3be9fe30ed89b6b.png" alt="Float me" style="border:none; float:right;">
+		<img src="_static/gyazo/06a32191e2ab716be3be9fe30ed89b6b.png" alt="Float me" style="border:none; float:right;">
 		had but newly retired from the face of the earth, and it would not be wonderful to meet a Megalosaurus,
 		forty feet long or so, waddling like an elephantine lizard up Holborn Hill.
 	  </p>
@@ -694,7 +694,7 @@ name: a-aki-sample
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
-- 以下の文言テンプレートを利用し事務局{{OFFICE}}に提出して下さい。
+- 以下の文言テンプレートを利用し{{OFFICE}}に提出して下さい。
 	```{code}
 	件名：LEVEL5の昇段試験のファイルを提出します
 

@@ -440,10 +440,7 @@ width: calc(10px+100px);   /* NG */
 次に細かな作成指示を行います。
 
 - 細かな作業指示（デザインカンプ）はAdobe社の`Figma`で作成・共有しており、以下のURLで確認できます。
-	- https://www.figma.com/proto/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?page-id=656%3A1016&node-id=660%3A1283&viewport=840%2C-242%2C0.27&scaling=scale-down-width)
-	- https://www.figma.com/proto/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?page-id=656%3A1016&node-id=660%3A1283&viewport=840%2C-242%2C0.27&scaling=min-zoom
 	- https://www.figma.com/file/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?node-id=656%3A1016&t=6YC53Kiv15FS4aCQ-1
-{{TODO}} ここでのFigmaの見方はスクロールができるだけだ、要改修
 		````{dropdown} Figmaの読み方を確認する
 		```{include} cards/figma.md
 		```
@@ -476,7 +473,7 @@ HTMLに対し、必要に応じて以下の加工を行って下さい。
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
-- 以下の文言テンプレートを利用し事務局{{OFFICE}}に提出して下さい。
+- 以下の文言テンプレートを利用し{{OFFICE}}に提出して下さい。
 	```{code}
 	件名：LEVEL8の昇段試験のファイルを提出します
 

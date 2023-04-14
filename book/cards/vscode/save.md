@@ -1,10 +1,10 @@
 `````{div} taskcard
 ````{card} VS Codeでファイルを保存する
 ^^^
-```{figure} ../../images/gyazo/f73ac271dcd292872a524d10883845b2.png
+```{figure} _static/gyazo/f73ac271dcd292872a524d10883845b2.png
 ファイルがまだ保存されていないことを示すために、ファイル名の横に「●」が付いています。
 ```
-```{figure} ../../images/gyazo/4a6b7329f13d8c4bb27a11a5960bc6eb.png
+```{figure} _static/gyazo/4a6b7329f13d8c4bb27a11a5960bc6eb.png
 メニューから「保存」を選びます。
 ショートカットキー({{WIN}}は{bdg-dark}`Ctrl`+{bdg-dark}`S`、{{MAC}}{{MAC-COMMAND}}+{bdg-dark}`S`←ダミーTODO)がオススメです。
 ```

@@ -489,9 +489,9 @@ http://am7274183.html.xdomain.jp/simplepage-master/index.html
 	https://support.google.com/chrome/answer/95346
 2. 規定のブラウザーに設定
 	https://support.google.com/chrome/answer/95417
-	``{tip}
-	**規定のブラウザー**に設定すれば、`index.html`などの`HTML`ファイルをダブルクリックするだけで`Google Chrome`起動するようになります。
-	```
+    ```{tip}
+    **規定のブラウザー**に設定すれば、`index.html`などの`HTML`ファイルをダブルクリックするだけで`Google Chrome`起動するようになります。
+    ```
 
 % 本書で使用するブラウザーをChromeとします。(これはLEVEL1にも同じ情報を記している)
 ```{include} cards/default-browser.md
