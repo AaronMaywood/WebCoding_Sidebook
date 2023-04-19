@@ -243,7 +243,7 @@
 % - Tastebite - Food Recipe Website Templates & Design Systems (Community)
 % 	- https://www.figma.com/file/uztxlAjVLnKHYJ6kN3mrNJ/Tastebite---Food-Recipe-Website-Templates-%26-Design-Systems-(Community)?node-id=1%3A3
 
-以下にしめす`A.`、`B.`、`C.`の３つのウェブデザインの`HTML/CSS`コーディングを行って下さい**。いずれもレスポンシブ対応が必要です。
+以下にしめす`A.`、`B.`、`C.`の３つのウェブデザインの`HTML/CSS`コーディングを行って下さい。いずれもレスポンシブ対応が必要です。
 
 - **A.** Responsive Design Art News Landing Page
 	```{figure} images/gyazo/36815a9337f1e03ad65b28082e03a7e5.png
