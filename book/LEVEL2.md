@@ -281,7 +281,6 @@ LEVEL2では`HTML`の残りの要素を学び、`HTML`の学習を終了しま�
 ```
 ````
 
-
 (header-footer)=
 #### 補足：セクションの冒頭部と脚部を表す`header`要素と`footer`要素
 
@@ -316,6 +315,20 @@ LEVEL2では`HTML`の残りの要素を学び、`HTML`の学習を終了しま�
 #### 補足：セクションが特定用途に特化したもの ... `article`、`aside`、`nav`要素
 
 `section`のバリエーションに`article`要素、`aside`要素,`nav`要素があります。
+
+```{hint}
+**区分コンテンツ要素**
+
+`section`とそのバリエーションである`article`、`aside`、`nav`をまとめて「区分コンテンツ要素（`sectioning content`要素）」と言います。
+（`section`は汎用セクション要素、その他`article`、`nav`、`aside`は特定の用途向きのセクション要素です。）
+
+区分コンテンツ要素の特徴は次の通りです。
+- 見出し（`h1`〜`h6`）を所有できる（階層つきの文書の目次（アウトライン）を構成）
+- `header`要素、`footer`要素を所有できる
+
+参考
+- [MDN 区分コンテンツ](https://developer.mozilla.org/ja/docs/Web/HTML/Content_categories#%E5%8C%BA%E5%88%86%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84)
+```
 
 `article`、`aside`、`nav`はいずれも`section`としての意味を持っています。したがって見出しを入れることができ（省略も可能です）、必要とあれば`header`や`footer`も持てます。
 
@@ -569,7 +582,7 @@ class: full-width
 - 以下の素材を利用して下さい。（コピペして下さい。）
 	``` html
   <!-- 冒頭部 -->
-  <h1>Wikipedia</h1>
+  <h1>ロゴ画像</h1>
 
   <!-- 主要なナビゲーションその１ -->
   <p>アカウント作成</p>
@@ -596,12 +609,12 @@ class: full-width
 	
 	（素材はここまでです）
 	```
-- `h2`以降のレベルの見出しにはその見出しを含むようにセクション関連要素（`section`、`article`、`aside`、`nav`）を配置して下さい。（`h1`は`body`に対するものなのでセクション要素で囲む必要はありません）
+- `h2`以降のレベルの見出しにはその見出しを含むように区分コンテンツ要素（`section`、`article`、`aside`、`nav`）を配置して下さい。（`h1`は`body`に対するものなのでセクション要素で囲む必要はありません）
   ``` html
   例)
   <h2>見出し２</h2>
   ↓
-  見出しにはセクション要素を配置して以下のようにします。
+  見出しにはセクション要素を配置して以下のようにします。（`section`の代わりに`article`、`aside`、`nav`の方が最適なこともありますので個別に検討して下さい）
   ↓
   <section>
     <h2>見出し２</h2>
@@ -609,7 +622,7 @@ class: full-width
   ```
 
 なお、完成したページは、ブラウザーでは次のように見えます。
-```{figure} images/gyazo/79098540e5a024ea2f7a01f9f751cb8c.png
+```{figure} https://i.gyazo.com/554a1bf08d382eb32bba5f3849e7bace.png
 この出題で使用する`section`、`article`、`aside`、`nav`、`header`、`footer`、`main`要素は、いずれも見た目に影響を与えません。したがって**見た目ではなく、意味を踏まえて正しくマークアップを行えるかが問われます**。
 ```
 
