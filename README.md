@@ -51,7 +51,7 @@ $ sync-guidebook level1
 URLの一部をハッシュ化しています。
 
 開発者ノート
-TODO
+https://adjustacademy.com/webcoder/guidebook/648f5e3e0c55d39eb4a86e7bd27beb42/ux.html
 LEVEL1
 https://adjustacademy.com/webcoder/guidebook/c341b271f5dba18dd4099435670a2c74/intro.html
 LEVEL2
