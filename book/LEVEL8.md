@@ -4,10 +4,14 @@
 
 このレベルでは具体的なウェブサイト（お茶サイト）制作を通して、学んだことを確認し、活きた用例を見て理解を深めましょう。
 
-```{caution}
-ここからは実践編で、はっきりと難易度が高くなります。
-不明点は自分なりに調べ、理解を高めながら進めてほしいと思います。
+````{warning}
+ここからは実践編です。はっきりと難易度が高くなりますので、これまでの学習のやり方とは戦術を変える必要が出てきます。
+```{figure} https://images.unsplash.com/photo-1519904981063-b0cf448d479e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
+（<a href="https://unsplash.com/ja/%E5%86%99%E7%9C%9F/hvPB-UCAmmU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>の<a href="https://unsplash.com/ko/@lux17?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lucas Clara</a>が撮影した写真）
 ```
+- わかっていないことはそのままにせず、理解できるようになるまで試行錯誤する慎重さが求められます。
+- テキストの指示に応じてコピペで作業を行うと、この章全体の学習にはそこまで時間はかかりません。 **しかし大切なのはそこからです。コピペしたコードの意味を研究し、今度は自分で書けるようになるまで繰り返し訓練しましょう。** 時間をかけ、粘り強く学習を継続する力が求められます。
+````
 
 ````{admonition} 学習の秘訣
 % 同じくらい重要なことは`HTML`と`CSS`を繰り返し書くことで、それらが分かるだけでなく実際に使えるようになることを目指しましょう。`HTML`と`CSS`は道具であり、道具は使えるようになってはじめて意味を持つからです。
@@ -85,7 +89,7 @@
 ### STEP-2 `<head>` 内に追記
 
 ```{admonition} 訂正
-{bdg-dark-line}`テキスト：P.182` の指示に『「素材文字」フォルダ内→「html素材_その１（head内１).txt」を開き』とありますが、実際には {bdg-primary-line}`お茶サイト制作教材/お茶サイト配付データ/text/1-index.txt` の中にあります。以下のテキスト中に現れる「**素材文字**」についても同様に読み替えてください。
+{bdg-dark-line}`テキスト：P.182` の指示に『「素材文字」フォルダ内→「html素材_その１（head内１).txt」を開き』とありますが、実際には {bdg-primary-line}`HTML・CSS応用編お茶サイト制作教材/お茶サイト配付データ/text/1-index.txt` の中にあります。以下のテキスト中に現れる「**素材文字**」についても同様に読み替えてください。
 ```
 
 ここでは新しく**ファビコン**という用語が出てきます。以下補足します。
