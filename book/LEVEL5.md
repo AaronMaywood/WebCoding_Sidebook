@@ -700,7 +700,7 @@ name: a-aki-sample
 
 	○○です。
 	http://xxx.html.xdomain.jp/a-aki/index.html
-	細作環境の画面幅は1536pxです。 （←※調べた上で記載して下さい。）
+	制作環境の画面幅は1536pxです。 （←※調べた上で記載して下さい。）
 	```
 	````{dropdown} ブラウザーの幅を知る方法を確認する
 	```{include} cards/devtools/screen-width.md

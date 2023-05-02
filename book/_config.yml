@@ -65,7 +65,7 @@ sphinx:
 parse:
   myst_substitutions:
     # 試験の提出先
-    OFFICE: '事務局 `yasumura@adjust.ne.jp`(Cc: へ `kida@adjust.ne.jp` も含めて下さい)' # TODO 臨時
+    OFFICE: '事務局 `coder@adjust.ne.jp`' # yasumura@adjust.ne.jp, kida@adjust.ne.jp
     # 本全体で利用できる変数を定義できるようにする
     # https://jupyterbook.org/en/stable/content/content-blocks.html#define-substitutions-for-your-whole-book
     # 文字としての画像(OSロゴ)
