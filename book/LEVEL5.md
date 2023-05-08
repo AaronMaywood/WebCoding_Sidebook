@@ -20,12 +20,11 @@ background: red;       /* 短略形 */
 ````{dropdown} 短略形を使用する際の注意点(高度な話題)
 常に短略形を使用してよいでしょうか？
 
-短略形の使用が問題ないかどうかをご自身で判断できるようになるために、短略形を使用する上での注意点を説明します。ここでは`background`を例にとりますが、`CSS`の短略形全てに通用する注意点です。
+短略形の使用が問題ないかどうかをご自身で判断できるようになるために、短略形を使用する上での注意点を説明します。
 
 **「`background:red;`」の意味するところ ... 単略プロパティのお約束**
 
 `background`は`CSS`の一括指定プロパティで、以下背景に関するすべてのスタイルプロパティを一括で設定します。（[MDN background](https://developer.mozilla.org/ja/docs/Web/CSS/background)より）
-）
 - background-attachment
 - background-clip
 - background-color
@@ -62,8 +61,10 @@ p {
 
 短略プロパティ`background`には`background-color`も含まれている事を思い出して下さい。
 
-従って上記のコードでは`background-color`の値は`red`ではなく`transparent`になります。
-（`background-color`の初期値は[MDN background-color](https://developer.mozilla.org/ja/docs/Web/CSS/background-color#%E5%85%AC%E5%BC%8F%E5%AE%9A%E7%BE%A9)より、`transparent`です。）
+従って上記のコードでは`background-color:red;`を次の行に書いた`background: url(images/bg.gif) no-repeat left top;`で上書きしています。
+（次の行にある`background: url(images/bg.gif) no-repeat left top;`には`background-color`の指定がありません。このときには[`background-color`の初期値である`transparent`](https://developer.mozilla.org/ja/docs/Web/CSS/background-color#%E5%85%AC%E5%BC%8F%E5%AE%9A%E7%BE%A9)が指定されることになります。）
+
+結果として`background-color`の値は`red`ではなく`transparent`になります。
 
 この問題を防ぐには、プロパティを書く順を上記の逆（「短略形→個別プロパティ」）にして下さい。
 ```
@@ -72,8 +73,11 @@ p {
   background-color: red;
 }
 ```
-この順にすれば短略形に指定したものを個別プロパティで適宜上書きして使用することができます。
-**これは`background`以外の`CSS`の短略プロパティ全てに共通する注意点です。**
+この記述順にすることで、短略形に指定したものを個別プロパティで適宜上書きして使用することができます。
+
+```{tip}
+これは`background`以外の`CSS`の短略プロパティ（[`margin`](https://developer.mozilla.org/ja/docs/Web/CSS/margin)や[`font`](https://developer.mozilla.org/ja/docs/Web/CSS/font)などの）全てに共通する注意点です。
+```
 
 **参考**
 - [MDN 一括指定プロパティ](https://developer.mozilla.org/ja/docs/Web/CSS/Shorthand_properties)
@@ -88,6 +92,37 @@ p {
 ```{tip}
 背景画像を指定する `background-image` にはCSSで作成したグラデーションも指定することが可能です。{bdg-dark-line}`テキスト：P.165` を参照して下さい。
 ```
+
+````{tip}
+**`background`には色や画像を重ねることができる**
+
+`background`には、 **「背景色(`background-color`)」一つと複数の「背景画像(`background-image`)」を指定することが可能** で、これらが背景のレイヤーを構成します。（奥のレイヤーは、手前のレイヤーに透明色がある場合にのみ見えます。）
+
+```
+このようなCSSを書けば...
+
+background-color: red;
+background-image:
+  url("https://interactive-examples.mdn.mozilla.net/media/examples/star.png"),
+  url("https://interactive-examples.mdn.mozilla.net/media/examples/lizard.png");
+
+背景のレイヤーは以下の通りとなります。
+
+- 背景色(red)
+  L 背景画像２(lizard.png)
+    L 背景画像１(star.png)
+
+```
+実際には次のように表示されます。
+<div style='
+width: 500px;
+height: 300px;
+font-size: 32px;
+background-color: red;
+background-image: url("https://interactive-examples.mdn.mozilla.net/media/examples/star.png"),
+                  url("https://interactive-examples.mdn.mozilla.net/media/examples/lizard.png");
+'></div>
+````
 
 #### 背景画像のくりかえし
 
@@ -112,38 +147,6 @@ p {
 % - 「background-size」に「contain」を設定すると…。 {bdg-dark-line}`テキスト：P.121` 
 % - 「background-size」に「auto」を設定すると…。 {bdg-dark-line}`テキスト：P.121` 
 % - 「background-size:cover」と「background-position」を組み合わせる {bdg-dark-line}`テキスト：P.122` 
-
-````{note}
-**`background`の特徴 ... 色や画像を重ねることができる**
-
-`CSS`の`background`には、「背景色(`background-color`)」を一つだけ、「背景画像(`background-image`)」を複数指定することが可能で、これらは背景のレイヤーを構成します。（奥のレイヤーは、手前のレイヤーに透明色がある場合にのみ見えます。）
-
-```
-このようなCSSを書けば...
-
-background-color: red;
-background-image:
-  url("https://interactive-examples.mdn.mozilla.net/media/examples/star.png"),
-  url("https://interactive-examples.mdn.mozilla.net/media/examples/lizard.png");
-
-背景のレイヤーは以下の通りとなります。
-
-- 背景色(red)
-  L 背景画像２(lizard.png)
-    L 背景画像１(star.png)
-
-```
-実際には次のように表示されます。
-<div style='
-margin-bottom: 48px;
-width: 500px;
-height: 300px;
-font-size: 32px;
-background-color: red;
-background-image: url("https://interactive-examples.mdn.mozilla.net/media/examples/star.png"),
-                  url("https://interactive-examples.mdn.mozilla.net/media/examples/lizard.png");
-'></div>
-````
 
 ## `float`
 
