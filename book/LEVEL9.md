@@ -777,7 +777,7 @@ SlickNavの使用方法は公式サイトの指示に従います。
 ```
 ````
 
-### 問題「レスポンシブ対応のページの作成」
+### 問題１「レスポンシブ対応のページの作成 "Portfolio" 編」
 
 図に示すレスポンシブ対応のページを実装して下さい。
 ```{figure} images/gyazo/282a10c93f9f756f25c908e734452f21.png
@@ -843,9 +843,9 @@ SlickNavの使用方法は公式サイトの指示に従います。
 ```
 ````
 
-### 採点基準
+#### 問題１の採点基準
 1. ブラウザーの表示をみて、指示通りの表示になっているかを確認します。
-2. レスポンシブ対応されているかどうかを次の画面幅で確認します。
+2. レスポンシブ対応が正しくなされているかどうかを次の画面幅で確認します。
 	1. 1440px周辺として、`1441px`以上、`1440px`の時
 	2. 375px周辺として、`376px`、`375px`の時
 
@@ -854,38 +854,74 @@ SlickNavの使用方法は公式サイトの指示に従います。
 （はみ出している時には横スクロールバーが出ます）
 ```
 
+### 問題２「レスポンシブ対応のページの作成 "Green Camp"編」
+
+図に示すレスポンシブ対応のページを実装して下さい。
+
+```{figure} https://i.gyazo.com/1dd733ef2eecb05d9ff4a2aaa955340a.png
+```
+
+以下に必要な素材・指示を示します。
+% 素材 
+% $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/GreenCamp/archive/refs/heads/main.zip
+
+- {bdg-dark}`指示` 作業フォルダ名を`GreenCamp`として下さい。
+- 素材をダウンロードして下さい。
+	- https://adjustacademy.com/webcoder/75484295693b4fb06015399e0505390a.zip
+		- ZIP ファイルを展開すると、`GreenCamp-main`フォルダが現れます。この中に必要な全てのファイルが入っています。
+- デザインカンプ
+	- デザインカンプは `GreenCamp-main/デザインカンプ.pdf` です。`PDF`ビュアーで閲覧してください。
+	- また、`GreenCamp-main/README.md` にコーディングに必要な情報があります。
+	- これら`デザインカンプ.pdf`と`README.md`の両方に従って作業を行ってください。
+
+#### 問題２の採点基準
+1. ブラウザーの表示をみて、指示通りの表示になっているかを確認します。
+2. レスポンシブ対応されているかどうかを次の画面幅で確認します。
+	1. `1280px`
+	2. `1000px`
+	3. `600px`
+
+
 ### 提出方法（検証〜提出）
 
-- {bdg-dark}`指示` `responsive`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
+- {bdg-dark}`指示` `responsive`フォルダ、及び`GreenCamp`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
-```{warning}
-`Xfree`では、SVG画像を表示可能にするために設定が必要です。サーバーにアップロード後、画像が表示されない場合には「[](using-svg)」に従って設定を見直して下さい。
-```
 
 - 以下の文言テンプレートを利用し{{OFFICE}}に提出して下さい。
 	```{code}
 	件名：LEVEL9の昇段試験のファイルを提出します
 
 	○○です。
+	Portfolio編
 	http://xxx.html.xdomain.jp/responsive/index.html
+	GreenCamp編
+	http://xxx.html.xdomain.jp/GreenCamp/index.html
 	```
 
+% Portfolio編
 % % download-zip-to-rename-by-hash https://github.com/AaronMaywood/responsive-by-JoyShaheb/archive/refs/heads/answer.zip
 %   https://adjustacademy.com/webcoder/001a163c73788986e7ce4450589ba3f7.zip
 % % download-zip-to-rename-by-hash https://github.com/AaronMaywood/responsive-by-JoyShaheb/archive/refs/heads/answer-by-grid.zip
 %   (gridを使用した版)
 %   https://adjustacademy.com/webcoder/c3549e90b6e7ac579944f567876218ff.zip
+% GreenCamp編
+% 	$ download-zip-to-rename-by-hash https://github.com/AaronMaywood/GreenCamp/archive/refs/heads/answer.zip
+%	https://adjustacademy.com/webcoder/a371e65d25e9e55fe6a6895162b2ef3f.zip
+
 % ```{code}
 % おめでとうございます。昇段試験に合格しました。
 % 
 % - 模範解答を以下のURLからダウンロードできます。自身の答えと照らし合わせて研究して下さい。
+%   Portfolio編
 %   https://adjustacademy.com/webcoder/001a163c73788986e7ce4450589ba3f7.zip
+%   GreenCamp編
+%	https://adjustacademy.com/webcoder/a371e65d25e9e55fe6a6895162b2ef3f.zip
 % 
-% - 付録： テキストではCSSのgridを扱っておりませんが、参考までにgridを使用した解答についても共有します。
+% - 付録：Portfolio編について、参考までに grid を使用した解答も提供しておきます。
 %   https://adjustacademy.com/webcoder/c3549e90b6e7ac579944f567876218ff.zip  
-% CSSのgridについてもぜひ学んでいただきたいと思います。学ぶには「MDN グリッドレイアウト（https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Grids）」などインターネット上の文書を見てください。
+%   (テキストではCSSのgridを扱っておりませんので、このソースの他、「MDN グリッドレイアウト（https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Grids）」などで学んでいただきたいと思います。）
 % 
 % 新しいガイドブックを案内します。次のレベル（レベル１０）に進んで下さい。
 % - 新しいガイドブックのレベル１０のページ
