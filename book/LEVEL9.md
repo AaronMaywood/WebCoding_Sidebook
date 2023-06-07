@@ -802,9 +802,9 @@ SlickNavの使用方法は公式サイトの指示に従います。
 % 画像素材 https://github.com/AaronMaywood/responsive-by-JoyShaheb/archive/refs/heads/main.zip
 
 - {bdg-dark}`指示` 作業フォルダ名を`responsive`として下さい。
-- 画像素材をダウンロードして下さい。
+- 画像＆テキスト素材をダウンロードして下さい。
 	- https://adjustacademy.com/webcoder/23d6b1fe28d2b9635186d6009dedbe33.zip
-		- ZIPファイルを展開すると`images`フォルダが現れます。この`images`フォルダをコピーして制作に使用して下さい。
+		- ZIPファイルを展開すると`images`フォルダが現れます。画像素材はこの中にあります。また、テキスト素材は`index.html`ファイルの中に格納しました。
 - デザインカンプ
 	- デザインカンプはAdobe社のFigmaで作成・共有しており、以下のURLで確認できます。
 	- https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=0%3A1
