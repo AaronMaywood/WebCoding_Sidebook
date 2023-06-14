@@ -1176,6 +1176,21 @@ Webの生みの親はティム・バーナーズ=リーです。
   - https://adjustacademy.com/webcoder/f0bc3a313cc5162e2e83b2d6eb51656d.zip
     - テキスト素材が`index.html`の中に入っています。
     - 画像素材は`Hummus_from_The_Nile.jpg`です。
+    ````{tip}
+    **README.md**というファイルについて
+    ```{figure} https://i.gyazo.com/2b1c1e6ee6c16d8f0d280be49d788eda.png
+    フォルダを開いたら`README.md`というファイルが居ました。これはなんでしょう？
+    ```
+	フォルダを開いたら `README.md`（「私を読んで」) というファイルがある場合があります。
+	これはフォルダを作った人が自分のため、あるいは他の人のために残した**フォルダの内容に関するメモ書き**です。
+	中に重要なことが書かれていることがありますので、`README.md`があれば開いて読んでいただくことをおすすめします。
+
+	**テキストファイルなので`VS Code`で開くことができます。**
+
+	```{figure} https://i.gyazo.com/fdc84615d83a4bd0a2ef4d036fc5f64b.png
+	今回は使用する素材についての断り書きでした。読み飛ばしてもよさそうです。
+	```
+    ````
 - {bdg-dark}`指示` 作業フォルダ名を`hummus`とし、`HTML`のファイル名は`index.html`として下さい。
 - `title`要素の内容は「クイックフムスレシピ」として下さい。
 - 「フムス」の箇所には、Wikipediaの"フムス"のページである `https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A0%E3%82%B9` へのリンクを設置して下さい。リンクには`target="_blank"`を指定して下さい。
