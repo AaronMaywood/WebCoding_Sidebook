@@ -569,7 +569,7 @@ class: full-width
 ```
 
 Wikipediaのページ構成の意味を汲んで、冒頭部や主要なナビゲーション等の説明を入れると次のようになります。
-```{figure} images/gyazo/f8d55ac689cdf8694cff743f5a645d6e.png
+```{figure} https://i.gyazo.com/e11ed44a4b357a61e64680518c355c79.png
 ---
 name: structures
 class: full-width

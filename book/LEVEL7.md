@@ -479,6 +479,12 @@ p {
 %	https://github.com/AaronMaywood/coding_sample/tree/main/transition
 %		https://aaronmaywood.github.io/coding_sample/transition/
 
+### 採点基準
+
+採点基準は以下のとおりです。
+
+1. ブラウザーの表示をみて、指示通りの表示になっているかを確認します。
+
 ### 解答の提出
 
 - {bdg-dark}`指示` `position`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
@@ -494,8 +500,6 @@ p {
 	http://xxx.html.xdomain.jp/position/2/index.html
 	http://xxx.html.xdomain.jp/position/3/index.html
 	```
-
-
 
 % ```{code}
 % おめでとうございます。昇段試験に合格しました。
