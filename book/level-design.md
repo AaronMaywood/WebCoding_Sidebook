@@ -413,7 +413,7 @@ https://github.com/AaronMaywood/coding_sample/tree/main/box-model
 「ア、秋」にファーストビューの背景と挿し絵を挿入する
 https://www.aozora.gr.jp/cards/000035/files/236_19996.html 
 https://github.com/AaronMaywood/coding_sample/tree/main/a-aki	←試作品
-	→子孫セレクターを使用しているので説明が必要
+	→子孫セレクタを使用しているので説明が必要
 		教科書ではP.56で扱っている
 
 オーバーフロー、

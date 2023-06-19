@@ -299,7 +299,7 @@ img {
 ```{tip}
 **高度な話題 - ::afterとは **
 
-セレクターに新しい表現である`::after`が登場しました。
+セレクタに新しい表現である`::after`が登場しました。
 `clearfix`を利用する上ではこの`::after`を理解する必要はありませんが、気になった方は[mdn ::after](https://developer.mozilla.org/ja/docs/Web/CSS/::after)の記事をお読み下さい。
 なお`::after`は、装飾目的の「文字」を挿入するための手段です。セマンティクスが問われる`HTML`に置きたくはないが、装飾として文字を置きたいときに使用します。
 ```
@@ -569,12 +569,12 @@ a:hover {
 新たに `display:flex;`および`justify-content:space-between;` というプロパティが出てきていますが、これは後に学習する`flexbox`に関連するものです。ここでは`display:flex`で横に並べ、`justify-content:space-between;`で配置を均等割にするものだと考えて下さい。
 ```
 
-{bdg-dark-line}`テキスト：P.206` では`最後の子`を意味する`:last-child`のセレクターが使用されています。これを説明します。
+{bdg-dark-line}`テキスト：P.206` では`最後の子`を意味する`:last-child`のセレクタが使用されています。これを説明します。
 
 (last-child)=
 #### 末っ子を選択する`:last-child`
 
-`CSS`では**並べたものの最後だけ特殊な処理をしたいことがある**ため、セレクターに最後の子（つまり、末っ子）を示す`:last-child`の表現が用意されています。
+`CSS`では**並べたものの最後だけ特殊な処理をしたいことがある**ため、セレクタに最後の子（つまり、末っ子）を示す`:last-child`の表現が用意されています。
 
 [mdn :last-childの記事](https://developer.mozilla.org/ja/docs/Web/CSS/:last-child)より、サンプルを示します。
 
@@ -603,7 +603,7 @@ p:last-child {
 ````{tip}
 **高度な話題**
 
-（同じく`mdn`の記事の中から）次の例ではどこも選択されません。セレクターで指定しているのは`p`要素かつ`:last-child`ですが、`HTML`の方にある`p`は`:last-child`ではないためです。
+（同じく`mdn`の記事の中から）次の例ではどこも選択されません。セレクタで指定しているのは`p`要素かつ`:last-child`ですが、`HTML`の方にある`p`は`:last-child`ではないためです。
 ```html
 <div>
   <p>このテキストは選択されません。</p>
@@ -701,8 +701,8 @@ CSSアニメーションについては本ガイドブック、テキストで�
 % 「ア、秋」にファーストビューの背景と挿し絵を挿入する
 % https://www.aozora.gr.jp/cards/000035/files/236_19996.html 
 % https://github.com/AaronMaywood/coding_sample/tree/main/a-aki	←試作品
-% 	→子孫セレクターを使用しているので説明が必要
-% 		→LEVEL3.md の子孫セレクター](descendands-selector) で説明しているのでOK
+% 	→子孫セレクタを使用しているので説明が必要
+% 		→LEVEL3.md の子孫セレクタ](descendands-selector) で説明しているのでOK
 % 
 % オーバーフロー、
 % リスト、ナビメニュー

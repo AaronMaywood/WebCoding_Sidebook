@@ -197,8 +197,8 @@ https://aaronmaywood.github.io/coding_sample/media-query/sample1/index.html
 ````
 
 ````{hint}
-**追加するスタイル**の場所には通常の`CSS`を書く時と同様にセレクターから書きます。
-- こうではありません。セレクターが必要です。
+**追加するスタイル**の場所には通常の`CSS`を書く時と同様にセレクタから書きます。
+- こうではありません。セレクタが必要です。
 	```{code} css
 	@media (max-width: 600px) {
 	    background: blue;
