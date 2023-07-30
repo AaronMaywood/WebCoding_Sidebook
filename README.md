@@ -204,3 +204,14 @@ $ make download
 - Unsplash.com
  - https://unsplash.com/ja/%E5%86%99%E7%9C%9F/f4rYLkBy0gU
 
+## PDF化の方法
+
+```
+# 必要なものインストール
+pip install pyppeteer			# Ubuntu の場合
+sudo pacman -S python-pyppeteer	# Arch の場合
+
+# PDF化開始
+cd mapc-build-levels/devnote/
+jb build . --builder pdfhtml
+```
