@@ -525,7 +525,7 @@ body {
 	- https://adjustacademy.com/webcoder/75139d8daa9049402341013af53ae59e.zip
     - この中に`HTML`の素材である`index.html`が入っています。`index.html`は完成した`HTML`ですが、まだ`CSS`がありません。この`index.html`に`CSS`（`css/style.css`）を追加してこの課題の解答を作成して下さい。
 - 各ボックスに対する細かなスタイル指示は以下を参照して下さい。
-	- 指示はAdobe社のFigmaで作成・共有しています。次のURLで確認できます。
+	- 指示は`Figma`で作成・共有しています。次のURLで確認できます。
 	- https://www.figma.com/file/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?node-id=616%3A980&t=DeV5zNgWAcIbTQ4O-1
 		````{dropdown} Figmaの読み方を確認する
 		```{include} cards/figma.md
