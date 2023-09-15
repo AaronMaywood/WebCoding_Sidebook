@@ -9,20 +9,20 @@
 背景に色を敷くことのできる`background-color` はカラーの説明を行う「[](color) （{bdg-dark-line}`テキスト：P.104`）」で扱いました。
 
 `````{hint}
-背景に色を設定するのは、`background-color`ですが、背景関係のプロパティの短略形である`background`でも指定できます。
+背景に色を設定するのは、`background-color`ですが、背景関係のプロパティのショートハンドである`background`でも指定できます。
 
 以下は同じです。
 ```css
 background-color: red;
-background: red;       /* 短略形 */
+background: red;       /* ショートハンド */
 ```
 
-````{dropdown} 短略形を使用する際の注意点(高度な話題)
-常に短略形を使用してよいでしょうか？
+````{dropdown} ショートハンドを使用する際の注意点(高度な話題)
+常にショートハンドを使用してよいでしょうか？
 
-短略形の使用が問題ないかどうかをご自身で判断できるようになるために、短略形を使用する上での注意点を説明します。
+ショートハンドの使用が問題ないかどうかをご自身で判断できるようになるために、ショートハンドを使用する上での注意点を説明します。
 
-**「`background:red;`」の意味するところ ... 単略プロパティのお約束**
+**「`background:red;`」の意味するところ ... ショートハンドプロパティのお約束**
 
 `background`は`CSS`の一括指定プロパティで、以下背景に関するすべてのスタイルプロパティを一括で設定します。（[MDN background](https://developer.mozilla.org/ja/docs/Web/CSS/background)より）
 - background-attachment
@@ -47,7 +47,7 @@ background-repeat: repeat;		/* 初期値 */
 background-size: auto auto;		/* 初期値 */
 ```
 
-**短略形の利用上の注意点**
+**ショートハンド利用上の注意点**
 
 この約束を頭に入れておかないと、思わぬ不具合に出会うことがあります。
 
@@ -59,24 +59,24 @@ p {
 }
 ```
 
-短略プロパティ`background`には`background-color`も含まれている事を思い出して下さい。
+ショートハンドプロパティ`background`には`background-color`も含まれている事を思い出して下さい。
 
 従って上記のコードでは`background-color:red;`を次の行に書いた`background: url(images/bg.gif) no-repeat left top;`で上書きしています。
 （次の行にある`background: url(images/bg.gif) no-repeat left top;`には`background-color`の指定がありません。このときには[`background-color`の初期値である`transparent`](https://developer.mozilla.org/ja/docs/Web/CSS/background-color#%E5%85%AC%E5%BC%8F%E5%AE%9A%E7%BE%A9)が指定されることになります。）
 
 結果として`background-color`の値は`red`ではなく`transparent`になります。
 
-この問題を防ぐには、プロパティを書く順を上記の逆（「短略形→個別プロパティ」）にして下さい。
+この問題を防ぐには、プロパティを書く順を上記の逆（「ショートハンド→個別プロパティ」）にして下さい。
 ```
 p {
   background: url(images/bg.gif) no-repeat left top;
   background-color: red;
 }
 ```
-この記述順にすることで、短略形に指定したものを個別プロパティで適宜上書きして使用することができます。
+この記述順にすることで、ショートハンドに指定したものを個別プロパティで適宜上書きして使用することができます。
 
 ```{tip}
-これは`background`以外の`CSS`の短略プロパティ（[`margin`](https://developer.mozilla.org/ja/docs/Web/CSS/margin)や[`font`](https://developer.mozilla.org/ja/docs/Web/CSS/font)などの）全てに共通する注意点です。
+これは`background`以外の`CSS`のショートハンドプロパティ（[`margin`](https://developer.mozilla.org/ja/docs/Web/CSS/margin)や[`font`](https://developer.mozilla.org/ja/docs/Web/CSS/font)などの）全てに共通する注意点です。
 ```
 
 **参考**

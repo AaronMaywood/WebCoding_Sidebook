@@ -257,18 +257,18 @@ CSSはボックスの集合体であると説明しましたが、 ボックス�
 ## margin や padding プロパティの一括設定（ショートハンド設定）
  {bdg-dark-line}`テキスト：P.115`
 
-ショートハンドは短略形という意味で、複数のプロパティを一括で指定できる短縮表現です。
+ショートハンドは複数のプロパティを一括で指定できる簡略表現です。
 ```{code} css
 例)
 margin-top: 10px;
 margin-right: 10px;
 margin-bottom: 10px;
 margin-left: 10px;
-↓（上記４つのプロパティを一行で表した短略形） 
+↓（上記４つのプロパティを一行で表したショートハンド） 
 margin: 10px;
 ```
 
-`margin`と`padding`の短略形は同じ書式なので、`margin`を覚えれば`padding`も覚えたことになります。
+`margin`と`padding`のショートハンドは同じ書式なので、`margin`を覚えれば`padding`も覚えたことになります。
 
 ## ボーダーの作例
 {bdg-primary-line}`CSS教材：12_ボーダー` フォルダを`VS Code`で開き、`lesson1.html`のページに対して{bdg-dark-line}`テキスト：P.116`のようなボーダーを設定してみて下さい。
@@ -280,7 +280,7 @@ margin: 10px;
 border-width: 2px;
 border-style: solid;
 border-color: green;
-↓（短略形）
+↓（ショートハンド）
 border: 2px solid green;
 ```
 ````
@@ -309,7 +309,7 @@ body {
 ```
 こうすれば`margin: 0;`の指定を`margin-top: 50px`が上書きすることになります。
 
-ここで挙げたマージン以外の短略形全てに共通する性質です。
+ここで挙げたマージン以外のショートハンド全てに共通する性質です。
 ````
 
 ### ブロックレベル要素の中央寄せ
