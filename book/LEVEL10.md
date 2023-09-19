@@ -298,7 +298,7 @@
 - ファイル名の指示
 	- HTMLは`index.html`としてください。
 	- CSSは`css/style.css`として下さい。
-- デザインカンプはAdobe社のFigmaで作成・共有しており、以下のURLで確認できます。
+- デザインカンプはFigmaで作成・共有しており、以下のURLで確認できます。
   - https://www.figma.com/file/BcWrFX2j7lslCymV8fLUQR/Responsive-Design-Art-News-Landing-Page-(Community)?node-id=1%3A5&t=382485YnHDoo0qeg-1
 	````{dropdown} Figmaの画面でデザインカンプの指示を読む方法を確認する
 	```{include} cards/figma.md
@@ -333,9 +333,9 @@
 - ファイル名の指示
 	- HTMLは`index.html`としてください。
 	- CSSは`css/style.css`として下さい。
-- デザインカンプはAdobe社のFigmaで作成・共有しており、以下のURLで確認できます。
+- デザインカンプは`Figma`で作成・共有しており、以下のURLで確認できます。
   - https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=203%3A2&t=K2W0vFsLxEKFq0Qk-1
-	````{dropdown} Figmaの画面でデザインカンプの指示を読む方法を確認する
+	````{dropdown} `Figma`の画面でデザインカンプの指示を読む方法を確認する
 	```{include} cards/figma.md
 	```
 	````

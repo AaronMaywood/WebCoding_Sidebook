@@ -474,7 +474,7 @@ width: calc(10px+100px);   /* NG */
 
 次に細かな作成指示を行います。
 
-- 細かな作業指示（デザインカンプ）はAdobe社の`Figma`で作成・共有しており、以下のURLで確認できます。
+- 細かな作業指示（デザインカンプ）は`Figma`で作成・共有しており、以下のURLで確認できます。
 	- https://www.figma.com/file/A996Ho9Ea1d9MCti8iB87m/HTML%2FCSS%E5%85%A5%E9%96%80%E7%94%A8%E7%B4%A0%E6%9D%90?node-id=656%3A1016&t=6YC53Kiv15FS4aCQ-1
 		````{dropdown} Figmaの読み方を確認する
 		```{include} cards/figma.md
