@@ -787,7 +787,7 @@ name: a-aki-sample
 
 ### 解答の提出
 
-- {bdg-dark}`指示` `a-aki`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
+- {bdg-dark}`指示` `a-aki`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}にメールにて提出して下さい。
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```

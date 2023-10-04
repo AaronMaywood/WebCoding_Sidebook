@@ -918,7 +918,7 @@ SlickNavの使用方法は公式サイトの指示に従います。
 
 ### 提出方法（検証〜提出）
 
-- {bdg-dark}`指示` `responsive`フォルダ、及び`GreenCamp`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}に提出して下さい。
+- {bdg-dark}`指示` `responsive`フォルダ、及び`GreenCamp`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}にメールにて提出して下さい。
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
