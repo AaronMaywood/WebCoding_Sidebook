@@ -286,7 +286,7 @@
 
 ### A. Responsive Design Art News Landing Page の課題について
 
-素材の`ZIP`ファイルを以下の`URL`からダウンロードして下さい。
+素材の`ZIP`ファイルを以下の{term}`URL`からダウンロードして下さい。
 
 % download-zip-to-rename-by-hash https://github.com/AaronMaywood/Website1/archive/refs/heads/master.zip
 - https://adjustacademy.com/webcoder/8dad759b580d31d4024ef84ba896bba5.zip
@@ -298,7 +298,7 @@
 - ファイル名の指示
 	- HTMLは`index.html`としてください。
 	- CSSは`css/style.css`として下さい。
-- デザインカンプはFigmaで作成・共有しており、以下のURLで確認できます。
+- デザインカンプはFigmaで作成・共有しており、以下の{term}`URL`で確認できます。
   - https://www.figma.com/file/BcWrFX2j7lslCymV8fLUQR/Responsive-Design-Art-News-Landing-Page-(Community)?node-id=1%3A5&t=382485YnHDoo0qeg-1
 	````{dropdown} Figmaの画面でデザインカンプの指示を読む方法を確認する
 	```{include} cards/figma.md
@@ -320,7 +320,7 @@
 
 ### B. Responsive Startup Website の課題について
 
-素材の`ZIP`ファイルを以下の`URL`からダウンロードして下さい。
+素材の`ZIP`ファイルを以下の{term}`URL`からダウンロードして下さい。
 
 % $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/Website2/archive/refs/heads/master.zip
 - https://adjustacademy.com/webcoder/eaa4b6e1370c62fece3ba9a65138df0a.zip
@@ -333,7 +333,7 @@
 - ファイル名の指示
 	- HTMLは`index.html`としてください。
 	- CSSは`css/style.css`として下さい。
-- デザインカンプは`Figma`で作成・共有しており、以下のURLで確認できます。
+- デザインカンプは`Figma`で作成・共有しており、以下の{term}`URL`で確認できます。
   - https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=203%3A2&t=K2W0vFsLxEKFq0Qk-1
 	````{dropdown} `Figma`の画面でデザインカンプの指示を読む方法を確認する
 	```{include} cards/figma.md
@@ -436,7 +436,7 @@
 ### 提出方法（検証〜提出）
 
 - {bdg-dark}`指示`
-	`website1`〜`website3`の３つのフォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}にメールにて提出して下さい。
+	`website1`〜`website3`の３つのフォルダを自身の{term}`ウェブサーバー`にアップロードし、ページを確認できる{term}`URL`を{{OFFICE}}にメールにて提出して下さい。
 
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
@@ -447,16 +447,16 @@
 
 	○○です。
 
-	http://xxx.html.xdomain.jp/website1/index.html
-	http://xxx.html.xdomain.jp/website2/index.html
-	http://xxx.html.xdomain.jp/website3/index.html
+	https://xxx.cloudfree.jp/website1/index.html
+	https://xxx.cloudfree.jp/website2/index.html
+	https://xxx.cloudfree.jp/website3/index.html
 	```
 
 % https://docs.google.com/document/d/1q8QJhsaq7xCMHLkFfy8-gpw1EYzr6qKif7AX53opJzQ/edit#heading=h.nphs7fg0hkdl
 % 
 % 総合試験に合格しました。
 %
-% - 模範解答を以下のURLからダウンロードできます。自身の答えと照らし合わせて研究して下さい。
+% - 模範解答を以下の{term}`URL`からダウンロードできます。自身の答えと照らし合わせて研究して下さい。
 % % $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/Website1/archive/refs/heads/answer.zip
 % % $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/Website2/archive/refs/heads/answer.zip
 % % $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/Website3/archive/refs/heads/answer.zip
@@ -474,7 +474,7 @@
 % 
 % 	  ○○です。
 % 
-% 	  http://xxx.html.xdomain.jp/portfolio/index.html
+% 	  http://xxx.cloudfree.jp/portfolio/index.html
 %   - このポートフォリオを元に就職支援を受けることができます。ポートフォリオ提出後の指示に従って下さい。
 % 
 % 事務局 担当：安村(yasumura@adjust.ne.jp)

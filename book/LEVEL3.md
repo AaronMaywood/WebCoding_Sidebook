@@ -731,7 +731,7 @@ color:#ff3300部分を宣言という
 - スタイルが指示どおりに当たっており、表示結果がみほんと同一になっていること。
 
 ### 解答の提出
-- {bdg-dark}`指示` `text-style`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}にメールにて提出して下さい。
+- {bdg-dark}`指示` `text-style`フォルダを自身の{term}`ウェブサーバー`にアップロードし、ページを確認できる{term}`URL`を{{OFFICE}}にメールにて提出して下さい。
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
@@ -740,9 +740,8 @@ color:#ff3300部分を宣言という
 	件名：LEVEL3の昇段試験のファイルを提出します
 
 	○○です。
-	http://xxx.html.xdomain.jp/text-style/index.html
+	https://xxx.cloudfree.jp/text-style/index.html
 	```
-
 
 % {{TODO}} 回答のダウンロード指示は、合格通知の中で行う
 % wikipediaの解答例、解説付き{{TODO}}解説はまだ

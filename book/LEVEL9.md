@@ -302,7 +302,7 @@ https://aaronmaywood.github.io/coding_sample/media-query/sample2/index.html
 
 ### 要点解説 3. デバイスモードを使用して検証する
 
-PC版のGoogle Chromeのデベロッパーツールには各種スマートフォンデバイスの画面サイズを指定してプレビューできる**デバイスモード**が搭載されています。
+`PC`版の`Google Chromeのデ`ベロッパーツールには各種スマートフォンデバイスの画面サイズを指定してプレビューできる**デバイスモード**が搭載されています。
 
 % エミュレーションの用語を使わなくしたのでボツ
 % ```{tip}
@@ -372,7 +372,7 @@ PC版のGoogle Chromeのデベロッパーツールには各種スマートフ�
 </head>
 ```
 
-このサンプルを次の`URL`から確認できます。
+このサンプルを次の{term}`URL`から確認できます。
 
 https://aaronmaywood.github.io/coding_sample/media-query/sample3/
 
@@ -795,7 +795,7 @@ SlickNavの使用方法は公式サイトの指示に従います。
 ```{figure} images/gyazo/282a10c93f9f756f25c908e734452f21.png
 本教材は<a class="reference external" href="https://www.figma.com/@joyshaheb" target="_blank">Khondokor Alarm@JoyShaheb</a>氏によるもので、それに加筆したものです。
 オリジナルはライセンス<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank">CC BY 4.0</a>にて配付されており、<a class="reference external" href="https://www.figma.com/community/file/1150370769219258177" target="_blank">https://www.figma.com/community/file/1150370769219258177</a>にあります。
-本作品の中で使用されている各画像素材のライセンスは、<a class="reference external" href="https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=19%3A6&t=jZACmIAskTTrw8VJ-1" target="_blank">画像素材一覧</a>の中にあるそれぞれのURLから確認することができます。
+本作品の中で使用されている各画像素材のライセンスは、<a class="reference external" href="https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=19%3A6&t=jZACmIAskTTrw8VJ-1" target="_blank">画像素材一覧</a>の中にあるそれぞれの{term}`URL`から確認することができます。
 ```
 
 以下に必要な素材・指示を示します。
@@ -806,17 +806,17 @@ SlickNavの使用方法は公式サイトの指示に従います。
 	- https://adjustacademy.com/webcoder/23d6b1fe28d2b9635186d6009dedbe33.zip
 		- ZIPファイルを展開すると`images`フォルダが現れます。画像素材はこの中にあります。また、テキスト素材は`index.html`ファイルの中に格納しました。
 - デザインカンプ
-	- デザインカンプは`Figma`で作成・共有しており、以下のURLで確認できます。
+	- デザインカンプは`Figma`で作成・共有しており、以下の{term}`URL`で確認できます。
 	- https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=0%3A1
 		````{dropdown} Figmaの読み方を確認する
 		```{include} cards/figma.md
 		```
 		````
 - デザインシステム（デザインの全体的な話）
-	- 次のURLを開いて下さい。
+	- 次の{term}`URL`を開いて下さい。
 		- https://www.figma.com/file/y2gyLprBh8D6FLO2wbKxwj/%E6%95%99%E6%9D%90%E3%83%BBResponsive-Startup-Website-By-Khondokor-Alarm%40JoyShaheb?node-id=1%3A3377&t=jZACmIAskTTrw8VJ-1
 	- デザインシステムとはデザイナーの意図を言語化したもので、デザイナーとコーダーの共通認識を表したものです。具体的には、色や使用するフォントの指示、ブレークポイントなどの指示が含まれます。
-	- フォントにはGoogle Fontsを使用します。
+	- フォントには`Google Fonts`を使用します。
 		````{dropdown} 指定されたフォントをGoogle Fontから使用する方法を確認する
 		```{include} cards/google-fonts.md
 		```
@@ -871,13 +871,6 @@ SlickNavの使用方法は公式サイトの指示に従います。
 
 #### 問題１の採点基準
 
-```{warning}
-**`Xserver`で`SVG`画像を表示するには設定が必要です**
-
-`Xserver`では、設定を行わないと`SVG`画像が表示されません。
-[](using-svg) に従って設定を行ってください。
-```
-
 1. ブラウザーの表示をみて、指示通りの表示になっているかを確認します。
 2. レスポンシブ対応が正しくなされているかどうかを`320px`〜`1980px`の画面幅で確認します。また、以下のブレークポイントで切り替わることを確認します。
 	1. `1440px`
@@ -918,7 +911,7 @@ SlickNavの使用方法は公式サイトの指示に従います。
 
 ### 提出方法（検証〜提出）
 
-- {bdg-dark}`指示` `responsive`フォルダ、及び`GreenCamp`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}にメールにて提出して下さい。
+- {bdg-dark}`指示` `responsive`フォルダ、及び`GreenCamp`フォルダを自身の{term}`ウェブサーバー`にアップロードし、ページを確認できる{term}`URL`を{{OFFICE}}にメールにて提出して下さい。
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
@@ -929,9 +922,9 @@ SlickNavの使用方法は公式サイトの指示に従います。
 
 	○○です。
 	Portfolio編
-	http://xxx.html.xdomain.jp/responsive/index.html
+	https://xxx.cloudfree.jp/responsive/index.html
 	GreenCamp編
-	http://xxx.html.xdomain.jp/GreenCamp/index.html
+	https://xxx.cloudfree.jp/GreenCamp/index.html
 	```
 
 % Portfolio編

@@ -162,13 +162,14 @@ LEVEL6「[](flex-example-first)」の作業の続きです。
 
 {bdg-primary-line}`CSS教材：27_二段組ボックスレイアウト` フォルダを`VS Code`で開き、 {bdg-dark-line}`テキスト：P.156〜160` に沿って作業しながら読み進めて下さい。
 
-## 「WinSCP」でWWWサーバーへアップする
+## 「`WinSCP`」で`WWW`サーバーへアップする
 
 ```{hint}
 **{bdg-dark-line}`テキスト：P.161〜162` は読み飛ばして下さい。**
 
-作成したファイルを`Webサーバー`へアップロードする方法を説明しています。
-本ガイドブックの読者はすでに「[](webserver.md)」でお馴染みの手順です。（なお、ファイルをアップロードに使用するアプリケーションが`Filezilla`の代わりに`WinSCP`となっていますが、できることは同じです。）
+作成したファイルを{term}`ウェブサーバー`へアップロードする方法を説明しています。
+本ガイドブックの読者はすでに「[](webserver.md)」でお馴染みの手順です。
+（なお、ファイルをアップロードに使用するアプリケーションが`Filezilla`の代わりに`WinSCP`となっていますが、できることは同じです。`WinSCP`の代わりに`FileZilla`を使用して問題ありません。）
 ```
 
 ## 付録：CSS3 簡易解説
@@ -487,7 +488,7 @@ p {
 
 ### 解答の提出
 
-- {bdg-dark}`指示` `position`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}にメールにて提出して下さい。
+- {bdg-dark}`指示` `position`フォルダを自身の{term}`ウェブサーバー`にアップロードし、ページを確認できる{term}`URL`を{{OFFICE}}にメールにて提出して下さい。
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
@@ -496,9 +497,9 @@ p {
 	件名：LEVEL7の昇段試験のファイルを提出します
 
 	○○です。
-	http://xxx.html.xdomain.jp/position/1/index.html
-	http://xxx.html.xdomain.jp/position/2/index.html
-	http://xxx.html.xdomain.jp/position/3/index.html
+	https://xxx.cloudfree.jp/position/1/index.html
+	https://xxx.cloudfree.jp/position/2/index.html
+	https://xxx.cloudfree.jp/position/3/index.html
 	```
 
 % ```{code}

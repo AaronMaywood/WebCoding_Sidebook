@@ -240,7 +240,7 @@ align
 	```{include} cards/css/why-use-rem.md
 	```
 	````
-  - 展開した`exam_flexbox-main`というフォルダ名を`flexbox`に変更して使用して下さい。解答やサーバーアップロードにそのまま使用できます。
+  - 展開した`exam_flexbox-main`というフォルダ名を`flexbox`に変更して使用して下さい。解答の作成やサーバーアップロードにそのまま使用できます。
 
 ### 問１ - 横並び
 
@@ -311,7 +311,7 @@ Flexboxを使用して「ドロップ」「タフィ」などのお菓子の名�
 
 ### 解答の提出
 
-- {bdg-dark}`指示` `flexbox`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}にメールにて提出して下さい。
+- {bdg-dark}`指示` `flexbox`フォルダを自身の{term}`ウェブサーバー`にアップロードし、ページを確認できる{term}`URL`を{{OFFICE}}にメールにて提出して下さい。
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
@@ -320,10 +320,10 @@ Flexboxを使用して「ドロップ」「タフィ」などのお菓子の名�
 	件名：LEVEL6の昇段試験のファイルを提出します
 
 	○○です。
-	http://xxx.html.xdomain.jp/flexbox/1/index.html
-	http://xxx.html.xdomain.jp/flexbox/2/index.html
-	http://xxx.html.xdomain.jp/flexbox/3/index.html
-	http://xxx.html.xdomain.jp/flexbox/4/index.html
+	https://xxx.cloudfree.jp/flexbox/1/index.html
+	https://xxx.cloudfree.jp/flexbox/2/index.html
+	https://xxx.cloudfree.jp/flexbox/3/index.html
+	https://xxx.cloudfree.jp/flexbox/4/index.html
 	```
 
 

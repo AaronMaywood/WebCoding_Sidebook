@@ -170,13 +170,13 @@ flowchart LR
 また **`LEVEL8`から実践的なコーディングの過程に入り、難易度が上がりますが、具体的なコーディングの方法を学ぶことができます。実力は`LEVEL8`以降で身につきます。
 `LEVEL8`以降にたっぷりと時間をかけて頂きたいと思います。**
 
-1. `LEVEL1` ... Web、HTMLパート１
-2. `LEVEL2` ... HTMLパート２
-3. `LEVEL3` ... CSSの基本
-4. `LEVEL4` ... CSS - ボックスモデル
-5. `LEVEL5` ... CSS - 背景、float、実例:ナビメニュー
-6. `LEVEL6` ... CSS - Flexbox
-7. `LEVEL7` ... CSS - Position
+1. `LEVEL1` ... `Web`、`HTML`パート１
+2. `LEVEL2` ... `HTML`パート２
+3. `LEVEL3` ... `CSS`の基本
+4. `LEVEL4` ... `CSS` - ボックスモデル
+5. `LEVEL5` ... `CSS` - 背景、`float`、実例:ナビメニュー
+6. `LEVEL6` ... `CSS` - `Flexbox`
+7. `LEVEL7` ... `CSS` - `Position`
 8. `LEVEL8` ... お茶サイト
 9. `LEVEL9` ... マルチデバイスに対応したサイト作り
 10. `LEVEL10` ... 総合試験とポートフォリオ制作
@@ -421,7 +421,7 @@ flowchart LR
 % {bdg-dark}`事前準備をお願いします` コード（ソースコード）の質問の際には、質問する講師にコードを共有できるようにしてください。
 % - ソースコードを自身のウェブサーバー上に`test`フォルダなどの名前でアップロードして下さい。
 % 	- アップロードの方法は「[](upload-to-webserver)」に従って下さい。
-% - 質問の際に講師にそのURL（例：`http://xxx.html.xdomain.jp/test/index.html`）を伝えて下さい。
+% - 質問の際に講師にそのURL（例：`https://xxx.html.xdomain.jp/test/index.html`）を伝えて下さい。
 % ```
 % 
 % {{OFFICE}}に質問予約を依頼したら、次の案内が届きます。

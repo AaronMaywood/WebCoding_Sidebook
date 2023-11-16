@@ -787,7 +787,7 @@ name: a-aki-sample
 
 ### 解答の提出
 
-- {bdg-dark}`指示` `a-aki`フォルダを自身のWebサーバーにアップロードし、ページを確認できるURLを{{OFFICE}}にメールにて提出して下さい。
+- {bdg-dark}`指示` `a-aki`フォルダを自身の{term}`ウェブサーバー`にアップロードし、ページを確認できる{term}`URL`を{{OFFICE}}にメールにて提出して下さい。
 - 具体的には次のようにして下さい。
 	```{include} cards/school/filling.md
 	```
@@ -796,7 +796,7 @@ name: a-aki-sample
 	件名：LEVEL5の昇段試験のファイルを提出します
 
 	○○です。
-	http://xxx.html.xdomain.jp/a-aki/index.html
+	https://xxx.cloudfree.jp/a-aki/index.html
 	制作環境の画面幅は1536pxです。 （←※調べた上で記載して下さい。）
 	```
 	````{dropdown} ブラウザーの幅を知る方法を確認する
