@@ -52,3 +52,8 @@ sync-all:
 gyazo-to-local-images:
 	rg -l gyazo.com -g '**/*.md' | xargs sed -i -e 's|https://i.gyazo.com|images/gyazo|'
 	@echo gyazoのURLをローカルのimages/gyazoに書き換えました. book フォルダにて、git diff で確認して下さい。
+
+build-pdf:
+	cd ../mapc-build-levels/level10 ; jb build . --builder pdfhtml  
+	echo ../mapc-build-levels/level10/_build/pdf/book.pdf を確認してください
+
