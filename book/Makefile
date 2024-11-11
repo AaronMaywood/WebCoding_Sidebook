@@ -55,5 +55,20 @@ gyazo-to-local-images:
 
 build-pdf:
 	cd ../mapc-build-levels/level10 ; jb build . --builder pdfhtml  
-	echo ../mapc-build-levels/level10/_build/pdf/book.pdf を確認してください
+	@echo "../mapc-build-levels/level10/_build/pdf を生成しました"
+	@echo "なお、このPDFの印刷品質は不完全で、コンテンツがページの途中で切れてしまいます。別途 `make build-singlehtml`で作成した単一ページの`index.html`を元に、Google Chrome でPDF化してください。"
+
+build-singlehtml:
+	cd ../mapc-build-levels/level10;  jb build . --builder singlehtml
+	@echo "../mapc-build-levels/level10/_build/singlehtml フォルダを生成しました"
+	@echo "ビルドした singlehtml フォルダをGoogle Drive に移動するには  sudo mv ../mapc-build-levels/level10/_build/singlehtml /mnt/google/  を実行して下さい。"
+	@echo "singlehtml/index.html をGoogle Chrome で開いてPDF化して下さい。"
+	@echo "Google Chrome で開いたあとに、全てのドロップダウンを展開する以下のスクリプトをコンソールから実行して下さい。"
+	@echo "// ドロップダウンをすべて展開する"
+	@echo "let s = document.querySelectorAll('summary');"
+	@echo "s.forEach(summary => summary.click());"
+	@echo "PDF化する時の設定は、https://i.gyazo.com/ac6b28364e7c932123c30802d51cfd35.png を参照して下さい。"
+	@echo "なお、https://i.gyazo.com/0ee1068505b6777175d71c579b009c07.png にコンテンツが切れる箇所があります。まだ印刷設定は不完全なので見直して下さい。"
+	@echo "関連: 2023\10\2023-10-20-090031.txt|39| = [jupyterbook][pdf] よりよいPDF書き出し方法"
+
 
