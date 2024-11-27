@@ -586,8 +586,9 @@ Google Chrome ではショートカットキー {bdg-dark}`Ctrl + マウスホ�
 
 1. `red`, `green`等の色名を使う
 2. 光の３原色(RGB=赤、緑、青)で指定する
-  a. 16進法を使って指定する
-  b. 10進法を使って指定する→`rgb()`を使います→併せて透明度も指定できる`rgba()`もあります
+
+	- 16進法を使って指定する
+	- 10進法を使って指定する→[`rgb()`](https://developer.mozilla.org/ja/docs/Web/CSS/color_value/rgb)を使います
 3. （テキストの範囲外ですが、`rgb()`の他にグラフィックツールでお馴染みの色相・彩度・明度で色を作ることのできる`hsl()`を使用できます。`hsl(0, 100%, 50%)`と書けば色相0°・彩度100%・明度50%で赤となります。[`hsl()`についての記事](https://developer.mozilla.org/ja/docs/Web/CSS/color_value/hsl)）
 4. （後のテキストで出てくるグラデーションも色の一種です）
 

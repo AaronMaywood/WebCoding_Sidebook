@@ -297,7 +297,7 @@ img {
 {bdg-dark-line}`テキスト：P.131` 
 
 ```{tip}
-**高度な話題 - ::afterとは **
+**高度な話題 - ::afterとは**
 
 セレクタに新しい表現である`::after`が登場しました。
 `clearfix`を利用する上ではこの`::after`を理解する必要はありませんが、気になった方は[mdn ::after](https://developer.mozilla.org/ja/docs/Web/CSS/::after)の記事をお読み下さい。
@@ -462,8 +462,8 @@ img {
 
 	/* .wrapperの中にあるdiv */
 	.wrapper div {
-		border: 1px dashed red;
-		display: inline; /* 変更しました  */
+        border: 1px dashed red;
+        display: inline; /* 変更しました  */
 	}
 	```
 	```{figure} images/gyazo/2fa97c81e8bf9be7f315c5127eef897e.png

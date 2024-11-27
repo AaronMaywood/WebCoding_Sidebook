@@ -173,12 +173,14 @@
 % https://unsplash.com/ja/%E5%86%99%E7%9C%9F/ATgfRqpFfFI
 ```
 ↑は`figure`の例として写真を扱っています。
-ここは本文です。{numref}`figure-sample`は <a href="https://unsplash.com/ja/s/%E5%86%99%E7%9C%9F/%E3%81%AF%E3%81%AA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="reference external">Unsplash</a>の<a class="reference external" href="https://unsplash.com/@roonz_nl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">RoonZ nl</a>が撮影した写真です。←このように図を「{numref}`figure-sample`」のように本文から参照しています。
+> ここは本文です。{numref}`figure-sample`は <a href="https://unsplash.com/ja/s/%E5%86%99%E7%9C%9F/%E3%81%AF%E3%81%AA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="reference external">Unsplash</a>の<a class="reference external" href="https://unsplash.com/@roonz_nl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">RoonZ nl</a>が撮影した写真です。
+
+上の例では「{numref}`figure-sample`」のように図を本文から**参照**しています。
+
+図版を本文から参照したいな（そのためにキャプションもほしいな）、と思うことがあればそれは`figure`にふさわしいということになります。
 ````
 
-図版にキャプションを付けたいな、と思うことがあればそれは`figure`にふさわしいということになります。
-
-`figure`はキャプションである`figcaption`を伴って次のようにマークアップします。
+`figure`は自身のキャプションである`figcaption`を伴って次のようにマークアップします。
 
 ```html
 <figure>
@@ -193,9 +195,9 @@
 以下、`figure`使用上の細かな注意点です。
 
 - `figure` の中に入れられるものは画像に限りません。本文中から参照される表やソースコードなどを入れることもできます。
-- 本文とキャプションの関係は、次のように暗黙的なものを含んでいます。
-  1. 本文中からキャプションを参照するのは必須ではありません。図版にキャプションを付けることで参照を匂わせるだけの用途にも使用できます。
-  2. 本文から「上の図をご覧ください」と参照しつつ、図版のほうにはキャプションが無い場合にも`figure`を用います。（この場合には`figcaption`は書きません）
+- 本文とキャプションの関係は、次のように**潜在的**なものを含んでいます。
+  1. 参照のために本文中にキャプションを明示するのは必須ではありません。図版にキャプションを付けることで参照を**匂わせる**だけの用途も可能です。
+  2. 本文から「上の図をご覧ください」と参照しつつ、図版のほうにはキャプションを付けないが無い場合も潜在的なキャプションがあるもの、`figure`を使用するのにふさわしいものとなります。
 
 % [mdn のfigureのページ](https://developer.mozilla.org/ja/docs/Web/HTML/Element/figure)には以下のように説明されています。
 % > ふつう <figure> は画像、イラスト、グラフ、コードの断片など、文書の本文の流れから参照されるものの、本文の流れに影響を与えることなく、文書のほかの部分や付録に移動することが可能なものに用います。
