@@ -79,3 +79,9 @@ a#transition-demo:hover{
 .mermaid {
 	margin-bottom: 2rem;
 }
+
+/* Markdownのソースのダウンロード禁止 */
+.dropdown-download-buttons {
+    display: none !important;
+}
+
