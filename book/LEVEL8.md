@@ -175,7 +175,7 @@
 ↑は`figure`の例として写真を扱っています。
 > ここは本文です。{numref}`figure-sample`は <a href="https://unsplash.com/ja/s/%E5%86%99%E7%9C%9F/%E3%81%AF%E3%81%AA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="reference external">Unsplash</a>の<a class="reference external" href="https://unsplash.com/@roonz_nl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">RoonZ nl</a>が撮影した写真です。
 
-上の例では「{numref}`figure-sample`」のように図を本文から**参照**しています。
+上の本文の例では「{numref}`figure-sample`」のように図を文中から示しています（これを**参照**と言います）。
 
 図版を本文から参照したいな（そのためにキャプションもほしいな）、と思うことがあればそれは`figure`にふさわしいということになります。
 ````
