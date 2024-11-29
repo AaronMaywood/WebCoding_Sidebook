@@ -1,5 +1,8 @@
 # LEVEL2 HTMLパート２
 
+```{contents}
+```
+
 LEVEL1では`HTML`の基本といくつかの要素を学びました。
 LEVEL2では`HTML`の残りの要素を学び、`HTML`の学習を終了します。LEVEL2での`HTML`の見どころは {bdg-dark-line}`テキスト：P.59〜63` の「大規模なボックスとしてまとめるタグについて」です。
 
@@ -289,6 +292,14 @@ LEVEL2では`HTML`の残りの要素を学び、`HTML`の学習を終了しま�
 `body`も含めた各`section`には、冒頭部とフッター部（脚部）を持つことができます。
 
 それを表すのが`header`要素と`footer`要素です。
+
+````{hint}
+一般的な{term}`ウェブページ`によく見られる構造として、冒頭部（ヘッダー）と脚部（フッター）があります。それを表すのが<ruby>`header`<rp>(</rp><rt>ヘッダー</rt><rp>)</rp></ruby>要素と<ruby>`footer`<rp>(</rp><rt>フッター</rt><rp>)</rp></ruby>要素です。
+```{figure} https://i.gyazo.com/c246a9d9367621305c046f952798386c.png
+典型的な`header`と`footer`。`header`には通常ロゴやサイト内のナビゲーションが入ります。`footer`には会社の住所や
+連絡先、関連サイトのリンク集などが含まれます。
+```
+````
 
 % https://developer.mozilla.org/ja/docs/Web/HTML/Element/header
 `header`は章や節の冒頭部（導入部）であり、見出しやロゴ画像その他の導入的なコンテンツが入ります。（`header`はオプションです。`header`要素が無い時には見出しは`section`の冒頭に書きます。）

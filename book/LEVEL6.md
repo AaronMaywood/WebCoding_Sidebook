@@ -1,5 +1,8 @@
 # LEVEL6 CSS - Flexbox
 
+```{contents}
+```
+
 ## Flexbox（フレキシブルボックス）
 
 % https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Flexbox
