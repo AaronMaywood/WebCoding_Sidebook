@@ -96,6 +96,28 @@ align
 また、横方向の中央寄せである`justify-content:center`を組み合わせて縦にも横にも中央に表示することもできます。
 ```
 
+
+```{hint}
+**テキストにはない話題 ... order と gap**
+
+フレキシブルボックスには、フレックスアイテムの並び順を制御する`order`プロパティと、同じくフレックスアイテム間の隙間を調整する`gap`プロパティが存在します。
+
+以下の記事を合わせて読んでおいて下さい。
+
+- [MDN | order](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_flexible_box_layout/Ordering_flex_items#order_%E3%83%97%E3%83%AD%E3%83%91%E3%83%86%E3%82%A3)
+
+	```{hint}
+	これまでは画面上の表示順を変えるには{term}`HTML`を編集する必要がありましたが、`order`プロパティの登場により{term}`CSS`だけで順序を変えることができるようになりました。
+	```
+
+- [MDN | gap](https://developer.mozilla.org/ja/docs/Web/CSS/gap)
+
+	```{hint}
+	フレックスアイテム間に「隙間を与えたいな」と思うことはよくあります。ぜひ`gap`プロパティを知っておきましょう。
+	```
+
+```
+
 (flex-example-first)=
 ## Flex を応用したニ段組みボックスレイアウト　─　第１段階
 
