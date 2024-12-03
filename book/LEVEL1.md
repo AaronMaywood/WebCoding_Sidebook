@@ -1252,17 +1252,28 @@ Webの生みの親はティム・バーナーズ=リーです。
   ```
 
 ### 解答の提出
-- {bdg-dark}`指示` `hummus`フォルダを自身の{term}`ウェブサーバー`にアップロードし、ページを確認できる{term}`URL`を{{OFFICE}}にメールにて提出して下さい。
-- 具体的には次のようにして下さい。
-	```{include} cards/school/filling.md
-	```
-- 以下の文言テンプレートを利用し{{OFFICE}}に提出して下さい。
-	```{code}
-	件名：LEVEL1の昇段試験のファイルを提出します
 
-	○○です。
-	https://xxx.cloudfree.jp/hummus/index.html
-	```
+- {bdg-dark}`指示` 提出に先立って最終確認をお願いします。意図通りに制作されていますか？
+- {bdg-dark}`指示` 作成した`hummus`ファイル一式を{{OFFICE}}に提出して下さい。
+    - 提出は次のようにして下さい。
+        1. レンタルサーバーを借りている場合
+            - 「[](upload-to-webserver)」に従い、{bdg-dark}`指示`されたフォルダを{term}`ウェブサーバー`にアップロードして下さい。
+            - 以下の文言テンプレートを利用し{{OFFICE}}にメールにて提出して下さい。
+                ```{code}
+                件名：LEVEL1の昇段試験のファイルを提出します
+
+                ○ ○ です。
+                https://xxxxxx/hummus/index.html
+                ```
+        2. レンタルサーバーを借りていない場合
+
+            - ファイルを`ZIP`化し、以下の文言テンプレートを利用し{{OFFICE}}にメールにて提出して下さい。
+                ```{code}
+                件名：LEVEL1の昇段試験のファイルを提出します
+
+                ○ ○ です。
+                ZIPファイルを添付します。
+                ```
 
 % {{TODO}} 回答のダウンロード指示は、合格通知の中で行う
 % > $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_float/archive/refs/heads/answer.zip

@@ -439,22 +439,30 @@
 (level10-filling-method)=
 ### 提出方法（検証〜提出）
 
-- {bdg-dark}`指示`
-	`website1`〜`website3`の３つのフォルダを自身の{term}`ウェブサーバー`にアップロードし、ページを確認できる{term}`URL`を{{OFFICE}}にメールにて提出して下さい。
 
-- 具体的には次のようにして下さい。
-	```{include} cards/school/filling.md
-	```
-- 以下の文言テンプレートを利用し{{OFFICE}}に提出して下さい。
-	```{code}
-	件名：LEVEL10の総合試験のファイルを提出します
+- {bdg-dark}`指示` 提出に先立って最終確認をお願いします。意図通りに制作されていますか？
+- {bdg-dark}`指示` 作成した`website1`〜`website3`の３つのファイル一式を{{OFFICE}}に提出して下さい。
+    - 提出は次のようにして下さい。
+        1. レンタルサーバーを借りている場合
+            - 「[](upload-to-webserver)」に従い、{bdg-dark}`指示`されたフォルダを{term}`ウェブサーバー`にアップロードして下さい。
+            - 以下の文言テンプレートを利用し{{OFFICE}}にメールにて提出して下さい。
+                ```{code}
+                件名：LEVEL10の昇段試験のファイルを提出します
 
-	○○です。
+                ○ ○ です。
+				https://xxxxxx/website1/index.html
+				https://xxxxxx/website2/index.html
+				https://xxxxxx/website3/index.html
+                ```
+        2. レンタルサーバーを借りていない場合
 
-	https://xxx.cloudfree.jp/website1/index.html
-	https://xxx.cloudfree.jp/website2/index.html
-	https://xxx.cloudfree.jp/website3/index.html
-	```
+            - ファイルを`ZIP`化し、以下の文言テンプレートを利用し{{OFFICE}}にメールにて提出して下さい。
+                ```{code}
+                件名：LEVEL9の昇段試験のファイルを提出します
+
+                ○ ○ です。
+                ZIPファイルを添付します。
+                ```
 
 % https://docs.google.com/document/d/1q8QJhsaq7xCMHLkFfy8-gpw1EYzr6qKif7AX53opJzQ/edit#heading=h.nphs7fg0hkdl
 % 
