@@ -152,6 +152,15 @@ align
 グリッドレイアウトはフレックスボックスに並んで登場した新しいレイアウトの道具です。
 
 フレックスボックスが「横方向」あるいは「縦方向」の一直線上（ただし行が折返す場合はある）に要素を配置するのに対し、表のように縦横のマス目を作り、そのマス目上に要素をレイアウトするのがグリッドレイアウトです。
+
+```{hint}
+[`grid`](https://ejje.weblio.jp/content/grid)は「格子」という意味です。
+```
+
+```{figure} https://i.gyazo.com/a51dfa1ac77c6ed29efc16e4274fb385.png
+`grid`は画面上の領域を縦と横の線で区切り、どのマス目にどのボックスをレイアウトするかを扱います。
+```
+
 ```{figure} images/gyazo/ff7501d07711d512560f4940793ab48e.png
 フレックスボックスとグリッドレイアウトで表現できる典型的なレイアウトです。フレックスボックスが「横並び（＋折返し）」で構成されているのに対し、グリッドは縦横の「マス目」を引いて、マス目上に要素を配置（マス目を空白にすることもできる）してレイアウトを構成します。
 
@@ -164,9 +173,6 @@ align
 - [ほんっとにはじめての HTML5 と CSS3、今回から Grid Layout を作ってみよう。](http://honttoni.blog74.fc2.com/blog-entry-380.html)
 - [MDN グリッドレイアウトの基本概念](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
 
-```{admonition} おわび
-グリッドに関して、このガイドブックが力不足ですみません...😅
-```
 
 % 
 % 
