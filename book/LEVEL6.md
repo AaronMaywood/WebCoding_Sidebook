@@ -173,9 +173,13 @@ align
 - [ほんっとにはじめての HTML5 と CSS3、今回から Grid Layout を作ってみよう。](http://honttoni.blog74.fc2.com/blog-entry-380.html)
 - [MDN グリッドレイアウトの基本概念](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
 
+% 以下の教材は作った. これが一番シンプルでわかりやすいと思う
+% https://github.com/AaronMaywood/Holy-Grail-Layout
+% 	Pages:
+% 	https://aaronmaywood.github.io/Holy-Grail-Layout/
+% ```{figure} https://i.gyazo.com/212523a93a7249792b0c53e4d5a0f164.png
+% 「聖杯レイアウト」と呼ばれるレイアウトです。
 
-% 
-% 
 % フレックスボックスが「横方向」あるいは「縦方向」の一直線にレイアウトするのに対し、表のように縦横のマス目にレイアウトするのがグリッドレイアウトです。
 % 
 % ```{hint}
