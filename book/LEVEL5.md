@@ -64,7 +64,7 @@ p {
 
 ショートハンドプロパティ`background`には`background-color`も含まれている事を思い出して下さい。
 
-従って上記のコードでは`background-color:red;`を次の行に書いた`background: url(images/bg.gif) no-repeat left top;`で上書きしています。
+従って上記の{term}`コード`では`background-color:red;`を次の行に書いた`background: url(images/bg.gif) no-repeat left top;`で上書きしています。
 （次の行にある`background: url(images/bg.gif) no-repeat left top;`には`background-color`の指定がありません。このときには[`background-color`の初期値である`transparent`](https://developer.mozilla.org/ja/docs/Web/CSS/background-color#%E5%85%AC%E5%BC%8F%E5%AE%9A%E7%BE%A9)が指定されることになります。）
 
 結果として`background-color`の値は`red`ではなく`transparent`になります。
