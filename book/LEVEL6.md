@@ -17,6 +17,7 @@
 
 ````{glossary}
 フレックスボックス
+フレキシブルボックス
   横方向（や縦方向）を基準にし、柔軟に（フレキシブルに）ボックスを配置するレイアウト手法のことです。
   ```{tip}
   % `CSS Flexible Box Layout`の略で
@@ -112,9 +113,9 @@ align
 
 - [MDN | gap](https://developer.mozilla.org/ja/docs/Web/CSS/gap)
 
-	```{hint}
-	フレックスアイテム間に「隙間を与えたいな」と思うことはよくあります。ぜひ`gap`プロパティを知っておきましょう。
-	```
+    ```{hint}
+    フレックスアイテム間に「隙間を与えたいな」と思うことはよくあります。ぜひ`gap`プロパティを知っておきましょう。
+    ```
 
 ```
 
@@ -143,15 +144,15 @@ align
 % 仕様書にはたしかに`end`がない！
 % https://w3c.github.io/csswg-drafts/css-flexbox/#align-items-property
 
-## グリッドレイアウト
+## `Grid`（グリッド）
 
 ```{admonition} ご案内
-（テキストにはない話題です。軽く補足します。なおグリッドレイアウトは昇段試験にも出ず、本カリキュラムを受講する上で必須ではありません。しかし、現在では常識的な`CSS`の一部であるためどこかのタイミングで学ぶようにして下さい。）
+テキストにはない話題です。
 ```
 
-グリッドレイアウトはフレックスボックスに並んで登場した新しいレイアウトの道具です。
+グリッドはフレックスボックスに並んで登場した新しいレイアウトの道具です。
 
-フレックスボックスが「横方向」あるいは「縦方向」の一直線上（ただし行が折返す場合はある）に要素を配置するのに対し、表のように縦横のマス目を作り、そのマス目上に要素をレイアウトするのがグリッドレイアウトです。
+フレックスボックスが「横方向」あるいは「縦方向」の一直線上（ただし行が折返す場合はある）に要素を配置するのに対し、表のように縦横のマス目を作り、そのマス目上に要素をレイアウトするのがグリッドです。
 
 ```{hint}
 [`grid`](https://ejje.weblio.jp/content/grid)は「格子」という意味です。
@@ -161,65 +162,255 @@ align
 `grid`は画面上の領域を縦と横の線で区切り、どのマス目にどのボックスをレイアウトするかを扱います。
 ```
 
-```{figure} images/gyazo/ff7501d07711d512560f4940793ab48e.png
-フレックスボックスとグリッドレイアウトで表現できる典型的なレイアウトです。フレックスボックスが「横並び（＋折返し）」で構成されているのに対し、グリッドは縦横の「マス目」を引いて、マス目上に要素を配置（マス目を空白にすることもできる）してレイアウトを構成します。
+### グリッドで作成する聖杯レイアウト
 
+具体例を見ながらグリッドを学びましょう。適切なサンプルは「聖杯レイアウト」と呼ばれる、{term}`ウェブページ`の大規模構造によく見慣れるレイアウトです。
+
+% https://github.com/AaronMaywood/Holy-Grail-Layout
+% 	Pages:
+% 	https://aaronmaywood.github.io/Holy-Grail-Layout/
+
+```{figure} https://i.gyazo.com/212523a93a7249792b0c53e4d5a0f164.png
+「聖杯レイアウト」と呼ばれるレイアウトです。色分けで示された五つのエリアから構成されています。
+```
+
+```{tip}
+**何が「聖杯」なの？**
+
+「聖杯」とは中世西ヨーロッパの聖杯伝説に登場する杯（英：`Holy Grail`）で、英語圏では入手の難しい「超激レアアイテム」といったニュアンスの代名詞です。
+
+このレイアウトは、特に2000年代初期のWeb開発において、理想的なページ構造を実現する方法として議論されてきました。
+当時はフレックスボックスやグリッドのような便利なツールがなかったため、実現するのが非常に難しく、まるで「聖杯を探す冒険」のように扱われたのです。
+
+現代では、フレックスボックスやグリッドなどの登場によって、「聖杯レイアウト」は簡単に実装可能になりました。しかし、その歴史的な背景や、「理想のレイアウトを探し求める」というストーリー性から、この名前が今でも使われています。
+```
+
+まず{term}`HTML`から見ていきましょう。
+{term}`HTML`では、{term}`ウェブページ`を構成する各部分、合計五エリアを以下のように{term}`マークアップ`します。
+
+```{hint}
+[完成版の聖杯レイアウト](the-finalized-holy-grail-layout)は最後に示します。ここでは段階を追って説明します。
+```
+
+```html
+<body>
+    <div class="holy-grail-layout">
+        <header>ヘッダー</header>
+        <nav>ナビゲーション</nav>
+        <main>メイン</main>
+        <aside>アサイド</aside>
+        <footer>フッター</footer>
+    </div>
+</body>
+```
+
+フレックスボックスと同様、グリッドでも「コンテナーとアイテム（入れ物とその中身）」といった考え方をします。この場合コンテナーは`<div class="holy-grail-layout">`で、アイテムは`<header>〜</footer>`までの五エリアです。
+
+続いて{term}`CSS`を書いていきましょう。
+
+まず、コンテナーに対して`display: grid;`を指定します。
+これでグリッドが適用されます。
+
+```css
+.holy-grail-layout {
+    display: grid;
+}
+```
+
+```{figure} https://i.gyazo.com/c0f0bf99b88b3166a9595e938b12ba4b.png
+ただし、この状態でプレビューしても見た目は元のままです。
+```
+
+```{figure} https://i.gyazo.com/cdc3504a9859a61ed8f388b1bcb725a3.png
+開発者ツールで`Grid`を図示してみました。確かに`Grid`には変化しているようです。
+```
+
+見た目に変化がない理由は、まだグリッドのマス目に関する情報が作成されていないからです。
+
+マス目に関する情報を追加してみましょう。
+
+グリッドにおいて、マス目を構成する方法にはいくつかあるのですが、直感的にわかりやすい「エリアを決める」方法を説明します。それには`grid-template-areas`プロパティを使用します。
+
+```css
+.holy-grail-layout {
+    display: grid;
+    /* エリア（場所に名前を付けたもの）を定義する */
+    grid-template-areas:
+        "header header header"
+        "nav    main   aside"
+        "footer footer footer";
+}
+```
+
+```{figure} https://i.gyazo.com/55363b173e17aebadad0e49ca97521fd.png
+`grid-template-areas`を使うと、画面上を九つのエリアに区分けすることを指定できます。またそれぞれのエリアには特有の名前を付けることができます。
+```
+
+```{figure} https://i.gyazo.com/2901850364df340e63d8b92cc14451ef.png
+このエリアには面白い特徴があり、隣り合った同じ名前のエリアはくっついて大きな一つのエリアになります。したがって、この指定では五つのエリアを指定したことになります。
+```
+
+`grid-template-areas`に指定した名前付きエリアには、まだどこに何を割り当てるかを指定していません。
+それは後でやることにし、先にそれぞれのエリアのマス目の大きさを指定しておきます。
+
+```css
+.holy-grail-layout {
+    display: grid;
+    /* エリア（場所に名前を付けたもの）を定義する */
+    grid-template-areas:
+        "header header header"
+        "nav    main   aside"
+        "footer footer footer";
+    /* 行の高さを決める */
+    grid-template-rows: 50px 1fr 150px;
+    /* 列の幅を決める */
+    grid-template-columns: 150px 1fr 150px;
+}
+```
+
+```{figure} https://i.gyazo.com/abc938912a4880d6cf7c8b90eab4e152.png
+行（`row`）の高さを決める`grid-template-rows`、それから列（`columns`）の幅を決める`grid-template-columns`を使ってそれぞれのエリアの大きさを指定しました。なお、`1fr`はそのエリアには余った領域の幅全体を占めます。要は幅・高さとも`1fr`で指定した`main`エリアが一番大きく表示されるように意図しています。
+```
+
+これで具体的な幅と高さを持ち、五つのエリアで区切られたグリッドができました。
+
+あとはこれらの名前付きエリアにそれぞれのグリッドアイテムを紐付けるだけです。
+名前付きエリアと個々のグリッドアイテムの名前を紐付けるには`grid-area`プロパティを使用します。
+
+```css
+.holy-grail-layout > header {
+    grid-area: header;                /* 名前を紐付ける */
+    background-color: lightblue;    /* 見やすさのためにそれぞれのエリアに色を付ける */
+}
+
+.holy-grail-layout > nav {
+    grid-area: nav;
+    background-color: lightcoral;
+}
+
+.holy-grail-layout > main {
+    grid-area: main;
+    background-color: yellow;
+}
+
+.holy-grail-layout > aside {
+    grid-area: aside;
+    background-color: palegoldenrod;
+}
+
+.holy-grail-layout > footer {
+    grid-area: footer;
+    background-color: gray;
+}
+```
+
+```{figure} https://i.gyazo.com/bddb026ec5c7c57dc354bc6ddcbf1d66.png
+五つのエリアができました。
+```
+
+これにリセット`CSS`を加え、更に`main`エリアが広がるように高さも設定し完成させたのが以下の{term}`コード`です。
+
+
+```{index} Index
+:name: the-finalized-holy-grail-layout
+```
+```html
+<!-- 完成版の聖杯レイアウト -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Gridを使用した聖杯レイアウト</title>
+    <style>
+        /* reset */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html, body {
+            height:100%;
+        }
+
+        /* Holy Grail Layout */
+        .holy-grail-layout {
+            /* 高さは画面いっぱいにする */
+            height: 100%;
+            display: grid;
+            /* エリア（場所に名前を付けたもの）を定義する */
+            grid-template-areas:
+                "header header header"
+                "nav    main   aside"
+                "footer footer footer";
+            /* 行の高さを決める */
+            grid-template-rows: 50px 1fr 150px;
+            /* 列の幅を決める */
+            grid-template-columns: 150px 1fr 150px;
+        }
+
+        .holy-grail-layout > header {
+            grid-area: header;
+            background-color: lightblue;
+        }
+        .holy-grail-layout > nav {
+            grid-area: nav;
+            background-color: lightcoral;
+        }
+
+        .holy-grail-layout > main {
+            grid-area: main;
+            background-color: yellow;
+        }
+
+        .holy-grail-layout > aside {
+            grid-area: aside;
+            background-color: palegoldenrod;
+        }
+
+        .holy-grail-layout > footer {
+            grid-area: footer;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="holy-grail-layout">
+        <header>ヘッダー</header>
+        <nav>ナビゲーション</nav>
+        <main>メイン</main>
+        <aside>アサイド</aside>
+        <footer>フッター</footer>
+    </div>
+</body>
+</html>
+```
+
+```{figure} https://i.gyazo.com/212523a93a7249792b0c53e4d5a0f164.png
+これで「聖杯レイアウト」が完成しました。
+```
+
+### フレックスボックスとグリッドの使い分け
+ 
+フレックスボックスとグリッドでは似通った点があり、場合によってはどちらで実現しても同じ結果を得ることすらできます。
+
+しかし、考え方そのものが異なります。
+
+フレックスボックスが「横並び（＋折返し）」で構成されているのに対し、グリッドは縦横の「マス目」を引いて、マス目上に要素を配置（マス目を空白にすることもできる）してレイアウトを構成します。
+
+それでも、フレックスボックスとグリッドで用途がかぶっている面があるのは否めません（たとえば、聖杯レイアウトをフレックスボックスでも実装できてしまいます）。
+
+そこで次の図を参照して下さい。グリッドらしい使われ方、フレックスボックスらしい使われ方が示されています。
+
+```{figure} images/gyazo/ff7501d07711d512560f4940793ab48e.png
 （図は[CSS Layout Generator](https://layout.bradwoods.io/)より）
 ```
 
-グリッドレイアウトに関しては推奨する次のウェブサイトで学んでください。
+### より詳細な情報
+
+より詳細に学びたい場合は以下の情報源を推奨します。
 
 推奨する情報源
 - [ほんっとにはじめての HTML5 と CSS3、今回から Grid Layout を作ってみよう。](http://honttoni.blog74.fc2.com/blog-entry-380.html)
 - [MDN グリッドレイアウトの基本概念](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
-
-% 以下の教材は作った. これが一番シンプルでわかりやすいと思う
-% https://github.com/AaronMaywood/Holy-Grail-Layout
-% 	Pages:
-% 	https://aaronmaywood.github.io/Holy-Grail-Layout/
-% ```{figure} https://i.gyazo.com/212523a93a7249792b0c53e4d5a0f164.png
-% 「聖杯レイアウト」と呼ばれるレイアウトです。
-
-% フレックスボックスが「横方向」あるいは「縦方向」の一直線にレイアウトするのに対し、表のように縦横のマス目にレイアウトするのがグリッドレイアウトです。
-% 
-% ```{hint}
-% **フレックスボックスはリスト、グリッドレイアウトは表**
-% 
-% フレックスボックスは「横方向」あるいは「縦方向」の一直線に並べることを扱いますが、行の折返しによって二行目ができ、結果的に縦横のマス目上に並んでいるように見えることがあります。
-% そのため、グリッドレイアウトと混同することがあります。
-% 
-% フレックスボックスはあくまでも一直線に並べるだけであり、二行目移行はあくまでも行の折返しによって生成されます。したがって十分な幅があれば二行目は作られません。
-% それに対し、グリッドレイアウトは最初から縦横のマス目を設計し、どのマス目に何を入れるかを考えていきます。したがって十分な幅があっても二行目を設置してあれば必ず二行目が見えます。
-% 
-% ブラウザーの種類: Google Chrome, Safari, Microsoft Edge, Mozilla Firefox, Opera, Brave, Vivaldi, Midori, Pale Moon, Tor Browser, w3m, Uzbl, Nyxt, 等
-% 
-% 
-% |ブラウザーの種類|
-% Google Chrome, Safari, Microsoft Edge, Mozilla Firefox, Opera, Brave, Vivaldi, Midori, Pale Moon, Tor Browser, w3m, Uzbl, Nyxt, 等
-% 
-% 一覧や人気店の行列のような、一列に並んでほしい（必要に応じて改行も）と考える時にはフレックスボックスを、
-% 縦横のマス目を引いてどのマス目にどれを配置するかを考える時にはグリッドレイアウトを使用して下さい。
-% 
-% ```
-% 
-% 
-% 
-% ```{hint}
-% フレックスボックスレイアウト、グリッドレイアウトは非常に便利ですが、関連するプロパティも多く、慣れるまでに時間がかかります。
-% 
-% そこで、これらを直感的に使用するための各種ツールがいくつかありますので使ってみて下さい。
-% 
-% - [最近のWeb制作に役立つ、CSSの便利ツール総まとめ](https://coliss.com/articles/build-websites/operation/work/useful-tools-for-web-developer.html) の「CSSで実装するレイアウトのツール」に紹介されています。
-% 
-% - [最近のWeb制作に役立つ、CSSの便利ツール総まとめ](https://coliss.com/articles/build-websites/operation/work/useful-tools-for-web-developer.html) の「CSSで実装するレイアウトのツール」に紹介されています。
-% ```
-% 正式名称
-% CSSフレックスボックスレイアウト
-% https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Flexible_Box_Layout
-% CSSグリッドレイアウト
-% https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Grid_Layout
-
- 
 
 % flexはコンテンツの幅優先、gridは枠優先
 % glid のリスト例
@@ -271,10 +462,10 @@ align
 % $ download-zip-to-rename-by-hash https://github.com/AaronMaywood/exam_flexbox/archive/refs/heads/main.zip
 - https://adjustacademy.com/webcoder/b70da6b74278c1bb2f77436fb7dca15a.zip
 - この中に`HTML`と`CSS`が含まれます。
-	````{dropdown} 配付素材の中で単位remを使用している理由を読む
-	```{include} cards/css/why-use-rem.md
-	```
-	````
+    ````{dropdown} 配付素材の中で単位remを使用している理由を読む
+    ```{include} cards/css/why-use-rem.md
+    ```
+    ````
   - 展開した`exam_flexbox-main`というフォルダ名を`flexbox`に変更して使用して下さい。解答の作成やサーバーアップロードにそのまま使用できます。
 
 ### 問１ - 横並び

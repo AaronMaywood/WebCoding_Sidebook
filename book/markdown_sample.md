@@ -1,5 +1,16 @@
 # 執筆ノート
 
+- 任意の場所にインデックスを張ってそれを参照する方法
+    https://jupyterbook.org/en/stable/content/content-blocks.html#add-a-label-to-your-index-directive
+    ```{index} Index
+    :name: index-names ※ 名前には大文字は使えない「NG: INDEX-NAMES」
+    ```
+    - {ref}`See index<index-names>`
+    - [](index-names)
+        
+    未確認だが、他にも{#paragraph-target}が使えるかも知れない
+    https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html
+
 - HTML 開発中のリロード時の参照点
 	<a name="now"><a href="#now">TODO 今ココ</a></a>
 	http:.....html#now
