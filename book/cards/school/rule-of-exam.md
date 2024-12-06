@@ -8,6 +8,10 @@
 - 再提出期限は８営業日以内とします。
 - 再提出は１回までとし、合格しなかった場合には退校となります。
 
+```{figure} https://i.gyazo.com/45370890366cdf91fe740d9d0ba590c8.png
+再提出は１回までとし、合格しなかった場合には退校となります。
+```
+
 % {{TODO}} ↓ux.md で使用しているのと同じmermaidだが、なぜかこの場所では Syntax Error となってしまう。
 % ```{mermaid}
 % flowchart TB

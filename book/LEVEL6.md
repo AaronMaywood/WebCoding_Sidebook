@@ -1,9 +1,9 @@
-# LEVEL6 CSS - Flexbox
+# LEVEL6 CSS - Flexbox、Grid
 
 ```{contents}
 ```
 
-## Flexbox（フレキシブルボックス）
+## `Flexbox`（フレキシブルボックス）
 
 % https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Flexbox
 
