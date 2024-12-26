@@ -94,14 +94,141 @@
 したがって総合試験の受験と並行してポートフォリオを作り始めることをオススメします。
 ```
 
-```{hint}
-**画像素材を用意する**
+`````{hint}
+**具体例 - 画像素材を用意する**
 
-自身が{term}`コーディング`した作品を画像にする（ページのスクリーンショットを撮影する）には`Google Chrome`の拡張機能である`FireShot`が使用できます。
+例えば、
+- https://webdesigner-go.com/portfolio-template-basic/
 
-- Google Chrome 拡張機能 FireShot
-  - https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg?hl=jaX
+のテンプレートを使用してポートフォリオを作ることを検討しているとしましょう。
+この場合「`400px × 300px`」幅の見本画像（サムネイル）が必要になります。
+
+```{figure} https://i.gyazo.com/8ee1f194e01c8fd08b9aff83ae58fefb.png
+「`400px × 300px`」幅の見本画像（サムネイル）が必要です。このサイズの画像を用意しましょう。
 ```
+
+ここに自作のお茶サイトのスクリーンショットを掲載したいと思います。
+
+--- 
+
+**`Google Chrome`を使ってスクリーンショットを撮影する**
+
+`Google Chrome`自身にはスクリーンショット撮影の機能がないので、機能拡張を導入します。
+
+- `Google Chrome` ウェブストアにアクセスします。
+	- https://chromewebstore.google.com/?hl=ja
+
+```{figure} https://i.gyazo.com/fe2847cfcca50abfd8e03b750d859127.png
+「`fireshot`」（機能拡張の名前）を入れて、候補をクリックします。
+```
+
+```{figure} https://i.gyazo.com/731fff9370a9bdc09453cdf36a138a01.png
+「`Chrome`に追加」をクリックして機能拡張をインストールします。
+```
+
+続いて機能拡張の設定を行います。
+
+```{figure} https://i.gyazo.com/a1b15e0a93ce48ac2781db30688c0745.png
+「`FireShot`」を画面上に表示させるために押しピンで留めます。
+```
+
+```{figure} https://i.gyazo.com/cfbf8e0c747d83bd300ff4fb6bba18c2.png
+押しピンで止めるとここに現れます。
+```
+
+`FireShot`のアイコンをクリックします。
+
+```{figure} https://i.gyazo.com/55e6ab48b74be7d637d555706899f33a.png
+「追加設定が必要です」と案内されました。リンクをクリックして進みます。
+```
+
+```{figure} https://i.gyazo.com/714b912a778b7d32a8027e642e8c36e8.png
+「ファイルの`URL`へのアクセスを許可する」のチェックを入れて有効化して下さい。
+```
+
+有効化したらこの画面は閉じてかまいません。
+
+--- 
+
+**お茶サイトを撮影する**
+
+```{figure} https://i.gyazo.com/5704f0854b3a51deb1555a5cfa88eb04.jpg
+スクリーンショットを撮りたいお茶サイトの画面を開きましょう。
+```
+
+`FireShot`を利用して画面全体のスクリーンショットを撮影しましょう。
+
+```{figure} https://i.gyazo.com/3c28bb5761ab6f4329d550a6dd0d5e9e.png
+`FireShot`のアイコンから「ページ全体をキャプチャ」を選択します。
+```
+
+```{figure} https://i.gyazo.com/506f2840cf05b21d13ce1c76e3183193.png
+しばらく待つとこの画面になります。「画像として保存」をクリックして下さい。
+```
+
+```{figure} https://i.gyazo.com/3aa379490f9118fe023a95853876d7b9.png
+画像を保存するための追加の許可を求めています。「許可する」をクリックして下さい。
+```
+
+```{figure} https://i.gyazo.com/d39e389c236d82dc47c6ba24935e1731.png
+保存先を聞いてくるので適切な場所に保存して下さい。
+```
+
+これでスクリーンショット画像が保存されました。
+
+--- 
+
+**画像を縮小する**
+
+このままでは画像サイズが大きいので、目的の「`400px × 300px`」になるよう変形しましょう。
+
+これらには「`I♥IMG`」というサービスを利用します。
+
+まずは画像のリサイズ（縮小）です。
+
+- https://www.iloveimg.com/ja/resize-image にアクセスして下さい。
+
+```{figure} https://i.gyazo.com/6b4d3717bcd6a1d5c57ab1fc819c95ad.png
+「画像を選択」をクリックして、先程保存したスクリーンショットを選択してください。
+```
+
+```{figure} https://i.gyazo.com/543fe241859d223700a77408ec0a9998.png
+「幅」に目的の「`400`」を指定して、「画像のサイズ変更」をクリックします。
+```
+
+```{figure} https://i.gyazo.com/1e272dd72cb8df283031063f0d3c1ef2.png
+この画面になります。しばらく待つと自動的にリサイズされた画像がダウンロードされます。
+```
+
+画像は縮小され、かつ横幅が目的の`400px`になりましたが、縦幅も`300px`に調整したいと思います。
+
+そのために続いて画像の切り抜き（トリミング）を行います。
+
+- https://www.iloveimg.com/ja/crop-image にアクセスしてください。
+
+```{figure} https://i.gyazo.com/980577ee02189a2e3d8d76fee8962036.png
+「画像を選択」から先程リサイズしたばかりの画像を指定してください。
+```
+
+```{figure} https://i.gyazo.com/c46d947cba1028cd238e2a8613015206.png
+トリミング指定の画面になりました。幅と高さをそれぞれ「`400 ×300`」になるように指定し、画像の青枠を動かして切り取りたい位置を指定して下さい。それができたら「画像の切り抜き」をクリックして下さい。
+```
+
+```{figure} https://i.gyazo.com/126435f1af5c4ac6fc39950154c1264c.png
+この画面になります。しばらく待つと自動的にトリミングされた画像がダウンロードされます。
+```
+
+---
+
+**完成**
+
+この工程で、目的の「`400px ×300px`」の画像を得ることができました。
+
+```{figure} https://i.gyazo.com/c4c4b660dc669799e49558a41e72e1e2.png
+```
+
+この画像をポートフォリオに使って下さい。
+`````
 
 ````{hint}
 % - {{TODO}} ベーシック認証、ロボットメタタグなど、非公開にする方法を説明する→どこからもリンク張らなければクローラーは来ないから優先度低い
