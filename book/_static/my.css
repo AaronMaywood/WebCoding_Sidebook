@@ -6,9 +6,14 @@ img {
 	border: 1px solid gray;
 }
 
+.logo__image,
 img.logo,
 img.no-border {
-	border: none;
+    border: none;
+}
+
+.logo__image.only-dark {
+    filter: saturate(70%) brightness(50%);
 }
 
 img.char {
