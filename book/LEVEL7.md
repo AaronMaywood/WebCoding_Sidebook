@@ -1,4 +1,4 @@
-# LEVEL7 CSS - Position
+# CSS - Position
 
 ```{contents}
 ```
@@ -104,7 +104,7 @@ https://aaronmaywood.github.io/coding_sample/full-height/index.html
 	`position: fixed;`を指定した要素は自身の親要素ではなくビューポートの高さを参照するようになります。
 	```{hint}
 	ビューポートとは画面を指す用語です。ビューポートの高さとは、画面の高さのことです。
-	（ビューポートのより厳密な意味をレベル10で説明します。）
+	（ビューポートのより厳密な意味を第九章で説明します。）
 	```
 	従って`position: fixed;`かつ`height: 100%;`とすることで画面の高さいっぱいにすることができます。
 	```html
@@ -161,7 +161,7 @@ https://aaronmaywood.github.io/coding_sample/full-height/index.html
 
 ## Flex を応用したニ段組みボックスレイアウト　─　第２段階
 
-LEVEL6「[](flex-example-first)」の作業の続きです。
+第六章「[](flex-example-first)」の作業の続きです。
 
 {bdg-primary-line}`CSS教材：27_二段組ボックスレイアウト` フォルダを`VS Code`で開き、 {bdg-dark-line}`テキスト：P.156〜160` に沿って作業しながら読み進めて下さい。
 
@@ -403,7 +403,7 @@ p {
 ## 昇段試験
 
 ここまでのことを学習したら、次の「昇段試験のルール」を確認の上、昇段試験に望んでください。
-````{dropdown} クリックして昇段試験のルールを確認する（退校となる場合の説明があります）
+````{dropdown} クリックして昇段試験のルールを確認する
 ```{include} cards/school/rule-of-exam.md
 ```
 ````
@@ -506,7 +506,7 @@ p {
             - 「[](upload-to-webserver)」に従い、{bdg-dark}`指示`されたフォルダを{term}`ウェブサーバー`にアップロードして下さい。
             - 以下の文言テンプレートを利用し{{OFFICE}}にメールにて提出して下さい。
                 ```{code}
-                件名：LEVEL7の昇段試験のファイルを提出します
+                件名：第七章の昇段試験のファイルを提出します
 
                 ○ ○ です。
 				https://xxxxxx/position/1/index.html
@@ -517,7 +517,7 @@ p {
 
             - ファイルを`ZIP`化し、以下の文言テンプレートを利用し{{OFFICE}}にメールにて提出して下さい。
                 ```{code}
-                件名：LEVEL7の昇段試験のファイルを提出します
+                件名：第七章の昇段試験のファイルを提出します
 
                 ○ ○ です。
                 ZIPファイルを添付します。
