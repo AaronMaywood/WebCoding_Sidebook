@@ -18,16 +18,16 @@ preview:
 
 # 各レベル毎の本をビルドします (build target=devnote は開発者向けの「執筆ノート」情報を追加した本をビルドします）
 build-all:
-	make build target=devnote
-	make build target=level1
-	make build target=level2
-	make build target=level3
-	make build target=level4
-	make build target=level5
-	make build target=level6
-	make build target=level7
-	make build target=level8
-	make build target=level9
+	make build target=devnote &
+	make build target=level1 &
+	make build target=level2 &
+	make build target=level3 &
+	make build target=level4 &
+	make build target=level5 &
+	make build target=level6 &
+	make build target=level7 &
+	make build target=level8 &
+	make build target=level9 &
 	make build target=level10
 
 build:
