@@ -306,28 +306,69 @@ flowchart LR
 
 ## ポートフォリオに掲載する画像素材の作り方
 
-ポートフォリオに貼り込む画像素材の用意の仕方について説明します。
+ポートフォリオに貼り込む画像素材の用意の仕方について、弊社のウェブサイト（[ADjust Job School](https://ad-job.com/)）を例に説明します。
 
-[TODO]
+- [](take-a-screenshot)
+- [](full-page-screenshot)
 
-`````{hint}
-**具体例 - 画像素材の用意の仕方**
+(take-a-screenshot)=
+### 1. 画面の一部／全部を画像にする方法
 
-例えば、「`400px × 300px`」幅の小さな見本画像（サムネイル）が必要になったとしましょう。
+{term}`スクリーンショット`対象の{term}`ウェブページ`を{term}`ウェブブラウザ`（`Google Chrome`）で開きます。
 
-```{figure} https://i.gyazo.com/8ee1f194e01c8fd08b9aff83ae58fefb.png
+```{hint}
+パソコンに`Google Chrome`が入っていない方は「[](installing-chrome)」に従ってインストールして下さい。
 ```
 
-自作のお茶サイトを掲載することを例に例にサムネイルの作成方法について説明します。
+```{figure} https://i.gyazo.com/2e484a7cf7d5abf8f229c7b9b69e61b3.jpg
+この{term}`ウェブページ`（弊社のウェブサイト、[ADjust Job School](https://ad-job.com/)）を撮影することにしました。
+```
 
---- 
+`````{admonition} 用語
+````{glossary}
+スクリーンショット
+    見えている画面の一部または全部を画像ファイル化することをスクリーンショットと言います。
+````
+`````
 
-**`Google Chrome`を使ってスクリーンショットを撮影する**
+`Windows`の検索窓から、`Snipping tool`を検索します。
 
-`Google Chrome`自身にはスクリーンショット撮影の機能がないので、機能拡張を導入します。
+```{figure} https://i.gyazo.com/09dac84b6ade3c4337541ed473746a15.png
+検索できたら、そのまま{bdg-dark}`Enter`を押して確定します。
+```
+
+`Snipping Tool`が起動したら画面が暗くなり、マウスのドラッグ操作で画面の一部または全部を選択可能になります。
+
+範囲を選択して下さい。
+
+```{figure} https://i.gyazo.com/e1b4dbcf7f48af5f3d59163b7e1cf1fe.jpg
+今回はこの範囲を指定しました。
+```
+
+画面右下に`Snipping Tool`からの通知があれば撮影に成功しています。
+
+```{figure} https://i.gyazo.com/a6590881d964e4f929762e47db256e6e.jpg
+```
+
+{{WIN}} + {bdg-dark}`e`キーを押して「エクスプローラー」を開いて下さい。
+
+そして「ピクチャ」フォルダの中の「スクリーンショット」フォルダを開いて下さい。
+
+```{figure} https://i.gyazo.com/c53ad15accef2ed41a8d53e8a0f0001f.png
+「ピクチャ」フォルダの中の「スクリーンショット」フォルダを開きました。
+```
+
+この中にあるファイル（図では`スクリーンショット 2025-03-07 103705.png`）が{term}`スクリーンショット`で保存された画像です。
+
+(full-page-screenshot)=
+### 2. ページ全体を画像にする方法
+
+見えている画面だけでなく、縦に伸びた{term}`ウェブページ`全体の{term}`スクリーンショット`を撮りたい場合には、`Snipping Tool`ではなく{term}`ウェブブラウザ`を使用して行います。
+
+`Google Chrome`自身には{term}`スクリーンショット`の機能がないので、機能拡張「`FireShot`」を導入します。
 
 - `Google Chrome` ウェブストアにアクセスします。
-	- https://chromewebstore.google.com/?hl=ja
+    - https://chromewebstore.google.com/?hl=ja
 
 ```{figure} https://i.gyazo.com/fe2847cfcca50abfd8e03b750d859127.png
 「`fireshot`」（機能拡張の名前）を入れて、候補をクリックします。
@@ -347,9 +388,27 @@ flowchart LR
 押しピンで止めるとここに現れます。
 ```
 
-`FireShot`のアイコンをクリックします。
+---
 
-```{figure} https://i.gyazo.com/55e6ab48b74be7d637d555706899f33a.png
+**ウェブページを撮影する**
+
+スクリーンショットを撮りたい{term}`ウェブページ`を開きましょう。
+
+```{figure} https://i.gyazo.com/2e484a7cf7d5abf8f229c7b9b69e61b3.jpg
+```
+
+`FireShot`を利用して画面全体のスクリーンショットを撮影します。
+
+```{figure} https://i.gyazo.com/29ffe1742509eb2e7d9b8bdcebfc11ff.png
+`FireShot`のアイコンから「ページ全体をキャプチャ」を選択します。
+```
+
+`````{hint}
+**もし`Action required`と表示されたら...？**
+
+`FireShot`のアイコンをクリックした時に`Action required`と表示されたら「`go to the options`」をクリックします。
+
+```{figure} https://i.gyazo.com/5a553c7bd21d1e174063dfc5b86bb24d.png
 「追加設定が必要です」と案内されました。リンクをクリックして進みます。
 ```
 
@@ -359,21 +418,14 @@ flowchart LR
 
 有効化したらこの画面は閉じてかまいません。
 
---- 
+再度以下の操作を行って下さい。
 
-**お茶サイトを撮影する**
-
-```{figure} https://i.gyazo.com/5704f0854b3a51deb1555a5cfa88eb04.jpg
-スクリーンショットを撮りたいお茶サイトの画面を開きましょう。
-```
-
-`FireShot`を利用して画面全体のスクリーンショットを撮影しましょう。
-
-```{figure} https://i.gyazo.com/3c28bb5761ab6f4329d550a6dd0d5e9e.png
+```{figure} https://i.gyazo.com/29ffe1742509eb2e7d9b8bdcebfc11ff.png
 `FireShot`のアイコンから「ページ全体をキャプチャ」を選択します。
 ```
+`````
 
-```{figure} https://i.gyazo.com/506f2840cf05b21d13ce1c76e3183193.png
+```{figure} https://i.gyazo.com/1b6d9d8878b01567cced6f731c82ce14.png
 しばらく待つとこの画面になります。「画像として保存」をクリックして下さい。
 ```
 
@@ -381,66 +433,135 @@ flowchart LR
 画像を保存するための追加の許可を求めています。「許可する」をクリックして下さい。
 ```
 
-```{figure} https://i.gyazo.com/d39e389c236d82dc47c6ba24935e1731.png
-保存先を聞いてくるので適切な場所に保存して下さい。
+```{figure} https://i.gyazo.com/2a0cb19814e282cddc33d054516be82f.png
+保存先を聞いてくるので保存して下さい。（デフォルトでは「ダウンロード」の中の「`FireShot`」フォルダに保存されます）
 ```
 
 これでスクリーンショット画像が保存されました。
 
---- 
-
-**画像を縮小する**
-
-このままでは画像サイズが大きいので、目的の「`400px × 300px`」になるよう変形しましょう。
-
-これらには「`I♥IMG`」というサービスを利用します。
-
-まずは画像のリサイズ（縮小）です。
-
-- https://www.iloveimg.com/ja/resize-image にアクセスして下さい。
-
-```{figure} https://i.gyazo.com/6b4d3717bcd6a1d5c57ab1fc819c95ad.png
-「画像を選択」をクリックして、先程保存したスクリーンショットを選択してください。
-```
-
-```{figure} https://i.gyazo.com/543fe241859d223700a77408ec0a9998.png
-「幅」に目的の「`400`」を指定して、「画像のサイズ変更」をクリックします。
-```
-
-```{figure} https://i.gyazo.com/1e272dd72cb8df283031063f0d3c1ef2.png
-この画面になります。しばらく待つと自動的にリサイズされた画像がダウンロードされます。
-```
-
-画像は縮小され、かつ横幅が目的の`400px`になりましたが、縦幅も`300px`に調整したいと思います。
-
-そのために続いて画像の切り抜き（トリミング）を行います。
-
-- https://www.iloveimg.com/ja/crop-image にアクセスしてください。
-
-```{figure} https://i.gyazo.com/980577ee02189a2e3d8d76fee8962036.png
-「画像を選択」から先程リサイズしたばかりの画像を指定してください。
-```
-
-```{figure} https://i.gyazo.com/c46d947cba1028cd238e2a8613015206.png
-トリミング指定の画面になりました。幅と高さをそれぞれ「`400 ×300`」になるように指定し、画像の青枠を動かして切り取りたい位置を指定して下さい。それができたら「画像の切り抜き」をクリックして下さい。
-```
-
-```{figure} https://i.gyazo.com/126435f1af5c4ac6fc39950154c1264c.png
-この画面になります。しばらく待つと自動的にトリミングされた画像がダウンロードされます。
-```
-
 ---
 
-**完成**
+中身を確認してみましょう。
 
-この工程で、目的の「`400px ×300px`」の画像を得ることができました。
+{{WIN}} + {bdg-dark}`e`キーを押して「エクスプローラー」を開いて下さい。
 
-```{figure} https://i.gyazo.com/c4c4b660dc669799e49558a41e72e1e2.png
+そして「ダウンロード」の中の「`FireShot`」フォルダを開いて下さい。
+
+```{figure} https://i.gyazo.com/cc86792d57c3fd1afe0dd69db0b1b956.png
+この中に画像ファイルが保存されています。
 ```
 
-この画像をポートフォリオに使って下さい。
-`````
+画像ファイルをダブルクリックで開きましょう。
 
+```{figure} https://i.gyazo.com/8b6962660953ed703ef1337ca02d9d34.png
+画像をどのアプリで開くか聞かれたら「フォト」を選びましょう。
+```
+
+```{figure} https://i.gyazo.com/03bdbe9bb4341910ef32ec83945b3ae8.png
+「フォト」で画像を開きました。
+```
+
+{term}`ウェブページ`の全体が保存されていることが確認できました。これで`OK`です。
+
+````{hint}
+**高度な機能は無くても大丈夫です**
+
+`FireShot`では、以下の警告が表示されます。
+
+```{figure} https://i.gyazo.com/888c5d17c9bbdf75ae3047d923b94809.png
+`FireShot Pro`を使用するように促されます。（`FireShot Pro`は有料です）
+```
+
+しかし、これが無くとも{term}`ウェブページ`全体の{term}`スクリーンショット`を撮ることが可能です。
+
+万一、撮影した{term}`スクリーンショット`に問題がある時は別の{term}`ウェブブラウザ`、`Microsoft Edge`を利用した方法を紹介しますので、この方法を利用して下さい。
+
+```{figure} https://i.gyazo.com/60da6c46c0b6a6225d3fe0d3a14016d2.png
+`Microsoft Edge`をクリックして起動します。
+```
+```{figure} https://i.gyazo.com/18e0dc9ea21505dcb5b232e9706af50e.jpg
+{term}`スクリーンショット`を撮りたいページを開きます。
+```
+```{figure} https://i.gyazo.com/d7e157061b31366edfc89f5a914cb2e6.png
+右クリックし、「スクリーンショット」をクリックします。
+```
+```{figure} https://i.gyazo.com/3d0b0dfb75070226c934c202661926c4.png
+「ページ全体をキャプチャ」を選択します。
+````
+```{figure} https://i.gyazo.com/dd09405e68b173b9c54a97ad523715e1.jpg
+{term}`スクリーンショット`が撮影されますので、右上のファイルに保存アイコンをクリックして下さい。
+```
+```{figure} https://i.gyazo.com/ad7a985f73b0d567205cae284a85ce94.png
+{term}`スクリーンショット`がダウンロードされました。
+```
+```{figure} https://i.gyazo.com/a4d470e29db4792bf6e4015467773e82.png
+ダウンロードした{term}`スクリーンショット`は「ダウンロード」フォルダに保存されています。
+```
+
+% 「高度な機能」は不要のようなので以下はボツ
+% ---
+% 
+% ```{figure} https://i.gyazo.com/888c5d17c9bbdf75ae3047d923b94809.png
+% ```
+% ```{figure} https://i.gyazo.com/8a9a92105fcd64bcb94580a19d2c3220.png
+% ```
+% ```{figure} https://i.gyazo.com/527a0ede5d198ecfc8a60f0e9a040e6f.png
+% ```
+% ```{figure} https://i.gyazo.com/1c9fc5bf3bc69859c5b97f23cb6b4639.png
+% ```
+
+% 不要なのでボツ. 大サイズの画像をそのまま使ってもらおう。
+% (scale-down)=
+% ### 3. 撮った画像を縮小する方法
+% 
+% このままでは画像サイズが大きいので、目的の「`400px ×  300px`」になるよう変形しましょう。
+% 
+% これらには「`I♥ IMG`」というサービスを利用します。
+% 
+% まずは画像のリサイズ（縮小）です。
+% 
+% - https://www.iloveimg.com/ja/resize-image にアクセスして下さい。
+% 
+% ```{figure} https://i.gyazo.com/6b4d3717bcd6a1d5c57ab1fc819c95ad.png
+% 「画像を選択」をクリックして、先程保存したスクリーンショットを選択してください。
+% ```
+% 
+% ```{figure} https://i.gyazo.com/543fe241859d223700a77408ec0a9998.png
+% 「幅」に目的の「`400`」を指定して、「画像のサイズ変更」をクリックします。
+% ```
+% 
+% ```{figure} https://i.gyazo.com/1e272dd72cb8df283031063f0d3c1ef2.png
+% この画面になります。しばらく待つと自動的にリサイズされた画像がダウンロードされます。
+% ```
+% 
+% 画像は縮小され、かつ横幅が目的の`400px`になりましたが、縦幅も`300px`に調整したいと思います。
+% 
+% そのために続いて画像の切り抜き（トリミング）を行います。
+% 
+% - https://www.iloveimg.com/ja/crop-image にアクセスしてください。
+% 
+% ```{figure} https://i.gyazo.com/980577ee02189a2e3d8d76fee8962036.png
+% 「画像を選択」から先程リサイズしたばかりの画像を指定してください。
+% ```
+% 
+% ```{figure} https://i.gyazo.com/c46d947cba1028cd238e2a8613015206.png
+% トリミング指定の画面になりました。幅と高さをそれぞれ「`400 × 300`」になるように指定し、画像の青枠を動かして切り取りたい位置を指定して下さい。それができたら「画像の切り抜き」をクリックして下さい。
+% ```
+% 
+% ```{figure} https://i.gyazo.com/126435f1af5c4ac6fc39950154c1264c.png
+% この画面になります。しばらく待つと自動的にトリミングされた画像がダウンロードされます。
+% ```
+% 
+% ---
+% 
+% **完成**
+% 
+% この工程で、目的の「`400px × 300px`」の画像を得ることができました。
+% 
+% ```{figure} https://i.gyazo.com/c4c4b660dc669799e49558a41e72e1e2.png
+% ```
+
+ポートフォリオの中で{term}`スクリーンショット`が必要な際は、この方法を使って撮影して下さい。
 
 # ウェブ検索を使おう ＋ 推奨する情報源
 
