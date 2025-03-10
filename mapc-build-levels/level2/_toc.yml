@@ -20,3 +20,9 @@ parts:
     chapters:
       - file: LEVEL1
       - file: LEVEL2
+  - caption: Appendix
+    numbered: false
+    chapters:
+#      # 自動作成される索引
+#      # https://jupyterbook.org/en/stable/content/content-blocks.html#add-the-general-index-to-your-table-of-contents
+      - file: genindex
