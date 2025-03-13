@@ -158,7 +158,7 @@ align
 [`grid`](https://ejje.weblio.jp/content/grid)は「格子」という意味です。
 ```
 
-```{figure} https://i.gyazo.com/a51dfa1ac77c6ed29efc16e4274fb385.png
+```{figure} images/gyazo/a51dfa1ac77c6ed29efc16e4274fb385.png
 `grid`は画面上の領域を縦と横の線で区切り、どのマス目にどのボックスをレイアウトするかを扱います。
 ```
 
@@ -170,7 +170,7 @@ align
 % 	Pages:
 % 	https://aaronmaywood.github.io/Holy-Grail-Layout/
 
-```{figure} https://i.gyazo.com/212523a93a7249792b0c53e4d5a0f164.png
+```{figure} images/gyazo/212523a93a7249792b0c53e4d5a0f164.png
 「聖杯レイアウト」と呼ばれるレイアウトです。色分けで示された五つのエリアから構成されています。
 ```
 
@@ -221,7 +221,7 @@ align
 ただし、この状態でプレビューしても見た目は元のままです。
 ```
 
-```{figure} https://i.gyazo.com/cdc3504a9859a61ed8f388b1bcb725a3.png
+```{figure} images/gyazo/cdc3504a9859a61ed8f388b1bcb725a3.png
 開発者ツールで`Grid`を図示してみました。確かに`Grid`には変化しているようです。
 ```
 
@@ -242,11 +242,11 @@ align
 }
 ```
 
-```{figure} https://i.gyazo.com/55363b173e17aebadad0e49ca97521fd.png
+```{figure} images/gyazo/55363b173e17aebadad0e49ca97521fd.png
 `grid-template-areas`を使うと、画面上を九つのエリアに区分けすることを指定できます。またそれぞれのエリアには特有の名前を付けることができます。
 ```
 
-```{figure} https://i.gyazo.com/2901850364df340e63d8b92cc14451ef.png
+```{figure} images/gyazo/2901850364df340e63d8b92cc14451ef.png
 このエリアには面白い特徴があり、隣り合った同じ名前のエリアはくっついて大きな一つのエリアになります。したがって、この指定では五つのエリアを指定したことになります。
 ```
 
@@ -268,7 +268,7 @@ align
 }
 ```
 
-```{figure} https://i.gyazo.com/abc938912a4880d6cf7c8b90eab4e152.png
+```{figure} images/gyazo/abc938912a4880d6cf7c8b90eab4e152.png
 行（`row`）の高さを決める`grid-template-rows`、それから列（`columns`）の幅を決める`grid-template-columns`を使ってそれぞれのエリアの大きさを指定しました。なお、`1fr`はそのエリアには余った領域の幅全体を占めます。要は幅・高さとも`1fr`で指定した`main`エリアが一番大きく表示されるように意図しています。
 ```
 
@@ -304,7 +304,7 @@ align
 }
 ```
 
-```{figure} https://i.gyazo.com/bddb026ec5c7c57dc354bc6ddcbf1d66.png
+```{figure} images/gyazo/bddb026ec5c7c57dc354bc6ddcbf1d66.png
 五つのエリアができました。
 ```
 
@@ -384,7 +384,7 @@ align
 </html>
 ```
 
-```{figure} https://i.gyazo.com/212523a93a7249792b0c53e4d5a0f164.png
+```{figure} images/gyazo/212523a93a7249792b0c53e4d5a0f164.png
 これで「聖杯レイアウト」が完成しました。
 ```
 

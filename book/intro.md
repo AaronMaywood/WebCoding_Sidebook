@@ -283,7 +283,7 @@ flowchart LR
 
 **作例を見て、どんなことがアピールできるか、どんなことをアピールするかを研究してみましょう。**
 
-```{figure} https://i.gyazo.com/710c4c0771bba562310bb321914c1c96.png
+```{figure} images/gyazo/710c4c0771bba562310bb321914c1c96.png
 作例の一つ
 ```
 ````
@@ -320,7 +320,7 @@ flowchart LR
 パソコンに`Google Chrome`が入っていない方は「[](installing-chrome)」に従ってインストールして下さい。
 ```
 
-```{figure} https://i.gyazo.com/2e484a7cf7d5abf8f229c7b9b69e61b3.jpg
+```{figure} images/gyazo/2e484a7cf7d5abf8f229c7b9b69e61b3.jpg
 この{term}`ウェブページ`（弊社のウェブサイト、[ADjust Job School](https://ad-job.com/)）を撮影することにしました。
 ```
 
@@ -333,7 +333,7 @@ flowchart LR
 
 `Windows`の検索窓から、`Snipping tool`を検索します。
 
-```{figure} https://i.gyazo.com/09dac84b6ade3c4337541ed473746a15.png
+```{figure} images/gyazo/09dac84b6ade3c4337541ed473746a15.png
 検索できたら、そのまま{bdg-dark}`Enter`を押して確定します。
 ```
 
@@ -341,20 +341,20 @@ flowchart LR
 
 範囲を選択して下さい。
 
-```{figure} https://i.gyazo.com/e1b4dbcf7f48af5f3d59163b7e1cf1fe.jpg
+```{figure} images/gyazo/e1b4dbcf7f48af5f3d59163b7e1cf1fe.jpg
 今回はこの範囲を指定しました。
 ```
 
 画面右下に`Snipping Tool`からの通知があれば撮影に成功しています。
 
-```{figure} https://i.gyazo.com/a6590881d964e4f929762e47db256e6e.jpg
+```{figure} images/gyazo/a6590881d964e4f929762e47db256e6e.jpg
 ```
 
 {{WIN}} + {bdg-dark}`e`キーを押して「エクスプローラー」を開いて下さい。
 
 そして「ピクチャ」フォルダの中の「スクリーンショット」フォルダを開いて下さい。
 
-```{figure} https://i.gyazo.com/c53ad15accef2ed41a8d53e8a0f0001f.png
+```{figure} images/gyazo/c53ad15accef2ed41a8d53e8a0f0001f.png
 「ピクチャ」フォルダの中の「スクリーンショット」フォルダを開きました。
 ```
 
@@ -370,17 +370,17 @@ flowchart LR
 - `Google Chrome` ウェブストアにアクセスします。
     - https://chromewebstore.google.com/?hl=ja
 
-```{figure} https://i.gyazo.com/fe2847cfcca50abfd8e03b750d859127.png
+```{figure} images/gyazo/fe2847cfcca50abfd8e03b750d859127.png
 「`fireshot`」（機能拡張の名前）を入れて、候補をクリックします。
 ```
 
-```{figure} https://i.gyazo.com/731fff9370a9bdc09453cdf36a138a01.png
+```{figure} images/gyazo/731fff9370a9bdc09453cdf36a138a01.png
 「`Chrome`に追加」をクリックして機能拡張をインストールします。
 ```
 
 続いて機能拡張の設定を行います。
 
-```{figure} https://i.gyazo.com/a1b15e0a93ce48ac2781db30688c0745.png
+```{figure} images/gyazo/a1b15e0a93ce48ac2781db30688c0745.png
 「`FireShot`」を画面上に表示させるために押しピンで留めます。
 ```
 
@@ -394,7 +394,7 @@ flowchart LR
 
 スクリーンショットを撮りたい{term}`ウェブページ`を開きましょう。
 
-```{figure} https://i.gyazo.com/2e484a7cf7d5abf8f229c7b9b69e61b3.jpg
+```{figure} images/gyazo/2e484a7cf7d5abf8f229c7b9b69e61b3.jpg
 ```
 
 `FireShot`を利用して画面全体のスクリーンショットを撮影します。
@@ -468,7 +468,7 @@ flowchart LR
 
 `FireShot`では、以下の警告が表示されます。
 
-```{figure} https://i.gyazo.com/888c5d17c9bbdf75ae3047d923b94809.png
+```{figure} images/gyazo/888c5d17c9bbdf75ae3047d923b94809.png
 `FireShot Pro`を使用するように促されます。（`FireShot Pro`は有料です）
 ```
 
@@ -476,38 +476,38 @@ flowchart LR
 
 万一、撮影した{term}`スクリーンショット`に問題がある時は別の{term}`ウェブブラウザ`、`Microsoft Edge`を利用した方法を紹介しますので、この方法を利用して下さい。
 
-```{figure} https://i.gyazo.com/60da6c46c0b6a6225d3fe0d3a14016d2.png
+```{figure} images/gyazo/60da6c46c0b6a6225d3fe0d3a14016d2.png
 `Microsoft Edge`をクリックして起動します。
 ```
-```{figure} https://i.gyazo.com/18e0dc9ea21505dcb5b232e9706af50e.jpg
+```{figure} images/gyazo/18e0dc9ea21505dcb5b232e9706af50e.jpg
 {term}`スクリーンショット`を撮りたいページを開きます。
 ```
-```{figure} https://i.gyazo.com/d7e157061b31366edfc89f5a914cb2e6.png
+```{figure} images/gyazo/d7e157061b31366edfc89f5a914cb2e6.png
 右クリックし、「スクリーンショット」をクリックします。
 ```
-```{figure} https://i.gyazo.com/3d0b0dfb75070226c934c202661926c4.png
+```{figure} images/gyazo/3d0b0dfb75070226c934c202661926c4.png
 「ページ全体をキャプチャ」を選択します。
 ````
-```{figure} https://i.gyazo.com/dd09405e68b173b9c54a97ad523715e1.jpg
+```{figure} images/gyazo/dd09405e68b173b9c54a97ad523715e1.jpg
 {term}`スクリーンショット`が撮影されますので、右上のファイルに保存アイコンをクリックして下さい。
 ```
-```{figure} https://i.gyazo.com/ad7a985f73b0d567205cae284a85ce94.png
+```{figure} images/gyazo/ad7a985f73b0d567205cae284a85ce94.png
 {term}`スクリーンショット`がダウンロードされました。
 ```
-```{figure} https://i.gyazo.com/a4d470e29db4792bf6e4015467773e82.png
+```{figure} images/gyazo/a4d470e29db4792bf6e4015467773e82.png
 ダウンロードした{term}`スクリーンショット`は「ダウンロード」フォルダに保存されています。
 ```
 
 % 「高度な機能」は不要のようなので以下はボツ
 % ---
 % 
-% ```{figure} https://i.gyazo.com/888c5d17c9bbdf75ae3047d923b94809.png
+% ```{figure} images/gyazo/888c5d17c9bbdf75ae3047d923b94809.png
 % ```
-% ```{figure} https://i.gyazo.com/8a9a92105fcd64bcb94580a19d2c3220.png
+% ```{figure} images/gyazo/8a9a92105fcd64bcb94580a19d2c3220.png
 % ```
-% ```{figure} https://i.gyazo.com/527a0ede5d198ecfc8a60f0e9a040e6f.png
+% ```{figure} images/gyazo/527a0ede5d198ecfc8a60f0e9a040e6f.png
 % ```
-% ```{figure} https://i.gyazo.com/1c9fc5bf3bc69859c5b97f23cb6b4639.png
+% ```{figure} images/gyazo/1c9fc5bf3bc69859c5b97f23cb6b4639.png
 % ```
 
 % 不要なのでボツ. 大サイズの画像をそのまま使ってもらおう。
@@ -522,15 +522,15 @@ flowchart LR
 % 
 % - https://www.iloveimg.com/ja/resize-image にアクセスして下さい。
 % 
-% ```{figure} https://i.gyazo.com/6b4d3717bcd6a1d5c57ab1fc819c95ad.png
+% ```{figure} images/gyazo/6b4d3717bcd6a1d5c57ab1fc819c95ad.png
 % 「画像を選択」をクリックして、先程保存したスクリーンショットを選択してください。
 % ```
 % 
-% ```{figure} https://i.gyazo.com/543fe241859d223700a77408ec0a9998.png
+% ```{figure} images/gyazo/543fe241859d223700a77408ec0a9998.png
 % 「幅」に目的の「`400`」を指定して、「画像のサイズ変更」をクリックします。
 % ```
 % 
-% ```{figure} https://i.gyazo.com/1e272dd72cb8df283031063f0d3c1ef2.png
+% ```{figure} images/gyazo/1e272dd72cb8df283031063f0d3c1ef2.png
 % この画面になります。しばらく待つと自動的にリサイズされた画像がダウンロードされます。
 % ```
 % 
@@ -540,15 +540,15 @@ flowchart LR
 % 
 % - https://www.iloveimg.com/ja/crop-image にアクセスしてください。
 % 
-% ```{figure} https://i.gyazo.com/980577ee02189a2e3d8d76fee8962036.png
+% ```{figure} images/gyazo/980577ee02189a2e3d8d76fee8962036.png
 % 「画像を選択」から先程リサイズしたばかりの画像を指定してください。
 % ```
 % 
-% ```{figure} https://i.gyazo.com/c46d947cba1028cd238e2a8613015206.png
+% ```{figure} images/gyazo/c46d947cba1028cd238e2a8613015206.png
 % トリミング指定の画面になりました。幅と高さをそれぞれ「`400 × 300`」になるように指定し、画像の青枠を動かして切り取りたい位置を指定して下さい。それができたら「画像の切り抜き」をクリックして下さい。
 % ```
 % 
-% ```{figure} https://i.gyazo.com/126435f1af5c4ac6fc39950154c1264c.png
+% ```{figure} images/gyazo/126435f1af5c4ac6fc39950154c1264c.png
 % この画面になります。しばらく待つと自動的にトリミングされた画像がダウンロードされます。
 % ```
 % 
@@ -558,7 +558,7 @@ flowchart LR
 % 
 % この工程で、目的の「`400px × 300px`」の画像を得ることができました。
 % 
-% ```{figure} https://i.gyazo.com/c4c4b660dc669799e49558a41e72e1e2.png
+% ```{figure} images/gyazo/c4c4b660dc669799e49558a41e72e1e2.png
 % ```
 
 ポートフォリオの中で{term}`スクリーンショット`が必要な際は、この方法を使って撮影して下さい。
@@ -602,7 +602,7 @@ flowchart LR
 `ChatGTP`などのチャット`AI`は、`HTML`などのことについても知識があり、時にはかなりわかりやすい説明をしてくれます。
 学習を効率よく進めるには使わない手はありません。
 
-```{figure} https://i.gyazo.com/fb26089b9870ff2d7944b7873bea0424.png
+```{figure} images/gyazo/fb26089b9870ff2d7944b7873bea0424.png
 試しに`ChatGPT`に`HTML`の段落について尋ねてみました。
 ```
 

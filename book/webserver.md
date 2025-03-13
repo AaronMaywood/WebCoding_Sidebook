@@ -261,7 +261,7 @@ https://filezilla-project.org/ をクリックして、{term}`FileZilla`の公�
     そこで以下に説明する設定を`FileZilla`に行っておきましょう。 
 `````
 
-```{figure} https://i.gyazo.com/7cb92e38fa2aae60f70f6ec6db030de6.png
+```{figure} images/gyazo/7cb92e38fa2aae60f70f6ec6db030de6.png
 「サーバー」「強制的に{term}`隠しファイル`を表示」にチェックを入れておいて下さい。
 ```
 
@@ -336,11 +336,11 @@ https://filezilla-project.org/ をクリックして、{term}`FileZilla`の公�
 {term}`FileZilla`を起動し、「ファイル」→「サイトマネージャ」をクリックしてください。
 ```
 
-```{figure} https://i.gyazo.com/6e6cee2f62905366570d49cc93873f52.png
+```{figure} images/gyazo/6e6cee2f62905366570d49cc93873f52.png
 サイトマネージャーに登録済みのサイト名を選び、右下の「接続」ボタンをクリックして下さい。
 ```
 
-```{figure} https://i.gyazo.com/e684e35a1f183f041c6133601aa9d15f.png
+```{figure} images/gyazo/e684e35a1f183f041c6133601aa9d15f.png
 最初にアクセスするときに「不明な証明書」という警告画面が表示されます。これは問題ないのでそのまま「`OK`」をクリックして進めて下さい。
 ```
 
@@ -348,7 +348,7 @@ https://filezilla-project.org/ をクリックして、{term}`FileZilla`の公�
 接続が完了したら、**右側に**「`wwww`」フォルダに居ることを確認して下さい。（これは初期設定で設定を行いました。もし`www`という名前のフォルダに居ない時は、`www`というフォルダを見つけて移動しておいて下さい。）
 ```
 
-```{figure} https://i.gyazo.com/bfce049635859be504d9726bc57f688e.png
+```{figure} images/gyazo/bfce049635859be504d9726bc57f688e.png
 なお、{term}`FileZilla`の画面は左右に別れて構成されており、このうちリモート側と書かれた右側のエリアがレンタルサーバー内のフォルダを表します。以後 **{term}`FTP`の作業ではこの右側のエリアを操作することになります**。
 ```
 
@@ -364,11 +364,11 @@ https://filezilla-project.org/ をクリックして、{term}`FileZilla`の公�
 ```
 
 用意した`simplepage-master`をサーバーにアップロードします。
-```{figure} https://i.gyazo.com/bead479d2d4fad528767817b97fa8d0d.png
+```{figure} images/gyazo/bead479d2d4fad528767817b97fa8d0d.png
 アップロードは、右側のサーバー側の領域にドラッグ＆ドロップするだけです。
 ```
 
-```{figure} https://i.gyazo.com/bf9901ee8c446de0e0244be67b1081ac.png
+```{figure} images/gyazo/bf9901ee8c446de0e0244be67b1081ac.png
 サーバーにアップロードされました。`simplepage-master`が見えています。
 ```
 
@@ -432,7 +432,7 @@ https://filezilla-project.org/ をクリックして、{term}`FileZilla`の公�
 
 - 完成した`URL` ... https://academy-php.sakura.ne.jp/simplepage-master/index.html （筆者の場合）
 
-```{figure} https://i.gyazo.com/423c267a9e2c93c91bab5b445fd2ca46.png
+```{figure} images/gyazo/423c267a9e2c93c91bab5b445fd2ca46.png
 `index.html`（中身は「こんにちは！」）が表示されました。
 ```
 
@@ -519,7 +519,7 @@ https://filezilla-project.org/ をクリックして、{term}`FileZilla`の公�
 ### `Zoom`アプリのインストール
 [Zoom のダウンロードページ](https://zoom.us/ja/download) にアクセスしてください。
 
-```{figure} https://i.gyazo.com/b75a41aa76a6abff994d77ed947b0e67.png
+```{figure} images/gyazo/b75a41aa76a6abff994d77ed947b0e67.png
 青色のダウンロードボタンをクリックして、インストーラーをダウンロードしてください。
 ```
 
@@ -529,19 +529,19 @@ https://filezilla-project.org/ をクリックして、{term}`FileZilla`の公�
 
 質疑応答に案内される際に、質疑応答に参加するための`URL`が配布されます。
 
-```{figure} https://i.gyazo.com/5574eb4b10a410fcc8be6b797551f809.png
+```{figure} images/gyazo/5574eb4b10a410fcc8be6b797551f809.png
 ```
 
 所定の時間になったら、その`URL`をクリックしてください。
 
-```{figure} https://i.gyazo.com/8af4d274b5b73fc67c8f9c4dfe18a6b6.png
+```{figure} images/gyazo/8af4d274b5b73fc67c8f9c4dfe18a6b6.png
 `URL`をクリックするとブラウザーにこの画面が表示されます。そのまま待つか、青色のボタンをクリックしてください。
 ```
 ```{figure} https://i.gyazo.com/79262a7f235cf42a8883610b9d6c0027.png
 しばらく待つと`Zoom`アプリが開きます。「コンピューターオーディオに参加する」をクリックしてください。
 ```
 
-```{figure} https://i.gyazo.com/9104a150730f5849d4e7d7a75a090352.png
+```{figure} images/gyazo/9104a150730f5849d4e7d7a75a090352.png
 ミーティングを開始します。
 ```
 
@@ -566,11 +566,11 @@ https://filezilla-project.org/ をクリックして、{term}`FileZilla`の公�
 
 [MacでZoomの画面共有ができない場合](https://www.e-tamaya.co.jp/html/tamachan-tsushin/zoom_mac-screen-sharing.php)
 ```
-```{figure} https://i.gyazo.com/9104a150730f5849d4e7d7a75a090352.png
+```{figure} images/gyazo/9104a150730f5849d4e7d7a75a090352.png
 画面下にある緑色の「画面共有」をクリックしてください。
 ```
 
-```{figure} https://i.gyazo.com/e22af8be63ffe6aba140a3acd84248f1.png
+```{figure} images/gyazo/e22af8be63ffe6aba140a3acd84248f1.png
 何を共有するかを聞いてきます。テキストエディタやブラウザーなど複数のウインドウをまたぐことが多いため、**通常は画面全体を共有する「画面」を選択してください。**
 ```
 
@@ -585,7 +585,7 @@ https://filezilla-project.org/ をクリックして、{term}`FileZilla`の公�
 なお、利用時に万一プライバシーに関する情報が映り込んでしまった際にはそれを避けることは不可避であるためご容赦いただくとともに、**そのようなリスクがあることを事前に了解の上で利用するようにしてください。**
 ```
 
-```{figure} https://i.gyazo.com/73c5a8ea90d242b250357524e44c6f39.png
+```{figure} images/gyazo/73c5a8ea90d242b250357524e44c6f39.png
 画面共有中はそれを示す表示が画面上部か下部に表示されます。邪魔な場合は動かすこともできます。
 ```
 

@@ -887,7 +887,7 @@ SlickNavの使用方法は公式サイトの指示に従います。
 
 図に示すレスポンシブ対応のページを実装して下さい。
 
-```{figure} https://i.gyazo.com/1dd733ef2eecb05d9ff4a2aaa955340a.png
+```{figure} images/gyazo/1dd733ef2eecb05d9ff4a2aaa955340a.png
 ```
 
 以下に必要な素材・指示を示します。
