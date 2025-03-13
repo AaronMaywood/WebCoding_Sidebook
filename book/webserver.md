@@ -537,7 +537,7 @@ https://filezilla-project.org/ をクリックして、{term}`FileZilla`の公�
 ```{figure} images/gyazo/8af4d274b5b73fc67c8f9c4dfe18a6b6.png
 `URL`をクリックするとブラウザーにこの画面が表示されます。そのまま待つか、青色のボタンをクリックしてください。
 ```
-```{figure} https://i.gyazo.com/79262a7f235cf42a8883610b9d6c0027.png
+```{figure} images/gyazo/79262a7f235cf42a8883610b9d6c0027.png
 しばらく待つと`Zoom`アプリが開きます。「コンピューターオーディオに参加する」をクリックしてください。
 ```
 

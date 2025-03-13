@@ -296,7 +296,7 @@
 
 ````{hint}
 一般的な{term}`ウェブページ`によく見られる構造として、冒頭部（ヘッダー）と脚部（フッター）があります。それを表すのが<ruby>`header`<rp>(</rp><rt>ヘッダー</rt><rp>)</rp></ruby>要素と<ruby>`footer`<rp>(</rp><rt>フッター</rt><rp>)</rp></ruby>要素です。
-```{figure} https://i.gyazo.com/c246a9d9367621305c046f952798386c.png
+```{figure} images/gyazo/c246a9d9367621305c046f952798386c.png
 典型的な`header`と`footer`。`header`には通常ロゴやサイト内のナビゲーションが入ります。`footer`には会社の住所や
 連絡先、関連サイトのリンク集などが含まれます。
 ```
@@ -596,7 +596,7 @@ class: full-width
 ```
 
 Wikipediaのページ構成の意味を汲んで、冒頭部や主要なナビゲーション等の説明を入れると次のようになります。
-```{figure} https://i.gyazo.com/e11ed44a4b357a61e64680518c355c79.png
+```{figure} images/gyazo/e11ed44a4b357a61e64680518c355c79.png
 ---
 name: structures
 class: full-width
@@ -649,7 +649,7 @@ class: full-width
   ```
 
 なお、完成したページは、ブラウザーでは次のように見えます。
-```{figure} https://i.gyazo.com/554a1bf08d382eb32bba5f3849e7bace.png
+```{figure} images/gyazo/554a1bf08d382eb32bba5f3849e7bace.png
 この出題で使用する`section`、`article`、`aside`、`nav`、`header`、`footer`、`main`要素は、いずれも見た目に影響を与えません。したがって**見た目ではなく、意味を踏まえて正しくマークアップを行えるかが問われます**。
 ```
 

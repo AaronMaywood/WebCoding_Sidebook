@@ -217,7 +217,7 @@ align
 }
 ```
 
-```{figure} https://i.gyazo.com/c0f0bf99b88b3166a9595e938b12ba4b.png
+```{figure} images/gyazo/c0f0bf99b88b3166a9595e938b12ba4b.png
 ただし、この状態でプレビューしても見た目は元のままです。
 ```
 

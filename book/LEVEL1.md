@@ -1222,7 +1222,7 @@ Webの生みの親はティム・バーナーズ=リーです。
     - 画像素材は`Hummus_from_The_Nile.jpg`です。
     ````{tip}
     **README.md**というファイルについて
-    ```{figure} https://i.gyazo.com/2b1c1e6ee6c16d8f0d280be49d788eda.png
+    ```{figure} images/gyazo/2b1c1e6ee6c16d8f0d280be49d788eda.png
     フォルダを開いたら`README.md`というファイルが居ました。これはなんでしょう？
     ```
 	フォルダを開いたら `README.md`（「私を読んで」) というファイルがある場合があります。
@@ -1231,7 +1231,7 @@ Webの生みの親はティム・バーナーズ=リーです。
 
 	**テキストファイルなので`VS Code`で開くことができます。**
 
-	```{figure} https://i.gyazo.com/fdc84615d83a4bd0a2ef4d036fc5f64b.png
+	```{figure} images/gyazo/fdc84615d83a4bd0a2ef4d036fc5f64b.png
 	今回は使用する素材についての断り書きでした。読み飛ばしてもよさそうです。
 	```
     ````

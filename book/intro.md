@@ -384,7 +384,7 @@ flowchart LR
 「`FireShot`」を画面上に表示させるために押しピンで留めます。
 ```
 
-```{figure} https://i.gyazo.com/cfbf8e0c747d83bd300ff4fb6bba18c2.png
+```{figure} images/gyazo/cfbf8e0c747d83bd300ff4fb6bba18c2.png
 押しピンで止めるとここに現れます。
 ```
 
@@ -399,7 +399,7 @@ flowchart LR
 
 `FireShot`を利用して画面全体のスクリーンショットを撮影します。
 
-```{figure} https://i.gyazo.com/29ffe1742509eb2e7d9b8bdcebfc11ff.png
+```{figure} images/gyazo/29ffe1742509eb2e7d9b8bdcebfc11ff.png
 `FireShot`のアイコンから「ページ全体をキャプチャ」を選択します。
 ```
 
@@ -408,11 +408,11 @@ flowchart LR
 
 `FireShot`のアイコンをクリックした時に`Action required`と表示されたら「`go to the options`」をクリックします。
 
-```{figure} https://i.gyazo.com/5a553c7bd21d1e174063dfc5b86bb24d.png
+```{figure} images/gyazo/5a553c7bd21d1e174063dfc5b86bb24d.png
 「追加設定が必要です」と案内されました。リンクをクリックして進みます。
 ```
 
-```{figure} https://i.gyazo.com/714b912a778b7d32a8027e642e8c36e8.png
+```{figure} images/gyazo/714b912a778b7d32a8027e642e8c36e8.png
 「ファイルの`URL`へのアクセスを許可する」のチェックを入れて有効化して下さい。
 ```
 
@@ -420,20 +420,20 @@ flowchart LR
 
 再度以下の操作を行って下さい。
 
-```{figure} https://i.gyazo.com/29ffe1742509eb2e7d9b8bdcebfc11ff.png
+```{figure} images/gyazo/29ffe1742509eb2e7d9b8bdcebfc11ff.png
 `FireShot`のアイコンから「ページ全体をキャプチャ」を選択します。
 ```
 `````
 
-```{figure} https://i.gyazo.com/1b6d9d8878b01567cced6f731c82ce14.png
+```{figure} images/gyazo/1b6d9d8878b01567cced6f731c82ce14.png
 しばらく待つとこの画面になります。「画像として保存」をクリックして下さい。
 ```
 
-```{figure} https://i.gyazo.com/3aa379490f9118fe023a95853876d7b9.png
+```{figure} images/gyazo/3aa379490f9118fe023a95853876d7b9.png
 画像を保存するための追加の許可を求めています。「許可する」をクリックして下さい。
 ```
 
-```{figure} https://i.gyazo.com/2a0cb19814e282cddc33d054516be82f.png
+```{figure} images/gyazo/2a0cb19814e282cddc33d054516be82f.png
 保存先を聞いてくるので保存して下さい。（デフォルトでは「ダウンロード」の中の「`FireShot`」フォルダに保存されます）
 ```
 
@@ -447,17 +447,17 @@ flowchart LR
 
 そして「ダウンロード」の中の「`FireShot`」フォルダを開いて下さい。
 
-```{figure} https://i.gyazo.com/cc86792d57c3fd1afe0dd69db0b1b956.png
+```{figure} images/gyazo/cc86792d57c3fd1afe0dd69db0b1b956.png
 この中に画像ファイルが保存されています。
 ```
 
 画像ファイルをダブルクリックで開きましょう。
 
-```{figure} https://i.gyazo.com/8b6962660953ed703ef1337ca02d9d34.png
+```{figure} images/gyazo/8b6962660953ed703ef1337ca02d9d34.png
 画像をどのアプリで開くか聞かれたら「フォト」を選びましょう。
 ```
 
-```{figure} https://i.gyazo.com/03bdbe9bb4341910ef32ec83945b3ae8.png
+```{figure} images/gyazo/03bdbe9bb4341910ef32ec83945b3ae8.png
 「フォト」で画像を開きました。
 ```
 
