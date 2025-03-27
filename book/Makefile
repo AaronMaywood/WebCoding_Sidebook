@@ -19,6 +19,7 @@ preview:
 # 各レベル毎の本をビルドします (build target=devnote は開発者向けの「執筆ノート」情報を追加した本をビルドします）
 build-all:
 	make build target=devnote &
+	make build target=intro &
 	make build target=level1 &
 	make build target=level2 &
 	make build target=level3 &
@@ -36,6 +37,7 @@ build:
 # fish-shllのfunctionであるためか、以下のコマンドはないとして以下を実行できない. 手動で実施すること。
 sync-all:
 	sync-guidebook devnote
+	sync-guidebook intro
 	sync-guidebook level1
 	sync-guidebook level2
 	sync-guidebook level3
